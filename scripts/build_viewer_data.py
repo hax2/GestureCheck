@@ -9,10 +9,27 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MANIFEST = ROOT / "first10_gesture_videos.json"
-PROBE_DIR = ROOT / "results" / "first10_probe"
-RATING_DIR = ROOT / "results" / "first10_rating"
-OUTPUT = ROOT / "viewer" / "results-data.js"
+OUTPUTS = [
+    ROOT / "results-data.js",
+    ROOT / "viewer" / "results-data.js",
+]
+
+COLLECTIONS = [
+    {
+        "name": "Object videos",
+        "model": "gemini-3.1-pro-preview",
+        "manifest": ROOT / "first10_object_videos.json",
+        "probe_dir": ROOT / "results" / "object10_probe_pro",
+        "rating_dir": ROOT / "results" / "object10_rating_pro",
+    },
+    {
+        "name": "Gesture videos",
+        "model": "gemini-3.1-flash-lite-preview",
+        "manifest": ROOT / "first10_gesture_videos.json",
+        "probe_dir": ROOT / "results" / "first10_probe",
+        "rating_dir": ROOT / "results" / "first10_rating",
+    },
+]
 
 
 def video_slug(title: str) -> str:
@@ -21,25 +38,29 @@ def video_slug(title: str) -> str:
 
 
 def main() -> int:
-    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     records = []
-    for item in manifest:
-        slug = video_slug(item["title"])
-        probe_path = PROBE_DIR / f"{Path(item['title']).stem}.probe.json"
-        rating_path = RATING_DIR / f"{Path(item['title']).stem}.rating.json"
-        records.append(
-            {
-                "title": item["title"],
-                "target_word": item["target_word"],
-                "video": f"assets/videos/{slug}.mp4",
-                "probe": json.loads(probe_path.read_text(encoding="utf-8")),
-                "rating": json.loads(rating_path.read_text(encoding="utf-8")),
-            }
-        )
+    for collection in COLLECTIONS:
+        manifest = json.loads(collection["manifest"].read_text(encoding="utf-8"))
+        for item in manifest:
+            slug = video_slug(item["title"])
+            probe_path = collection["probe_dir"] / f"{Path(item['title']).stem}.probe.json"
+            rating_path = collection["rating_dir"] / f"{Path(item['title']).stem}.rating.json"
+            records.append(
+                {
+                    "collection": collection["name"],
+                    "model": collection["model"],
+                    "title": item["title"],
+                    "target_word": item["target_word"],
+                    "video": f"assets/videos/{slug}.mp4",
+                    "probe": json.loads(probe_path.read_text(encoding="utf-8")),
+                    "rating": json.loads(rating_path.read_text(encoding="utf-8")),
+                }
+            )
 
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     payload = json.dumps(records, indent=2, ensure_ascii=False)
-    OUTPUT.write_text(f"window.GESTURE_RESULTS = {payload};\n", encoding="utf-8")
+    for output in OUTPUTS:
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(f"window.GESTURE_RESULTS = {payload};\n", encoding="utf-8")
     return 0
 
 

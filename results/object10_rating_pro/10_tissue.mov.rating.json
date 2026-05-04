@@ -1,0 +1,42 @@
+{
+  "target_word": "Tissue",
+  "video_file": "10_tissue.mov.AVI",
+  "brief_gesture_description": "The actor raises her right hand to her nose, pinches it slightly as if holding a tissue and blowing her nose, and then lowers her hand.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly depicts the primary action associated with the object, providing a strong metonymic link to the word 'tissue'."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture vividly simulates the physical, bodily action of holding a tissue and pinching the nose."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is functional and straightforward, lacking significant emotional expressiveness or dynamic emphasis."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's face remains mostly neutral, with only a slight, functional scrunching of the features during the simulated action."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture consists of a single, simple, and highly recognizable movement, making it optimal for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming the action of blowing one's nose is a universally recognized behavior."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is an everyday motor action that is extremely easy for learners to reproduce effortlessly."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture represents the action of 'blowing nose' or having a 'cold', which requires the learner to infer the object 'tissue' from the action."
+    ],
+    "confidence": "high"
+  }
+}

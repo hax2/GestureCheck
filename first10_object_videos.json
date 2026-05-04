@@ -1,0 +1,62 @@
+[
+  {
+    "source": "local_object_videos",
+    "title": "01_zip.mov.AVI",
+    "target_word": "Zip",
+    "local_path": "data/videos/01_zip.mov.AVI"
+  },
+  {
+    "source": "local_object_videos",
+    "title": "02_earring.mov.AVI",
+    "target_word": "Earring",
+    "local_path": "data/videos/02_earring.mov.AVI"
+  },
+  {
+    "source": "local_object_videos",
+    "title": "03_peppermill.mov.AVI",
+    "target_word": "Peppermill",
+    "local_path": "data/videos/03_peppermill.mov.AVI"
+  },
+  {
+    "source": "local_object_videos",
+    "title": "04_cup.mov.AVI",
+    "target_word": "Cup",
+    "local_path": "data/videos/04_cup.mov.AVI"
+  },
+  {
+    "source": "local_object_videos",
+    "title": "05_broom.mov.AVI",
+    "target_word": "Broom",
+    "local_path": "data/videos/05_broom.mov.AVI"
+  },
+  {
+    "source": "local_object_videos",
+    "title": "06_parseley.mov.AVI",
+    "target_word": "Parsley",
+    "local_path": "data/videos/06_parseley.mov.AVI"
+  },
+  {
+    "source": "local_object_videos",
+    "title": "07_stairs.mov.AVI",
+    "target_word": "Stairs",
+    "local_path": "data/videos/07_stairs.mov.AVI"
+  },
+  {
+    "source": "local_object_videos",
+    "title": "08_hair dryer.mov.AVI",
+    "target_word": "Hair Dryer",
+    "local_path": "data/videos/08_hair dryer.mov.AVI"
+  },
+  {
+    "source": "local_object_videos",
+    "title": "09_gießkanne.mov.AVI",
+    "target_word": "Watering Can",
+    "local_path": "data/videos/09_gießkanne.mov.AVI"
+  },
+  {
+    "source": "local_object_videos",
+    "title": "10_tissue.mov.AVI",
+    "target_word": "Tissue",
+    "local_path": "data/videos/10_tissue.mov.AVI"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "video_file": "video_004.avi",
+  "brief_gesture_description": "The person raises both hands, palms facing inward, and brings them together above their head, forming a shape like a roof or a peak.",
+  "visible_components": {
+    "hands_and_arms": "Both arms are raised, hands meet above the head with fingers touching, forming an inverted V shape.",
+    "body_posture": "Standing straight, facing forward.",
+    "facial_expression": "Neutral, focused.",
+    "movement_dynamics": "Smooth, deliberate upward motion followed by a return to the starting position."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "House/Roof",
+      "confidence": "high",
+      "evidence": "The hands forming an inverted V shape above the head strongly resembles the shape of a pitched roof, a common iconic gesture for a house or building."
+    },
+    {
+      "meaning": "Mountain/Peak",
+      "confidence": "medium",
+      "evidence": "The pointed shape created by the hands can also represent a mountain peak or something tall and pointed."
+    },
+    {
+      "meaning": "Top/Highest point",
+      "confidence": "medium",
+      "evidence": "The gesture reaches the highest point above the person's head, suggesting the concept of 'top' or 'summit'."
+    },
+    {
+      "meaning": "Together/Meeting",
+      "confidence": "low",
+      "evidence": "The hands coming together from opposite sides could symbolize bringing things together or a meeting point."
+    },
+    {
+      "meaning": "Protection/Shelter",
+      "confidence": "low",
+      "evidence": "The roof-like shape can imply covering or sheltering something underneath."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is highly iconic and visually represents the shape of a common object (a roof/house), making it easy to associate with the corresponding vocabulary word."
+  },
+  "ambiguities": [
+    "While 'house' is the most likely interpretation, the gesture could also represent other pointed structures or concepts like 'top' or 'mountain' without further context."
+  ]
+}

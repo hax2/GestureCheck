@@ -1,0 +1,42 @@
+{
+  "target_word": "Parsley",
+  "video_file": "06_parseley.mov.AVI",
+  "brief_gesture_description": "The actor quickly raises both arms with elbows bent and hands open, fingers spread, then lowers them back to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture weakly resembles the shape of a plant or sprig, but it is highly abstract and does not specifically look like parsley."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture focuses on representing a shape rather than evoking physical interactions like chopping, smelling, or sprinkling parsley."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement has a sudden, moderate upward dynamic, but lacks strong emotional expressiveness."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains completely neutral throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple, consisting of a single, straightforward movement that is easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This is not a conventional or recognizable gesture for parsley; it might be interpreted as a general 'ta-da' or surprise gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is extremely simple and effortless for anyone to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could easily be interpreted as representing a tree, a bush, an explosion, or a 'ta-da' motion rather than parsley."
+    ],
+    "confidence": "high"
+  }
+}

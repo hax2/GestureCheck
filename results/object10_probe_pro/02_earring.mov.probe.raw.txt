@@ -1,0 +1,45 @@
+{
+  "video_file": "video_002.avi",
+  "brief_gesture_description": "The person turns their head to the right and brings their right hand up to their ear, as if listening.",
+  "visible_components": {
+    "hands_and_arms": "The right hand is raised to the right ear, with the palm facing forward and fingers slightly curled.",
+    "body_posture": "The body is upright and facing forward, with the head turned to the right.",
+    "facial_expression": "The facial expression is neutral, with the eyes looking to the right.",
+    "movement_dynamics": "The movement is smooth and deliberate, with a slight pause at the end."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "to listen",
+      "confidence": "high",
+      "evidence": "The gesture of bringing the hand to the ear is a common and universally understood sign for listening."
+    },
+    {
+      "meaning": "to hear",
+      "confidence": "high",
+      "evidence": "Similar to 'listen', the gesture of bringing the hand to the ear is also a common sign for hearing."
+    },
+    {
+      "meaning": "to pay attention",
+      "confidence": "medium",
+      "evidence": "The gesture of bringing the hand to the ear can also be interpreted as a sign to pay attention or to listen carefully."
+    },
+    {
+      "meaning": "to eavesdrop",
+      "confidence": "low",
+      "evidence": "The gesture of bringing the hand to the ear could potentially be interpreted as eavesdropping, especially if accompanied by a secretive or suspicious facial expression."
+    },
+    {
+      "meaning": "to be deaf",
+      "confidence": "low",
+      "evidence": "In some contexts, the gesture of bringing the hand to the ear could be interpreted as a sign of deafness or hearing impairment."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is simple, clear, and universally understood, making it easy to remember and associate with the target vocabulary."
+  },
+  "ambiguities": [
+    "The gesture could be interpreted as 'listen' or 'hear', which are related but distinct concepts.",
+    "The gesture could also be interpreted as 'pay attention' or 'eavesdrop', depending on the context and facial expression."
+  ]
+}

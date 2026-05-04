@@ -1,0 +1,44 @@
+{
+  "video_file": "video_010.avi",
+  "brief_gesture_description": "The person brings their right hand up to their face, briefly touches their nose or mouth area, and then lowers their hand back down.",
+  "visible_components": {
+    "hands_and_arms": "Right hand moves up to the face, touches the nose/mouth area, and returns to the side.",
+    "body_posture": "Standing straight, facing forward.",
+    "facial_expression": "Neutral, eyes closed briefly during the gesture.",
+    "movement_dynamics": "Quick, simple movement."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "smell",
+      "confidence": "high",
+      "evidence": "The hand touches the nose area, which is the organ associated with smelling."
+    },
+    {
+      "meaning": "nose",
+      "confidence": "high",
+      "evidence": "The hand directly touches the nose."
+    },
+    {
+      "meaning": "sneeze",
+      "confidence": "medium",
+      "evidence": "The gesture could represent covering the nose/mouth while sneezing, although the movement is quite subtle."
+    },
+    {
+      "meaning": "quiet",
+      "confidence": "low",
+      "evidence": "The hand is near the mouth, but the gesture is not the typical 'shh' sign."
+    },
+    {
+      "meaning": "itch",
+      "confidence": "low",
+      "evidence": "The person might be scratching an itch on their nose."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is simple and directly points to a specific body part, making it easy to associate with related vocabulary."
+  },
+  "ambiguities": [
+    "The gesture is very brief and subtle, making it difficult to distinguish between 'smell', 'nose', or a simple itch."
+  ]
+}

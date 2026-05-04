@@ -1,0 +1,39 @@
+{
+  "video_file": "video_007.avi",
+  "brief_gesture_description": "The person raises both arms from her sides, extending them upwards and to her left, opening her hands at the peak of the movement while looking in that direction.",
+  "visible_components": {
+    "hands_and_arms": "Arms bend at the elbows and then extend fully upwards and outwards to the left. Hands start somewhat closed and open up at the highest point of the extension.",
+    "body_posture": "Starts standing straight, then the torso twists slightly to the left and the head tilts back to follow the upward trajectory of the hands.",
+    "facial_expression": "Neutral, with the gaze focused upwards in the direction of the arm movement.",
+    "movement_dynamics": "A smooth, continuous upward motion that accelerates slightly before the hands open, followed by a return to a neutral standing position."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "to throw (upwards)",
+      "confidence": "high",
+      "evidence": "The upward extension of the arms combined with the opening of the hands at the peak strongly resembles the action of releasing an object being tossed into the air."
+    },
+    {
+      "meaning": "to reach",
+      "confidence": "medium",
+      "evidence": "The full extension of the arms upwards suggests trying to access something located high up."
+    },
+    {
+      "meaning": "high / up",
+      "confidence": "medium",
+      "evidence": "The gesture clearly indicates an upward direction or a high spatial location."
+    },
+    {
+      "meaning": "sky",
+      "confidence": "low",
+      "evidence": "The gesture directs attention to the space above, which could represent the sky."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is highly iconic and physically enacts a clear spatial concept or action, making it a strong visual anchor for related vocabulary."
+  },
+  "ambiguities": [
+    "It is ambiguous whether the gesture is meant to represent a specific action (like throwing or reaching) or a more abstract spatial concept (like high or up)."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Cup",
+  "video_file": "04_cup.mov.AVI",
+  "brief_gesture_description": "The actor forms a cup shape with both hands, brings it to her mouth, and tilts her head back as if drinking.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly mimics holding a cup and drinking from it, providing a highly transparent visual representation of the object's function."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The action strongly simulates the physical experience of grasping a cup and bringing it to the mouth to drink."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is functional and deliberate, lacking strong emotional dynamics or expressive intensity."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral throughout the gesture, focusing solely on the action."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly balances informativeness with ease of understanding for the concept."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The pantomime of drinking from a cup is a universally recognized action across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves simple, everyday motor actions that are effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

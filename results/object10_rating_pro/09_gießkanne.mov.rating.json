@@ -1,0 +1,40 @@
+{
+  "target_word": "Watering Can",
+  "video_file": "09_gießkanne.mov.AVI",
+  "brief_gesture_description": "The actor lowers her right arm and makes a sweeping motion from left to right, as if holding a handle and pouring water.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture highly transparently represents the action of holding and pouring from a watering can."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Strongly evokes the physical sensation and action of holding an object and pouring liquid from it."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is functional and deliberate, lacking strong emotional expressiveness."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the core meaning without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of watering plants is a universally recognized concept."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The sweeping arm motion is very natural and effortless for anyone to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

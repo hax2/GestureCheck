@@ -43,7 +43,7 @@ function renderList() {
     const button = document.createElement("button");
     button.type = "button";
     button.className = `video-button${index === currentIndex ? " active" : ""}`;
-    button.innerHTML = `<strong>${item.target_word}</strong><span>${item.title}</span>`;
+    button.innerHTML = `<strong>${item.target_word}</strong><span>${item.collection} · ${item.title}</span>`;
     button.addEventListener("click", () => {
       currentIndex = index;
       render();
@@ -127,7 +127,7 @@ function render() {
   videoPlayer.src = item.video;
   fileName.textContent = item.title;
   targetWord.textContent = item.target_word;
-  confidenceBadge.textContent = `Rating confidence: ${item.rating.coherence_check?.confidence || "unknown"}`;
+  confidenceBadge.textContent = `${item.collection} · ${item.model} · rating confidence: ${item.rating.coherence_check?.confidence || "unknown"}`;
 
   renderRatings(item);
   renderProbe(item);

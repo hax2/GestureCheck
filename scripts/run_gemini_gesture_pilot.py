@@ -150,6 +150,19 @@ def anonymized_upload_copy(source_path: Path, index: int, tmp_dir: Path) -> tupl
     return title, destination
 
 
+def ascii_safe_upload_copy(source_path: Path, title: str, tmp_dir: Path) -> Path:
+    safe_title = slug_filename(title).encode("ascii", "ignore").decode("ascii")
+    if not safe_title:
+        safe_title = "video.avi"
+    if safe_title == source_path.name and str(source_path).isascii():
+        return source_path
+    tmp_dir.mkdir(parents=True, exist_ok=True)
+    destination = tmp_dir / safe_title
+    if not destination.exists() or destination.stat().st_size != source_path.stat().st_size:
+        shutil.copy2(source_path, destination)
+    return destination
+
+
 def extract_json_object(text: str) -> dict[str, Any]:
     stripped = text.strip()
     if stripped.startswith("```"):
@@ -245,6 +258,8 @@ def run(args: argparse.Namespace) -> int:
                     index,
                     args.tmp_dir,
                 )
+            else:
+                upload_path = ascii_safe_upload_copy(video_path, video["title"], args.tmp_dir)
             prompt = render_prompt(prompt_template, video, display_title=display_title)
             label = video.get("target_word", "unlabeled")
             print(

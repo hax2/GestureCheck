@@ -1,0 +1,39 @@
+{
+  "video_file": "video_003.avi",
+  "brief_gesture_description": "The actor bends forward slightly, crossing her arms to clutch her abdomen while displaying a pained facial expression.",
+  "visible_components": {
+    "hands_and_arms": "Arms cross over the lower torso, hands grasping the opposite sides of the waist/abdomen.",
+    "body_posture": "Standing upright, then hunching forward slightly at the waist during the gesture.",
+    "facial_expression": "Transitions from neutral to a grimace or look of discomfort, then back to neutral.",
+    "movement_dynamics": "A sudden, deliberate clutching motion, held for a moment to emphasize discomfort, followed by a return to a resting position."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Stomach ache",
+      "confidence": "high",
+      "evidence": "Clutching the abdomen and hunching over with a pained expression."
+    },
+    {
+      "meaning": "Pain",
+      "confidence": "medium",
+      "evidence": "The grimace and clutching of a body part indicate physical discomfort."
+    },
+    {
+      "meaning": "Sick / Illness",
+      "confidence": "medium",
+      "evidence": "The overall posture and expression convey feeling unwell."
+    },
+    {
+      "meaning": "Cramps",
+      "confidence": "medium",
+      "evidence": "The specific location of the hands and the hunched posture are typical of abdominal cramps."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is highly iconic and relies on a common physical reaction to pain, making it easily recognizable and memorable for learners."
+  },
+  "ambiguities": [
+    "While clearly indicating discomfort, it could refer to a specific ailment (stomach ache, cramps) or a general state of being unwell (sick)."
+  ]
+}

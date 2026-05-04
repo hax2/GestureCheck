@@ -1,0 +1,14 @@
+[
+  {
+    "source": "local_object_videos",
+    "title": "09_gießkanne.mov.AVI",
+    "target_word": "Watering Can",
+    "local_path": "data/videos/09_gießkanne.mov.AVI"
+  },
+  {
+    "source": "local_object_videos",
+    "title": "10_tissue.mov.AVI",
+    "target_word": "Tissue",
+    "local_path": "data/videos/10_tissue.mov.AVI"
+  }
+]

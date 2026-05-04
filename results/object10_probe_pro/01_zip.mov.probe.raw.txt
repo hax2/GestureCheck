@@ -1,0 +1,40 @@
+{
+  "video_file": "video_001.avi",
+  "brief_gesture_description": "The person raises their right hand and makes a single downward sweeping motion across their chest and stomach.",
+  "visible_components": {
+    "hands_and_arms": "Right hand moves downwards with the palm facing the body. Left arm remains at the side.",
+    "body_posture": "Standing upright, facing the camera directly.",
+    "facial_expression": "Neutral, with the mouth slightly open during the movement.",
+    "movement_dynamics": "Smooth, continuous downward motion at a moderate speed."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Hungry / Stomach",
+      "confidence": "medium",
+      "evidence": "The hand moves directly over the stomach/abdominal area."
+    },
+    {
+      "meaning": "Calm down / Relax",
+      "confidence": "medium",
+      "evidence": "A downward hand motion is a common conventional gesture for lowering energy or calming."
+    },
+    {
+      "meaning": "Swallow / Digest",
+      "confidence": "low",
+      "evidence": "The gesture traces a path from the upper chest down to the stomach, mimicking the path of food."
+    },
+    {
+      "meaning": "Body / Torso",
+      "confidence": "low",
+      "evidence": "The hand indicates the general central area of the body."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture involves a clear, physical interaction with the body, which can create a strong kinesthetic link for vocabulary related to anatomy, physical sensations, or emotions."
+  },
+  "ambiguities": [
+    "It is unclear whether the gesture refers to a physical body part, a physiological process, or an abstract concept like calmness.",
+    "The lack of strong facial expression makes it difficult to determine the emotional valence of the gesture."
+  ]
+}
