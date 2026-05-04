@@ -1,0 +1,40 @@
+{
+  "video_file": "video_004.avi",
+  "brief_gesture_description": "The person sweeps both arms upwards and to their left (viewer's right) with open hands, resembling a tossing or releasing motion.",
+  "visible_components": {
+    "hands_and_arms": "Both arms start bent near the torso, then extend upwards and outwards to the side. Hands are open with fingers slightly spread throughout the motion.",
+    "body_posture": "Standing upright, the torso twists slightly to follow the direction of the arm movement, and the head tilts upwards.",
+    "facial_expression": "Neutral and focused on the direction of the movement.",
+    "movement_dynamics": "A smooth, continuous, and moderately fast sweeping motion that decelerates at the peak."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Throw / Toss",
+      "confidence": "high",
+      "evidence": "The two-handed upward and outward motion strongly resembles pantomiming throwing a large, relatively light object."
+    },
+    {
+      "meaning": "Release / Let go",
+      "confidence": "medium",
+      "evidence": "The open hands at the peak of the upward movement suggest letting something leave the hands to fly or fall."
+    },
+    {
+      "meaning": "Fly / Take off",
+      "confidence": "medium",
+      "evidence": "The upward and outward trajectory could represent the path of something taking flight, like a bird or a balloon."
+    },
+    {
+      "meaning": "Splash / Throw water",
+      "confidence": "low",
+      "evidence": "The sweeping motion could mimic throwing a bucket of water or splashing a large amount of liquid."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is a clear, full-body pantomime of a physical action, making it highly visual and easy to associate with action verbs related to throwing, releasing, or upward movement."
+  },
+  "ambiguities": [
+    "The specific object being acted upon is unclear (e.g., is it a ball, a bird, or water?).",
+    "It is ambiguous whether the gesture represents a literal physical action or a metaphorical concept like 'discarding' or 'sending away'."
+  ]
+}

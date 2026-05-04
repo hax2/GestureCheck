@@ -185,19 +185,37 @@ def rate_video(
     prompt: str,
     poll_seconds: int,
 ) -> tuple[str, dict[str, Any]]:
-    uploaded = client.files.upload(file=video_path)
-    uploaded = wait_until_active(client, uploaded, poll_seconds)
+    last_error: Exception | None = None
+    for attempt in range(1, 4):
+        try:
+            uploaded = client.files.upload(file=video_path)
+            uploaded = wait_until_active(client, uploaded, poll_seconds)
 
-    response = client.models.generate_content(
-        model=model,
-        contents=[uploaded, prompt],
-        config=genai_types.GenerateContentConfig(
-            temperature=0,
-            response_mime_type="application/json",
-        ),
-    )
-    raw_text = response.text or ""
-    return raw_text, extract_json_object(raw_text)
+            response = client.models.generate_content(
+                model=model,
+                contents=[uploaded, prompt],
+                config=genai_types.GenerateContentConfig(
+                    temperature=0,
+                    response_mime_type="application/json",
+                ),
+            )
+            raw_text = response.text or ""
+            return raw_text, extract_json_object(raw_text)
+        except Exception as error:
+            last_error = error
+            message = str(error)
+            is_transient = any(code in message for code in ("429", "500", "502", "503", "504"))
+            if not is_transient or attempt == 3:
+                raise
+            sleep_seconds = poll_seconds * attempt
+            print(
+                f"Gemini call failed transiently on attempt {attempt}; "
+                f"retrying in {sleep_seconds}s: {error}",
+                flush=True,
+            )
+            time.sleep(sleep_seconds)
+
+    raise RuntimeError("Gemini call failed") from last_error
 
 
 def run(args: argparse.Namespace) -> int:

@@ -1,0 +1,34 @@
+{
+  "video_file": "video_010.avi",
+  "brief_gesture_description": "The person extends both arms to the right side, then brings them back to the center.",
+  "visible_components": {
+    "hands_and_arms": "Both arms are extended to the right side, with hands open and palms facing forward. The arms are then brought back to the center of the body.",
+    "body_posture": "The person is standing straight, with feet shoulder-width apart. The torso twists slightly to the right as the arms are extended.",
+    "facial_expression": "The person's facial expression is neutral.",
+    "movement_dynamics": "The movement is smooth and deliberate."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "To the right",
+      "confidence": "high",
+      "evidence": "The person extends both arms to the right side, indicating a direction."
+    },
+    {
+      "meaning": "Over there",
+      "confidence": "medium",
+      "evidence": "The person extends both arms to the right side, indicating a location."
+    },
+    {
+      "meaning": "Push away",
+      "confidence": "low",
+      "evidence": "The person extends both arms to the right side, as if pushing something away."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is simple and easy to understand, making it likely to be memorable for L2 learners."
+  },
+  "ambiguities": [
+    "The gesture could be interpreted as indicating a direction, a location, or an action."
+  ]
+}

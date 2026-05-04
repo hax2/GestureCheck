@@ -1,0 +1,42 @@
+{
+  "target_word": "Trailer",
+  "video_file": "02_Trailer.avi",
+  "brief_gesture_description": "The actor bends forward slightly, looks back over her shoulder, and extends her arms backwards as if pulling a heavy object behind her.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly represents the defining function of a trailer, which is being pulled behind a vehicle or person."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The forward lean and backward arm extension strongly simulate the physical effort and bodily experience of towing a heavy load."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is deliberate and conveys physical effort, but lacks strong emotional expressiveness."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains mostly neutral, with only a slight indication of focus or effort while looking back."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and effectively conveys the core concept without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The pantomime of pulling something heavy behind oneself is a widely understood concept across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement involves basic body mechanics that are very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture represents the action associated with the object (pulling) rather than the shape of the object itself, which could be interpreted as 'pull' or 'tow'."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_file": "video_009.avi",
+  "brief_gesture_description": "The person turns slightly to the side, reaches both arms high above her head with open hands, looks up, and then lowers her arms.",
+  "visible_components": {
+    "hands_and_arms": "Both arms are extended upwards, hands open with palms facing somewhat inward or up, as if ready to grasp an object.",
+    "body_posture": "The body turns to the left, the head tilts back to look upwards, and the posture is extended vertically.",
+    "facial_expression": "Neutral but focused, with gaze directed upwards towards the hands.",
+    "movement_dynamics": "A smooth, deliberate upward reaching motion followed by a relaxation back to a neutral stance."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "catch",
+      "confidence": "high",
+      "evidence": "The upward reach with open, expectant hands and upward gaze strongly mimics preparing to catch a falling object."
+    },
+    {
+      "meaning": "reach",
+      "confidence": "high",
+      "evidence": "The literal action is extending the arms to reach a high point."
+    },
+    {
+      "meaning": "high / tall",
+      "confidence": "medium",
+      "evidence": "The gesture emphasizes verticality and the space above the head."
+    },
+    {
+      "meaning": "sky / above",
+      "confidence": "medium",
+      "evidence": "The upward gaze and reach direct attention to the space above."
+    },
+    {
+      "meaning": "grab",
+      "confidence": "low",
+      "evidence": "Similar to reach, but the hands don't close into a fist to indicate taking hold of something."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture uses the whole upper body and clearly defines a spatial relationship (up/high), making it a strong visual anchor for related vocabulary."
+  },
+  "ambiguities": [
+    "It is ambiguous whether the gesture represents an action (catching, reaching) or a spatial concept (high, above).",
+    "If it is an action, it's unclear if the object being interacted with is stationary or moving."
+  ]
+}

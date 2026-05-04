@@ -1,0 +1,45 @@
+{
+  "video_file": "video_008.avi",
+  "brief_gesture_description": "The person raises both arms above their head, bringing their hands together to form a flat, horizontal shape, like a roof or a ceiling.",
+  "visible_components": {
+    "hands_and_arms": "Both arms are raised high, with hands meeting above the head, palms facing down, creating a flat, horizontal surface.",
+    "body_posture": "Standing straight, facing forward.",
+    "facial_expression": "Neutral, looking slightly upwards towards the hands.",
+    "movement_dynamics": "A smooth, deliberate upward motion, holding the pose briefly, then returning to the starting position."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Roof",
+      "confidence": "high",
+      "evidence": "The hands forming a flat surface above the head strongly resembles a roof over a structure."
+    },
+    {
+      "meaning": "Ceiling",
+      "confidence": "high",
+      "evidence": "Similar to 'roof', the gesture indicates a flat surface above the person."
+    },
+    {
+      "meaning": "Top",
+      "confidence": "medium",
+      "evidence": "The gesture indicates the highest point or a covering."
+    },
+    {
+      "meaning": "Cover",
+      "confidence": "medium",
+      "evidence": "The hands form a protective or covering layer above the head."
+    },
+    {
+      "meaning": "Shelter",
+      "confidence": "low",
+      "evidence": "The gesture could imply a protective structure overhead."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is highly iconic and visually represents the concept of a roof or ceiling clearly."
+  },
+  "ambiguities": [
+    "The gesture could represent either the exterior 'roof' or the interior 'ceiling'.",
+    "It might also be interpreted more abstractly as 'top' or 'limit'."
+  ]
+}

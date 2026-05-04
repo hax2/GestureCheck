@@ -1,0 +1,42 @@
+{
+  "target_word": "Entrance Ticket",
+  "video_file": "10_EntranceTicket.avi",
+  "brief_gesture_description": "The actor turns slightly to the right and extends her right arm, holding her fingers together as if presenting a small object to someone.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly depicts the action of handing over a small object, which strongly represents the functional use of an entrance ticket."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement effectively evokes the physical sensation of holding a small piece of paper and extending the arm to present it."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is deliberate and functional, lacking strong emotional dynamics or expressive intensity."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The single, straightforward motion is simple to process and perfectly balanced for learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of presenting a ticket or pass for entry is a widely recognized and common behavior."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The simple arm extension and basic hand shape are effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture represents the action of using the ticket rather than the physical shape of the ticket itself, but the meaning remains clear."
+    ],
+    "confidence": "high"
+  }
+}

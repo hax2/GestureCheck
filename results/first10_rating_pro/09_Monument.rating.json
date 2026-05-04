@@ -1,0 +1,42 @@
+{
+  "target_word": "Monument",
+  "video_file": "09_Monument.avi",
+  "brief_gesture_description": "The actor raises both arms upwards and tilts her head back to look up, as if indicating a tall, imposing structure.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The upward arm movement and gaze clearly represent the height and scale typical of a monument."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the physical sensation of standing at the base of a large structure and looking up at it."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The slow, expansive upward movement conveys a moderate sense of size and grandeur."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral, though the upward gaze suggests looking at something impressive."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the core concept of a tall structure without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using vertical space and an upward gaze to indicate height or grandeur is a widely understood concept."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture requires minimal coordination and is very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also represent 'tall', 'building', or 'sky', but fits 'monument' well in context."
+    ],
+    "confidence": "high"
+  }
+}

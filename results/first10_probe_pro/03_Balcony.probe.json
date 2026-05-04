@@ -1,0 +1,40 @@
+{
+  "video_file": "video_003.avi",
+  "brief_gesture_description": "The person brings both hands to their stomach, bends forward slightly with a pained expression, and then returns to a neutral standing position.",
+  "visible_components": {
+    "hands_and_arms": "Hands placed over the stomach/abdomen area, arms slightly crossed.",
+    "body_posture": "Bending forward at the waist, then straightening up.",
+    "facial_expression": "Pained, uncomfortable, or grimacing.",
+    "movement_dynamics": "Deliberate bending motion, holding the pose briefly, then returning to neutral."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Stomachache",
+      "confidence": "high",
+      "evidence": "Holding the stomach, bending over, and a pained facial expression are classic signs of abdominal pain."
+    },
+    {
+      "meaning": "Pain",
+      "confidence": "medium",
+      "evidence": "The facial expression and body posture indicate discomfort, though localized to the stomach."
+    },
+    {
+      "meaning": "Nausea / Sick",
+      "confidence": "medium",
+      "evidence": "Holding the stomach can indicate feeling unwell or nauseous."
+    },
+    {
+      "meaning": "Hungry",
+      "confidence": "low",
+      "evidence": "Holding the stomach can sometimes mean hunger, but the pained expression makes this less likely."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is highly iconic and universally understood as a sign of stomach discomfort, making it a strong mnemonic for related vocabulary."
+  },
+  "ambiguities": [
+    "Whether it represents general pain, a specific stomachache, or nausea.",
+    "Could potentially be misinterpreted as extreme hunger, though the facial expression suggests pain."
+  ]
+}

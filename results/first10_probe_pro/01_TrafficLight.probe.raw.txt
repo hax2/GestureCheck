@@ -1,0 +1,34 @@
+{
+  "video_file": "video_001.avi",
+  "brief_gesture_description": "The person raises their right arm, bends it at the elbow, and brings their hand towards their face, palm facing inward.",
+  "visible_components": {
+    "hands_and_arms": "Right arm raised, bent at elbow, hand brought towards face with palm facing inward.",
+    "body_posture": "Standing straight, facing forward.",
+    "facial_expression": "Neutral.",
+    "movement_dynamics": "Smooth, deliberate movement."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "To look at oneself / mirror",
+      "confidence": "high",
+      "evidence": "The hand is positioned as if holding a mirror and looking into it."
+    },
+    {
+      "meaning": "To touch one's face",
+      "confidence": "medium",
+      "evidence": "The hand is brought close to the face."
+    },
+    {
+      "meaning": "To shield one's eyes",
+      "confidence": "low",
+      "evidence": "The hand is near the eyes, but the palm is facing inward, not outward."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is a clear and common representation of looking in a mirror."
+  },
+  "ambiguities": [
+    "The gesture could also be interpreted as touching one's face or shielding one's eyes, although these are less likely given the specific hand position."
+  ]
+}

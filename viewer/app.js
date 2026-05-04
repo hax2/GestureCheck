@@ -39,6 +39,7 @@ const ratingLabels = [
 ];
 
 let currentIndex = 0;
+const selectedModels = {};
 
 const videoList = document.getElementById("videoList");
 const videoPlayer = document.getElementById("videoPlayer");
@@ -56,6 +57,29 @@ const ratingTab = document.getElementById("ratingTab");
 const probeTab = document.getElementById("probeTab");
 const ratingView = document.getElementById("ratingView");
 const probeView = document.getElementById("probeView");
+const modelToggle = document.getElementById("modelToggle");
+
+function itemKey(item) {
+  return `${item.collection}::${item.title}`;
+}
+
+function getVariants(item) {
+  return item.variants || [
+    {
+      key: "default",
+      label: item.model,
+      model: item.model,
+      rating: item.rating,
+      probe: item.probe,
+    },
+  ];
+}
+
+function getSelectedVariant(item) {
+  const variants = getVariants(item);
+  const selectedKey = selectedModels[itemKey(item)] || item.default_model || variants[0].key;
+  return variants.find((variant) => variant.key === selectedKey) || variants[0];
+}
 
 function setActiveTab(tab) {
   const showRating = tab === "rating";
@@ -68,10 +92,11 @@ function setActiveTab(tab) {
 function renderList() {
   videoList.innerHTML = "";
   results.forEach((item, index) => {
+    const variant = getSelectedVariant(item);
     const button = document.createElement("button");
     button.type = "button";
     button.className = `video-button${index === currentIndex ? " active" : ""}`;
-    button.innerHTML = `<strong>${item.target_word}</strong><span>${item.collection} · ${item.title}</span>`;
+    button.innerHTML = `<strong>${item.target_word}</strong><span>${item.collection} · ${variant.label} · ${item.title}</span>`;
     button.addEventListener("click", () => {
       currentIndex = index;
       render();
@@ -80,8 +105,33 @@ function renderList() {
   });
 }
 
-function renderRatings(item) {
-  const rating = item.rating;
+function renderModelToggle(item) {
+  const variants = getVariants(item);
+  const selectedVariant = getSelectedVariant(item);
+
+  modelToggle.innerHTML = "";
+  if (variants.length <= 1) {
+    modelToggle.classList.add("single");
+    modelToggle.textContent = selectedVariant.label;
+    return;
+  }
+
+  modelToggle.classList.remove("single");
+  variants.forEach((variant) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `model-button${variant.key === selectedVariant.key ? " active" : ""}`;
+    button.textContent = variant.label;
+    button.addEventListener("click", () => {
+      selectedModels[itemKey(item)] = variant.key;
+      render();
+    });
+    modelToggle.appendChild(button);
+  });
+}
+
+function renderRatings(variant) {
+  const rating = variant.rating;
   ratingDescription.textContent = rating.brief_gesture_description || "";
   ratingsGrid.innerHTML = "";
 
@@ -108,8 +158,8 @@ function renderRatings(item) {
   renderListItems(ratingAmbiguities, rating.coherence_check?.possible_ambiguities || []);
 }
 
-function renderProbe(item) {
-  const probe = item.probe;
+function renderProbe(variant) {
+  const probe = variant.probe;
   probeDescription.textContent = probe.brief_gesture_description || "";
 
   candidateList.innerHTML = "";
@@ -156,15 +206,17 @@ function renderListItems(container, items) {
 function render() {
   const item = results[currentIndex];
   if (!item) return;
+  const variant = getSelectedVariant(item);
 
   renderList();
+  renderModelToggle(item);
   videoPlayer.src = item.video;
   fileName.textContent = item.title;
   targetWord.textContent = item.target_word;
-  confidenceBadge.textContent = `${item.collection} · ${item.model} · rating confidence: ${item.rating.coherence_check?.confidence || "unknown"}`;
+  confidenceBadge.textContent = `${item.collection} · ${variant.model} · rating confidence: ${variant.rating.coherence_check?.confidence || "unknown"}`;
 
-  renderRatings(item);
-  renderProbe(item);
+  renderRatings(variant);
+  renderProbe(variant);
 }
 
 ratingTab.addEventListener("click", () => setActiveTab("rating"));

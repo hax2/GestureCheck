@@ -1,0 +1,44 @@
+{
+  "video_file": "video_005.avi",
+  "brief_gesture_description": "The person tilts their head to the side and rests it on their hands, which are placed together palm-to-palm.",
+  "visible_components": {
+    "hands_and_arms": "Hands are brought together, palm-to-palm, and placed against the side of the face/head.",
+    "body_posture": "Standing straight, then tilting the head to rest on the hands.",
+    "facial_expression": "Neutral, eyes closed briefly while resting head on hands.",
+    "movement_dynamics": "Smooth, deliberate movement of bringing hands to the face and tilting the head."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Sleep",
+      "confidence": "high",
+      "evidence": "The gesture of resting the head on folded hands is a widely recognized, conventional sign for sleeping or resting."
+    },
+    {
+      "meaning": "Tired",
+      "confidence": "high",
+      "evidence": "The action of resting the head suggests fatigue or a need for sleep."
+    },
+    {
+      "meaning": "Rest",
+      "confidence": "high",
+      "evidence": "The posture mimics lying down and resting the head on a pillow."
+    },
+    {
+      "meaning": "Bed",
+      "confidence": "medium",
+      "evidence": "The gesture implies the action associated with a bed (sleeping)."
+    },
+    {
+      "meaning": "Dream",
+      "confidence": "medium",
+      "evidence": "The closed eyes and sleeping posture could also represent dreaming."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is highly iconic and universally understood, making it a strong mnemonic for vocabulary related to sleep or rest."
+  },
+  "ambiguities": [
+    "While clearly related to sleep/rest, it could represent the noun (sleep, bed) or the verb (to sleep, to rest)."
+  ]
+}

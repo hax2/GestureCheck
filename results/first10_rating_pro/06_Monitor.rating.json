@@ -1,0 +1,40 @@
+{
+  "target_word": "Monitor",
+  "video_file": "06_Monitor.avi",
+  "brief_gesture_description": "The actor uses both index fingers to trace a rectangular shape in the air, starting from the top corners, moving down, and meeting at the bottom center.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly traces the physical, rectangular shape of a monitor, providing a highly transparent visual representation of the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The action involves tracing an outline, which evokes the physical dimensions of the object, but it does not simulate interacting with or using a monitor."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is smooth, deliberate, and descriptive, lacking strong emotional dynamics or intensity."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple tracing motion is optimal for conveying the concept clearly without any unnecessary motor or cognitive complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Tracing a rectangle in the air to indicate a screen, picture, or monitor is a highly familiar and widely understood gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very straightforward and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

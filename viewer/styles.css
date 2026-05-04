@@ -144,6 +144,49 @@ button {
   font-size: 13px;
 }
 
+.topbar-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.model-toggle {
+  display: inline-grid;
+  grid-auto-flow: column;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface-strong);
+}
+
+.model-toggle.single {
+  display: inline-block;
+  padding: 7px 10px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.model-button {
+  min-width: 72px;
+  border: 0;
+  border-right: 1px solid var(--line);
+  padding: 7px 10px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.model-button:last-child {
+  border-right: 0;
+}
+
+.model-button.active {
+  background: var(--accent);
+  color: #fff;
+}
+
 .content-grid {
   display: grid;
   grid-template-columns: minmax(360px, 0.9fr) minmax(420px, 1.1fr);
@@ -418,6 +461,15 @@ video {
   .badge {
     display: inline-block;
     margin-top: 10px;
+  }
+
+  .topbar-actions {
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .badge {
+    margin-top: 0;
   }
 
   .video-list,

@@ -1,0 +1,40 @@
+{
+  "video_file": "video_002.avi",
+  "brief_gesture_description": "The person bends forward slightly, turns their head to the side, and brings their hands behind their back, as if hiding something or being restrained.",
+  "visible_components": {
+    "hands_and_arms": "Hands are brought behind the back and held together.",
+    "body_posture": "The body leans forward slightly, with the head turned to the side.",
+    "facial_expression": "The facial expression is neutral but slightly tense, looking away.",
+    "movement_dynamics": "The movement is deliberate and somewhat constrained, suggesting a specific action or state."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "to hide something",
+      "confidence": "high",
+      "evidence": "The action of bringing hands behind the back is a common gesture for hiding an object."
+    },
+    {
+      "meaning": "to be arrested or restrained",
+      "confidence": "medium",
+      "evidence": "The hands behind the back posture resembles being handcuffed."
+    },
+    {
+      "meaning": "to be secretive or sneaky",
+      "confidence": "medium",
+      "evidence": "The combination of hands behind the back and looking away suggests a secretive demeanor."
+    },
+    {
+      "meaning": "to feel guilty or ashamed",
+      "confidence": "low",
+      "evidence": "The posture could be interpreted as a physical manifestation of guilt or shame, trying to make oneself smaller or hide."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is distinct and clearly conveys a sense of concealment or restraint, making it a strong visual anchor for related vocabulary."
+  },
+  "ambiguities": [
+    "The gesture could represent the act of hiding an object, or the state of being restrained (like being arrested).",
+    "The specific emotion or intent behind the action (e.g., guilt, sneakiness, being forced) is not entirely clear from the gesture alone."
+  ]
+}
