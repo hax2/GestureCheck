@@ -1,0 +1,32 @@
+[
+  {
+    "source": "local_gesture_videos",
+    "title": "01_TrafficLight.avi",
+    "target_word": "Traffic Light",
+    "local_path": "data/gesture_videos/01_TrafficLight.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "02_Trailer.avi",
+    "target_word": "Trailer",
+    "local_path": "data/gesture_videos/02_Trailer.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "03_Balcony.avi",
+    "target_word": "Balcony",
+    "local_path": "data/gesture_videos/03_Balcony.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "04_Ball.avi",
+    "target_word": "Ball",
+    "local_path": "data/gesture_videos/04_Ball.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "05_Bett.mov.avi",
+    "target_word": "Bett",
+    "local_path": "data/gesture_videos/05_Bett.mov.avi"
+  }
+]

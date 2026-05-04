@@ -1,0 +1,42 @@
+{
+  "target_word": "Balcony",
+  "video_file": "03_Balcony.avi",
+  "brief_gesture_description": "The actor leans forward slightly and rests their arms on an imaginary railing in front of them, simulating the posture of someone standing on a balcony.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The posture of leaning on an imaginary railing is a clear and recognizable representation of standing on a balcony."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture effectively simulates the physical experience of leaning on a balcony railing."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is functional and descriptive rather than emotionally expressive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a balcony."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Leaning on a railing is a universally understood posture associated with balconies."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as leaning on a fence or a counter, but in the context of 'balcony', it is highly appropriate."
+    ],
+    "confidence": "high"
+  }
+}
