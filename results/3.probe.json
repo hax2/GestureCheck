@@ -1,0 +1,35 @@
+{
+  "video_file": "3.AVI",
+  "brief_gesture_description": "The person places both hands on the sides of their head and then moves them outward and downward in a sweeping motion.",
+  "visible_components": {
+    "hands_and_arms": "Hands start at the sides of the head and move outward and down to the sides of the body.",
+    "body_posture": "Upright, standing position, remains relatively still throughout.",
+    "facial_expression": "Neutral, focused expression.",
+    "movement_dynamics": "Controlled, symmetrical, and deliberate motion."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Hair",
+      "confidence": "high",
+      "evidence": "The hand movement mimics the shape and motion of smoothing or styling hair."
+    },
+    {
+      "meaning": "Head",
+      "confidence": "medium",
+      "evidence": "The hands start directly on the head, drawing attention to that body part."
+    },
+    {
+      "meaning": "Thinking/Brainstorming",
+      "confidence": "low",
+      "evidence": "Touching the head can sometimes signify mental activity, though the sweeping motion is more specific to hair."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is iconic and clearly maps to a physical attribute (hair), making it easy for learners to associate the movement with the vocabulary word."
+  },
+  "ambiguities": [
+    "The gesture could be interpreted as 'head' or 'hair' depending on the context of the lesson.",
+    "It is unclear if the gesture represents the noun 'hair' or the action of 'brushing/styling hair'."
+  ]
+}
