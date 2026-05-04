@@ -1,0 +1,40 @@
+{
+  "target_word": "Ceiling",
+  "video_file": "08_Ceiling.avi",
+  "brief_gesture_description": "The actor stands, raises both arms above her head, and forms a flat, horizontal shape with her hands to represent the ceiling, then lowers them back to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly and directly mimics the flat, overhead nature of a ceiling."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "It simulates the spatial experience of reaching toward or indicating the height of a ceiling."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is functional and clear, but lacks significant emotional or dynamic intensity."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using hands to indicate an overhead surface is a universally understood gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

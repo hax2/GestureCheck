@@ -1,0 +1,35 @@
+{
+  "video_file": "video_009.avi",
+  "brief_gesture_description": "The person performs a sweeping motion with both arms, starting from the side, moving upward in an arc, and then bringing them down in front of the body.",
+  "visible_components": {
+    "hands_and_arms": "Both arms move in a wide, sweeping arc from the side to above the head, then descend.",
+    "body_posture": "The person stands upright, shifting weight slightly and tilting the head to follow the arm movement.",
+    "facial_expression": "Neutral, focused expression.",
+    "movement_dynamics": "Fluid, continuous, and rhythmic motion."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Rainbow",
+      "confidence": "high",
+      "evidence": "The arc-like motion of the arms perfectly mimics the shape of a rainbow."
+    },
+    {
+      "meaning": "Arch",
+      "confidence": "medium",
+      "evidence": "The sweeping arm movement traces the physical structure of an arch."
+    },
+    {
+      "meaning": "Sky",
+      "confidence": "low",
+      "evidence": "The upward reach and wide sweep could represent the expanse of the sky."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is iconic and visually maps directly to the shape of the object, making it highly effective for vocabulary retention."
+  },
+  "ambiguities": [
+    "The gesture could represent any curved or arched object depending on the context.",
+    "It is unclear if the gesture refers to the object itself or the action of drawing/creating an arc."
+  ]
+}

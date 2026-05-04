@@ -1,0 +1,35 @@
+{
+  "video_file": "video_004.avi",
+  "brief_gesture_description": "The person performs a sweeping, curved motion with both arms extended to the side, mimicking the arc of a rainbow or a large, rounded object.",
+  "visible_components": {
+    "hands_and_arms": "Both arms are raised and curved, moving in a wide, sweeping arc from one side to the other.",
+    "body_posture": "The torso leans slightly in the direction of the arm movement, following the arc.",
+    "facial_expression": "Neutral, focused expression.",
+    "movement_dynamics": "Smooth, continuous, and deliberate arc-like motion."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Rainbow",
+      "confidence": "high",
+      "evidence": "The shape traced by the arms is a classic, iconic representation of a rainbow's arc."
+    },
+    {
+      "meaning": "Arch",
+      "confidence": "medium",
+      "evidence": "The movement mimics the physical structure of an architectural arch."
+    },
+    {
+      "meaning": "Dome",
+      "confidence": "low",
+      "evidence": "The rounded motion could represent the top of a dome or a curved roof."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is iconic and visually maps directly to the shape of the object, making it highly effective for vocabulary retention."
+  },
+  "ambiguities": [
+    "The gesture could represent any large, curved object, making it context-dependent.",
+    "It is unclear if the gesture refers to the object itself or the action of drawing an arc."
+  ]
+}

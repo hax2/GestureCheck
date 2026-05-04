@@ -1,0 +1,34 @@
+{
+  "video_file": "video_007.avi",
+  "brief_gesture_description": "The person performs a sweeping, arc-like motion with both arms, starting from a low position and moving upward and outward, mimicking the action of throwing or scattering something.",
+  "visible_components": {
+    "hands_and_arms": "Both arms move in a synchronized, sweeping arc from the waist area upward and outward to the side.",
+    "body_posture": "The person stands upright, turning slightly to the side as the arms move.",
+    "facial_expression": "Neutral, focused expression.",
+    "movement_dynamics": "Fluid, rhythmic, and deliberate motion suggesting a light, scattering action."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Scattering or throwing something (like seeds or confetti)",
+      "confidence": "high",
+      "evidence": "The sweeping, outward arc of the arms is a classic pantomime for distributing small items over an area."
+    },
+    {
+      "meaning": "Waving goodbye or greeting",
+      "confidence": "low",
+      "evidence": "The motion is too broad and arc-like, lacking the typical wrist flick or repetitive back-and-forth of a wave."
+    },
+    {
+      "meaning": "Clearing or pushing something away",
+      "confidence": "low",
+      "evidence": "The upward trajectory is more consistent with scattering than a horizontal pushing motion."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is highly iconic and physically mimics the action of scattering, making it easy for learners to associate the movement with the corresponding verb."
+  },
+  "ambiguities": [
+    "The specific object being scattered is not defined, which could lead to confusion between 'sowing', 'throwing', or 'sprinkling'."
+  ]
+}

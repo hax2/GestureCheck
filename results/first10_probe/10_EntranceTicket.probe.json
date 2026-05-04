@@ -1,0 +1,35 @@
+{
+  "video_file": "video_010.avi",
+  "brief_gesture_description": "The person performs a sweeping motion with their right arm from their side across their body to the left, while slightly rotating their torso.",
+  "visible_components": {
+    "hands_and_arms": "Right arm sweeps horizontally across the body at chest height.",
+    "body_posture": "Standing upright, torso rotates slightly to follow the arm movement.",
+    "facial_expression": "Neutral, focused expression.",
+    "movement_dynamics": "Smooth, deliberate, and continuous sweeping motion."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Sweeping or cleaning",
+      "confidence": "high",
+      "evidence": "The horizontal sweeping motion of the arm mimics the action of using a broom or wiping a surface."
+    },
+    {
+      "meaning": "Moving something aside",
+      "confidence": "medium",
+      "evidence": "The gesture resembles pushing or clearing objects out of the way."
+    },
+    {
+      "meaning": "Painting a wall",
+      "confidence": "low",
+      "evidence": "The arm motion could represent a broad stroke with a brush."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "The gesture is iconic and clearly maps to a physical action, making it easy for learners to associate with verbs like 'sweep' or 'clean'."
+  },
+  "ambiguities": [
+    "The gesture could represent different cleaning actions depending on the context (e.g., sweeping, wiping, or painting).",
+    "It is unclear if the gesture implies a specific tool being held or just the action itself."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Ball",
+  "video_file": "04_Ball.avi",
+  "brief_gesture_description": "The actor performs a sweeping, curved motion with both arms, as if tracing the shape of a large ball or throwing/catching a large object.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The curved arm movement clearly mimics the round shape of a ball."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement simulates the physical interaction of holding or shaping a spherical object."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is functional and descriptive rather than emotionally expressive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the concept of a ball."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using hands to indicate a round shape is a universal gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also represent 'round', 'circle', or 'throwing' depending on context."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "video_file": "video_001.avi",
+  "brief_gesture_description": "The person raises their right arm from their side to shoulder height, then moves their hand in a small, circular motion while keeping the palm facing forward, before returning the arm to their side.",
+  "visible_components": {
+    "hands_and_arms": "Right arm raised to shoulder level, hand makes a small circular motion with palm facing forward.",
+    "body_posture": "Standing upright, facing forward, feet shoulder-width apart.",
+    "facial_expression": "Neutral, focused expression.",
+    "movement_dynamics": "Controlled, deliberate, and rhythmic motion."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Hello / Greeting",
+      "confidence": "high",
+      "evidence": "The hand motion is a classic, conventional wave used to signal a greeting or acknowledgement."
+    },
+    {
+      "meaning": "Goodbye / Farewell",
+      "confidence": "medium",
+      "evidence": "The same hand motion is frequently used to signal departure or saying goodbye."
+    },
+    {
+      "meaning": "Attention / Signaling",
+      "confidence": "low",
+      "evidence": "The gesture could be used to catch someone's attention from a distance."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "This is a highly conventional, iconic gesture that is easily recognized across many cultures, making it an effective tool for teaching basic social interaction vocabulary."
+  },
+  "ambiguities": [
+    "The gesture is context-dependent; without a social setting, it is impossible to distinguish between a greeting and a farewell."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "video_file": "video_005.avi",
+  "brief_gesture_description": "The person performs a gesture mimicking sleeping by placing their hands together against their tilted head.",
+  "visible_components": {
+    "hands_and_arms": "Hands are pressed together, palms touching, and placed against the side of the head.",
+    "body_posture": "The person is standing upright, then tilts their head to the side to rest it on their hands.",
+    "facial_expression": "The person closes their eyes and adopts a relaxed, peaceful expression.",
+    "movement_dynamics": "Slow, deliberate movement, mimicking the act of resting one's head on a pillow."
+  },
+  "candidate_meanings": [
+    {
+      "meaning": "Sleep",
+      "confidence": "high",
+      "evidence": "The classic 'head on hands' gesture is a universal icon for sleeping."
+    },
+    {
+      "meaning": "Tired / Exhausted",
+      "confidence": "medium",
+      "evidence": "The gesture can also signify the need for sleep due to fatigue."
+    },
+    {
+      "meaning": "Bedtime",
+      "confidence": "medium",
+      "evidence": "The gesture is often used to signal that it is time to go to bed."
+    }
+  ],
+  "l2_learning_usefulness": {
+    "likely_memorable": true,
+    "rationale": "This is a highly iconic, culturally recognized gesture that provides a clear visual anchor for the concept of sleep, making it very effective for vocabulary acquisition."
+  },
+  "ambiguities": [
+    "The gesture could represent the state of sleeping, the action of going to sleep, or the feeling of being tired, depending on the context."
+  ]
+}

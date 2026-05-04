@@ -1,0 +1,62 @@
+[
+  {
+    "source": "local_gesture_videos",
+    "title": "01_TrafficLight.avi",
+    "target_word": "Traffic Light",
+    "local_path": "data/gesture_videos/01_TrafficLight.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "02_Trailer.avi",
+    "target_word": "Trailer",
+    "local_path": "data/gesture_videos/02_Trailer.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "03_Balcony.avi",
+    "target_word": "Balcony",
+    "local_path": "data/gesture_videos/03_Balcony.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "04_Ball.avi",
+    "target_word": "Ball",
+    "local_path": "data/gesture_videos/04_Ball.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "05_Bett.mov.avi",
+    "target_word": "Bett",
+    "local_path": "data/gesture_videos/05_Bett.mov.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "06_Monitor.avi",
+    "target_word": "Monitor",
+    "local_path": "data/gesture_videos/06_Monitor.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "07_LetterBox.avi",
+    "target_word": "Letter Box",
+    "local_path": "data/gesture_videos/07_LetterBox.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "08_Ceiling.avi",
+    "target_word": "Ceiling",
+    "local_path": "data/gesture_videos/08_Ceiling.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "09_Monument.avi",
+    "target_word": "Monument",
+    "local_path": "data/gesture_videos/09_Monument.avi"
+  },
+  {
+    "source": "local_gesture_videos",
+    "title": "10_EntranceTicket.avi",
+    "target_word": "Entrance Ticket",
+    "local_path": "data/gesture_videos/10_EntranceTicket.avi"
+  }
+]

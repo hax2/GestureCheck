@@ -1,0 +1,42 @@
+{
+  "target_word": "Letter Box",
+  "video_file": "07_LetterBox.avi",
+  "brief_gesture_description": "The actor uses both hands to mimic the action of opening a small flap or slot, then inserting an object into it.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand movements clearly simulate the physical interaction of opening a letter box slot and inserting mail."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture effectively simulates the tactile experience of manipulating a letter box flap."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is functional and precise, but lacks significant emotional or dynamic intensity."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of posting a letter is a widely understood cultural practice, though physical letter boxes are becoming less common in some digital-first societies."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and involves natural hand movements that are easy for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as opening a small door or a slot for any purpose, not necessarily a letter box."
+    ],
+    "confidence": "high"
+  }
+}

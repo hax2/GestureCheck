@@ -1,6 +1,7 @@
 .env
 env.local
 .gitreal/
+.tmp/
 __pycache__/
 *.pyc
 data/
