@@ -1,0 +1,34 @@
+[
+  {
+    "source": "figshare",
+    "article_id": 13729003,
+    "title": "81_Innocence.avi",
+    "target_word": "Innocence",
+    "url_public_api": "https://api.figshare.com/v2/articles/13729003",
+    "url_public_html": "https://figshare.com/articles/media/81_Innocence_avi/13729003"
+  },
+  {
+    "source": "figshare",
+    "article_id": 13728997,
+    "title": "89_Admission.avi",
+    "target_word": "Admission",
+    "url_public_api": "https://api.figshare.com/v2/articles/13728997",
+    "url_public_html": "https://figshare.com/articles/media/89_Admission_avi/13728997"
+  },
+  {
+    "source": "figshare",
+    "article_id": 13729000,
+    "title": "70_Sensation.avi",
+    "target_word": "Sensation",
+    "url_public_api": "https://api.figshare.com/v2/articles/13729000",
+    "url_public_html": "https://figshare.com/articles/media/70_Sensation_avi/13729000"
+  },
+  {
+    "source": "figshare",
+    "article_id": 13728994,
+    "title": "64_Boredom.avi",
+    "target_word": "Boredom",
+    "url_public_api": "https://api.figshare.com/v2/articles/13728994",
+    "url_public_html": "https://figshare.com/articles/media/64_Boredom_avi/13728994"
+  }
+]
