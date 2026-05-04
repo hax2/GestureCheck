@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GestureCheck Results</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <div>
+            <h1>GestureCheck</h1>
+            <p>First 10 video results</p>
+          </div>
+        </div>
+        <div id="videoList" class="video-list" aria-label="Videos"></div>
+      </aside>
+
+      <section class="workspace">
+        <header class="topbar">
+          <div>
+            <p id="fileName" class="eyebrow"></p>
+            <h2 id="targetWord"></h2>
+          </div>
+          <div id="confidenceBadge" class="badge"></div>
+        </header>
+
+        <div class="content-grid">
+          <section class="video-panel" aria-label="Video">
+            <video id="videoPlayer" controls playsinline></video>
+          </section>
+
+          <section class="results-panel" aria-label="Results">
+            <div class="tabs" role="tablist" aria-label="Result view">
+              <button id="ratingTab" class="tab active" type="button">Survey</button>
+              <button id="probeTab" class="tab" type="button">Guess</button>
+            </div>
+
+            <div id="ratingView" class="panel-view active">
+              <p id="ratingDescription" class="description"></p>
+              <div id="ratingsGrid" class="ratings-grid"></div>
+              <div class="section-block">
+                <h3>Ambiguities</h3>
+                <ul id="ratingAmbiguities" class="plain-list"></ul>
+              </div>
+            </div>
+
+            <div id="probeView" class="panel-view">
+              <p id="probeDescription" class="description"></p>
+              <div class="section-block">
+                <h3>Candidate Meanings</h3>
+                <div id="candidateList" class="candidate-list"></div>
+              </div>
+              <div class="section-block">
+                <h3>Visible Components</h3>
+                <dl id="componentsList" class="components-list"></dl>
+              </div>
+              <div class="section-block">
+                <h3>Ambiguities</h3>
+                <ul id="probeAmbiguities" class="plain-list"></ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="results-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
