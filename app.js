@@ -1,13 +1,41 @@
 const results = window.GESTURE_RESULTS || [];
 
 const ratingLabels = [
-  ["iconicity", "Iconicity"],
-  ["sensorimotor_imagery", "Sensorimotor Imagery"],
-  ["motional_salience_gesture", "Motional Salience"],
-  ["emotional_salience_facial_expression", "Facial Emotion"],
-  ["gesture_complexity_fit", "Complexity Fit"],
-  ["cultural_familiarity", "Cultural Familiarity"],
-  ["enactment_potential", "Enactment Potential"],
+  [
+    "iconicity",
+    "Iconicity",
+    "How much the gesture visually resembles the target word's meaning.",
+  ],
+  [
+    "sensorimotor_imagery",
+    "Sensorimotor Imagery",
+    "How much the gesture evokes bodily action, physical interaction, or perceptual experience.",
+  ],
+  [
+    "motional_salience_gesture",
+    "Motional Salience",
+    "How much the gesture's movement dynamics convey emotional expressiveness.",
+  ],
+  [
+    "emotional_salience_facial_expression",
+    "Facial Emotion",
+    "How much the actor's facial expression communicates affective meaning.",
+  ],
+  [
+    "gesture_complexity_fit",
+    "Complexity Fit",
+    "How appropriate the gesture's motor and cognitive complexity is for learning.",
+  ],
+  [
+    "cultural_familiarity",
+    "Cultural Familiarity",
+    "How likely learners are to recognize the gesture from a cultural repertoire.",
+  ],
+  [
+    "enactment_potential",
+    "Enactment Potential",
+    "How easily learners could reproduce the gesture themselves.",
+  ],
 ];
 
 let currentIndex = 0;
@@ -57,7 +85,7 @@ function renderRatings(item) {
   ratingDescription.textContent = rating.brief_gesture_description || "";
   ratingsGrid.innerHTML = "";
 
-  ratingLabels.forEach(([key, label]) => {
+  ratingLabels.forEach(([key, label, hint]) => {
     const value = rating.ratings[key];
     const card = document.createElement("article");
     card.className = "rating-card";
@@ -66,6 +94,7 @@ function renderRatings(item) {
         <h3>${label}</h3>
         <div class="score">${value.score}</div>
       </div>
+      <p class="rating-hint">${hint}</p>
       <p>${value.rationale}</p>
     `;
     ratingsGrid.appendChild(card);

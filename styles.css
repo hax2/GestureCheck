@@ -254,6 +254,12 @@ video {
   line-height: 1.4;
 }
 
+.rating-card .rating-hint {
+  margin-bottom: 7px;
+  color: #3f4c53;
+  font-size: 12px;
+}
+
 .section-block {
   margin-top: 16px;
 }
