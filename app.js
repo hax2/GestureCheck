@@ -91,10 +91,15 @@ function renderRatings(item) {
     card.className = "rating-card";
     card.innerHTML = `
       <div class="rating-head">
-        <h3>${label}</h3>
+        <h3>
+          ${label}
+          <button class="hint-button" type="button" aria-label="${label} definition">
+            ?
+            <span class="hint-tooltip" role="tooltip">${hint}</span>
+          </button>
+        </h3>
         <div class="score">${value.score}</div>
       </div>
-      <p class="rating-hint">${hint}</p>
       <p>${value.rationale}</p>
     `;
     ratingsGrid.appendChild(card);

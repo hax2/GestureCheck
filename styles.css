@@ -254,14 +254,59 @@ video {
   line-height: 1.4;
 }
 
-.rating-card .rating-hint {
-  margin-bottom: 7px;
-  color: #3f4c53;
-  font-size: 12px;
-}
-
 .section-block {
   margin-top: 16px;
+}
+
+.hint-button {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  display: inline-grid;
+  place-items: center;
+  margin-left: 5px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #fff;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: 1px;
+  cursor: help;
+}
+
+.hint-button:hover,
+.hint-button:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent-dark);
+  outline: none;
+}
+
+.hint-tooltip {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  width: min(260px, 70vw);
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+  color: #3f4c53;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.35;
+  text-align: left;
+  transform: translateX(-50%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.hint-button:hover .hint-tooltip,
+.hint-button:focus-visible .hint-tooltip {
+  opacity: 1;
 }
 
 .plain-list {
