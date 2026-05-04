@@ -2,6 +2,22 @@
 
 This workspace contains a small pilot setup for testing whether Gemini can interpret gesture videos used in second-language vocabulary learning.
 
+## Results Viewer
+
+The repository root contains a static results viewer for GitHub Pages:
+
+- `index.html`
+- `app.js`
+- `styles.css`
+- `results-data.js`
+- `assets/videos/`
+
+To publish it, configure GitHub Pages to deploy from the `main` branch and root directory. The page will be available at:
+
+```text
+https://hax2.github.io/GestureCheck/
+```
+
 The local questionnaire in `Gesture Rating Sheet.docx` was converted into a structured prompt with seven 1-5 rating dimensions:
 
 - iconicity
