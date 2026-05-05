@@ -209,6 +209,41 @@ select {
   padding: 14px;
 }
 
+.chart-tools {
+  display: grid;
+  justify-items: end;
+  gap: 8px;
+}
+
+.chart-mode {
+  display: inline-grid;
+  grid-auto-flow: column;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface-soft);
+}
+
+.mode-button {
+  min-width: 68px;
+  border: 0;
+  border-right: 1px solid var(--line);
+  padding: 7px 10px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.mode-button:last-child {
+  border-right: 0;
+}
+
+.mode-button.active {
+  background: var(--accent);
+  color: #fff;
+}
+
 .chart-legend {
   display: flex;
   flex-wrap: wrap;
@@ -222,6 +257,10 @@ select {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+}
+
+.chart-legend span.hidden {
+  display: none;
 }
 
 .legend-swatch {
@@ -240,19 +279,19 @@ select {
 }
 
 .legend-swatch.concrete-flash {
-  background: #1d6f72;
+  background: #1f7a4d;
 }
 
 .legend-swatch.concrete-pro {
-  background: #8a5a1f;
+  background: #6da34d;
 }
 
 .legend-swatch.abstract-flash {
-  background: #4f6fb0;
+  background: #7a5bb1;
 }
 
 .legend-swatch.abstract-pro {
-  background: #a33a3a;
+  background: #b24f7a;
 }
 
 canvas {
@@ -498,6 +537,15 @@ tbody tr:hover {
 
   .masthead {
     display: block;
+  }
+
+  .section-head {
+    display: block;
+  }
+
+  .chart-tools {
+    justify-items: start;
+    margin-top: 10px;
   }
 
   .workbook-link {

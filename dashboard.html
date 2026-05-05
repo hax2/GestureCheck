@@ -120,11 +120,18 @@
           <article class="chart-panel">
             <div class="section-head">
               <h2>Concrete vs Abstract Scores</h2>
-              <div class="chart-legend" aria-label="Concrete and abstract legend">
-                <span><i class="legend-swatch concrete-flash"></i>Concrete Flash</span>
-                <span><i class="legend-swatch concrete-pro"></i>Concrete Pro</span>
-                <span><i class="legend-swatch abstract-flash"></i>Abstract Flash</span>
-                <span><i class="legend-swatch abstract-pro"></i>Abstract Pro</span>
+              <div class="chart-tools">
+                <div class="chart-mode" aria-label="Concrete chart model">
+                  <button id="concreteBothMode" class="mode-button active" type="button">Both</button>
+                  <button id="concreteFlashMode" class="mode-button" type="button">Flash</button>
+                  <button id="concreteProMode" class="mode-button" type="button">Pro</button>
+                </div>
+                <div class="chart-legend" aria-label="Concrete and abstract legend">
+                  <span class="concrete-legend flash"><i class="legend-swatch concrete-flash"></i>Concrete Flash</span>
+                  <span class="concrete-legend pro"><i class="legend-swatch concrete-pro"></i>Concrete Pro</span>
+                  <span class="concrete-legend flash"><i class="legend-swatch abstract-flash"></i>Abstract Flash</span>
+                  <span class="concrete-legend pro"><i class="legend-swatch abstract-pro"></i>Abstract Pro</span>
+                </div>
               </div>
             </div>
             <canvas id="concreteChart" width="1200" height="390"></canvas>

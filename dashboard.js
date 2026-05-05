@@ -24,8 +24,13 @@ const concreteSummary = document.getElementById("concreteSummary");
 const concreteChart = document.getElementById("concreteChart");
 const concreteVisibleCount = document.getElementById("concreteVisibleCount");
 const concreteItemsBody = document.getElementById("concreteItemsBody");
+const concreteBothMode = document.getElementById("concreteBothMode");
+const concreteFlashMode = document.getElementById("concreteFlashMode");
+const concreteProMode = document.getElementById("concreteProMode");
+const concreteLegendItems = document.querySelectorAll(".concrete-legend");
 let deltaChartHits = [];
 let activePage = "overview";
+let concreteModelMode = "both";
 
 const ratingDefinitions = {
   iconicity: "The degree to which the gesture visually resembles the semantics of the target word.",
@@ -117,6 +122,20 @@ function setActivePage(page) {
   concretePageTab.classList.toggle("active", !showOverview);
   overviewPage.classList.toggle("active", showOverview);
   concretePage.classList.toggle("active", !showOverview);
+  render();
+}
+
+function setConcreteModelMode(mode) {
+  concreteModelMode = mode;
+  concreteBothMode.classList.toggle("active", mode === "both");
+  concreteFlashMode.classList.toggle("active", mode === "flash");
+  concreteProMode.classList.toggle("active", mode === "pro");
+  concreteLegendItems.forEach((item) => {
+    item.classList.toggle(
+      "hidden",
+      mode !== "both" && !item.classList.contains(mode),
+    );
+  });
   render();
 }
 
@@ -325,24 +344,29 @@ function renderConcreteChart(visibleRows) {
   const concreteRows = groupRows(visibleRows, "concrete");
   const abstractRows = groupRows(visibleRows, "abstract");
   const labels = ratings.map((rating) => rating.label);
-  drawGroupedChart(concreteChart, labels, [
+  const series = [
     {
-      color: "#1d6f72",
+      model: "flash",
+      color: "#1f7a4d",
       values: ratings.map((rating) => average(concreteRows.map((row) => ratingValue(row, "flash", rating.key)))),
     },
     {
-      color: "#8a5a1f",
+      model: "pro",
+      color: "#6da34d",
       values: ratings.map((rating) => average(concreteRows.map((row) => ratingValue(row, "pro", rating.key)))),
     },
     {
-      color: "#4f6fb0",
+      model: "flash",
+      color: "#7a5bb1",
       values: ratings.map((rating) => average(abstractRows.map((row) => ratingValue(row, "flash", rating.key)))),
     },
     {
-      color: "#a33a3a",
+      model: "pro",
+      color: "#b24f7a",
       values: ratings.map((rating) => average(abstractRows.map((row) => ratingValue(row, "pro", rating.key)))),
     },
-  ]);
+  ].filter((entry) => concreteModelMode === "both" || entry.model === concreteModelMode);
+  drawGroupedChart(concreteChart, labels, series);
 }
 
 function renderConcreteTable(visibleRows) {
@@ -457,6 +481,9 @@ function render() {
 initControls();
 overviewPageTab.addEventListener("click", () => setActivePage("overview"));
 concretePageTab.addEventListener("click", () => setActivePage("concrete"));
+concreteBothMode.addEventListener("click", () => setConcreteModelMode("both"));
+concreteFlashMode.addEventListener("click", () => setConcreteModelMode("flash"));
+concreteProMode.addEventListener("click", () => setConcreteModelMode("pro"));
 [searchInput, collectionFilter, ratingFilter, sortSelect, completeOnly].forEach((control) => {
   control.addEventListener("input", render);
   control.addEventListener("change", render);
