@@ -16,6 +16,7 @@ const itemsBody = document.getElementById("itemsBody");
 const detailDrawer = document.getElementById("detailDrawer");
 const averageChart = document.getElementById("averageChart");
 const deltaChart = document.getElementById("deltaChart");
+let deltaChartHits = [];
 
 const ratingDefinitions = {
   iconicity: "The degree to which the gesture visually resembles the semantics of the target word.",
@@ -159,6 +160,7 @@ function drawHorizontalChart(canvas, items, key) {
   const context = canvas.getContext("2d");
   const width = canvas.width;
   const height = canvas.height;
+  deltaChartHits = [];
   context.clearRect(0, 0, width, height);
   context.fillStyle = "#ffffff";
   context.fillRect(0, 0, width, height);
@@ -170,6 +172,15 @@ function drawHorizontalChart(canvas, items, key) {
     const delta = deltaValue(item, key) ?? 0;
     const y = padding.top + index * rowHeight + 5;
     const barWidth = (Math.abs(delta) / max) * (width - padding.left - padding.right);
+    const rowTop = padding.top + index * rowHeight;
+    const rowBottom = rowTop + rowHeight;
+    deltaChartHits.push({
+      row: item,
+      x1: 0,
+      y1: rowTop,
+      x2: width,
+      y2: rowBottom,
+    });
     context.fillStyle = "#64717a";
     context.fillText(item.target_word.slice(0, 24), 8, y + rowHeight / 2);
     context.fillStyle = Math.abs(delta) >= 2 ? "#a33a3a" : "#8a5a1f";
@@ -264,6 +275,10 @@ function openDetail(row) {
   detailDrawer.classList.add("open");
 }
 
+function closeDetail() {
+  detailDrawer.classList.remove("open");
+}
+
 function render() {
   const visibleRows = filteredRows();
   renderSummary(visibleRows);
@@ -276,4 +291,35 @@ initControls();
   control.addEventListener("input", render);
   control.addEventListener("change", render);
 });
+
+deltaChart.addEventListener("click", (event) => {
+  const rect = deltaChart.getBoundingClientRect();
+  const x = ((event.clientX - rect.left) / rect.width) * deltaChart.width;
+  const y = ((event.clientY - rect.top) / rect.height) * deltaChart.height;
+  const hit = deltaChartHits.find((area) => x >= area.x1 && x <= area.x2 && y >= area.y1 && y <= area.y2);
+  if (hit) openDetail(hit.row);
+});
+
+deltaChart.addEventListener("mousemove", (event) => {
+  const rect = deltaChart.getBoundingClientRect();
+  const x = ((event.clientX - rect.left) / rect.width) * deltaChart.width;
+  const y = ((event.clientY - rect.top) / rect.height) * deltaChart.height;
+  const hit = deltaChartHits.some((area) => x >= area.x1 && x <= area.x2 && y >= area.y1 && y <= area.y2);
+  deltaChart.style.cursor = hit ? "pointer" : "default";
+});
+
+deltaChart.addEventListener("mouseleave", () => {
+  deltaChart.style.cursor = "default";
+});
+
+document.addEventListener(
+  "pointerdown",
+  (event) => {
+    if (!detailDrawer.classList.contains("open")) return;
+    if (detailDrawer.contains(event.target)) return;
+    closeDetail();
+  },
+  true,
+);
+
 render();
