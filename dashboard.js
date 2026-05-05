@@ -114,7 +114,7 @@ function drawBarChart(canvas, labels, series) {
   context.fillStyle = "#ffffff";
   context.fillRect(0, 0, width, height);
 
-  const padding = { top: 20, right: 22, bottom: 112, left: 42 };
+  const padding = { top: 20, right: 22, bottom: 78, left: 42 };
   const chartWidth = width - padding.left - padding.right;
   const chartHeight = height - padding.top - padding.bottom;
   const max = Math.max(5, ...series.flatMap((entry) => entry.values.filter((value) => value !== null)));
@@ -131,6 +131,7 @@ function drawBarChart(canvas, labels, series) {
     context.fillText(String(i), 10, y + 4);
   }
 
+  context.font = "12px Inter, system-ui, sans-serif";
   const groupWidth = chartWidth / labels.length;
   const barWidth = Math.max(8, Math.min(24, groupWidth / (series.length + 1)));
   labels.forEach((label, index) => {
@@ -143,13 +144,14 @@ function drawBarChart(canvas, labels, series) {
       context.fillStyle = entry.color;
       context.fillRect(x, y, barWidth - 2, barHeight);
     });
-    context.save();
-    context.translate(padding.left + index * groupWidth + groupWidth / 2, height - 14);
-    context.rotate(-Math.PI / 4);
     context.fillStyle = "#64717a";
-    context.textAlign = "right";
-    context.fillText(label, 0, 0);
-    context.restore();
+    context.textAlign = "center";
+    const labelLines = label.split(" ");
+    const labelX = padding.left + index * groupWidth + groupWidth / 2;
+    const labelY = padding.top + chartHeight + 18;
+    labelLines.forEach((line, lineIndex) => {
+      context.fillText(line, labelX, labelY + lineIndex * 14);
+    });
   });
 }
 
@@ -178,7 +180,7 @@ function drawHorizontalChart(canvas, items, key) {
 }
 
 function renderCharts(visibleRows) {
-  const labels = ratings.map((rating) => rating.label.replace(" ", "\n"));
+  const labels = ratings.map((rating) => rating.label);
   drawBarChart(averageChart, labels, [
     {
       color: "#1d6f72",
