@@ -1,0 +1,40 @@
+{
+  "target_word": "Eraser",
+  "video_file": "26_radiergummi.mov.AVI",
+  "brief_gesture_description": "The actor raises her right hand, forms a fist, and makes a repetitive back-and-forth rubbing motion in front of her chest, simulating the action of erasing.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The back-and-forth rubbing motion with a closed fist perfectly mimics the action of using an eraser on a surface."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the physical interaction of holding an eraser and applying friction to a surface, strongly evoking the associated bodily experience."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The gesture involves a clear, repetitive arm movement, but it is contained within the chest area and is moderate in speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video, providing no emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The single, repetitive motion is simple and optimally conveys the meaning without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The pantomime of erasing is a highly familiar and universally understood action in educational and everyday contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple, requires no special coordination, and is effortless for learners to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Broom",
+  "video_file": "05_broom.mov.AVI",
+  "brief_gesture_description": "The actor performs a quick, repetitive sweeping motion with both hands held together, moving from right to left in front of the body.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The sweeping motion clearly mimics the action of using a broom to clean a floor."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture effectively simulates the physical action of sweeping, engaging the arms and torso in a way that mirrors the real-world task."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively compact and brief in duration."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matches the semantic meaning of the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Sweeping with a broom is a universally recognized household activity."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

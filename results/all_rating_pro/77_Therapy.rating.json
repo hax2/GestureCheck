@@ -1,0 +1,42 @@
+{
+  "target_word": "Therapy",
+  "video_file": "77_Therapy.avi",
+  "brief_gesture_description": "The actor rubs her left shoulder and upper arm with her right hand, simulating a massage or physical therapy.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture depicts physical therapy by rubbing a muscle, which represents one specific type of therapy, though it may not capture the broader concept of psychotherapy."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The action of rubbing the shoulder strongly evokes the physical sensation and bodily interaction of receiving physical therapy or a massage."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is localized to the shoulder area and is relatively subtle, lacking large, expansive, or rapid dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral throughout the gesture, providing no additional emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, straightforward, and easy to process, making it well-suited for learning without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Rubbing a sore muscle is a widely recognized action associated with physical ailments and treatments like massage or physical therapy in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a simple, everyday movement that is highly natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The word 'therapy' is a broad concept; the gesture specifically depicts physical therapy, which might not align with learners who primarily associate the word with psychological therapy."
+    ],
+    "confidence": "high"
+  }
+}

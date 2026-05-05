@@ -1,0 +1,40 @@
+{
+  "target_word": "Drawer",
+  "video_file": "35_Drawer.avi",
+  "brief_gesture_description": "The actor raises her right hand, mimes grasping a handle, and pulls her hand back towards her body as if opening a drawer.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The pulling motion directly mimics the action of opening a drawer, making the visual representation highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture vividly simulates the physical interaction of grasping a handle and pulling it towards oneself."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, but relatively constrained to a simple pulling motion with one arm."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, straightforward, and perfectly captures the core action without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of opening a drawer is a common, everyday experience, making the gesture highly recognizable."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The single-arm pulling motion is very natural, effortless, and easy for anyone to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

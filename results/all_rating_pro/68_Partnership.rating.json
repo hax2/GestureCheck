@@ -1,0 +1,40 @@
+{
+  "target_word": "Partnership",
+  "video_file": "68_Partnership.avi",
+  "brief_gesture_description": "The actor raises both arms and brings her two index fingers together to meet in the center in front of her chest.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Bringing two separate fingers together to meet in the middle clearly visually represents two entities joining to form a partnership."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes a moderate sense of physical connection or the action of joining two separate objects together."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is deliberate and clear, but moderate in terms of speed and spatial expansiveness."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and effectively communicates the core concept without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using two fingers to symbolize two people or entities coming together is a common and easily understood metaphor in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a very simple, symmetrical movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

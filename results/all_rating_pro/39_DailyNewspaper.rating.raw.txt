@@ -1,0 +1,42 @@
+{
+  "target_word": "Daily Newspaper",
+  "video_file": "39_DailyNewspaper.avi",
+  "brief_gesture_description": "The actor holds her left arm across her chest and moves her right arm outwards from the left hand, simulating the action of opening a large folded newspaper.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the physical action of opening a broadsheet newspaper."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Evokes the bodily experience of holding and unfolding a large paper object."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and pronounced but moderate in speed and expansiveness."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, direct, and easy to process without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of opening a newspaper is a widely recognized everyday action."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural, requires no special coordination, and is effortless to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as opening a map or a large book."
+    ],
+    "confidence": "high"
+  }
+}

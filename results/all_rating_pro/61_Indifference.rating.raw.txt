@@ -1,0 +1,40 @@
+{
+  "target_word": "Indifference",
+  "video_file": "61_Indifference.avi",
+  "brief_gesture_description": "The actor raises her shoulders in a shrugging motion, holds it briefly, and then lowers them while maintaining a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The shoulder shrug is a highly transparent and universally recognized emblem for 'I don't care', perfectly matching the semantics of indifference."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture involves a simple bodily movement (raising shoulders) but lacks complex action simulation or physical interaction with the environment."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is minimal and constrained, consisting only of a brief raising and lowering of the shoulders."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor maintains a neutral, blank facial expression, which serves as a moderate cue effectively communicating the lack of emotion characteristic of indifference."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and direct, providing an optimal balance of informativeness without any cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The shoulder shrug is a highly common and widely understood gesture in Western cultures for expressing a lack of interest or indifference."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Raising the shoulders is a very natural, everyday movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

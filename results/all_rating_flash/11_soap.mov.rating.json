@@ -1,0 +1,42 @@
+{
+  "target_word": "Soap",
+  "video_file": "11_soap.mov.AVI",
+  "brief_gesture_description": "The actor brings her hands together in front of her chest, rubbing them against each other in a circular motion, mimicking the action of lathering soap.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hand-rubbing motion is a highly transparent and universally recognized iconic representation of washing hands with soap."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the physical, tactile experience of lathering soap between one's hands."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is contained within a small space in front of the torso, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learners of any level."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of washing hands is a universal human experience, making this gesture highly familiar across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and natural to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'washing hands' or 'lotion', but in the context of the target word 'soap', it is unambiguous."
+    ],
+    "confidence": "high"
+  }
+}

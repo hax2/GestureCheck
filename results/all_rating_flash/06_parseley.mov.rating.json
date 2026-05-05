@@ -1,0 +1,42 @@
+{
+  "target_word": "Parsley",
+  "video_file": "06_parseley.mov.AVI",
+  "brief_gesture_description": "The actor stands still, then quickly raises both arms with hands open and fingers spread, then returns them to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of raising arms with open hands does not visually resemble the physical appearance or the act of using parsley."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "There is no clear sensorimotor connection between the arm-raising movement and the physical experience of handling or consuming parsley."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is relatively quick and involves the whole arm, making it moderately salient, though it lacks a clear purpose."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is simple to perform but confusing because it lacks a clear semantic link to the target word."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This movement does not correspond to any conventional or culturally recognized gesture for 'parsley'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and physically easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is abstract and does not clearly represent the target word, making it difficult to interpret without context."
+    ],
+    "confidence": "high"
+  }
+}

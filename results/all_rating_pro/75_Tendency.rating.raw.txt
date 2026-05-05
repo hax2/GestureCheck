@@ -1,0 +1,42 @@
+{
+  "target_word": "Tendency",
+  "video_file": "75_Tendency.avi",
+  "brief_gesture_description": "The actor moves both arms upwards and to her left in a smooth, diagonal trajectory, with her gaze following the movement of her hands.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The upward, diagonal sweeping motion metaphorically represents a trend, direction, or inclination, providing a moderate visual link to the abstract concept of a 'tendency'."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture involves a directional movement of the arms, but lacks a strong simulation of physical interaction or bodily experience, relying more on spatial metaphor."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and involves both arms extending outwards and upwards, making it moderately salient without being overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, straightforward, and easy to process, making it a well-balanced representation for learning."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using an upward diagonal motion to indicate a trend, direction, or inclination is a common spatial metaphor in Western cultures (e.g., resembling a graph)."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The sweeping arm movement is very natural, requires no special coordination, and is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'trend', 'direction', or 'increase', given its abstract, metaphorical nature."
+    ],
+    "confidence": "high"
+  }
+}

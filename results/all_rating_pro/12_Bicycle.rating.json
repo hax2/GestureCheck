@@ -1,0 +1,40 @@
+{
+  "target_word": "Bicycle",
+  "video_file": "12_Bicycle.avi",
+  "brief_gesture_description": "The actor extends her arms forward as if holding handlebars and alternately lifts her legs to simulate the action of pedaling.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent and direct visual representation of riding a bicycle, capturing both the steering and pedaling actions."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture strongly evokes the bodily experience of riding a bike by simulating the exact motor actions required."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is clear and pronounced, involving both the arms and the legs in a coordinated, dynamic action."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "Despite involving multiple body parts, the gesture is highly intuitive and perfectly balances informativeness with simplicity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pantomiming holding handlebars and pedaling is a universally recognized gesture for a bicycle in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to reproduce, though it requires standing and a slight amount of balance to lift the legs, making it slightly more effortful than a purely manual gesture."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

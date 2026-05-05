@@ -1,0 +1,40 @@
+{
+  "target_word": "Plea",
+  "video_file": "56_Plea.avi",
+  "brief_gesture_description": "The actor brings her hands together in front of her chest, palms touching, in a classic 'praying' or 'begging' gesture, while slightly bending her knees and leaning forward with an earnest facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The clasped hands gesture is a widely recognized symbol for begging or making an earnest request, perfectly matching the semantics of 'plea'."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical posture of submission or earnest request associated with pleading, including the slight bodily dip."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear but relatively contained, involving bringing the hands to the chest and a slight dip of the body."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor's face shows an earnest, slightly distressed expression that conveys the emotional weight of making a plea."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly balances informativeness with ease of processing for a learner."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'praying hands' gesture is a highly conventionalized and familiar emblem for pleading in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple, natural, and effortless for anyone to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

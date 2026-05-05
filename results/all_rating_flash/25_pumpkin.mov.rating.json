@@ -1,0 +1,42 @@
+{
+  "target_word": "Pumpkin",
+  "video_file": "25_pumpkin.mov.AVI",
+  "brief_gesture_description": "The actor uses both hands to trace a rounded, spherical shape in the air in front of her torso, mimicking the size and shape of a pumpkin.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly and accurately depicts the round, voluminous shape of a pumpkin."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement simulates the physical experience of holding or outlining a large, round object."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though it remains within a moderate range of motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using hands to indicate the size and shape of an object is a universal and highly familiar gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could theoretically represent any large, round object (e.g., a ball, a melon), but in the context of the target word, it is unambiguous."
+    ],
+    "confidence": "high"
+  }
+}

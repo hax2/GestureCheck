@@ -1,0 +1,40 @@
+{
+  "target_word": "Earring",
+  "video_file": "02_earring.mov.AVI",
+  "brief_gesture_description": "The actor raises her left hand to touch her left earlobe briefly before lowering her arm back to her side.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly points to and touches the earlobe, which is the exact location where an earring is worn, making the meaning highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The action simulates the physical experience of touching, feeling, or adjusting an earring on one's own ear."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is a simple, functional touch with minimal dynamic emphasis or emotional expressiveness."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, conveying no affective meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is a single, straightforward movement that is perfectly simple and highly informative for learning the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Touching the earlobe to indicate an earring is a very common and widely understood gesture across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a basic self-touch to the ear, which is extremely natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

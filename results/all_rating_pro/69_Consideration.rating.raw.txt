@@ -1,0 +1,42 @@
+{
+  "target_word": "Consideration",
+  "video_file": "69_Consideration.avi",
+  "brief_gesture_description": "The actor raises both hands to shoulder height with palms facing inward, tilts her head slightly, and looks off to the side as if weighing options or thinking deeply.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture visually represents the abstract concept of weighing different options or thoughts, which aligns clearly with the meaning of consideration."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical sensation of holding and balancing two different ideas or objects in one's hands."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is brief, constrained, and relatively slow, without expansive or highly prominent dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The facial expression is thoughtful and focused, conveying cognitive engagement and deliberation rather than strong emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and optimally balances informativeness with ease of understanding."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of holding hands up to weigh options or frame a thought is a familiar metaphor in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple, natural, and requires no special coordination, making it effortless to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'comparison', 'hesitation', or 'framing'."
+    ],
+    "confidence": "high"
+  }
+}

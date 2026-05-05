@@ -1,0 +1,42 @@
+{
+  "target_word": "Clothes",
+  "video_file": "25_Clothes.avi",
+  "brief_gesture_description": "The actor stands and performs a sweeping motion with both hands, starting from the shoulders and moving down the torso and hips, mimicking the act of smoothing or wearing clothes.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The downward sweeping motion along the body clearly mimics the act of adjusting or wearing clothing."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical sensation and action of smoothing down one's own clothes."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of clothes."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of smoothing one's clothes is a universal, easily recognizable human behavior."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural and requires no special motor skills to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'getting ready' or 'dressing up' rather than the noun 'clothes' specifically."
+    ],
+    "confidence": "high"
+  }
+}

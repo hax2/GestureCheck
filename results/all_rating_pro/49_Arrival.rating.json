@@ -1,0 +1,42 @@
+{
+  "target_word": "Arrival",
+  "video_file": "49_Arrival.avi",
+  "brief_gesture_description": "The actor takes a single step forward and brings her feet together, coming to a complete stop.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The action of stepping forward and stopping provides a moderate visual representation of reaching a destination or arriving."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture involves whole-body movement, simulating the physical act of walking to a point and stopping."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is limited to a single, relatively slow step forward, making it visually subtle."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is very simple and easy to process, though it might lack distinctiveness."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While the action is understandable, taking a step forward is not a conventional or widely used emblematic gesture specifically for 'arrival'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Taking a single step forward is an extremely natural and effortless action for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is very subtle and could be interpreted simply as 'stepping' or 'stopping' rather than the specific concept of 'arrival'."
+    ],
+    "confidence": "high"
+  }
+}

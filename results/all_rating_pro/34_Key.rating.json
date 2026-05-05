@@ -1,0 +1,40 @@
+{
+  "target_word": "Key",
+  "video_file": "34_Key.avi",
+  "brief_gesture_description": "The actor extends her right arm and makes a twisting motion with her hand, simulating the action of turning a key in a lock.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent and direct visual representation of the primary action associated with the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture vividly simulates the physical experience of grasping a small object and applying rotational force."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, but localized primarily to the wrist and hand, making it moderate in overall size and dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the essence of the word without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pantomiming turning a key is a highly familiar and universally recognized gesture in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The motion is very natural, requires no special coordination, and is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

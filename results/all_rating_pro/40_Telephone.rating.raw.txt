@@ -1,0 +1,40 @@
+{
+  "target_word": "Telephone",
+  "video_file": "40_Telephone.avi",
+  "brief_gesture_description": "The actor raises her right hand to her ear with the thumb pointing towards the ear and the pinky towards the mouth, mimicking holding a telephone receiver.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent and universally recognized visual representation of holding a telephone."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the physical action and bodily experience of holding a phone to one's ear to listen and speak."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively subtle and constrained, involving a simple raising of the hand to the head without expansive dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple, direct, and perfectly balances informativeness with ease of understanding."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This specific hand shape and movement is a highly familiar and widely used emblem for a telephone in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural, requires minimal effort, and is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

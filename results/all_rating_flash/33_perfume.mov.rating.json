@@ -1,0 +1,40 @@
+{
+  "target_word": "Perfume",
+  "video_file": "33_perfume.mov.AVI",
+  "brief_gesture_description": "The actor brings her hand up to her neck/collarbone area and makes a slight spraying or dabbing motion, accompanied by a subtle sniff.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly mimics the common action of applying perfume to the neck or pulse points."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It directly simulates the physical experience of applying a fragrance, engaging the learner's motor memory of the action."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and contained within the personal space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor includes a subtle sniff, which adds a sensory/emotional dimension to the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly aligned with the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Applying perfume to the neck is a universally recognized action in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

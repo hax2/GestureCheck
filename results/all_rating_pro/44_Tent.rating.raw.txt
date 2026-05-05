@@ -1,0 +1,40 @@
+{
+  "target_word": "Tent",
+  "video_file": "44_Tent.avi",
+  "brief_gesture_description": "The actor brings her hands up and touches her fingertips together to form an inverted V or triangle shape, resembling the roof of a tent.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The inverted V shape formed by the hands is a highly transparent visual representation of a traditional A-frame tent."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture primarily traces the static shape of the object rather than evoking a strong bodily action or physical interaction like pitching a tent."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed, bringing the hands from the sides to the center of the body."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of understanding."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using the hands to form a triangle or roof shape is a widely recognized and common way to represent a tent or shelter in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Bringing the fingertips together to form a triangle is a very natural, simple, and effortless movement for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

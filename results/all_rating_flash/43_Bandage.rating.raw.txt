@@ -1,0 +1,40 @@
+{
+  "target_word": "Bandage",
+  "video_file": "43_Bandage.avi",
+  "brief_gesture_description": "The actor bends down and makes a wrapping motion around her knee with both hands, simulating the application of a bandage.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The wrapping motion around the knee is a highly transparent and iconic representation of applying a bandage to an injury."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the physical action of wrapping a bandage, engaging strong sensorimotor imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively small and contained within the lower body area."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The act of wrapping a bandage is a universally understood action in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

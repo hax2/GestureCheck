@@ -1,0 +1,40 @@
+{
+  "target_word": "Letter Box",
+  "video_file": "07_LetterBox.avi",
+  "brief_gesture_description": "The actor raises one hand as if holding open a flap, and uses the other hand to mimic sliding a letter into the opening.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture highly transparently represents the action of opening a letterbox and inserting mail."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Strongly evokes the physical sensation of holding a flap open and sliding an object into a slot."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is functional and deliberate, lacking strong emotional expressiveness."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The two-handed, asymmetrical movement is slightly complex but perfectly captures the meaning without being overwhelming."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of mailing a letter through a slot is a widely recognized concept across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is straightforward and easy for learners to physically reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

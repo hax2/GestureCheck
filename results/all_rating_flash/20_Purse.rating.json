@@ -1,0 +1,40 @@
+{
+  "target_word": "Purse",
+  "video_file": "20_Purse.avi",
+  "brief_gesture_description": "The actor performs a motion as if placing a strap over their shoulder and then adjusting a bag at their side.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly mimics the physical action of putting on a shoulder bag or purse, making the meaning highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement directly simulates the tactile and motor experience of interacting with a personal accessory."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively contained and not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of putting on a shoulder bag is a universally recognized, everyday gesture in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

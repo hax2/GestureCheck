@@ -1,0 +1,42 @@
+{
+  "target_word": "Exercise",
+  "video_file": "80_Exercise.avi",
+  "brief_gesture_description": "The actor performs a single squat, keeping her arms extended forward at shoulder height throughout the movement.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Squatting is a very common and recognizable form of physical exercise, making the gesture highly iconic for the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture involves a full-body movement that directly simulates the physical experience of performing a common exercise."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is performed at a moderate, controlled speed rather than being overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the movement."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, easy to understand, and perfectly fits the concept of 'exercise'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Squatting is a universally recognized physical movement associated with fitness and exercise in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is a basic, natural physical action that is very easy for almost anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'squat' specifically, rather than the broader category of 'exercise', though it remains a strong representative example."
+    ],
+    "confidence": "high"
+  }
+}

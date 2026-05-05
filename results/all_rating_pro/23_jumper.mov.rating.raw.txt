@@ -1,0 +1,40 @@
+{
+  "target_word": "Jumper",
+  "video_file": "23_jumper.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands above her head and then pulls them down over her torso, mimicking the action of putting on a jumper.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture provides a highly transparent visual representation of the object by pantomiming the specific action of putting it on."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement vividly simulates the physical experience and bodily action of pulling a garment over the head and down the body."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture involves a clear, expansive movement of both arms reaching above the head and then down, making it visually prominent."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, conveying no emotional meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is straightforward, intuitive, and optimally balances simplicity with clear informativeness for learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The pantomime of putting on a sweater is a highly familiar and universally recognized action in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a natural, everyday movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

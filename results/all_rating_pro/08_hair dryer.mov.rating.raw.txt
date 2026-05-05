@@ -1,0 +1,40 @@
+{
+  "target_word": "Hair Dryer",
+  "video_file": "08_hair dryer.mov.AVI",
+  "brief_gesture_description": "The actor raises her right hand, holding an imaginary object, and moves it around her head as if drying her hair.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture highly transparently represents the action of holding and using a hair dryer."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Strongly evokes the physical action of gripping a hair dryer and moving it around the head."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is functional and descriptive rather than emotionally expressive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the core meaning without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pantomiming the use of a hair dryer is a universally understood action in modern cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural, effortless, and easy for anyone to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

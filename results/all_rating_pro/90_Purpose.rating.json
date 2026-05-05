@@ -1,0 +1,42 @@
+{
+  "target_word": "Purpose",
+  "video_file": "90_Purpose.avi",
+  "brief_gesture_description": "The actor extends her right arm to the side with the palm facing forward, then uses her left index finger to point directly at the center of her right palm, as if indicating a target.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Pointing to a specific spot on the palm serves as a clear visual metaphor for aiming at a target or having a specific goal, aligning well with the abstract concept of 'purpose'."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical action of aiming, directing focus, or establishing a physical target."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves both arms and is deliberate, but remains relatively contained and moderate in speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The two-part gesture (setting the target, then pointing to it) is simple, logical, and easy to process without being overwhelming."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using a pointing gesture to indicate a target, goal, or main point is a familiar metaphorical action in Western communication."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movements are straightforward, require no special physical coordination, and are very easy for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'target', 'goal', or 'point'."
+    ],
+    "confidence": "high"
+  }
+}

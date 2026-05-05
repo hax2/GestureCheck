@@ -1,0 +1,40 @@
+{
+  "target_word": "Shampoo",
+  "video_file": "22_shampoo.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands to her head and makes a rubbing or massaging motion on her hair, simulating washing it.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly mimics the action of washing hair, which is the primary use of shampoo, making it highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Strongly evokes the tactile and motor experience of massaging shampoo into the scalp with both hands."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves raising both arms and moving hands around the head, presenting moderate movement dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral throughout the gesture, conveying no emotional meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly captures the concept without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming washing hair is a universally recognized and highly familiar action for representing shampoo or showering."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no special physical skill, and is effortless for learners to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

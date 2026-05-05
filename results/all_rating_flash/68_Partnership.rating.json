@@ -1,0 +1,42 @@
+{
+  "target_word": "Partnership",
+  "video_file": "68_Partnership.avi",
+  "brief_gesture_description": "The actor brings both hands together in front of the chest, palms facing each other, and then moves them slightly apart and back together, suggesting a connection or joining.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of bringing hands together clearly symbolizes the concept of joining, unity, or a partnership."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It evokes the physical sensation of joining two things together, which is a common metaphor for partnership."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and easy to associate with the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The concept of joining hands to represent partnership or agreement is widely understood in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and can be easily replicated by any learner."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'agreement', 'connection', or 'joining' in general, though it fits 'partnership' well."
+    ],
+    "confidence": "high"
+  }
+}

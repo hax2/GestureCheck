@@ -1,0 +1,40 @@
+{
+  "target_word": "View",
+  "video_file": "52_View.avi",
+  "brief_gesture_description": "The actor raises her hand to her forehead as if shading her eyes and turns her head from side to side, simulating looking at a wide scene.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of shading the eyes and scanning the horizon is a highly transparent visual representation of taking in a view."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The action strongly evokes the physical experience of shielding one's eyes from glare to improve vision and moving the head to see a wide area."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is clear and pronounced, involving both the arm and the head turning, making it visually salient without being overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral, showing a slight focus associated with looking, but lacking strong emotional content."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly balances ease of understanding with the semantic meaning of the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Shading the eyes to look into the distance is a highly familiar and universally understood gesture in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Raising a hand to the forehead and turning the head is a very natural and effortless movement for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Hair Dryer",
+  "video_file": "08_hair dryer.mov.AVI",
+  "brief_gesture_description": "The actor performs a single, sweeping motion with her right hand over the top of her head, mimicking the action of drying hair.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the physical action of using a hair dryer on one's own hair, making the semantic link quite transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement directly simulates the motor action of holding and moving a hair dryer, engaging the learner's sensorimotor system."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively brief and contained to a single sweep."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of drying one's hair is a universal daily activity, making the gesture highly recognizable in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as brushing hair, though the context of the prompt clarifies it as a hair dryer."
+    ],
+    "confidence": "high"
+  }
+}

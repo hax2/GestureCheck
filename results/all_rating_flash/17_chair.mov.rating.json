@@ -1,0 +1,42 @@
+{
+  "target_word": "Chair",
+  "video_file": "17_chair.mov.AVI",
+  "brief_gesture_description": "The actor stands, then briefly lifts one leg and places a hand on her hip, mimicking a pose rather than the act of sitting or the shape of a chair.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture does not resemble a chair or the act of sitting in any recognizable way."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement is abstract and does not evoke the physical experience of sitting or the structure of a chair."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is brief and somewhat slow, lacking the dynamism needed to be highly salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is confusing because it does not relate to the target word, making it cognitively unhelpful."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This specific movement sequence is not a culturally recognized gesture for 'chair'."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The physical movement is simple enough to replicate, even if it is meaningless in context."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture is completely unrelated to the word 'chair'. It looks more like a random pose or a dance movement."
+    ],
+    "confidence": "high"
+  }
+}

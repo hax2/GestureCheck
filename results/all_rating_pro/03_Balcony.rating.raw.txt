@@ -1,0 +1,42 @@
+{
+  "target_word": "Balcony",
+  "video_file": "03_Balcony.avi",
+  "brief_gesture_description": "The actor brings her arms forward and rests her forearms horizontally in front of her while leaning slightly forward, simulating leaning on a balcony railing.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly represents the action of leaning on a railing, which is strongly associated with a balcony, depicting the interaction with the object rather than the architectural structure itself."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture vividly simulates the physical action and bodily posture of resting one's arms on a balcony railing."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is calm, smooth, and deliberate, lacking strong emotional dynamics or intensity."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of understanding for a learner."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of leaning on a railing is a common and widely recognized behavior across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a simple arm movement and a slight body lean that is effortless for anyone to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the target word, the gesture could potentially be interpreted as leaning on a fence, a counter, or looking out a window."
+    ],
+    "confidence": "high"
+  }
+}

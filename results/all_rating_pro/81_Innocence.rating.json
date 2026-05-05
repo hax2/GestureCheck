@@ -1,0 +1,40 @@
+{
+  "target_word": "Innocence",
+  "video_file": "81_Innocence.avi",
+  "brief_gesture_description": "The actor brings both hands up to cross them over her chest/heart while looking slightly upwards with a soft, open facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Placing hands over the heart is a strong metaphorical representation of purity, sincerity, and a clear conscience, closely aligning with the concept of innocence."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture involves a self-directed touch to the chest, simulating the physical expression of an internal, heartfelt state rather than a complex external action."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is gentle, relatively slow, and constrained to the torso, lacking expansive or highly prominent dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor's soft facial expression and upward gaze effectively communicate a sense of purity, vulnerability, and lack of guilt."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple and direct, providing a clear semantic link without any cognitive overload, making it optimal for learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Crossing hands over the heart to indicate sincerity, truthfulness, or innocence is a highly familiar and widely understood emblem in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is physically undemanding and very natural, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

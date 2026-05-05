@@ -1,0 +1,42 @@
+{
+  "target_word": "Catalog",
+  "video_file": "24_Catalog.avi",
+  "brief_gesture_description": "The actor holds her left hand flat, palm up, as if holding a book or catalog, and uses her right hand to simulate flipping through pages.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly resembles the action of holding and flipping through a multi-page document, which strongly aligns with the concept of a catalog."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the physical sensation and motor action of holding a bound document and turning its pages."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct but relatively small, contained within the torso area, and performed at a moderate speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is straightforward, intuitive, and perfectly balances simplicity with the semantic meaning of the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of flipping pages is a highly familiar and universally understood gesture in Western cultures for reading or browsing a publication."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The motor action involves basic hand movements that are very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is not exclusive to 'catalog' and could also be interpreted as 'book', 'magazine', or 'reading', though it fits the target word well."
+    ],
+    "confidence": "high"
+  }
+}

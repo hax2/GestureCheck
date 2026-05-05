@@ -1,0 +1,940 @@
+[
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "01_TrafficLight.avi",
+    "target_word": "Traffic Light",
+    "local_path": "data/gesture_videos/01_TrafficLight.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "02_Trailer.avi",
+    "target_word": "Trailer",
+    "local_path": "data/gesture_videos/02_Trailer.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "03_Balcony.avi",
+    "target_word": "Balcony",
+    "local_path": "data/gesture_videos/03_Balcony.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "04_Ball.avi",
+    "target_word": "Ball",
+    "local_path": "data/gesture_videos/04_Ball.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "05_Bett.mov.avi",
+    "target_word": "Bett",
+    "local_path": "data/gesture_videos/05_Bett.mov.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "06_Monitor.avi",
+    "target_word": "Monitor",
+    "local_path": "data/gesture_videos/06_Monitor.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "07_LetterBox.avi",
+    "target_word": "Letter Box",
+    "local_path": "data/gesture_videos/07_LetterBox.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "08_Ceiling.avi",
+    "target_word": "Ceiling",
+    "local_path": "data/gesture_videos/08_Ceiling.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "09_Monument.avi",
+    "target_word": "Monument",
+    "local_path": "data/gesture_videos/09_Monument.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "10_EntranceTicket.avi",
+    "target_word": "Entrance Ticket",
+    "local_path": "data/gesture_videos/10_EntranceTicket.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "11_Thread.avi",
+    "target_word": "Thread",
+    "local_path": "data/gesture_videos/11_Thread.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "12_Bicycle.avi",
+    "target_word": "Bicycle",
+    "local_path": "data/gesture_videos/12_Bicycle.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "13_Window.avi",
+    "target_word": "Window",
+    "local_path": "data/gesture_videos/13_Window.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "14_RemoteControl.avi",
+    "target_word": "Remote Control",
+    "local_path": "data/gesture_videos/14_RemoteControl.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "15_Bottle.avi",
+    "target_word": "Bottle",
+    "local_path": "data/gesture_videos/15_Bottle.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "16_Airplane.avi",
+    "target_word": "Airplane",
+    "local_path": "data/gesture_videos/16_Airplane.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "17_Painting.avi",
+    "target_word": "Painting",
+    "local_path": "data/gesture_videos/17_Painting.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "18_Present.avi",
+    "target_word": "Present",
+    "local_path": "data/gesture_videos/18_Present.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "19_Guitar.avi",
+    "target_word": "Guitar",
+    "local_path": "data/gesture_videos/19_Guitar.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "20_Purse.avi",
+    "target_word": "Purse",
+    "local_path": "data/gesture_videos/20_Purse.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "21_Cable.avi",
+    "target_word": "Cable",
+    "local_path": "data/gesture_videos/21_Cable.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "22_Camera.avi",
+    "target_word": "Camera",
+    "local_path": "data/gesture_videos/22_Camera.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "23_Till.avi",
+    "target_word": "Till",
+    "local_path": "data/gesture_videos/23_Till.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "24_Catalog.avi",
+    "target_word": "Catalog",
+    "local_path": "data/gesture_videos/24_Catalog.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "25_Clothes.avi",
+    "target_word": "Clothes",
+    "local_path": "data/gesture_videos/25_Clothes.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "26_Suitcase.avi",
+    "target_word": "Suitcase",
+    "local_path": "data/gesture_videos/26_Suitcase.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "27_Machine.avi",
+    "target_word": "Machine",
+    "local_path": "data/gesture_videos/27_Machine.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "28_Mask.avi",
+    "target_word": "Mask",
+    "local_path": "data/gesture_videos/28_Mask.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "29_Paper.avi",
+    "target_word": "Paper",
+    "local_path": "data/gesture_videos/29_Paper.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "30_Tire.avi",
+    "target_word": "Tire",
+    "local_path": "data/gesture_videos/30_Tire.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "31_Ring.avi",
+    "target_word": "Ring",
+    "local_path": "data/gesture_videos/31_Ring.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "32_Backpack.avi",
+    "target_word": "Backpack",
+    "local_path": "data/gesture_videos/32_Backpack.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "33_Collection.avi",
+    "target_word": "Collection",
+    "local_path": "data/gesture_videos/33_Collection.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "34_Key.avi",
+    "target_word": "Key",
+    "local_path": "data/gesture_videos/34_Key.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "35_Drawer.avi",
+    "target_word": "Drawer",
+    "local_path": "data/gesture_videos/35_Drawer.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "36_Sunglasses.avi",
+    "target_word": "Sunglasses",
+    "local_path": "data/gesture_videos/36_Sunglasses.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "37_Mirror.avi",
+    "target_word": "Mirror",
+    "local_path": "data/gesture_videos/37_Mirror.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "38_Tram.avi",
+    "target_word": "Tram",
+    "local_path": "data/gesture_videos/38_Tram.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "39_DailyNewspaper.avi",
+    "target_word": "Daily Newspaper",
+    "local_path": "data/gesture_videos/39_DailyNewspaper.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "40_Telephone.avi",
+    "target_word": "Telephone",
+    "local_path": "data/gesture_videos/40_Telephone.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "41_Plate.avi",
+    "target_word": "Plate",
+    "local_path": "data/gesture_videos/41_Plate.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "42_Carpet.avi",
+    "target_word": "Carpet",
+    "local_path": "data/gesture_videos/42_Carpet.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "43_Bandage.avi",
+    "target_word": "Bandage",
+    "local_path": "data/gesture_videos/43_Bandage.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "44_Tent.avi",
+    "target_word": "Tent",
+    "local_path": "data/gesture_videos/44_Tent.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "45_Cigarette.avi",
+    "target_word": "Cigarette",
+    "local_path": "data/gesture_videos/45_Cigarette.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "46_Cancellation.avi",
+    "target_word": "Cancellation",
+    "local_path": "data/gesture_videos/46_Cancellation.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "47_Alternative.avi",
+    "target_word": "Alternative",
+    "local_path": "data/gesture_videos/47_Alternative.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "48_Requirement.avi",
+    "target_word": "Requirement",
+    "local_path": "data/gesture_videos/48_Requirement.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "49_Arrival.avi",
+    "target_word": "Arrival",
+    "local_path": "data/gesture_videos/49_Arrival.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "50_Attention.avi",
+    "target_word": "Attention",
+    "local_path": "data/gesture_videos/50_Attention.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "51_Effort.avi",
+    "target_word": "Effort",
+    "local_path": "data/gesture_videos/51_Effort.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "52_View.avi",
+    "target_word": "View",
+    "local_path": "data/gesture_videos/52_View.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "53_Command.avi",
+    "target_word": "Command",
+    "local_path": "data/gesture_videos/53_Command.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "54_Property.avi",
+    "target_word": "Property",
+    "local_path": "data/gesture_videos/54_Property.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "55_Destination.avi",
+    "target_word": "Destination",
+    "local_path": "data/gesture_videos/55_Destination.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "56_Plea.avi",
+    "target_word": "Plea",
+    "local_path": "data/gesture_videos/56_Plea.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "57_Discipline.avi",
+    "target_word": "Discipline",
+    "local_path": "data/gesture_videos/57_Discipline.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "58_Recommendation.avi",
+    "target_word": "Recommendation",
+    "local_path": "data/gesture_videos/58_Recommendation.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "59_Thought.avi",
+    "target_word": "Thought",
+    "local_path": "data/gesture_videos/59_Thought.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "60_Patience.avi",
+    "target_word": "Patience",
+    "local_path": "data/gesture_videos/60_Patience.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "61_Indifference.avi",
+    "target_word": "Indifference",
+    "local_path": "data/gesture_videos/61_Indifference.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "62_Information.avi",
+    "target_word": "Information",
+    "local_path": "data/gesture_videos/62_Information.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "63_Correction.avi",
+    "target_word": "Correction",
+    "local_path": "data/gesture_videos/63_Correction.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "64_Boredom.avi",
+    "target_word": "Boredom",
+    "local_path": "data/gesture_videos/64_Boredom.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "65_Mentality.avi",
+    "target_word": "Mentality",
+    "local_path": "data/gesture_videos/65_Mentality.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "66_Method.avi",
+    "target_word": "Method",
+    "local_path": "data/gesture_videos/66_Method.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "67_Bravery.avi",
+    "target_word": "Bravery",
+    "local_path": "data/gesture_videos/67_Bravery.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "68_Partnership.avi",
+    "target_word": "Partnership",
+    "local_path": "data/gesture_videos/68_Partnership.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "69_Consideration.avi",
+    "target_word": "Consideration",
+    "local_path": "data/gesture_videos/69_Consideration.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "70_Sensation.avi",
+    "target_word": "Sensation",
+    "local_path": "data/gesture_videos/70_Sensation.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "71_Style.avi",
+    "target_word": "Style",
+    "local_path": "data/gesture_videos/71_Style.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "72_Talent.avi",
+    "target_word": "Talent",
+    "local_path": "data/gesture_videos/72_Talent.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "73_Fact.avi",
+    "target_word": "Fact",
+    "local_path": "data/gesture_videos/73_Fact.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "74_Participation.avi",
+    "target_word": "Participation",
+    "local_path": "data/gesture_videos/74_Participation.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "75_Tendency.avi",
+    "target_word": "Tendency",
+    "local_path": "data/gesture_videos/75_Tendency.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "76_Theory.avi",
+    "target_word": "Theory",
+    "local_path": "data/gesture_videos/76_Theory.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "77_Therapy.avi",
+    "target_word": "Therapy",
+    "local_path": "data/gesture_videos/77_Therapy.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "78_Tradition.avi",
+    "target_word": "Tradition",
+    "local_path": "data/gesture_videos/78_Tradition.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "79_Triumph.avi",
+    "target_word": "Triumph",
+    "local_path": "data/gesture_videos/79_Triumph.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "80_Exercise.avi",
+    "target_word": "Exercise",
+    "local_path": "data/gesture_videos/80_Exercise.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "81_Innocence.avi",
+    "target_word": "Innocence",
+    "local_path": "data/gesture_videos/81_Innocence.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "82_Change.avi",
+    "target_word": "Change",
+    "local_path": "data/gesture_videos/82_Change.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "83_Sympathy.avi",
+    "target_word": "Sympathy",
+    "local_path": "data/gesture_videos/83_Sympathy.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "84_Procedure.avi",
+    "target_word": "Procedure",
+    "local_path": "data/gesture_videos/84_Procedure.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "85_Excuse.avi",
+    "target_word": "Excuse",
+    "local_path": "data/gesture_videos/85_Excuse.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "86_Warning.avi",
+    "target_word": "Warning",
+    "local_path": "data/gesture_videos/86_Warning.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "87_Wealth.avi",
+    "target_word": "Wealth",
+    "local_path": "data/gesture_videos/87_Wealth.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "88_Benefaction.avi",
+    "target_word": "Benefaction",
+    "local_path": "data/gesture_videos/88_Benefaction.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "89_Admission.avi",
+    "target_word": "Admission",
+    "local_path": "data/gesture_videos/89_Admission.avi"
+  },
+  {
+    "collection": "gesture",
+    "source": "local_gesture_videos",
+    "title": "90_Purpose.avi",
+    "target_word": "Purpose",
+    "local_path": "data/gesture_videos/90_Purpose.avi"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "01_zip.mov.AVI",
+    "target_word": "Zip",
+    "local_path": "data/videos/01_zip.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "02_earring.mov.AVI",
+    "target_word": "Earring",
+    "local_path": "data/videos/02_earring.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "03_peppermill.mov.AVI",
+    "target_word": "Peppermill",
+    "local_path": "data/videos/03_peppermill.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "04_cup.mov.AVI",
+    "target_word": "Cup",
+    "local_path": "data/videos/04_cup.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "05_broom.mov.AVI",
+    "target_word": "Broom",
+    "local_path": "data/videos/05_broom.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "06_parseley.mov.AVI",
+    "target_word": "Parsley",
+    "local_path": "data/videos/06_parseley.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "07_stairs.mov.AVI",
+    "target_word": "Stairs",
+    "local_path": "data/videos/07_stairs.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "08_hair dryer.mov.AVI",
+    "target_word": "Hair Dryer",
+    "local_path": "data/videos/08_hair dryer.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "09_gießkanne.mov.AVI",
+    "target_word": "Watering Can",
+    "local_path": "data/videos/09_gießkanne.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "10_tissue.mov.AVI",
+    "target_word": "Tissue",
+    "local_path": "data/videos/10_tissue.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "11_soap.mov.AVI",
+    "target_word": "Soap",
+    "local_path": "data/videos/11_soap.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "12_shelf.mov.AVI",
+    "target_word": "Shelf",
+    "local_path": "data/videos/12_shelf.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "13_violine.mov.AVI",
+    "target_word": "Violin",
+    "local_path": "data/videos/13_violine.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "14_stamp.mov.AVI",
+    "target_word": "Stamp",
+    "local_path": "data/videos/14_stamp.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "15_thread.mov.AVI",
+    "target_word": "Thread",
+    "local_path": "data/videos/15_thread.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "16_temple.mov.AVI",
+    "target_word": "Temple",
+    "local_path": "data/videos/16_temple.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "17_chair.mov.AVI",
+    "target_word": "Chair",
+    "local_path": "data/videos/17_chair.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "18_coffee.mov.AVI",
+    "target_word": "Coffee",
+    "local_path": "data/videos/18_coffee.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "19_bridge.mov.AVI",
+    "target_word": "Bridge",
+    "local_path": "data/videos/19_bridge.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "20_earth.mov.AVI",
+    "target_word": "Earth",
+    "local_path": "data/videos/20_earth.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "21_flower.mov.AVI",
+    "target_word": "Flower",
+    "local_path": "data/videos/21_flower.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "22_shampoo.mov.AVI",
+    "target_word": "Shampoo",
+    "local_path": "data/videos/22_shampoo.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "23_jumper.mov.AVI",
+    "target_word": "Jumper",
+    "local_path": "data/videos/23_jumper.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "24_dish washing liquid.mov.AVI",
+    "target_word": "Dish Washing Liquid",
+    "local_path": "data/videos/24_dish washing liquid.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "25_pumpkin.mov.AVI",
+    "target_word": "Pumpkin",
+    "local_path": "data/videos/25_pumpkin.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "26_radiergummi.mov.AVI",
+    "target_word": "Eraser",
+    "local_path": "data/videos/26_radiergummi.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "27_stamp for letter.mov.AVI",
+    "target_word": "Stamp For Letter",
+    "local_path": "data/videos/27_stamp for letter.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "28_flute.mov.AVI",
+    "target_word": "Flute",
+    "local_path": "data/videos/28_flute.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "29_metal sheet.mov.AVI",
+    "target_word": "Metal Sheet",
+    "local_path": "data/videos/29_metal sheet.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "30_towel.mov.AVI",
+    "target_word": "Towel",
+    "local_path": "data/videos/30_towel.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "31_crutch.mov.AVI",
+    "target_word": "Crutch",
+    "local_path": "data/videos/31_crutch.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "32_saw.mov.AVI",
+    "target_word": "Saw",
+    "local_path": "data/videos/32_saw.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "33_perfume.mov.AVI",
+    "target_word": "Perfume",
+    "local_path": "data/videos/33_perfume.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "34_tie.mov.AVI",
+    "target_word": "Tie",
+    "local_path": "data/videos/34_tie.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "35_button.mov.AVI",
+    "target_word": "Button",
+    "local_path": "data/videos/35_button.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "36_sponge.mov.AVI",
+    "target_word": "Sponge",
+    "local_path": "data/videos/36_sponge.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "37_piece of paper.mov.AVI",
+    "target_word": "Piece Of Paper",
+    "local_path": "data/videos/37_piece of paper.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "38_knife.mov.AVI",
+    "target_word": "Knife",
+    "local_path": "data/videos/38_knife.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "39_wave.mov.AVI",
+    "target_word": "Wave",
+    "local_path": "data/videos/39_wave.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "40_telephone.mov.AVI",
+    "target_word": "Telephone",
+    "local_path": "data/videos/40_telephone.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "41_mirrow.mov.AVI",
+    "target_word": "Mirror",
+    "local_path": "data/videos/41_mirrow.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "42_remote control.mov.AVI",
+    "target_word": "Remote Control",
+    "local_path": "data/videos/42_remote control.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "43_banana.mov.AVI",
+    "target_word": "Banana",
+    "local_path": "data/videos/43_banana.mov.AVI"
+  },
+  {
+    "collection": "object",
+    "source": "local_object_videos",
+    "title": "44_poster.mov.AVI",
+    "target_word": "Poster",
+    "local_path": "data/videos/44_poster.mov.AVI"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "target_word": "Shampoo",
+  "video_file": "22_shampoo.mov.AVI",
+  "brief_gesture_description": "The actor performs a miming action of washing hair by placing both hands on the top of her head and moving them in a circular, scrubbing motion.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct, transparent pantomime of the physical act of shampooing one's hair."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement perfectly simulates the tactile and motor experience of washing hair."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it remains within a relatively small, localized space around the head."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The act of washing hair is a universal human experience, making the gesture immediately recognizable."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Flower",
+  "video_file": "21_flower.mov.AVI",
+  "brief_gesture_description": "The actor holds her left hand out as if holding a stem, then brings her right hand to her nose and inhales slightly with closed eyes, simulating smelling a flower.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture depicts the action of interacting with a flower (smelling it) rather than its physical shape, but the association is very clear and representative."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Highly vivid simulation of holding a delicate object and the sensory experience of smelling it."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is relatively small and contained, primarily involving bringing the hand to the face at a moderate speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The facial expression, with closed eyes and a slight inhalation, effectively conveys the pleasant sensory experience of smelling a flower."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly balances informativeness with ease of understanding for a learner."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of smelling a flower is a highly familiar and conventional way to represent the concept in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movements are natural, everyday actions that are effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

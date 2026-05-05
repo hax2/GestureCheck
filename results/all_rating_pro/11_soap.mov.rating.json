@@ -1,0 +1,40 @@
+{
+  "target_word": "Soap",
+  "video_file": "11_soap.mov.AVI",
+  "brief_gesture_description": "The actor brings her hands together in front of her torso and rubs her palms together, simulating the action of washing hands with a bar of soap.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture perfectly mimics the action of using a bar of soap to wash hands, making it highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The action provides a strong simulation of the tactile and motor experience of rubbing soap between the hands."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct, but relatively small and contained to the hands and wrists."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly captures the concept without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of rubbing hands together is a universally recognized mime for washing with soap in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, effortless, and very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

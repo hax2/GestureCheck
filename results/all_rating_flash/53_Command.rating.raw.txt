@@ -1,0 +1,42 @@
+{
+  "target_word": "Command",
+  "video_file": "53_Command.avi",
+  "brief_gesture_description": "The actor performs a downward sweeping motion with her right arm, starting from an elevated position and moving down, resembling a gesture of authority or giving an order.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The downward arm movement is a conventional gesture often associated with giving a command or asserting authority."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement simulates the physical act of directing or ordering someone, which provides a moderate level of sensorimotor engagement."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and easy to associate with the concept of a command."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Downward hand gestures are widely recognized in Western cultures as signs of authority or direction."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and requires no special physical skill to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'stop' or 'down', depending on the context."
+    ],
+    "confidence": "high"
+  }
+}

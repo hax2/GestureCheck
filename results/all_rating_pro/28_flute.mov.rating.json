@@ -1,0 +1,40 @@
+{
+  "target_word": "Flute",
+  "video_file": "28_flute.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands to her mouth, positioning them as if holding a transverse flute, and wiggles her fingers while slightly pursing her lips as if blowing.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent and direct visual representation of holding and playing a flute."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture vividly simulates the physical actions of holding the instrument, fingering the keys, and blowing into the mouthpiece."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed, primarily involving hand positioning and finger wiggling rather than expansive arm movements."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral, though the pursed lips serve a functional role in the mime rather than conveying emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the essence of the word without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming the playing of a flute is a highly familiar and universally understood gesture in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural, effortless, and easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

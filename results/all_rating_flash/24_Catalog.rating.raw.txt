@@ -1,0 +1,42 @@
+{
+  "target_word": "Catalog",
+  "video_file": "24_Catalog.avi",
+  "brief_gesture_description": "The actor holds her hands together as if holding a small book or pamphlet, then opens her hands slightly as if opening a catalog to look at it.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the physical act of holding and opening a small booklet or catalog."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "It effectively simulates the tactile experience of handling a physical document."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, subtle, and confined to the immediate area in front of the chest."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and directly maps to the concept of a catalog."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of opening a book or catalog is a universally understood physical interaction."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as reading a book, a menu, or a pamphlet, which are semantically similar to a catalog."
+    ],
+    "confidence": "high"
+  }
+}

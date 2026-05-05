@@ -1,0 +1,42 @@
+{
+  "target_word": "Earth",
+  "video_file": "20_earth.mov.AVI",
+  "brief_gesture_description": "The actor stands still, raises both arms in a wide arc above her head, and then brings them down to her sides in a circular motion, tracing the shape of a sphere.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The circular arm movement clearly traces the spherical shape of the Earth, providing a strong visual representation of the concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the act of outlining a large, round object, which engages the learner's spatial and motor systems."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is expansive, involving the full range of motion of both arms, which makes it visually prominent."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and directly maps to the target word without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using hands to indicate a round shape is a universally understood gesture for representing spherical objects like the Earth."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no special coordination, and is very easy for a learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially represent other spherical objects like a ball or a globe, but in the context of the word 'Earth', it is clear."
+    ],
+    "confidence": "high"
+  }
+}

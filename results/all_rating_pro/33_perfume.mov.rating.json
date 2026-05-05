@@ -1,0 +1,40 @@
+{
+  "target_word": "Perfume",
+  "video_file": "33_perfume.mov.AVI",
+  "brief_gesture_description": "The actor raises her right hand to her neck, makes a small pressing motion with her thumb as if spraying a bottle, and tilts her head back slightly with closed eyes as if smelling the scent.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly and transparently mimics the action of spraying perfume onto the neck."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Strongly evokes the physical action of holding a bottle, pressing a spray nozzle, and the sensory experience of smelling a fragrance."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, localized to the neck area, and relatively subtle without expansive dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor closes her eyes and tilts her head back, providing a moderate cue simulating the pleasant experience of smelling a fragrance."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly captures the core meaning without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of spraying perfume on the neck is a highly familiar and universally recognizable cultural script in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a simple, single-handed motion that is effortless and natural for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

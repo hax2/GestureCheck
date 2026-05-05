@@ -1,0 +1,42 @@
+{
+  "target_word": "Carpet",
+  "video_file": "42_Carpet.avi",
+  "brief_gesture_description": "The actor bends slightly forward and sweeps both arms outwards and downwards, indicating a wide, flat area on the floor.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The sweeping motion near the floor clearly represents a flat, wide object covering the ground, visually resembling a carpet."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the physical act of smoothing out or indicating the spatial extent of a carpet on the floor."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves bending the torso and spreading both arms wide, creating a moderately salient visual cue."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the core physical attribute of the object without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using hands to outline the shape and location of an object on the ground is a common and easily understood communicative strategy."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is simple, requires no special coordination, and is effortless for learners to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted more generally as 'floor' or 'ground'."
+    ],
+    "confidence": "high"
+  }
+}

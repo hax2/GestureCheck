@@ -1,0 +1,40 @@
+{
+  "target_word": "Suitcase",
+  "video_file": "26_Suitcase.avi",
+  "brief_gesture_description": "The actor leans to her right, curls her hand as if gripping a handle, and straightens up, simulating lifting a heavy suitcase.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly depicts the action of holding and lifting a suitcase by its handle."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture strongly evokes the physical sensation of gripping a handle and bearing the weight of a heavy object."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and slow, involving a slight lean and arm lift."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral, with only a very subtle hint of physical effort."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple and perfectly captures the core interaction with the object without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of carrying a suitcase is highly familiar and universally recognized."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is simple, natural, and effortless to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

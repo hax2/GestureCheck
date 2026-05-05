@@ -1,0 +1,42 @@
+{
+  "target_word": "Tendency",
+  "video_file": "75_Tendency.avi",
+  "brief_gesture_description": "The actor performs a sweeping, diagonal upward motion with both hands, moving from the lower left to the upper right, suggesting a trajectory or inclination.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The diagonal upward movement iconically represents a 'trend' or 'inclination' toward a certain direction, which aligns with the abstract meaning of tendency."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement simulates a physical trajectory or path, grounding the abstract concept of a tendency in a spatial, directional action."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, using both arms to create a visible diagonal line, though it is not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, easy to perform, and directly maps to the concept of a directional trend without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Using a diagonal line to represent a trend or tendency is a common convention in graphs and spatial metaphors, making it somewhat recognizable."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and natural, involving a basic diagonal sweep that any learner could easily replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'growth', 'increase', or 'going up' rather than specifically 'tendency'."
+    ],
+    "confidence": "high"
+  }
+}

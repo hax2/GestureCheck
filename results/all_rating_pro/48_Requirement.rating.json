@@ -1,0 +1,42 @@
+{
+  "target_word": "Requirement",
+  "video_file": "48_Requirement.avi",
+  "brief_gesture_description": "The actor raises both arms straight up above her head with palms facing forward, holds the position briefly, and then lowers her arms to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of raising arms high might abstractly represent a standard or level that must be met, but the visual resemblance to the concept of a 'requirement' is weak."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The action involves reaching upwards, which could weakly simulate striving to meet a standard, but it lacks a strong physical interaction directly related to the word's meaning."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is large and expansive, involving both arms extending fully upwards, making it visually prominent and clear."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video, providing no emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is motorically simple and easy to process, though its cognitive connection to the meaning requires some abstract interpretation."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While raising hands is a common physical action, it is not a conventional or highly familiar gesture specifically used to convey the concept of a 'requirement' in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement of raising both arms is very simple, natural, and effortless for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture of raising both hands could easily be interpreted as surrender, reaching for something, or indicating height, rather than specifically denoting a requirement."
+    ],
+    "confidence": "high"
+  }
+}

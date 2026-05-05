@@ -1,0 +1,42 @@
+{
+  "target_word": "Attention",
+  "video_file": "50_Attention.avi",
+  "brief_gesture_description": "The actor performs a gesture by placing her hand behind her ear, leaning her head slightly toward it, as if listening intently to something.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of cupping the hand behind the ear is a conventional, iconic representation of listening or paying close attention to a sound."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "It directly simulates the physical act of trying to hear or focus on auditory input, which is a core component of paying attention."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively contained and not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor's facial expression is focused and alert, which effectively reinforces the meaning of the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for conveying the concept of attention."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a universally recognized gesture for listening or paying attention in Western and many other cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to perform, making it easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture specifically relates to 'listening' or 'auditory attention' rather than a general abstract concept of attention."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Watering Can",
+  "video_file": "09_gießkanne.mov.AVI",
+  "brief_gesture_description": "The actor performs a simple, repetitive arm movement, tilting the hand downward as if pouring water from a container.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand movement clearly mimics the action of tilting a watering can to pour water, which is a strong iconic representation of the object's primary function."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture effectively simulates the physical action of holding and tilting a watering can, engaging the learner's motor imagery related to the object's use."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small in scale and limited to the forearm and hand."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of pouring from a container is a universal, highly familiar physical interaction."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as pouring from a pitcher or a bottle, as the specific shape of the 'watering can' is not explicitly defined by the hand posture."
+    ],
+    "confidence": "high"
+  }
+}

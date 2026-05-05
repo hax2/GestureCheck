@@ -1,0 +1,40 @@
+{
+  "target_word": "Drawer",
+  "video_file": "35_Drawer.avi",
+  "brief_gesture_description": "The actor performs a single, quick pulling motion with one hand, simulating the act of opening a drawer.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct, transparent pantomime of the physical action of pulling open a drawer."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It perfectly simulates the motor action of gripping and pulling a handle, engaging the learner's sensorimotor system."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and quick, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matches the target word without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of opening a drawer is a universal, everyday physical experience."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

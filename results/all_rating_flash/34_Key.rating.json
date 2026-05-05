@@ -1,0 +1,42 @@
+{
+  "target_word": "Key",
+  "video_file": "34_Key.avi",
+  "brief_gesture_description": "The actor stands still, then performs a quick, small twisting motion with her hand as if turning a key in a lock.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The twisting motion is a highly transparent and conventional representation of the action of using a key."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the specific fine motor action required to operate a physical key."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is very small, localized to the wrist/hand, and lacks expansive or commanding dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for a quick vocabulary demonstration."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of turning a key is a universally recognized motor schema in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and natural for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is very brief and small, which might be missed if the viewer is not paying close attention."
+    ],
+    "confidence": "high"
+  }
+}

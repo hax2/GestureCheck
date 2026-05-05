@@ -1,0 +1,40 @@
+{
+  "target_word": "Mask",
+  "video_file": "28_Mask.avi",
+  "brief_gesture_description": "The actor brings both hands up to cover her face, holding them there briefly before lowering them back to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of covering the face with the hands is a highly transparent visual representation of a mask's function and location."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The action strongly evokes the physical experience of placing a mask over one's face."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement involves both arms moving from the sides to the face and back, creating a clear and pronounced visual signal."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression, and the face is obscured during the main part of the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the concept without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Covering the face with hands to represent a mask or hiding is a widely recognized and familiar gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and requires no special coordination, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

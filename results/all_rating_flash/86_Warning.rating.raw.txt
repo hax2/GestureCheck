@@ -1,0 +1,42 @@
+{
+  "target_word": "Warning",
+  "video_file": "86_Warning.avi",
+  "brief_gesture_description": "The actor raises her right arm straight up and then brings it down in a sharp, vertical motion, mimicking a warning signal or a 'stop' gesture.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The vertical motion is somewhat reminiscent of a warning signal or a 'stop' gesture, though it is slightly abstract."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The sharp, downward movement evokes the physical action of signaling or alerting someone."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not particularly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and easy to understand in the context of the target word."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture is a common way to signal attention or a warning in many Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and can be easily replicated by any learner."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'stop' or 'attention' rather than specifically 'warning'."
+    ],
+    "confidence": "high"
+  }
+}

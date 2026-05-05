@@ -1,0 +1,40 @@
+{
+  "target_word": "Sunglasses",
+  "video_file": "36_Sunglasses.avi",
+  "brief_gesture_description": "The actor brings both hands up to her face, forming circles with her fingers around her eyes to mimic the shape and placement of sunglasses.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct, iconic representation of wearing sunglasses, clearly mimicking the shape and position of the frames on the face."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "It simulates the physical act of placing or wearing sunglasses, engaging the learner's bodily schema related to the object."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively contained and simple in its execution."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a universally recognized iconic gesture for sunglasses in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

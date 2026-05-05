@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GestureCheck Rating Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+  </head>
+  <body>
+    <main class="dashboard">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">GestureCheck</p>
+          <h1>Model Rating Dashboard</h1>
+        </div>
+        <a class="workbook-link" href="rating-results.xlsx">XLSX</a>
+      </header>
+
+      <section class="controls" aria-label="Dashboard filters">
+        <label>
+          Search
+          <input id="searchInput" type="search" placeholder="Word or file">
+        </label>
+        <label>
+          Collection
+          <select id="collectionFilter">
+            <option value="all">All</option>
+          </select>
+        </label>
+        <label>
+          Rating
+          <select id="ratingFilter"></select>
+        </label>
+        <label>
+          Sort
+          <select id="sortSelect">
+            <option value="max_abs_delta">Largest disagreement</option>
+            <option value="mean_abs_delta">Mean disagreement</option>
+            <option value="target_word">Word</option>
+          </select>
+        </label>
+        <label class="toggle-row">
+          <input id="completeOnly" type="checkbox" checked>
+          Complete only
+        </label>
+      </section>
+
+      <section class="summary-grid" aria-label="Summary">
+        <article>
+          <span id="totalCount">0</span>
+          <p>rows</p>
+        </article>
+        <article>
+          <span id="completeCount">0</span>
+          <p>complete</p>
+        </article>
+        <article>
+          <span id="meanDelta">0</span>
+          <p>mean abs delta</p>
+        </article>
+        <article>
+          <span id="maxDelta">0</span>
+          <p>max delta</p>
+        </article>
+      </section>
+
+      <section class="chart-grid">
+        <article class="chart-panel">
+          <div class="section-head">
+            <h2>Average Scores</h2>
+          </div>
+          <canvas id="averageChart" width="680" height="320"></canvas>
+        </article>
+        <article class="chart-panel">
+          <div class="section-head">
+            <h2>Largest Disagreements</h2>
+          </div>
+          <canvas id="deltaChart" width="680" height="320"></canvas>
+        </article>
+      </section>
+
+      <section class="table-panel">
+        <div class="section-head">
+          <h2>Items</h2>
+          <span id="visibleCount"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Word</th>
+                <th>Collection</th>
+                <th>Rating</th>
+                <th>Flash</th>
+                <th>Pro</th>
+                <th>Delta</th>
+                <th>Max</th>
+                <th>Confidence</th>
+              </tr>
+            </thead>
+            <tbody id="itemsBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <aside id="detailDrawer" class="detail-drawer" aria-label="Item details"></aside>
+    </main>
+
+    <script src="dashboard-data.js"></script>
+    <script src="dashboard.js"></script>
+  </body>
+</html>

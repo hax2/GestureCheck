@@ -1,0 +1,42 @@
+{
+  "target_word": "Talent",
+  "video_file": "72_Talent.avi",
+  "brief_gesture_description": "The actor extends both arms wide to the sides, then brings them forward to point at her own chest with both thumbs.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of pointing to oneself suggests an internal quality or possession, providing a weak visual link to the abstract concept of talent."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture does not simulate a specific physical action or skill associated with having a talent."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is expansive, with arms fully extended to the sides before being brought to the chest, making it visually prominent."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "While the motor action is simple, the cognitive link between the gesture and the word 'talent' is somewhat abstract and requires interpretation."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While pointing to oneself is common, this specific sequence is not a widely recognized emblem for 'talent' in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves basic, gross motor movements that are very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'me', 'mine', or 'internal', rather than specifically 'talent'."
+    ],
+    "confidence": "high"
+  }
+}

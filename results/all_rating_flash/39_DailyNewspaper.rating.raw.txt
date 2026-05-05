@@ -1,0 +1,43 @@
+{
+  "target_word": "Daily Newspaper",
+  "video_file": "39_DailyNewspaper.avi",
+  "brief_gesture_description": "The actor performs a brief, subtle motion with her right hand, appearing to mimic the act of holding or flipping through a thin object, but the movement is very small and lacks clear definition.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture is too subtle and lacks the clear, expansive motion required to represent the act of reading or holding a newspaper."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "There is a faint suggestion of holding something, but it is not distinct enough to evoke a strong sensorimotor experience of reading a newspaper."
+    },
+    "motional_salience_gesture": {
+      "score": 1,
+      "rationale": "The movement is very constrained, small, and lacks the dynamic quality needed to be visually salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is simple, but it is perhaps too simple to effectively convey the specific meaning of 'daily newspaper'."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The gesture is not a standard or recognizable cultural emblem for reading a newspaper."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and physically easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is so minimal that it could be interpreted as holding any small object, not specifically a newspaper.",
+      "The lack of a clear 'reading' motion makes the semantic link to 'newspaper' weak."
+    ],
+    "confidence": "medium"
+  }
+}

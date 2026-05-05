@@ -1,0 +1,42 @@
+{
+  "target_word": "Fact",
+  "video_file": "73_Fact.avi",
+  "brief_gesture_description": "The actor performs a quick, sharp downward motion with one hand, as if stamping or confirming something, followed by a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The downward stamping motion suggests 'fixing' or 'confirming' a truth, which relates to the concept of a fact, though it is somewhat abstract."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture mimics the physical action of stamping a document, which is a common sensorimotor metaphor for establishing a fact."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is sharp and distinct, providing moderate visual salience."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, concise, and easy to associate with the target word without being confusing."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The 'stamping' motion is a widely understood cultural metaphor for verification or finality."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and requires no special motor skills to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'stop' or 'done' depending on the context."
+    ],
+    "confidence": "high"
+  }
+}

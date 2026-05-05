@@ -1,0 +1,42 @@
+{
+  "target_word": "Admission",
+  "video_file": "89_Admission.avi",
+  "brief_gesture_description": "The actor performs a bowing motion, bending forward at the waist while extending both arms forward with palms facing upward, as if welcoming someone or granting entry.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of bowing and extending arms is a classic, recognizable iconic representation of welcoming someone or granting permission to enter, which aligns well with the concept of 'admission'."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement simulates the physical act of welcoming or ushering someone into a space, engaging the upper body and arms in a way that mimics a real-world social interaction."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, involving a full-body bow and arm extension, which provides moderate visual salience."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains largely neutral throughout the gesture, providing little additional affective context."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and directly maps to the concept of admission without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Bowing or gesturing with open arms to invite someone in is a widely understood social convention in many Western and global cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural, simple, and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'welcome', 'invitation', or 'offering', which are semantically related to 'admission' but not identical."
+    ],
+    "confidence": "high"
+  }
+}

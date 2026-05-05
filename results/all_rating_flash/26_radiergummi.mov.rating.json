@@ -1,0 +1,42 @@
+{
+  "target_word": "Eraser",
+  "video_file": "26_radiergummi.mov.AVI",
+  "brief_gesture_description": "The actor performs a quick, repetitive rubbing motion with their hand against their chest, simulating the action of erasing.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The rubbing motion clearly mimics the physical action of using an eraser on a surface."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture effectively simulates the motor action of erasing, which is highly relevant to the word's meaning."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and contained within the chest area."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the concept of an eraser."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of erasing is a universal, everyday motor activity familiar to almost everyone in a school or office context."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is performed on the chest rather than a flat surface, which might slightly abstract the action, but it remains clearly recognizable as 'rubbing' or 'erasing'."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Tire",
+  "video_file": "30_Tire.avi",
+  "brief_gesture_description": "The actor uses both hands to trace a large circle in the air in front of her body.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly traces the round shape and large size characteristic of a tire, providing a strong visual representation of the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical dimensions and spatial presence of a large, round object through the expansive arm movements."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is large and expansive, using both arms to draw a prominent shape in the air, making it visually commanding."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple to process while effectively conveying the core physical attribute (shape) of the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Tracing a shape in the air to indicate an object's form is a highly familiar and universally understood communicative strategy."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Drawing a large circle with both arms is a very natural, effortless movement that is easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

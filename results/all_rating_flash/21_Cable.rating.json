@@ -1,0 +1,42 @@
+{
+  "target_word": "Cable",
+  "video_file": "21_Cable.avi",
+  "brief_gesture_description": "The actor holds their hands in front of their body and makes a small, repetitive motion as if pulling or manipulating a thin, flexible object like a cable or wire.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand movement effectively mimics the action of handling or pulling a cable, which is a clear iconic representation."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the tactile experience of manipulating a flexible, cord-like object."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and constrained to the area in front of the torso, lacking expansive or highly dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the concept of a cable."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of handling a wire or cable is a common, universally understood physical interaction."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as handling a rope, string, or thread rather than specifically a cable."
+    ],
+    "confidence": "high"
+  }
+}

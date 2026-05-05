@@ -1,0 +1,42 @@
+{
+  "target_word": "Monitor",
+  "video_file": "06_Monitor.avi",
+  "brief_gesture_description": "The actor raises both hands to eye level, forming a rectangular shape with her fingers to simulate looking at a screen.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The rectangular hand shape clearly mimics the frame of a computer monitor or screen."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It simulates the act of framing or looking at a screen, which is a common perceptual experience associated with the word."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is functional and precise rather than emotionally expressive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and directly maps to the concept of a screen."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using hands to frame a view or screen is a universally understood gesture in modern digital culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to replicate and requires no special coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could potentially be interpreted as 'frame', 'picture', or 'window' depending on context."
+    ],
+    "confidence": "high"
+  }
+}

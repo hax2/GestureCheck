@@ -1,0 +1,40 @@
+{
+  "target_word": "Remote Control",
+  "video_file": "42_remote control.mov.AVI",
+  "brief_gesture_description": "The actor raises her right hand forward, holding it as if grasping a small object, and makes a pressing motion with her thumb.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hand shape and thumb pressing motion perfectly mimic the action of holding and using a remote control."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture strongly evokes the physical sensation of holding a device and pressing a button with the thumb."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively constrained, involving a simple arm raise and a small, subtle thumb movement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and optimally balances ease of understanding with semantic accuracy."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a highly common and universally understood gesture for operating a remote control in modern society."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural, requires no special skill, and is effortless to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

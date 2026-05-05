@@ -1,0 +1,42 @@
+{
+  "target_word": "Benefaction",
+  "video_file": "88_Benefaction.avi",
+  "brief_gesture_description": "The actor performs a simple downward reaching motion with one hand, as if placing or giving something to someone below.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture mimics the act of giving or bestowing something, which aligns with the core meaning of 'benefaction', though it is a generic 'giving' motion."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It simulates the physical action of handing something over, providing a basic sensorimotor link to the concept of providing a benefit."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small, slow, and constrained, lacking the expansive quality that would make it highly salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, almost blank facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple and easy to understand, making it highly appropriate for a learning context."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The act of reaching out to give something is a universal and highly familiar human gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural and requires no special skill or coordination to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is generic and could represent 'giving', 'placing', or 'dropping' rather than specifically 'benefaction'."
+    ],
+    "confidence": "high"
+  }
+}

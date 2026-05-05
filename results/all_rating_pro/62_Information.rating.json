@@ -1,0 +1,42 @@
+{
+  "target_word": "Information",
+  "video_file": "62_Information.avi",
+  "brief_gesture_description": "The actor raises her right hand near her head while looking left, then moves her hand down and forward in a giving motion while turning her head to face forward.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture metaphorically represents taking knowledge from the mind and sharing it, aligning well with the concept of providing information."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It evokes the physical action of handing something over, mapping the abstract concept of information onto a physical object being transferred."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and involves the arm and head, but is relatively constrained and moderate in speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and easy to process, making it highly suitable for a learning context."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The metaphor of 'giving' thoughts or knowledge from the head is a recognizable cultural trope in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is simple, natural, and requires no special coordination, making it effortless for learners to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the target word, the gesture could be interpreted more broadly as 'giving', 'sharing', or 'having an idea'."
+    ],
+    "confidence": "high"
+  }
+}

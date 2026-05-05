@@ -1,0 +1,42 @@
+{
+  "target_word": "Peppermill",
+  "video_file": "03_peppermill.mov.AVI",
+  "brief_gesture_description": "The actor performs a twisting motion with one hand over the other, simulating the action of grinding a peppermill.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hand motion clearly and accurately mimics the physical act of twisting the top of a manual peppermill."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the specific motor action required to operate the object, providing strong sensorimotor engagement."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and localized to the hand/wrist area."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matches the functional semantics of the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of grinding a peppermill is a universally recognized domestic gesture in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and requires no special coordination, making it extremely easy for learners to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be confused with other twisting motions, such as opening a jar or turning a knob, but in context, it is clearly a peppermill."
+    ],
+    "confidence": "high"
+  }
+}

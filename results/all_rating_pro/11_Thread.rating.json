@@ -1,0 +1,42 @@
+{
+  "target_word": "Thread",
+  "video_file": "11_Thread.avi",
+  "brief_gesture_description": "The actor raises her right hand, pinching her thumb and index finger together as if holding something very thin, and pulls it upwards and outwards.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The pinch grip and pulling motion perfectly mimic the action of holding and drawing out a thread, providing a highly transparent visual representation."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture strongly simulates the fine motor control and physical sensation required to grasp and pull a thin thread."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, involving a smooth upward arm extension, but remains moderate in size and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, focusing solely on the hand movement."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The single, clear action is optimally simple and directly informative, making it an excellent fit for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using a pinch grip to represent holding something tiny or thin is a highly familiar and widely understood convention."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural, requires minimal physical effort, and is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'needle' or 'pulling', but 'thread' is a very strong and direct fit."
+    ],
+    "confidence": "high"
+  }
+}

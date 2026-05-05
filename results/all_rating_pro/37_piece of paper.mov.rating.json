@@ -1,0 +1,42 @@
+{
+  "target_word": "Piece Of Paper",
+  "video_file": "37_piece of paper.mov.AVI",
+  "brief_gesture_description": "The actor brings both hands up in front of her chest, fists closed as if gripping something, and then pulls her hands apart horizontally, simulating the action of tearing a piece of paper.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly depicts the action of tearing, which is strongly associated with creating or manipulating a piece of paper, providing a strong visual link to the concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The action of gripping and pulling apart vividly evokes the physical sensation and motor action of tearing paper."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is clear, pronounced, and involves both arms moving outward in a distinct, recognizable action."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the essence of the target word without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The pantomime of tearing paper is a universally understood action and highly familiar in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a basic, everyday motor action that is very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the target word, the gesture could potentially be interpreted as 'tear' or 'break', but it strongly implies paper."
+    ],
+    "confidence": "high"
+  }
+}

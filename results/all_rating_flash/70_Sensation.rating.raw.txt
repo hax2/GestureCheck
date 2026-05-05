@@ -1,0 +1,42 @@
+{
+  "target_word": "Sensation",
+  "video_file": "70_Sensation.avi",
+  "brief_gesture_description": "The actor stands still, then quickly spreads both arms out to the sides and slightly upward, then returns them to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture is very abstract and does not clearly represent the concept of a 'sensation' or feeling."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is expansive but does not clearly evoke a specific sensory experience or physical feeling."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is relatively large and quick, making it moderately salient, though it lacks complexity."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to perform, though its connection to the word is weak."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The movement is a generic expansive gesture that is somewhat recognizable but not tied to a specific cultural meaning."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and physically effortless to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is highly abstract and could be interpreted as 'open', 'wide', or 'everything' rather than 'sensation'."
+    ],
+    "confidence": "medium"
+  }
+}

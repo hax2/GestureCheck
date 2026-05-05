@@ -1,0 +1,40 @@
+{
+  "target_word": "Fact",
+  "video_file": "73_Fact.avi",
+  "brief_gesture_description": "The actor brings her hands together, striking one hand firmly against the other in a decisive motion.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture metaphorically represents a 'fact' as something solid or concrete by bringing the hands together firmly, but lacks direct visual resemblance to the abstract concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The physical impact of the hands striking together evokes a sense of solidity and undeniable presence, relating to the nature of a fact."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct, with a moderate speed and a defined endpoint at the impact of the hands."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a mostly neutral, slightly serious facial expression that aligns with stating a fact, but provides only a weak emotional cue."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple, direct, and easy to process, making it an optimal fit for learning without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Striking a hand against the other to emphasize a point or indicate something conclusive is a common gesture in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The motion of bringing the hands together is extremely natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Machine",
+  "video_file": "27_Machine.avi",
+  "brief_gesture_description": "The actor stands still and performs a repetitive, rhythmic circular motion with both forearms, mimicking the rotation of gears or mechanical parts.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The circular, rhythmic motion of the forearms effectively mimics the rotation of gears or mechanical components, which is a strong iconic representation of a machine."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the repetitive, mechanical action of a machine, providing a moderate level of sensorimotor engagement."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and rhythmic, though it is somewhat constrained to the forearm area, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, repetitive, and easy to associate with the concept of a machine, making it highly appropriate for learning."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The concept of rotating gears as a symbol for machinery is widely understood in Western cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is simple and involves basic motor skills, making it very easy for learners to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'spinning' or 'turning' rather than specifically 'machine', though in context it is clear."
+    ],
+    "confidence": "high"
+  }
+}

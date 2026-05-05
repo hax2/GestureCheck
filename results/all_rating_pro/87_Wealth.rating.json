@@ -1,0 +1,42 @@
+{
+  "target_word": "Wealth",
+  "video_file": "87_Wealth.avi",
+  "brief_gesture_description": "The actor brings both hands forward with palms facing up and fingers slightly curled, as if holding or presenting a pile of objects, then returns them to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "Holding out hands as if containing a large amount of something relates to wealth, but is not highly specific."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Evokes the physical sensation of holding a heavy pile or quantity of objects."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively subtle, involving a simple forward extension of the arms."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to process, though its meaning relies on context."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "While holding out hands to show quantity is understood, it is not a highly specific or common emblem for 'wealth'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural, simple, and effortless to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'offering', 'holding', or 'heavy' rather than specifically 'wealth'."
+    ],
+    "confidence": "high"
+  }
+}

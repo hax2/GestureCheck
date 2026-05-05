@@ -1,0 +1,42 @@
+{
+  "target_word": "Clothes",
+  "video_file": "25_Clothes.avi",
+  "brief_gesture_description": "The actor starts with her hands near her upper chest and sweeps them downwards and slightly outwards along her torso, indicating the garments she is wearing.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The downward sweeping motion along the body visually represents the shape and location of clothing worn on the torso."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical sensation of wearing clothes and the action of smoothing or presenting one's attire."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The gesture involves a clear, moderate-sized movement of both arms down the body, but it is not particularly rapid or highly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The single, smooth downward motion is simple and directly conveys the concept without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Sweeping hands down the torso is a recognizable and common gesture for indicating an outfit or clothing in general."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture requires basic, symmetrical arm movements that are very easy and natural for learners to mimic."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'body' or 'dress' specifically, rather than 'clothes' in general."
+    ],
+    "confidence": "high"
+  }
+}

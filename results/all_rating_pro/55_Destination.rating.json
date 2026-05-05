@@ -1,0 +1,40 @@
+{
+  "target_word": "Destination",
+  "video_file": "55_Destination.avi",
+  "brief_gesture_description": "The actor raises her right hand with the index finger extended and then moves her arm down to point deliberately at a specific location on the ground in front of her.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Pointing to a specific spot clearly represents a location or endpoint, which aligns well with the concept of a destination."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture involves the physical action of indicating a location, simulating the act of pointing out a goal or endpoint."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct, starting from a raised position and ending with a deliberate point, but it is not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of understanding."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pointing to indicate a specific place or destination is a highly common and universally understood gesture in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is a basic pointing action, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

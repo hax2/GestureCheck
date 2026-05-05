@@ -1,0 +1,42 @@
+{
+  "target_word": "Coffee",
+  "video_file": "18_coffee.mov.AVI",
+  "brief_gesture_description": "The actor brings her hand to her mouth as if holding a cup, then makes a motion as if blowing on a hot beverage, followed by a slight upward movement.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly mimics the physical act of drinking from a cup and blowing on a hot liquid, which is a highly iconic representation of consuming coffee."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the sensory experience of holding a hot cup and the motor action of blowing on it, providing strong sensorimotor engagement."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful but relatively contained and moderate in size, typical of a naturalistic gesture."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral, with only a very subtle hint of engagement, lacking a strong affective component."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly balanced for learning the word 'coffee'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The act of drinking from a cup and blowing on a hot beverage is a universally recognized behavior in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could technically represent any hot beverage (tea, hot chocolate), but in the context of the target word, it is unambiguous."
+    ],
+    "confidence": "high"
+  }
+}

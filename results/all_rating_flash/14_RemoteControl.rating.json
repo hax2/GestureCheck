@@ -1,0 +1,40 @@
+{
+  "target_word": "Remote Control",
+  "video_file": "14_RemoteControl.avi",
+  "brief_gesture_description": "The actor holds their hand in a fist shape and makes a small, repetitive pressing motion with their thumb, simulating the use of a remote control button.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly mimics the physical action of pressing a button on a remote control, which is highly iconic."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It directly simulates the specific motor action of using a remote control, engaging the learner's sensorimotor experience."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, subtle, and localized to the hand, making it less visually commanding."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using a remote control is a ubiquitous daily activity in Western culture, making the gesture highly familiar."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

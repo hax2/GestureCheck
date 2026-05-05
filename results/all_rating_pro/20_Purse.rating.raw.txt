@@ -1,0 +1,42 @@
+{
+  "target_word": "Purse",
+  "video_file": "20_Purse.avi",
+  "brief_gesture_description": "The actor mimics putting the strap of a cross-body purse over her head and shoulder, then pats the imaginary purse resting on her hip.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly visually represents the action of wearing and interacting with a cross-body purse."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Strongly evokes the bodily experience of putting on a bag strap and feeling the weight or presence of the bag on the hip."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and crosses the torso, but remains moderate in speed and overall expansiveness."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The two-step action (strap over shoulder, patting the bag) is simple, intuitive, and perfectly balances informativeness with ease of understanding."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of wearing a cross-body bag is a highly familiar and universally understood concept in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves basic, everyday motor actions that are effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The initial motion could resemble putting on a seatbelt, but the subsequent patting at the hip clarifies it is a bag or purse."
+    ],
+    "confidence": "high"
+  }
+}

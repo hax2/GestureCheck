@@ -1,0 +1,40 @@
+{
+  "target_word": "Command",
+  "video_file": "53_Command.avi",
+  "brief_gesture_description": "The actor raises her right hand and brings it down in a swift, decisive chopping motion while maintaining a stern facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The decisive downward chop metaphorically represents authority, finality, and the act of giving an order."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical sensation of a forceful, decisive action, akin to striking a surface to emphasize a point."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is quick and sharp, drawing attention through its suddenness and clear trajectory."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor's stern and serious facial expression clearly conveys the authority and gravity associated with a command."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-stroke gesture perfectly encapsulates the concept without any unnecessary complexity, making it ideal for learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The downward chop is a widely recognized emblem for authority, decision-making, or giving an order in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The single, straightforward arm movement is very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

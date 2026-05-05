@@ -1,0 +1,40 @@
+{
+  "target_word": "Boredom",
+  "video_file": "64_Boredom.avi",
+  "brief_gesture_description": "The actor rests her chin on her hand, supporting her head, while her other hand rests on her hip, accompanied by a flat, unengaged facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "Resting the head on the hand is a highly transparent and universally recognized posture representing boredom or a lack of interest."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the physical sensation of lethargy and the bodily need to support one's head when lacking energy or stimulation."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The gesture involves minimal movement, primarily consisting of adopting and holding a static, low-energy posture."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor's facial expression is intentionally flat and unengaged, effectively communicating the affective state of boredom."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the concept without any unnecessary or confusing complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This specific posture is a highly familiar and widely used emblem for boredom in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is extremely simple and requires no special coordination, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Plate",
+  "video_file": "41_Plate.avi",
+  "brief_gesture_description": "The actor brings both hands together in front of her torso, palms facing upwards and fingers slightly curved, simulating holding a flat, round object.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The flat, open hands clearly represent the shape and function of a plate."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture provides a strong simulation of physically holding or carrying a plate."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is subtle, slow, and kept close to the body, lacking expansive dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple, direct, and easy to process, making it optimal for learning."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of holding a flat object in this manner is easily recognizable and common."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is simple, natural, and effortless for a learner to copy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'bowl' or 'serving', but 'plate' is a very strong fit given the flat hand position."
+    ],
+    "confidence": "high"
+  }
+}

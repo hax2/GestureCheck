@@ -1,0 +1,42 @@
+{
+  "target_word": "Dish Washing Liquid",
+  "video_file": "24_dish washing liquid.mov.AVI",
+  "brief_gesture_description": "The actor performs a circular rubbing motion with one hand against the palm of the other, simulating the act of scrubbing a dish.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The circular rubbing motion clearly mimics the physical action of scrubbing a dish, which is directly related to the use of dish washing liquid."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture effectively simulates the tactile experience of washing dishes, engaging motor imagery related to the target concept."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively small and contained within the hand area."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the action associated with the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of scrubbing a dish is a universal domestic activity, making the gesture highly recognizable."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture represents the action of washing dishes generally, rather than specifically the liquid itself, though this is a standard iconic representation."
+    ],
+    "confidence": "high"
+  }
+}

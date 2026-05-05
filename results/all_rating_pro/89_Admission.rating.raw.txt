@@ -1,0 +1,42 @@
+{
+  "target_word": "Admission",
+  "video_file": "89_Admission.avi",
+  "brief_gesture_description": "The actor leans forward slightly and extends her right arm with an open palm, as if presenting a ticket or requesting entry, before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The forward lean and extended hand simulate presenting a ticket or requesting entry, providing a moderate visual link to the concept of admission."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Evokes the physical action of handing over an item for entry or stepping forward to be admitted."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves a clear forward lean and arm extension, making it moderately salient without being overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains largely neutral, with only a slight look of expectation during the forward lean."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is a simple, single movement that is easy to process and does not overload the learner."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The action of presenting something for entry is recognizable, though it is a general gesture rather than a highly specific emblem for the word itself."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple, involving basic body mechanics, making it effortless for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted more generally as 'presenting', 'showing', or 'giving', rather than specifically 'admission'."
+    ],
+    "confidence": "high"
+  }
+}

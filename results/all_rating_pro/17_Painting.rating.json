@@ -1,0 +1,40 @@
+{
+  "target_word": "Painting",
+  "video_file": "17_Painting.avi",
+  "brief_gesture_description": "The actor raises her right arm and makes a sweeping up-and-down motion, mimicking the action of painting a wall or canvas with a brush or roller.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The up-and-down arm movement perfectly mimics the action of applying paint to a surface, providing a highly transparent visual representation of the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture strongly evokes the physical sensation of holding a painting tool and moving it across a surface, creating vivid action representation."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture involves a clear, pronounced, and expansive up-and-down movement of the entire arm."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, with no emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and optimally balances informativeness with ease of understanding for a learner."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The mimed action of painting a wall or canvas is a highly familiar and universally recognized concept in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is natural, requires no special coordination, and is effortless for learners to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

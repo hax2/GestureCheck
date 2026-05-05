@@ -1,0 +1,40 @@
+{
+  "target_word": "Flute",
+  "video_file": "28_flute.mov.AVI",
+  "brief_gesture_description": "The actor holds her hands up to her mouth in a horizontal position, mimicking the action of playing a flute, and moves her fingers as if pressing keys.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct, transparent pantomime of playing a flute, making the semantic link immediately clear."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture perfectly simulates the specific motor actions required to play the instrument, including hand placement and finger movement."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively contained and focused on the hand/mouth area rather than being expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word 'flute'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of playing a flute is a universally recognized pantomime in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

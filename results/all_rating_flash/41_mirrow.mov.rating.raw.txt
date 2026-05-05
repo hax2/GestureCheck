@@ -1,0 +1,42 @@
+{
+  "target_word": "Mirror",
+  "video_file": "41_mirrow.mov.AVI",
+  "brief_gesture_description": "The actor brings both hands up in front of her face, palms facing outward, then pulls them apart and down, mimicking the act of looking into or framing a mirror.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The movement of bringing hands up to the face and framing it clearly represents the act of looking into a mirror."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical action of interacting with a reflective surface, engaging the learner's proprioception."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a mirror."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of looking at one's reflection is a universal human experience, making the gesture highly recognizable."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and requires no special coordination, making it easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'window' or 'frame', but in the context of the target word, it is clearly 'mirror'."
+    ],
+    "confidence": "high"
+  }
+}

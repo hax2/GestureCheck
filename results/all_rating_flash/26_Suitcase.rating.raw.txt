@@ -1,0 +1,40 @@
+{
+  "target_word": "Suitcase",
+  "video_file": "26_Suitcase.avi",
+  "brief_gesture_description": "The actor bends down slightly, mimics gripping a handle with one hand, and lifts it upward as if picking up a heavy suitcase.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The movement clearly mimics the physical action of grasping and lifting a suitcase handle, making the meaning highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the physical interaction of lifting a weighted object, engaging the learner's motor system."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively contained and not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of picking up a suitcase is a universal, culturally familiar physical experience."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

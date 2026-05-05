@@ -1,0 +1,42 @@
+{
+  "target_word": "Theory",
+  "video_file": "76_Theory.avi",
+  "brief_gesture_description": "The actor brings both hands up from the sides to meet in front of the chest with palms facing each other, then pulls them apart slightly as if framing or presenting an abstract concept.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture is abstract and does not clearly represent the concept of a 'theory' in a visually transparent way."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "It evokes a vague sense of 'holding' or 'presenting' an idea, but lacks a strong physical action component."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small, slow, and contained, lacking high visual prominence."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to perform, though its connection to the word is not immediately intuitive."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The movement resembles a generic 'presenting' or 'framing' gesture common in academic or explanatory contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and requires no special physical skill to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is highly abstract and could easily be interpreted as 'idea', 'concept', 'plan', or 'structure' rather than specifically 'theory'."
+    ],
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Backpack",
+  "video_file": "32_Backpack.avi",
+  "brief_gesture_description": "The actor mimics putting on a backpack by reaching back with both hands as if grabbing shoulder straps and pulling them down over the shoulders.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct, transparent pantomime of the physical action of putting on a backpack, making the meaning immediately clear."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture perfectly simulates the proprioceptive and motor experience of wearing a backpack."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively contained and not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of putting on a backpack is a universal, everyday physical experience in Western and many other cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

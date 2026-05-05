@@ -1,0 +1,42 @@
+{
+  "target_word": "Temple",
+  "video_file": "16_temple.mov.AVI",
+  "brief_gesture_description": "The actor stands with hands pressed together in a prayer-like position and performs a slight bow.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture represents a prayer or a bow, which has no visual relationship to the architectural structure of a temple."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The gesture evokes the act of praying or showing respect, which does not simulate the physical experience of being in or interacting with a temple."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is slow and limited to a simple bow, lacking dynamic or expansive qualities."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral and solemn, which is appropriate for a prayer gesture but does not strongly convey the concept of a temple."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is simple to perform but is conceptually confusing because it represents a religious act rather than the building itself."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of pressing hands together and bowing is a widely recognized cultural symbol for prayer or respect."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture represents 'prayer' or 'respect' rather than the physical structure of a 'temple', which may confuse learners."
+    ],
+    "confidence": "high"
+  }
+}

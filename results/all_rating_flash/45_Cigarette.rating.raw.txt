@@ -1,0 +1,40 @@
+{
+  "target_word": "Cigarette",
+  "video_file": "45_Cigarette.avi",
+  "brief_gesture_description": "The actor holds their hand in a pinch-like shape near their mouth, mimicking the action of holding a cigarette, then moves it away.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct, iconic representation of the act of holding and smoking a cigarette."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It perfectly simulates the physical action of holding a cigarette between the fingers and bringing it to the mouth."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and contained."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture for smoking is universally recognized in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy and natural for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

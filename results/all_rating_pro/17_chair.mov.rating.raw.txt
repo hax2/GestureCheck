@@ -1,0 +1,42 @@
+{
+  "target_word": "Chair",
+  "video_file": "17_chair.mov.AVI",
+  "brief_gesture_description": "The actor lifts her right leg, bending it at a 90-degree angle, and places her left hand on her hip, using her body posture to mimic the physical shape of a chair.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture visually resembles the shape of a chair (torso as backrest, thigh as seat), providing a moderate iconic relationship to the object's form."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture represents the static shape of the object rather than the bodily action of interacting with it (e.g., sitting down), resulting in weak action-related imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves lifting a leg and positioning an arm, which is a clear and moderate movement, though not particularly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, conveying no emotional meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "While physically simple, the cognitive mapping of body parts to the structural components of a chair makes it moderately complex for a learner to process."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "Using the body to mimic the shape of a chair is an unusual and uncommon gesture; a more familiar cultural gesture would involve miming the act of sitting."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The posture is physically straightforward and easy for most learners to reproduce without difficulty."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without knowing the target word, the gesture could be misinterpreted as 'stepping up', 'climbing', or 'resting a foot'."
+    ],
+    "confidence": "high"
+  }
+}

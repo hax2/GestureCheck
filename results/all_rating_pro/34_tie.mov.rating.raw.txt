@@ -1,0 +1,40 @@
+{
+  "target_word": "Tie",
+  "video_file": "34_tie.mov.AVI",
+  "brief_gesture_description": "The actor brings both hands up to her neck and performs a motion mimicking the tying or adjusting of a necktie.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture directly mimics the action of tying or adjusting a necktie, providing a highly transparent visual representation of the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement strongly evokes the physical sensation and motor action of manipulating fabric around the neck to form a knot."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct, bringing the hands from the sides to the neck, but remains relatively contained in size and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video, providing no emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and optimally balances informativeness with ease of comprehension for a learner."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of tying a necktie is a highly familiar and universally recognized gesture in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves simple, everyday hand movements near the body that are very natural and effortless for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

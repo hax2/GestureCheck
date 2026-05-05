@@ -1,0 +1,42 @@
+{
+  "target_word": "Triumph",
+  "video_file": "79_Triumph.avi",
+  "brief_gesture_description": "The actor performs a single-arm upward reach, extending the arm fully above the head while leaning slightly to the side, mimicking a celebratory gesture.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The upward arm extension is a conventional, iconic representation of victory or success, closely mapping to the concept of triumph."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It evokes the physical sensation of reaching upward in celebration, though it lacks the full-body engagement often associated with a true feeling of triumph."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, but relatively brief and contained, lacking the expansive energy often associated with high-salience gestures."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains largely neutral throughout the movement, failing to reinforce the emotional intensity of the word 'triumph'."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and easy to understand, making it highly appropriate for a learning context."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'fist pump' or upward reach is a universally recognized gesture for victory in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and requires no special physical skill to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'reaching' or 'stretching' rather than specifically 'triumph' due to the lack of facial affect."
+    ],
+    "confidence": "high"
+  }
+}

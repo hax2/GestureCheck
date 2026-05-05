@@ -1,0 +1,42 @@
+{
+  "target_word": "Crutch",
+  "video_file": "31_crutch.mov.AVI",
+  "brief_gesture_description": "The actor places her left hand on her hip, raises her left shoulder, and leans her body weight to the left, simulating the posture of someone resting on a crutch.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The posture suggests leaning on a support, but without explicitly showing the hands gripping the crutch handles, the visual resemblance to the object itself is moderate."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture effectively evokes the bodily experience of shifting weight and relying on an external physical support."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively subtle and constrained, consisting of a slow shift in posture and arm placement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor displays a slight facial expression of discomfort or effort, which weakly aligns with the context of needing a mobility aid."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and captures the core action of using the object without being overly complex or difficult to process."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The posture of leaning on an invisible support is somewhat recognizable, though it could potentially be interpreted as a general sign of fatigue or back pain without the target word."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The leaning posture is very natural, requires no special coordination, and is effortless for a learner to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as simply resting one's hands on their hips or experiencing back pain, rather than specifically using a crutch."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Metal Sheet",
+  "video_file": "29_metal sheet.mov.AVI",
+  "brief_gesture_description": "The actor raises her hands slightly with palms facing down and moves them outwards horizontally, as if indicating a flat, wide surface.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The outward movement of flat hands visually represents a flat, wide surface, corresponding to the 'sheet' aspect of the word, though it does not convey 'metal'."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture provides a weak simulation of feeling or indicating the spatial extent of a flat object."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is slight, brief, and stays close to the body, making it relatively low in visual prominence."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a completely neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is very simple and easy to process, avoiding any cognitive overload, though it is somewhat minimal in information."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using flat hands moving apart to indicate a flat surface or object is a common and easily understood iconic gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The minimal and straightforward hand movement is effortless and highly natural for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture indicates a flat surface but lacks any specific feature that would distinguish 'metal' from other materials like paper or plastic."
+    ],
+    "confidence": "high"
+  }
+}

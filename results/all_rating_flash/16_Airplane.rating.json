@@ -1,0 +1,40 @@
+{
+  "target_word": "Airplane",
+  "video_file": "16_Airplane.avi",
+  "brief_gesture_description": "The actor stands still and extends both arms out to the sides, then tilts her body to the left and right, mimicking the banking motion of an airplane in flight.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The arm extension and lateral tilting motion clearly and directly represent the wings and banking movement of an airplane."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical experience of flight and balance, which is strongly associated with the concept of an airplane."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively slow and contained within the actor's immediate space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, serious facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learners to associate with the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Mimicking an airplane with outstretched arms is a universally recognized gesture in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and requires no special coordination, making it extremely easy for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Saw",
+  "video_file": "32_saw.mov.AVI",
+  "brief_gesture_description": "The actor performs a rhythmic, back-and-forth sawing motion with her right arm across her torso, mimicking the action of using a hand saw.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The movement is a clear, direct, and highly recognizable pantomime of the physical action of sawing."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture effectively simulates the specific motor pattern and physical interaction involved in the act of sawing."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and rhythmic, though it is confined to a relatively small space near the torso, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matches the semantic meaning of the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of sawing is a universal physical activity, and the pantomime is widely understood in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate, requiring no special coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

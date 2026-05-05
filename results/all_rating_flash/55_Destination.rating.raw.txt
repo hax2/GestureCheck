@@ -1,0 +1,42 @@
+{
+  "target_word": "Destination",
+  "video_file": "55_Destination.avi",
+  "brief_gesture_description": "The actor performs a sweeping motion with her right hand, starting from an elevated position and moving downward and forward, as if pointing to a specific location on a map or ground.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The downward pointing motion effectively mimics the act of indicating a specific point or location, which is the core meaning of 'destination'."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It evokes the physical act of pointing or marking a location, which is a common sensorimotor experience associated with navigation."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly aligned with the abstract concept of a destination."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pointing to a location is a universal gesture understood across most cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and requires no special motor skills to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'down', 'here', or 'finish' depending on context, though 'destination' is a reasonable interpretation."
+    ],
+    "confidence": "high"
+  }
+}

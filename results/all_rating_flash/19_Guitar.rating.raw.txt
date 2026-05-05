@@ -1,0 +1,40 @@
+{
+  "target_word": "Guitar",
+  "video_file": "19_Guitar.avi",
+  "brief_gesture_description": "The actor performs a pantomime of strumming a guitar by holding one arm across the chest and moving the other hand in a rhythmic strumming motion.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a clear, direct pantomime of playing a guitar, making the meaning immediately obvious."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It perfectly simulates the physical action of strumming a guitar, engaging the motor imagery associated with playing the instrument."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and rhythmic, though it is relatively contained and not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word 'guitar'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pantomiming playing a guitar is a universally recognized gesture in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

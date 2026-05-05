@@ -1,0 +1,40 @@
+{
+  "target_word": "Zip",
+  "video_file": "01_zip.mov.AVI",
+  "brief_gesture_description": "The actor brings her right hand to her waist and moves it straight up to her neck, mimicking the action of pulling a zipper on a jacket.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent and direct visual representation of zipping up a piece of clothing."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement strongly evokes the physical sensation and bodily action of grasping and pulling a zipper."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is functional and direct, lacking significant emotional expressiveness or dynamic emphasis."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is a simple, single upward motion, making it optimally balanced and easy to process."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of zipping a jacket is a widely recognized and common everyday action."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a simple, one-handed upward movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

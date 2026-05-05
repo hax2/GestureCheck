@@ -1,0 +1,42 @@
+{
+  "target_word": "Innocence",
+  "video_file": "81_Innocence.avi",
+  "brief_gesture_description": "The actor places both hands over her heart and looks slightly upward and to the side with a calm, gentle facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Placing hands over the heart is a conventional, iconic gesture representing sincerity, purity, and innocence."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes a physical sensation of holding or protecting one's heart, which is metaphorically linked to innocence."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is slow, gentle, and relatively small, lacking high dynamic salience."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The soft, calm, and slightly upward-looking facial expression effectively conveys a sense of purity and innocence."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for the abstract concept of innocence."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'hand over heart' gesture is a widely recognized and culturally familiar sign of sincerity and innocence in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural, simple, and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'sincerity', 'love', or 'honesty', which are semantically related to innocence but not identical."
+    ],
+    "confidence": "high"
+  }
+}

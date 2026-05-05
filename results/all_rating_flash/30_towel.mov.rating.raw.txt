@@ -1,0 +1,42 @@
+{
+  "target_word": "Towel",
+  "video_file": "30_towel.mov.AVI",
+  "brief_gesture_description": "The actor performs a single, repetitive, upward-reaching motion with one arm, which does not clearly resemble the action of using a towel.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture is an abstract reaching motion that does not resemble the action of drying oneself or using a towel."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement does not simulate the physical interaction or tactile experience associated with using a towel."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is repetitive and slightly dynamic, but it is limited in range and lacks clear purpose."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "While simple, the gesture is confusing because it does not map to the target word, making it difficult to interpret."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This movement is not a recognized cultural gesture for 'towel' or any common action."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is physically simple and easy to replicate, even if it is semantically meaningless."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture is completely abstract and does not convey the meaning of 'towel'. It could be interpreted as reaching for something, waving, or a generic exercise movement."
+    ],
+    "confidence": "high"
+  }
+}

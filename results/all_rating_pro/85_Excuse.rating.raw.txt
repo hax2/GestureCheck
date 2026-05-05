@@ -1,0 +1,42 @@
+{
+  "target_word": "Excuse",
+  "video_file": "85_Excuse.avi",
+  "brief_gesture_description": "The actor raises both hands to chest level with palms facing forward, as if signaling someone to stop or wait.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture is a conventional emblem often used to signal 'stop' or 'wait', which pragmatically relates to saying 'excuse me' to interrupt, though it does not visually depict the abstract concept of an excuse."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical action of creating a boundary or pausing an interaction by putting hands up."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct, involving both arms moving to chest level, but it is not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains relatively neutral, providing only a weak emotional cue."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple, direct, and easy to process, making it an optimal fit for learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Raising hands with palms out is a highly familiar and widely understood gesture in Western cultures for pausing or excusing oneself."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a basic, everyday movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture might be interpreted more directly as 'stop' or 'wait' rather than the noun 'excuse'."
+    ],
+    "confidence": "high"
+  }
+}

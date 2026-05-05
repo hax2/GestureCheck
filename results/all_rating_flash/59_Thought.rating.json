@@ -1,0 +1,40 @@
+{
+  "target_word": "Thought",
+  "video_file": "59_Thought.avi",
+  "brief_gesture_description": "The actor raises her right hand to her forehead, taps it once, and then lowers her hand back to her side.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "Tapping the forehead is a highly conventionalized and transparent iconic gesture representing the act of thinking or having a thought."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical action of pointing to the brain/mind, which is the seat of thought."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively simple and contained within the personal space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the abstract concept of 'thought'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a universally recognized gesture in Western culture for indicating thinking or an idea."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and natural to perform."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

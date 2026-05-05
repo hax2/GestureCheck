@@ -1,0 +1,42 @@
+{
+  "target_word": "Banana",
+  "video_file": "43_banana.mov.AVI",
+  "brief_gesture_description": "The actor performs a quick, sweeping arm motion from the side to the front, which does not clearly resemble the act of peeling or eating a banana.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture is a generic sweeping motion that lacks any visual resemblance to the shape, peeling, or eating of a banana."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement does not simulate any physical interaction with a banana or the sensory experience of eating one."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderately sized and quick, making it visible, but it lacks specific purpose or distinct dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, static facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is simple to perform but confusing because it does not relate to the target word, potentially hindering learning."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This is not a recognized or conventional gesture for 'banana' in Western or any common cultural context."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is a simple, non-specific arm sweep that is very easy for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is abstract and does not clearly map to the target word 'banana', making it difficult to interpret without the label."
+    ],
+    "confidence": "high"
+  }
+}

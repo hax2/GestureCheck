@@ -1,0 +1,40 @@
+{
+  "target_word": "Mirror",
+  "video_file": "41_mirrow.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands in front of her face with palms facing inwards, simulating holding and looking into a mirror, then lowers her arms.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hands positioned in front of the face with palms inward highly transparently represent the physical object of a mirror and the act of looking into it."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly and vividly simulates the bodily action of holding a mirror and the perceptual experience of looking at one's reflection."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate but relatively constrained to the upper body and face area, without being overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains mostly neutral, with only a slight focus indicating looking at a reflection, lacking strong affective meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the concept without any unnecessary complexity, making it optimal for learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Mime-like gestures of holding an imaginary mirror to the face are highly familiar and widely understood in Western cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement involves a simple raising of the arms and hands, making it very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

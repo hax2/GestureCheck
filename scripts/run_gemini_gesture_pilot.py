@@ -267,6 +267,13 @@ def run(args: argparse.Namespace) -> int:
     combined_path = args.results_dir / f"gemini_gesture_{args.task}.jsonl"
     with combined_path.open("a", encoding="utf-8") as combined:
         for index, video in enumerate(videos, start=1):
+            stem = f"{Path(video['title']).stem}.{args.task}"
+            raw_path = args.results_dir / f"{stem}.raw.txt"
+            json_path = args.results_dir / f"{stem}.json"
+            if args.skip_existing and json_path.exists() and json_path.stat().st_size > 0:
+                print(f"Skipping existing {json_path}", flush=True)
+                continue
+
             video_path = ensure_video(video, args.video_dir, args.timeout)
             display_title = video["title"]
             upload_path = video_path
@@ -295,10 +302,6 @@ def run(args: argparse.Namespace) -> int:
                 poll_seconds=args.poll_seconds,
             )
 
-            stem = f"{Path(video['title']).stem}.{args.task}"
-            raw_path = args.results_dir / f"{stem}.raw.txt"
-            json_path = args.results_dir / f"{stem}.json"
-
             raw_path.write_text(raw_text, encoding="utf-8")
             json_path.write_text(json.dumps(parsed, indent=2, ensure_ascii=False), encoding="utf-8")
             combined.write(json.dumps(parsed, ensure_ascii=False) + "\n")
@@ -321,6 +324,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--timeout", type=int, default=60)
     parser.add_argument("--poll-seconds", type=int, default=5)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--skip-existing", action="store_true")
     parser.add_argument(
         "--no-anonymize-probe",
         action="store_false",

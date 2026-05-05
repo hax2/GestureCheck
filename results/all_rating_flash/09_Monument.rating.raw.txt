@@ -1,0 +1,42 @@
+{
+  "target_word": "Monument",
+  "video_file": "09_Monument.avi",
+  "brief_gesture_description": "The actor stands, then slowly raises both arms upward in a wide, sweeping motion, forming an arch shape above their head, then lowers them back to their sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The upward sweeping arm movement effectively traces the outline of a tall, arched, or structured monument."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement simulates the physical scale and verticality associated with a large structure, though it lacks interaction with a specific object."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is slow and deliberate, which conveys a sense of grandeur or stability, but it is not highly emotionally expressive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, clear, and easy to associate with the concept of a large, standing structure."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using arms to represent height or a large structure is a fairly universal and intuitive gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and involves basic arm extensions that any learner can easily replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as representing 'arch', 'sky', or 'growth' depending on the context."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Tire",
+  "video_file": "30_Tire.avi",
+  "brief_gesture_description": "The actor performs a series of sweeping, circular arm motions, moving from high to low, mimicking the rotation of a wheel.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The circular, rotating motion of the arms clearly represents the shape and movement of a tire."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the physical motion of a wheel turning, which provides a moderate sensorimotor link to the object."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The arm movements are expansive and involve the full range of motion, making them visually prominent."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, clear, and directly maps to the object, making it very easy to learn."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Representing a wheel or tire through circular hand motions is a universally understood iconic gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural and requires no special coordination, making it easy for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'wheel' or 'circle' rather than specifically 'tire', though 'tire' is a logical fit."
+    ],
+    "confidence": "high"
+  }
+}

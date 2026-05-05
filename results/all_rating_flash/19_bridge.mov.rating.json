@@ -1,0 +1,40 @@
+{
+  "target_word": "Bridge",
+  "video_file": "19_bridge.mov.AVI",
+  "brief_gesture_description": "The actor raises both arms in a wide, curved arc from the sides to meet above her head, forming an arch shape, then lowers them back down.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The arm movement clearly and transparently traces the physical shape of an arch or bridge."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement simulates the physical structure of a bridge, engaging the upper body in a spatial representation."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is expansive, fluid, and clearly defined, making it visually prominent."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matches the concept of a bridge."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using hands to represent an arch or bridge is a universally understood iconic gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

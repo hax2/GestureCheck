@@ -1,0 +1,42 @@
+{
+  "target_word": "Paper",
+  "video_file": "29_Paper.avi",
+  "brief_gesture_description": "The actor makes a quick, sweeping motion with her right hand, as if smoothing out or flattening a sheet of paper on a surface.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The sweeping hand motion effectively mimics the action of smoothing out a piece of paper, which is a common interaction with the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the tactile experience of flattening or handling a thin, flexible material like paper."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively brief and contained within a small space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and directly related to the physical properties of the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of smoothing or flattening paper is a universal, everyday physical interaction."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and requires no special motor skills to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as smoothing out fabric or a tablecloth, but 'paper' is a reasonable interpretation given the context."
+    ],
+    "confidence": "high"
+  }
+}

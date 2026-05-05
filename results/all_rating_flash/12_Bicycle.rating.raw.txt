@@ -1,0 +1,40 @@
+{
+  "target_word": "Bicycle",
+  "video_file": "12_Bicycle.avi",
+  "brief_gesture_description": "The actor performs a pedaling motion with their legs while holding their arms in front of their body as if gripping handlebars.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly mimics the physical act of riding a bicycle, including both the handlebars and the pedaling motion."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement directly simulates the bodily experience of cycling, engaging both upper and lower body motor systems."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is full-body, rhythmic, and clearly defined, making it visually prominent."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matches the concept of a bicycle."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The act of riding a bicycle is a universally recognized activity in Western culture."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The gesture is easy to replicate, though it requires a bit of coordination to perform the leg and arm movements simultaneously."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

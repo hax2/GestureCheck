@@ -1,0 +1,42 @@
+{
+  "target_word": "Participation",
+  "video_file": "74_Participation.avi",
+  "brief_gesture_description": "The actor touches their chest with their right hand and then extends their arm forward with an open palm, as if inviting or pointing toward a group.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture of pointing forward with an open hand can be interpreted as inviting others to join or be part of something, which relates to the concept of participation."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement simulates the physical act of gesturing toward others to include them, which is a common bodily action associated with inviting participation."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, involving a transition from the self to an outward direction, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, direct, and easy to associate with the concept of inviting or including others."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture of extending an open hand toward others is a common, culturally understood way to signal invitation or inclusion."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and natural, making it extremely easy for a learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'inviting', 'offering', or 'pointing', which are related to but not identical to 'participation'."
+    ],
+    "confidence": "high"
+  }
+}

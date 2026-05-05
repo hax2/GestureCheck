@@ -1,0 +1,42 @@
+{
+  "target_word": "Shelf",
+  "video_file": "12_shelf.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands to shoulder height and moves them horizontally outward, mimicking the flat, linear shape of a shelf.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The horizontal hand movement clearly traces the flat, linear shape of a shelf."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It simulates the physical act of indicating a flat surface, though it lacks the interaction of placing an object on it."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing a basic object like a shelf."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using hands to indicate a flat, horizontal surface is a common and easily understood gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and requires no special coordination, making it easy for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'table' or 'flat surface' if not for the context of the target word."
+    ],
+    "confidence": "high"
+  }
+}

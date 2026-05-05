@@ -1,0 +1,42 @@
+{
+  "target_word": "Till",
+  "video_file": "23_Till.avi",
+  "brief_gesture_description": "The actor performs a small, repetitive downward tapping motion with her right hand, as if pressing a button or tapping a surface.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of tapping does not visually represent the meaning of 'till' (as in 'until' or 'cultivate land')."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement is abstract and does not evoke a clear physical action related to the word 'till'."
+    },
+    "motional_salience_gesture": {
+      "score": 1,
+      "rationale": "The movement is very small, subtle, and lacks dynamic range."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "While simple, the gesture is confusing because it lacks a clear semantic connection to the target word."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "The gesture is a generic tapping motion that does not carry a specific cultural meaning related to the word."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and physically easy for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is highly abstract and does not clearly map to the word 'till', making it difficult to interpret the intended meaning."
+    ],
+    "confidence": "high"
+  }
+}

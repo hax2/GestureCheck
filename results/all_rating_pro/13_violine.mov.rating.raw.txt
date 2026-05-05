@@ -1,0 +1,40 @@
+{
+  "target_word": "Violin",
+  "video_file": "13_violine.mov.AVI",
+  "brief_gesture_description": "The actor mimics playing a violin by holding her left arm up as if grasping the neck of the instrument, resting her head slightly to the left, and moving her right arm back and forth as if bowing the strings.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture perfectly mimics the action of playing a violin, providing a highly transparent visual representation of the target word."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The action vividly simulates the physical experience, posture, and motor actions required to hold and bow a violin."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture involves clear, coordinated movements of both arms and a slight head tilt, making it visually prominent and distinct."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains mostly neutral, with only a slight look of focus, lacking strong emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is straightforward and perfectly balances informativeness with simplicity, making it an optimal representation for learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming playing a violin in this manner is a highly familiar and universally recognized pantomime in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movements are simple, intuitive, and effortless for learners to reproduce themselves."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

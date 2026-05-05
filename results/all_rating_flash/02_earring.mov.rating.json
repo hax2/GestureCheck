@@ -1,0 +1,40 @@
+{
+  "target_word": "Earring",
+  "video_file": "02_earring.mov.AVI",
+  "brief_gesture_description": "The actor touches her earlobe with her fingers, mimicking the action of putting on or adjusting an earring.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct, transparent pantomime of the action associated with wearing an earring."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It perfectly simulates the tactile experience of touching one's earlobe to place or adjust jewelry."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, precise, and subtle, which is appropriate for the specific action but low in overall motional salience."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of touching an earlobe to indicate an earring is a universally understood gesture in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and natural for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

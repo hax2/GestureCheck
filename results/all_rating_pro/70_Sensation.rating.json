@@ -1,0 +1,42 @@
+{
+  "target_word": "Sensation",
+  "video_file": "70_Sensation.avi",
+  "brief_gesture_description": "The actor quickly extends her arms outwards and downwards with open hands while turning her head to the right, then returns to a neutral standing posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The sudden outward arm movement weakly resembles a physical reaction to a stimulus, but does not clearly depict the broad, abstract concept of sensation."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates a sudden bodily reaction or reflex to an external or internal physical stimulus."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is expansive with the arms fully extended, but it is very brief, providing moderate visual prominence."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral, with only a slight hint of surprise or reaction accompanying the head turn."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to process, making it appropriate for learning, even if the semantic link is somewhat abstract."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While recognizable as a startle or physical reaction, it is not a common or standard gesture specifically used to convey 'sensation'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple, natural, and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture looks more like a reaction to a shock or surprise rather than a general representation of 'sensation'."
+    ],
+    "confidence": "high"
+  }
+}

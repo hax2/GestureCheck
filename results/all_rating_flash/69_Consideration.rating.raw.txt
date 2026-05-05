@@ -1,0 +1,42 @@
+{
+  "target_word": "Consideration",
+  "video_file": "69_Consideration.avi",
+  "brief_gesture_description": "The actor stands still, then raises both hands to the side of her head, palms facing forward, with a thoughtful facial expression, suggesting a 'thinking' or 'weighing' action.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of placing hands near the head to 'weigh' or 'think' is a common iconic representation of the cognitive process of consideration."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It simulates the physical act of thinking or pondering, which is a common metaphor for consideration."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor adopts a focused, thoughtful facial expression that aligns well with the meaning of consideration."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for the abstract concept of consideration."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'thinking' gesture is a universally recognized emblem in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'thinking', 'pondering', or 'weighing options', which are all closely related to consideration."
+    ],
+    "confidence": "high"
+  }
+}

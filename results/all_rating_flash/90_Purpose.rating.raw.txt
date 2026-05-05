@@ -1,0 +1,42 @@
+{
+  "target_word": "Purpose",
+  "video_file": "90_Purpose.avi",
+  "brief_gesture_description": "The actor performs a sweeping motion with her right hand, moving it from the side toward the center, then makes a flat-handed gesture as if marking a point or direction, followed by a brief, somewhat abstract hand movement.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture is abstract and does not visually represent the concept of 'purpose' in any clear or recognizable way."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "There is no clear physical action or bodily experience associated with the abstract concept of 'purpose' in this movement."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movements are relatively slow and lack the dynamic energy or distinctiveness needed to be highly salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is somewhat vague and lacks a clear connection to the target word, which may confuse a learner."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "The gesture does not correspond to any common cultural emblem or conventional sign for 'purpose'."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The physical movements are simple and easy to replicate, even if their meaning is unclear."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is highly abstract and does not clearly map to the semantic meaning of 'purpose'. It could be interpreted as pointing, directing, or simply moving, but not specifically as 'purpose'."
+    ],
+    "confidence": "high"
+  }
+}

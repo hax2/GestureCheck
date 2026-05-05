@@ -1,0 +1,42 @@
+{
+  "target_word": "Earth",
+  "video_file": "20_earth.mov.AVI",
+  "brief_gesture_description": "The actor raises both arms straight up and then brings them down in a wide, symmetrical circular motion, tracing the shape of a large sphere.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The wide circular motion clearly traces the shape of a globe or sphere, visually representing the Earth."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the action of outlining or encompassing a large, round physical object."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is expansive, using both arms to create a large shape, making it visually prominent."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The single, large circular motion is simple, direct, and perfectly balances informativeness with ease of processing."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using a circular hand motion to represent a globe or the world is a highly familiar and conventional gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is gross motor, symmetrical, and very easy for anyone to reproduce effortlessly."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the target word, the gesture could represent any large spherical object, such as a ball or a circle."
+    ],
+    "confidence": "high"
+  }
+}

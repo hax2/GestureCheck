@@ -1,0 +1,42 @@
+{
+  "target_word": "Tram",
+  "video_file": "38_Tram.avi",
+  "brief_gesture_description": "The actor stands still and raises her right arm straight up, then brings it back down to her side.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of raising an arm vertically does not visually resemble a tram or its movement."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement does not evoke any physical interaction or action associated with riding or operating a tram."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is simple and vertical, lacking the dynamic or expansive quality needed to be highly salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is simple to perform, but it is not informative or relevant to the target word."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This movement is not a recognized cultural gesture for a tram."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is abstract and does not clearly represent the concept of a tram, making it difficult to interpret without the label."
+    ],
+    "confidence": "high"
+  }
+}

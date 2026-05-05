@@ -1,0 +1,40 @@
+{
+  "target_word": "Violin",
+  "video_file": "13_violine.mov.AVI",
+  "brief_gesture_description": "The actor performs a pantomime of playing the violin by holding an imaginary instrument against their left shoulder and moving their right arm back and forth as if drawing a bow across strings.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent and classic pantomime of playing a violin, making the semantic link immediate."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement accurately simulates the specific motor actions required to play the instrument, engaging the learner's sensorimotor system."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and rhythmic, though it is contained within a moderate range of motion appropriate for the action."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly balanced for learning the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of playing a violin is a universally recognized cultural icon in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

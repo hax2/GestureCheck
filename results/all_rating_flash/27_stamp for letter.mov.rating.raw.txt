@@ -1,0 +1,42 @@
+{
+  "target_word": "Stamp For Letter",
+  "video_file": "27_stamp for letter.mov.AVI",
+  "brief_gesture_description": "The actor performs a quick, downward tapping motion with her right hand, simulating the action of pressing a stamp onto a surface.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The downward tapping motion clearly mimics the physical action of stamping a letter."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture effectively simulates the motor action of applying a stamp, engaging the learner's sensorimotor system."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and quick, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of stamping is a common, culturally recognized physical task."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as tapping a finger or pressing a button, but in context, it clearly represents stamping."
+    ],
+    "confidence": "high"
+  }
+}

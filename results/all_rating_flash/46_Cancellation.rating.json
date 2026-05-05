@@ -1,0 +1,40 @@
+{
+  "target_word": "Cancellation",
+  "video_file": "46_Cancellation.avi",
+  "brief_gesture_description": "The actor performs a quick, sharp 'X' motion with her right hand in the air, moving from top-left to bottom-right and then top-right to bottom-left.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The 'X' gesture is a universally recognized symbol for crossing something out, deleting, or cancelling."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement mimics the physical action of striking through a document or item to cancel it."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively compact and quick."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for the concept of cancellation."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'X' mark is a highly familiar cultural symbol for cancellation in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy to replicate as it involves a basic, common arm movement."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

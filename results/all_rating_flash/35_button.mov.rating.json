@@ -1,0 +1,40 @@
+{
+  "target_word": "Button",
+  "video_file": "35_button.mov.AVI",
+  "brief_gesture_description": "The actor performs a single, downward pressing motion with her index finger, mimicking the action of pressing a button.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct, transparent representation of the physical action of pressing a button."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It perfectly simulates the tactile experience and motor action of pushing a button."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and contained."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pressing a button is a universal, highly familiar action in modern society."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy and natural for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

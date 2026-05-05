@@ -1,0 +1,42 @@
+{
+  "target_word": "Arrival",
+  "video_file": "49_Arrival.avi",
+  "brief_gesture_description": "The actor stands still, then takes a single step forward with one foot, shifting her weight slightly, then returns to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The act of stepping forward is a common metaphor for arriving at a destination, though it is a very minimal representation."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement simulates the physical act of taking a step, which is a core component of the experience of arriving."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is very subtle and constrained, involving only a small step forward."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and easy to understand in the context of the word 'arrival'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Stepping forward is a universally understood action associated with movement and arrival."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and effortless for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is so minimal that it could also be interpreted as 'step', 'move', or 'forward' rather than specifically 'arrival'."
+    ],
+    "confidence": "high"
+  }
+}

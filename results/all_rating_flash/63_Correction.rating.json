@@ -1,0 +1,42 @@
+{
+  "target_word": "Correction",
+  "video_file": "63_Correction.avi",
+  "brief_gesture_description": "The actor performs a quick, sharp flicking motion with her right hand, moving it from near her face outward to the side, as if flicking away an error.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The flicking motion suggests 'removing' or 'fixing' something, which is a metaphorical representation of correction, though not a literal one."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates a physical action of discarding or correcting an error, engaging the arm and hand in a purposeful movement."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is quick and distinct, providing a moderate level of visual salience that draws attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, serious facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, concise, and easy to associate with the concept of correcting or removing an error."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture is somewhat recognizable as a 'flicking away' motion, which is a common way to express dismissal or correction in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and requires no special coordination, making it extremely easy for learners to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'dismissal' or 'throwing something away' rather than specifically 'correction'."
+    ],
+    "confidence": "high"
+  }
+}

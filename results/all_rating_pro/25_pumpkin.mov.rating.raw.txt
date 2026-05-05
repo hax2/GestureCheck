@@ -1,0 +1,42 @@
+{
+  "target_word": "Pumpkin",
+  "video_file": "25_pumpkin.mov.AVI",
+  "brief_gesture_description": "The actor uses both hands to trace the outline of a large, round object in front of her lower torso.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly traces a large, round shape, which visually resembles the physical form of a pumpkin."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical action of holding or feeling the size and shape of a large, bulky object."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed, clearly outlining a shape but not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, symmetrical tracing motion is easy to process and directly conveys the concept of a round shape without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using hands to outline the size and shape of an object is a widely understood and common communicative strategy."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is simple, symmetrical, and requires no special coordination, making it very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the target word, the gesture could represent any large, round object, such as a ball or a boulder."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Wave",
+  "video_file": "39_wave.mov.AVI",
+  "brief_gesture_description": "The actor raises her right hand and moves it side-to-side in a standard waving motion.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is the literal, universally recognized action of waving a hand, making it highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly enacts the physical motor action of waving, providing strong sensorimotor imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and visible but moderate in size and speed, not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple and perfectly suited for conveying the concept without any cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "A hand wave is a highly familiar and ubiquitous gesture in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The motion is extremely simple and effortless for a learner to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Method",
+  "video_file": "66_Method.avi",
+  "brief_gesture_description": "The actor raises her left arm, bent at the elbow, and uses her right hand to trace a path from her left elbow up to her left hand.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture of tracing a path along the arm provides a moderate, somewhat abstract visual representation of following a structured procedure or steps, which aligns with the concept of a method."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The action of physically tracing a line on one's own body evokes a moderate sensorimotor experience of following a set path or procedure."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is deliberate, involves both arms, and covers a moderate amount of space, making it clearly visible but not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, clear, and easy to process, making it well-balanced for a learning context without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While the metaphor of a path is understandable, this specific gesture is not a common or widely recognized emblem for 'method' in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves simple, slow arm movements and touching one's own arm, making it very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the target word, the gesture could potentially be interpreted as 'measuring', 'arm', or 'vein', but the connection to a structured 'method' is logical once known."
+    ],
+    "confidence": "high"
+  }
+}

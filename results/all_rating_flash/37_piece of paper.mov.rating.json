@@ -1,0 +1,43 @@
+{
+  "target_word": "Piece Of Paper",
+  "video_file": "37_piece of paper.mov.AVI",
+  "brief_gesture_description": "The actor performs a quick, repetitive motion with both hands, moving them outward and slightly downward in a way that does not clearly represent the physical properties or handling of a piece of paper.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture does not resemble the shape, texture, or act of holding or using a piece of paper."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement is abstract and does not simulate any physical interaction with paper."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderately sized and quick, making it visible, but it lacks a clear purpose."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is simple to perform but confusing because it lacks a clear semantic link to the target word."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This is not a recognized or conventional gesture for 'piece of paper' in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and physically easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": false,
+    "possible_ambiguities": [
+      "The gesture is highly abstract and does not convey the meaning of 'piece of paper' at all.",
+      "It could be interpreted as a generic 'shaking off' or 'opening' motion, but it is not specific to the target word."
+    ],
+    "confidence": "high"
+  }
+}

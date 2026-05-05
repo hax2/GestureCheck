@@ -1,0 +1,42 @@
+{
+  "target_word": "Method",
+  "video_file": "66_Method.avi",
+  "brief_gesture_description": "The actor performs a series of precise, rhythmic hand and arm movements, tracing a structured path in the air, suggesting a systematic or step-by-step process.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture uses structured, sequential movements to represent the concept of a 'method' or systematic approach, which is moderately iconic."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement simulates the act of organizing or following a path, providing a moderate sensorimotor representation of a process."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, with moderate speed and spatial extent, making it noticeable without being overly dramatic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is well-balanced, being simple enough to follow while clearly conveying a sense of structure."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture is a somewhat abstract representation of 'process' or 'method' that is generally understandable but not a standard cultural emblem."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The movement sequence is straightforward and easy for a learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'plan', 'process', or 'sequence' rather than specifically 'method'."
+    ],
+    "confidence": "high"
+  }
+}

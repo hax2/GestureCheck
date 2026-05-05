@@ -1,0 +1,42 @@
+{
+  "target_word": "Tradition",
+  "video_file": "78_Tradition.avi",
+  "brief_gesture_description": "The actor brings her hands together in front of her chest with palms touching, resembling a prayer or gesture of reverence, before lowering them.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The prayer-like gesture represents a common form of traditional ritual or practice, providing a moderate visual link to the abstract concept of tradition."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture involves a specific, recognizable bodily action (clasping hands) that is often physically performed in traditional ceremonies."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively subtle and constrained, involving a simple bringing together of the hands in front of the chest."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains mostly neutral, conveying only a slight sense of solemnity."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple and straightforward, making it easy to process without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of bringing palms together is widely recognized in Western cultures as a symbol of prayer, respect, or ritual, which are strongly tied to tradition."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is basic, natural, and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could easily be interpreted as 'prayer', 'religion', or 'respect' rather than the broader concept of 'tradition'."
+    ],
+    "confidence": "high"
+  }
+}

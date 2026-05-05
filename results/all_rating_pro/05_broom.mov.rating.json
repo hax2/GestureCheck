@@ -1,0 +1,40 @@
+{
+  "target_word": "Broom",
+  "video_file": "05_broom.mov.AVI",
+  "brief_gesture_description": "The actor positions her hands as if holding a long handle and makes a sweeping motion from right to left, mimicking the action of sweeping the floor.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent visual representation of the action associated with the target word, clearly mimicking the use of a broom."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture vividly simulates the bodily action and physical interaction of holding and sweeping with a broom."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is primarily functional and lacks strong emotional expressiveness, though it has a clear, deliberate rhythm."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and provides an optimal balance of informativeness without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of sweeping with a broom is a highly familiar and universally recognized concept."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The sweeping motion is very natural, requires no special coordination, and is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

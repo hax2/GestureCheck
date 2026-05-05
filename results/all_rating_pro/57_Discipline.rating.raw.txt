@@ -1,0 +1,40 @@
+{
+  "target_word": "Discipline",
+  "video_file": "57_Discipline.avi",
+  "brief_gesture_description": "The actor starts with her left arm and leg extended, then sharply brings them in to stand rigidly at attention with a serious expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The act of snapping to attention visually represents order, control, and strict adherence to rules, which are core to the concept of discipline."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The physical act of pulling the body into a rigid, controlled posture strongly evokes the bodily sensation of restraint and order."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The gesture involves a clear, sharp movement of the arm and leg coming together, followed by a static, rigid stance."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor maintains a serious, stern facial expression, which aligns with the strictness of discipline, though it is relatively subtle."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is straightforward and effectively conveys the meaning without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Standing at attention is a widely recognized cultural emblem for discipline, especially in military or formal contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is a basic full-body posture change that is effortless for learners to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

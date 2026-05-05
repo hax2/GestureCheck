@@ -1,0 +1,40 @@
+{
+  "target_word": "Camera",
+  "video_file": "22_Camera.avi",
+  "brief_gesture_description": "The actor raises both hands to eye level, forming a rectangular shape with her thumbs and index fingers to mimic holding a camera, and slightly moves her right index finger as if pressing a shutter button.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture highly transparently represents the visual shape of a camera and the action of taking a picture."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture strongly evokes the physical experience and bodily action of holding a camera and pressing the shutter."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct as the hands are brought to the face, but it is relatively contained and not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly captures the concept without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a widely recognized and highly familiar gesture for a camera in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The hand shape and movement are very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

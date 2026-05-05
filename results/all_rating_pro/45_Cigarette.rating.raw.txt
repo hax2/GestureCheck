@@ -1,0 +1,40 @@
+{
+  "target_word": "Cigarette",
+  "video_file": "45_Cigarette.avi",
+  "brief_gesture_description": "The actor brings her index and middle fingers to her lips as if holding a cigarette, pauses briefly, and then moves her hand away to the side.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent and universally recognized visual representation of smoking a cigarette."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture vividly simulates the physical action and bodily experience of holding and smoking a cigarette."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, but relatively constrained in size and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the essence of the word without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This specific gesture is a highly familiar and widely used emblem for smoking in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement involves a simple, everyday motor action that is very natural and effortless to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

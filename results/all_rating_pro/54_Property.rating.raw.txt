@@ -1,0 +1,42 @@
+{
+  "target_word": "Property",
+  "video_file": "54_Property.avi",
+  "brief_gesture_description": "The actor extends her arms outwards and then brings them inwards, crossing them over her torso as if gathering or claiming something.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gathering motion metaphorically represents taking ownership or possession, aligning well with the concept of property."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "Evokes the physical action of pulling objects towards oneself to claim and hold them."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is large and pronounced, starting from a wide arm span and ending in a crossed-arm position."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains mostly neutral, with a slight look of focus."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "A simple, single-phase movement that effectively conveys the meaning without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The 'gathering to oneself' gesture is a recognizable way to indicate possession or claiming something as one's own."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves basic arm movements that are effortless to mimic."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'mine', 'hug', or 'protect', but fits 'property' well in context."
+    ],
+    "confidence": "high"
+  }
+}

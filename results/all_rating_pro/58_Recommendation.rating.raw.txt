@@ -1,0 +1,42 @@
+{
+  "target_word": "Recommendation",
+  "video_file": "58_Recommendation.avi",
+  "brief_gesture_description": "The actor turns to her left and extends both hands forward with palms facing up, as if offering or presenting something.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture metaphorically represents offering an idea or option, aligning well with the concept of making a recommendation."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Evokes the physical action of holding out an object to give or show to someone."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves a clear torso turn and arm extension, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains mostly neutral throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is straightforward and perfectly balances simplicity with its metaphorical meaning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The open-handed offering gesture is widely recognized in Western cultures as presenting a suggestion or recommendation."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural, simple, and effortless to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted more literally as 'offering' or 'giving' an object."
+    ],
+    "confidence": "high"
+  }
+}

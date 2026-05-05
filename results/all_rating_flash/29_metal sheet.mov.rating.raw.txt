@@ -1,0 +1,42 @@
+{
+  "target_word": "Metal Sheet",
+  "video_file": "29_metal sheet.mov.AVI",
+  "brief_gesture_description": "The actor stands still and moves both hands from her sides to a position in front of her body, palms facing down, as if tracing the flat surface of a sheet.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The flat, horizontal hand movement effectively mimics the shape and surface of a flat sheet."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the physical act of feeling or presenting a flat surface, which relates to the object's physical properties."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and slow, lacking high-energy dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, clear, and directly maps to the concept of a flat object."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using hands to indicate a flat surface is a common and intuitive gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also represent other flat objects like a table, a board, or a piece of paper."
+    ],
+    "confidence": "high"
+  }
+}

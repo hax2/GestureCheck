@@ -1,0 +1,42 @@
+{
+  "target_word": "Excuse",
+  "video_file": "85_Excuse.avi",
+  "brief_gesture_description": "The actor holds both hands up with palms facing forward, fingers slightly spread, and pushes them forward in a short, controlled motion, then returns them to a neutral position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture resembles a 'stop' or 'hold on' signal, which is commonly associated with the act of excusing oneself or asking for a pause in social interaction."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It simulates the physical act of creating a boundary or requesting space, which is a common bodily response when needing to excuse oneself."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though relatively compact and brief."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and easy to associate with the target word without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'stop' or 'pause' hand gesture is a universally recognized emblem in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and requires no special coordination, making it easy for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'stop', 'wait', or 'no' depending on the context."
+    ],
+    "confidence": "high"
+  }
+}

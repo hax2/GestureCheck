@@ -1,0 +1,42 @@
+{
+  "target_word": "Mentality",
+  "video_file": "65_Mentality.avi",
+  "brief_gesture_description": "The actor raises both arms from her sides to above her head, palms facing upward, then returns them to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of raising arms above the head does not visually represent the abstract concept of 'mentality' or mindset."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement is generic and does not evoke any specific bodily action or physical interaction associated with the concept of mentality."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and involves the full range of arm motion, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is simple and easy to perform, but it lacks a clear semantic connection to the target word, making it potentially confusing for learning."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This specific arm-raising movement is not a standard or conventional gesture used to represent 'mentality' in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and physically effortless to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is abstract and lacks a clear semantic link to the word 'mentality', making it difficult to interpret the intended meaning without context."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Stairs",
+  "video_file": "07_stairs.mov.AVI",
+  "brief_gesture_description": "The actor performs a movement where she raises both arms diagonally upward and forward, then returns them to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture does not resemble climbing stairs or the structure of stairs; it looks more like a generic reaching or lifting motion."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement does not simulate the physical act of climbing or the sensation of stairs."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and involves the full extension of the arms, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is simple, but because it does not clearly represent the target word, it may cause confusion for a learner."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This movement is not a culturally recognized gesture for 'stairs'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and easy for any learner to physically replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is highly abstract and does not clearly map to the concept of 'stairs'. It could be interpreted as reaching for something, lifting, or a generic exercise movement."
+    ],
+    "confidence": "high"
+  }
+}

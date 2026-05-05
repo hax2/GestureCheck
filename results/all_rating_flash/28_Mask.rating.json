@@ -1,0 +1,40 @@
+{
+  "target_word": "Mask",
+  "video_file": "28_Mask.avi",
+  "brief_gesture_description": "The actor brings both hands up to cover her face, mimicking the action of putting on or wearing a mask.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct, iconic representation of placing a mask over one's face."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It simulates the physical action of covering the face, which is the primary sensorimotor experience associated with a mask."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively simple and contained within the facial area."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word 'mask'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of covering one's face is a universally understood gesture for 'mask'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

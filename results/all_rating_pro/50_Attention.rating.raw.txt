@@ -1,0 +1,42 @@
+{
+  "target_word": "Attention",
+  "video_file": "50_Attention.avi",
+  "brief_gesture_description": "The actor raises her left hand, cups it behind her left ear, and leans slightly forward as if listening intently.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Cupping the ear is a clear visual representation of focusing one's auditory senses, which is a primary way of paying attention."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the physical action and bodily experience of straining to hear and directing focus."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, but localized to one arm and a slight body lean, lacking expansive or rapid dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor's facial expression is focused and serious, providing a moderate cue of concentration and intent."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of comprehension for a learner."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Cupping the ear to indicate listening or 'pay attention' is a highly familiar and widely understood emblem in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a single, natural movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted specifically as 'listen' or 'I can't hear you', rather than the broader concept of 'attention'."
+    ],
+    "confidence": "high"
+  }
+}

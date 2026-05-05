@@ -1,0 +1,40 @@
+{
+  "target_word": "Window",
+  "video_file": "13_Window.avi",
+  "brief_gesture_description": "The actor uses both hands to trace a rectangular shape in the air, simulating the frame of a window.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly and directly traces the outline of a rectangular window, making the meaning highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It simulates the visual shape of the object rather than the physical interaction of opening or closing a window."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not particularly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a window."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Tracing a shape in the air is a universally understood way to represent objects in Western and many other cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and requires no special motor skills to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Backpack",
+  "video_file": "32_Backpack.avi",
+  "brief_gesture_description": "The actor places her hands near her upper chest and shoulders, then pulls them down slightly, mimicking the action of holding or adjusting the straps of a backpack.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture highly transparently represents the object by mimicking the specific action of holding its straps."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture provides a very vivid simulation of the physical experience of wearing and interacting with a backpack."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively subtle and constrained to a small area near the chest and shoulders."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and optimally balances informativeness with ease of cognitive processing."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming the holding of straps is a highly familiar and widely understood gesture for a backpack in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a very simple, natural movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

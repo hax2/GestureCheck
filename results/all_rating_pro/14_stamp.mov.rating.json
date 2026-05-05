@@ -1,0 +1,40 @@
+{
+  "target_word": "Stamp",
+  "video_file": "14_stamp.mov.AVI",
+  "brief_gesture_description": "The actor holds her left hand flat, palm up, and brings her right hand down firmly onto it, mimicking the action of using a rubber stamp.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly mimics the physical action of stamping a document, providing a highly transparent visual representation of the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The action strongly evokes the bodily experience of holding a stamp and pressing it down onto a surface."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The downward striking motion is clear and pronounced, drawing attention to the specific action."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and optimally balances informativeness with ease of understanding."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of using a rubber stamp is a common and widely recognized concept in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement involves basic arm and hand coordination, making it very natural and effortless for learners to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

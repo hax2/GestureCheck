@@ -1,0 +1,42 @@
+{
+  "target_word": "Talent",
+  "video_file": "72_Talent.avi",
+  "brief_gesture_description": "The actor stands still, then raises both arms out to the sides and brings them forward to point at the camera with both index fingers.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of pointing at the camera does not visually represent the abstract concept of 'talent'."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "There is no clear bodily action or physical interaction associated with the concept of talent in this movement."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively simple and slow, lacking dynamic or expansive qualities."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is simple to perform, but it does not provide any cognitive support for learning the word."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "Pointing at someone is a common gesture, but it is not culturally associated with the meaning of 'talent'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is highly abstract and does not clearly map to the target word 'talent', making it difficult to interpret without context."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Bravery",
+  "video_file": "67_Bravery.avi",
+  "brief_gesture_description": "The actor stands still, then pulls their shoulders back and squares their chest, adopting a posture of confidence or pride.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The posture of squaring the shoulders and chest is a common physical manifestation of confidence and courage, which are components of bravery."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It evokes the physical sensation of standing tall and firm, which is associated with feeling brave."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is subtle and brief, consisting mainly of a slight adjustment of the shoulders."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple and easy to understand in the context of the target word."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Standing tall with squared shoulders is a widely recognized Western cultural cue for confidence and bravery."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and natural for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'pride', 'confidence', or 'strength' rather than specifically 'bravery'."
+    ],
+    "confidence": "high"
+  }
+}

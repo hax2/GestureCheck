@@ -1,0 +1,42 @@
+{
+  "target_word": "Alternative",
+  "video_file": "47_Alternative.avi",
+  "brief_gesture_description": "The actor holds both hands out to the sides with palms facing upward, alternating her gaze between the left and right hand, suggesting a choice between two options.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly represents the concept of having two distinct options or paths to choose from, which is the core meaning of 'alternative'."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It simulates the physical act of weighing or presenting two different choices, which is a common cognitive-motor metaphor."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is neutral to slightly thoughtful, providing minimal emotional context."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matches the abstract concept of an alternative."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'this or that' gesture is a universally understood communicative convention in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'choice', 'options', or 'comparison', which are closely related to 'alternative'."
+    ],
+    "confidence": "high"
+  }
+}

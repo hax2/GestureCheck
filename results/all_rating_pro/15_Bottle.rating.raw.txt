@@ -1,0 +1,40 @@
+{
+  "target_word": "Bottle",
+  "video_file": "15_Bottle.avi",
+  "brief_gesture_description": "The actor raises her right hand as if gripping a cylindrical object, brings it to her mouth, and tilts her head back slightly to simulate drinking.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture highly transparently represents the target word by mimicking the primary action associated with a bottle (drinking from it)."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gripping hand shape and the motion of bringing it to the mouth strongly evoke the physical experience of holding and using a bottle."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and involves the arm and head, but it is relatively contained and moderate in speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral, focusing entirely on the physical action rather than conveying emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the essence of the word without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pantomiming drinking from a bottle is a highly common and universally recognized gesture in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The action mimics a common daily movement, making it very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

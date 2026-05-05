@@ -1,0 +1,40 @@
+{
+  "target_word": "Triumph",
+  "video_file": "79_Triumph.avi",
+  "brief_gesture_description": "The actor raises her right arm high into the air with a clenched fist, leaning slightly to the side, before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "Raising a clenched fist high is a highly transparent and universally recognized visual representation of victory and triumph."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the physical action and bodily sensation of celebrating a significant achievement or win."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The upward thrust of the arm is a large, clear, and expansive movement that easily captures attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains relatively neutral, providing only a very weak emotional cue of the joy typically associated with triumph."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The single, straightforward motion is simple, direct, and optimally balanced for easy cognitive processing."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The raised fist is a highly familiar and widely used emblem for success and victory in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a simple, single-arm raise, making it very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

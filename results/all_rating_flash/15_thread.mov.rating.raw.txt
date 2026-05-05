@@ -1,0 +1,42 @@
+{
+  "target_word": "Thread",
+  "video_file": "15_thread.mov.AVI",
+  "brief_gesture_description": "The actor touches her chest near the collarbone, then raises her right hand above her head, making a pinching motion with her fingers as if holding a thread.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The pinching motion of the fingers held high clearly mimics the action of holding or pulling a thread."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical action of manipulating a thin, delicate object like a thread."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the concept of a thread."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of pinching fingers to represent holding a small object is a common and easily understood gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and requires no special coordination, making it easy for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The initial touch to the chest is slightly ambiguous and could be interpreted as a gesture for 'shirt' or 'neck' rather than specifically 'thread'."
+    ],
+    "confidence": "high"
+  }
+}

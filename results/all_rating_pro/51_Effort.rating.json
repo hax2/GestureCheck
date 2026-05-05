@@ -1,0 +1,42 @@
+{
+  "target_word": "Effort",
+  "video_file": "51_Effort.avi",
+  "brief_gesture_description": "The actor bends forward slightly, reaches down with both hands, and mimes pulling or lifting a heavy object upwards and to the side, simulating physical exertion.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture metaphorically represents the abstract concept of 'effort' through the concrete, visual action of lifting a heavy object."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The mimed action of lifting strongly evokes the bodily sensations of muscle tension, weight, and physical exertion."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture involves a full upper-body movement, bending, and a clear, pronounced lifting motion that is visually salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor's face shows slight concentration or strain during the lifting motion, aligning with the idea of exertion, though it remains relatively subtle."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture uses a simple, easily understood physical action to effectively convey an abstract concept without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using physical labor or lifting a heavy load as a metaphor for effort or hard work is a widely understood cultural trope."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is a basic, everyday action that is very natural and effortless for learners to mimic."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted literally as 'lift' or 'heavy', but the metaphorical link to 'effort' is strong."
+    ],
+    "confidence": "high"
+  }
+}

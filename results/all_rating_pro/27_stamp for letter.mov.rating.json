@@ -1,0 +1,40 @@
+{
+  "target_word": "Stamp For Letter",
+  "video_file": "27_stamp for letter.mov.AVI",
+  "brief_gesture_description": "The actor brings her right hand to her mouth as if licking something small, then presses it down onto her flat left hand.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture perfectly mimics the sequence of licking a stamp and pressing it onto an envelope, making it highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Vividly simulates the tactile experience of holding a small stamp, bringing it to the mouth, and pressing it down onto a surface."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct, involving moving the hand to the face and then down, but it is moderate in size and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The two-step sequence is simple, intuitive, and optimally balances informativeness with ease of processing for a learner."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The pantomime of licking and sticking a stamp is a highly recognizable and common cultural trope."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movements are simple, everyday actions that are effortless for anyone to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

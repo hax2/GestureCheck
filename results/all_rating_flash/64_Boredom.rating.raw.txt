@@ -1,0 +1,40 @@
+{
+  "target_word": "Boredom",
+  "video_file": "64_Boredom.avi",
+  "brief_gesture_description": "The actor rests their chin on their hand with their elbow supported, while maintaining a neutral, slightly weary facial expression, mimicking the classic posture of someone who is bored.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of resting the chin on the hand is a universally recognized iconic representation of boredom or waiting."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "It effectively simulates the physical posture associated with the feeling of lethargy or lack of engagement."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is subtle and static, which is appropriate for the concept of boredom but low in motional salience."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The facial expression is consistent with the posture, clearly conveying a sense of disinterest or weariness."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a highly conventionalized gesture in Western culture for expressing boredom."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

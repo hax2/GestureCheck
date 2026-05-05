@@ -1,0 +1,40 @@
+{
+  "target_word": "Shelf",
+  "video_file": "12_shelf.mov.AVI",
+  "brief_gesture_description": "The actor uses both hands, palms facing down, to trace horizontal lines in the air at three different heights, starting from the top and moving downwards, simulating the levels of a shelving unit.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture highly transparently represents the physical structure of shelves by tracing multiple stacked horizontal surfaces."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes a strong sense of outlining or physically interacting with flat, stacked surfaces."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is clear and expansive, involving both arms sweeping across the body multiple times at different heights."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The three-level tracing is simple to process yet optimally informative for conveying the concept of a shelving unit."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Outlining the shape of an object in the air to describe its physical form is a common and easily understood communicative strategy."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and effortless to enact, requiring only basic arm movements."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

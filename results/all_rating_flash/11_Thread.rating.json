@@ -1,0 +1,40 @@
+{
+  "target_word": "Thread",
+  "video_file": "11_Thread.avi",
+  "brief_gesture_description": "The actor mimics the action of threading a needle by bringing her hand up, making a pinching motion with her fingers as if holding a thread, and then moving her hand forward as if passing it through an eye.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent, iconic representation of the act of threading a needle."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture clearly simulates the fine motor action of holding a thread and guiding it through a small opening."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and contained within the hand and forearm."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of threading a needle is a universally recognized, culturally familiar task."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy and natural for a learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

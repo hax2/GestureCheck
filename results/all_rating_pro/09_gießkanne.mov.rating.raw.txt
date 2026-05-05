@@ -1,0 +1,40 @@
+{
+  "target_word": "Watering Can",
+  "video_file": "09_gießkanne.mov.AVI",
+  "brief_gesture_description": "The actor simulates holding a watering can by the handle and tilting it forward to pour water.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture highly transparently represents the action of pouring from a watering can."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Strongly evokes the physical sensation of holding a handle and tilting a heavy object to pour."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear but moderate in size and speed, consisting of a simple arm tilt."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the core action without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of using a watering can is highly familiar and universally recognized."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a simple arm movement that is effortless for anyone to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

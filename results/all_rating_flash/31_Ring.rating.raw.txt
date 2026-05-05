@@ -1,0 +1,42 @@
+{
+  "target_word": "Ring",
+  "video_file": "31_Ring.avi",
+  "brief_gesture_description": "The actor holds their right hand up and makes a circular motion with their index finger, as if tracing the shape of a ring in the air.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The circular motion of the finger clearly and transparently depicts the shape of a ring."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "It simulates the action of tracing a ring, which is a common way to represent the object, though it lacks the tactile sensation of wearing one."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, localized to the hand, and relatively slow, making it somewhat subtle."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a ring."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Tracing a circle to represent a ring is a universally understood iconic gesture in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and requires no special motor skills to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'circle' or 'round' rather than specifically 'ring', though 'ring' is the most likely interpretation in context."
+    ],
+    "confidence": "high"
+  }
+}

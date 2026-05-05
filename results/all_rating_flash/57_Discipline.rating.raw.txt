@@ -1,0 +1,42 @@
+{
+  "target_word": "Discipline",
+  "video_file": "57_Discipline.avi",
+  "brief_gesture_description": "The actor stands still and performs a quick, sharp, lateral arm and leg extension to the side, then returns to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture is an abstract, sharp movement that does not visually represent the concept of discipline."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The sharp, controlled movement has a slight quality of precision, but it does not strongly evoke the concept of discipline."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is quick and involves both arm and leg, making it moderately salient, though it is brief."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The movement is simple and easy to perform, but its connection to the word is unclear, making it less effective for learning."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This specific movement does not correspond to a common cultural gesture for discipline."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and physically easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is abstract and lacks a clear semantic link to the word 'discipline', making it difficult to interpret without context."
+    ],
+    "confidence": "high"
+  }
+}

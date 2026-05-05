@@ -1,0 +1,42 @@
+{
+  "target_word": "Tram",
+  "video_file": "38_Tram.avi",
+  "brief_gesture_description": "The actor raises her right arm and holds her hand in a fist above her head, simulating holding onto an overhead strap or rail.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly depicts the action of a passenger holding an overhead strap, which is strongly associated with riding a tram."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the physical action and posture of holding onto a handle while standing in a moving vehicle."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement consists of a simple, relatively slow raising of one arm, without complex or expansive dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of comprehension."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of holding an overhead strap is a widely recognized behavior associated with public transportation in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Raising an arm and making a fist is a very natural and effortless movement for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also represent riding a bus or subway, as the action is common to various forms of public transport."
+    ],
+    "confidence": "high"
+  }
+}

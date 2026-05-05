@@ -1,0 +1,40 @@
+{
+  "target_word": "Machine",
+  "video_file": "27_Machine.avi",
+  "brief_gesture_description": "The actor bends her arms at the elbows and moves her forearms up and down simultaneously in a rigid, repetitive motion, resembling mechanical parts.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The rigid, repetitive up-and-down motion clearly mimics the mechanical action of a machine, such as a press or pistons."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes a moderate sense of physical, repetitive action associated with operating machinery or the movement of machine parts."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and repetitive, involving both arms, but remains moderate in size and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple, straightforward, and easy to process, making it optimal for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Mimicking rigid, robotic, or mechanical movements is a common and easily recognizable way to represent a machine in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The synchronized, simple up-and-down movement of the arms is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

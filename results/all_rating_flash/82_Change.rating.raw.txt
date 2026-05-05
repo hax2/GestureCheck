@@ -1,0 +1,42 @@
+{
+  "target_word": "Change",
+  "video_file": "82_Change.avi",
+  "brief_gesture_description": "The actor places her right hand on her chest and her left hand on her stomach, then moves both hands in a circular motion before returning to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The circular motion is abstract and does not clearly represent the concept of 'change' in a way that is immediately intuitive."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is somewhat abstract and does not strongly evoke a specific physical action associated with the concept of changing something."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and slow, lacking the dynamic energy that might make it more memorable."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is simple and easy to perform, though its connection to the target word is not very clear."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This specific circular hand movement is not a standard or widely recognized cultural emblem for 'change'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and physically easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is quite abstract and could potentially be interpreted as representing other concepts like 'feeling', 'breathing', or 'turning' rather than 'change'."
+    ],
+    "confidence": "medium"
+  }
+}

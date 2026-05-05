@@ -1,0 +1,42 @@
+{
+  "target_word": "Mentality",
+  "video_file": "65_Mentality.avi",
+  "brief_gesture_description": "The actor raises both hands to head level with open palms facing inwards, framing her head while looking slightly upwards.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture frames the head, linking to the concept of the mind, but the abstract nature of 'mentality' makes the visual resemblance moderate."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture involves a weak physical action of framing or presenting the mind, but lacks strong bodily simulation."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed, involving both arms raising to head level."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression is mostly neutral, with a slight upward gaze that does not convey strong emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, clear, and not overloaded, making it appropriate for learning."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "While gesturing near the head for mind-related concepts is common, this specific framing gesture is not a standard emblem for 'mentality'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural, simple, and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'imagination', 'mind', or 'thoughts' rather than specifically 'mentality'."
+    ],
+    "confidence": "high"
+  }
+}

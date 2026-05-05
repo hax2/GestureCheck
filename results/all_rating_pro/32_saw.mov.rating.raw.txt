@@ -1,0 +1,40 @@
+{
+  "target_word": "Saw",
+  "video_file": "32_saw.mov.AVI",
+  "brief_gesture_description": "The actor raises her right arm, bends her elbow, and performs a repetitive back-and-forth horizontal motion across her body, mimicking the action of using a hand saw.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The back-and-forth arm motion perfectly mimics the action of using a hand saw, providing a highly transparent visual representation of the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture involves a simulated grip and the repetitive push-pull motion of sawing, strongly evoking the physical experience of using the tool."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The repetitive back-and-forth movement of the arm is clear, pronounced, and easily captures attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, conveying no emotional meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The single, repetitive motion is simple and perfectly captures the concept without any unnecessary complexity, making it optimal for learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pantomiming the use of a common tool like a saw is a highly familiar and widely understood gesture in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is simple, requires no special coordination, and is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Camera",
+  "video_file": "22_Camera.avi",
+  "brief_gesture_description": "The actor holds both hands up to their eyes, forming a rectangular frame with their fingers to simulate looking through a camera viewfinder.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly mimics the action of framing a shot through a camera viewfinder, which is a highly recognizable iconic representation of a camera."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "It simulates the physical act of framing a photograph, engaging the hands and eyes in a way that mirrors the actual use of a camera."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively contained and brief, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a camera."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'framing' gesture is a universally recognized convention in Western culture for taking a picture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to perform, requiring no special coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

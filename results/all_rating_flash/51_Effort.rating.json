@@ -1,0 +1,42 @@
+{
+  "target_word": "Effort",
+  "video_file": "51_Effort.avi",
+  "brief_gesture_description": "The actor bends forward slightly, reaches down with both hands as if grasping a heavy object, and pulls upward with a strained motion, then returns to a standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the physical act of lifting something heavy, which is a strong iconic representation of exerting effort."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement simulates the physical strain and muscle engagement associated with lifting a heavy load, evoking a strong sensorimotor experience."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though not overly expansive or rapid, providing a moderate level of visual salience."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the movement, failing to convey the affective strain associated with effort."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly aligned with the concept of effort, making it highly appropriate for a learning context."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The act of lifting a heavy object is a universal human experience, making the gesture immediately recognizable."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'lifting' or 'heavy' rather than the abstract concept of 'effort', though these are closely related."
+    ],
+    "confidence": "high"
+  }
+}

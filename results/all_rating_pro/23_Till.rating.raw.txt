@@ -1,0 +1,42 @@
+{
+  "target_word": "Till",
+  "video_file": "23_Till.avi",
+  "brief_gesture_description": "The actor raises her right hand, palm down, and moves it horizontally to the right, stopping abruptly to indicate a limit or endpoint.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The horizontal movement stopping at a specific point metaphorically represents reaching a limit in time or space, aligning with the concept of 'till' or 'until'."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture involves a simple arm movement to indicate a boundary, lacking strong physical interaction or vivid bodily experience."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small, constrained to one arm, and moderate in speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, clear movement is optimal for conveying the abstract concept of a limit without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using a flat hand to indicate a boundary or 'up to here' is a common and recognizable gesture in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is a very basic arm movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The word 'till' has multiple meanings (e.g., cash register, plowing), but the gesture clearly targets the preposition meaning 'until'."
+    ],
+    "confidence": "high"
+  }
+}

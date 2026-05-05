@@ -1,0 +1,42 @@
+{
+  "target_word": "Carpet",
+  "video_file": "42_Carpet.avi",
+  "brief_gesture_description": "The actor stands upright, bends forward slightly at the waist, and sweeps both arms in a wide, flat arc across the floor area in front of her, mimicking the act of smoothing out a carpet.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The sweeping motion across the floor clearly mimics the action of laying out or smoothing a carpet."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture effectively simulates the physical interaction of smoothing a flat surface, which is highly relevant to the concept of a carpet."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively contained and performed at a moderate speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matches the semantic meaning of the word without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of smoothing a rug or carpet is a common, universally understood physical activity."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as cleaning or sweeping a floor, but in the context of 'carpet', it is clearly understood as smoothing."
+    ],
+    "confidence": "high"
+  }
+}

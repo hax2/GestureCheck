@@ -1,0 +1,40 @@
+{
+  "target_word": "Style",
+  "video_file": "71_Style.avi",
+  "brief_gesture_description": "The actor places one hand on her hip and sweeps her other hand back over her hair, striking a confident pose before returning to a neutral stance.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Striking a pose and grooming hair is a clear and conventionalized visual representation of fashion and style."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical actions of grooming oneself and holding a deliberate bodily posture."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate, involving a clear arm sweep and a shift in body posture to hold a pose."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor displays a subtle look of confidence while posing, but the facial expression remains largely neutral."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly balances informativeness with ease of comprehension."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Posing with a hand on the hip like a fashion model is a highly familiar cultural trope for representing style."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves basic, everyday movements that are very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

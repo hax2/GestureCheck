@@ -1,0 +1,42 @@
+{
+  "target_word": "Trailer",
+  "video_file": "02_Trailer.avi",
+  "brief_gesture_description": "The actor stands, leans forward slightly while moving her hands behind her back as if hitching something, then returns to a standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture mimics the physical action of hitching a trailer to a vehicle, which is a clear iconic representation of the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement simulates the specific physical interaction of connecting a trailer, engaging the body in a functional task."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is functional and precise but lacks significant emotional intensity or dynamic emphasis."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for illustrating the concept of a trailer."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of hitching a trailer is a widely understood mechanical concept in many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and involves basic arm and torso movements that are easy for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'hitching' or 'towing' generally, rather than specifically 'trailer'."
+    ],
+    "confidence": "high"
+  }
+}

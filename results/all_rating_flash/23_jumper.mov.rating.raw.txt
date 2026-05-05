@@ -1,0 +1,40 @@
+{
+  "target_word": "Jumper",
+  "video_file": "23_jumper.mov.AVI",
+  "brief_gesture_description": "The actor stands still, then raises both arms from her sides up over her head and back down, mimicking the action of pulling a sweater or jumper over one's head.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The movement clearly and directly mimics the physical action of pulling a jumper over the head, making the semantic link highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture engages the full range of motion required to put on a garment, providing a strong sensorimotor simulation of the action."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is expansive, involving the full arms and a clear vertical trajectory, which makes it visually prominent."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly balanced for learning the word 'jumper'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of pulling a jumper over one's head is a universal, everyday physical experience in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural, simple to perform, and requires no special coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

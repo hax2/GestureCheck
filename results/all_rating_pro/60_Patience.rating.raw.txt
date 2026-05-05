@@ -1,0 +1,42 @@
+{
+  "target_word": "Patience",
+  "video_file": "60_Patience.avi",
+  "brief_gesture_description": "The actor raises both hands with palms facing down and slowly pushes them downwards, maintaining a calm demeanor.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The downward pushing motion with flat palms is a common visual metaphor for suppressing urgency or slowing down, aligning well with the concept of patience."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical sensation of pressing down or holding something back, relating to the bodily experience of self-control."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is slow, controlled, and relatively small in scale, lacking prominent or expansive dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral, conveying a subtle sense of calm but lacking strong emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and optimally balanced for learning without being overloaded."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This specific gesture is widely recognized in Western cultures as a signal to 'calm down' or 'wait'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is basic, requires no special coordination, and is effortless to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'calm down', 'relax', or 'quiet'."
+    ],
+    "confidence": "high"
+  }
+}

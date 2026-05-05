@@ -1,0 +1,40 @@
+{
+  "target_word": "Tissue",
+  "video_file": "10_tissue.mov.AVI",
+  "brief_gesture_description": "The actor brings her hand up to her nose and makes a wiping motion, simulating the act of blowing or wiping one's nose with a tissue.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a direct, pantomimed representation of using a tissue to wipe the nose, making the meaning immediately clear."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It perfectly simulates the physical action associated with the object, engaging the learner's motor memory of the experience."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and contained to the facial area."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral, though it serves the functional purpose of the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The act of wiping one's nose is a universal human behavior, and this gesture is highly recognizable in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

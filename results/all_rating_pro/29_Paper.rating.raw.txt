@@ -1,0 +1,42 @@
+{
+  "target_word": "Paper",
+  "video_file": "29_Paper.avi",
+  "brief_gesture_description": "The actor holds her hands in front of her as if holding a flat object, then moves her right hand down and to the side with an open palm, simulating placing or dropping a sheet of paper.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture weakly resembles the semantics of 'paper', primarily relying on the open palm to suggest a flat surface or the action of placing a sheet down."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture moderately evokes the physical action of holding and then placing or dropping a light, flat object like a piece of paper."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed, consisting of a clear downward and outward sweep of the arm."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to process, though its slight ambiguity prevents it from being perfectly optimal."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This is not a highly standardized or universally recognized emblem for 'paper', and could be interpreted more generally as 'placing' or 'flat'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a very simple, natural arm movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could easily be interpreted as 'dropping', 'placing', or 'flat surface' rather than specifically 'paper'."
+    ],
+    "confidence": "medium"
+  }
+}

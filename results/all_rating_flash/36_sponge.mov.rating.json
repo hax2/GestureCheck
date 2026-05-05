@@ -1,0 +1,42 @@
+{
+  "target_word": "Sponge",
+  "video_file": "36_sponge.mov.AVI",
+  "brief_gesture_description": "The actor performs a squeezing motion with one hand against their chest, mimicking the action of squeezing a sponge.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand motion clearly mimics the action of squeezing a sponge, which is a defining characteristic of the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture effectively simulates the physical interaction of squeezing a soft, absorbent material."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and contained within the chest area."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Squeezing a sponge is a universal, everyday action that is easily recognized in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as squeezing a stress ball or a similar soft object, but 'sponge' is a very strong candidate."
+    ],
+    "confidence": "high"
+  }
+}

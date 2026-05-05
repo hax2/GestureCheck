@@ -1,0 +1,40 @@
+{
+  "target_word": "Change",
+  "video_file": "82_Change.avi",
+  "brief_gesture_description": "The actor holds both hands in front of her torso, one above the other, and then swaps their vertical positions in a circular motion.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The swapping motion of the hands clearly represents the concept of changing or exchanging one thing for another."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the physical action of manipulating two objects to switch their positions."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and involves both arms, but is moderate in speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple swapping motion is easy to process and perfectly captures the core meaning without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of swapping hands is widely recognized as meaning 'change' or 'switch'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is simple, requires no special coordination, and is effortless to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

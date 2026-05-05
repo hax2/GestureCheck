@@ -1,0 +1,42 @@
+{
+  "target_word": "Property",
+  "video_file": "54_Property.avi",
+  "brief_gesture_description": "The actor starts with arms outstretched to the sides, then brings them inward to cross over the chest, as if hugging or enclosing something.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of hugging oneself or enclosing space is a very abstract representation of 'property' (as in ownership or possession), making the connection weak and non-obvious."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "It evokes a sense of holding or claiming something, but the connection to the abstract concept of 'property' is weak."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and involves the whole arm, but it is not particularly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to perform, though its semantic link to the word is not immediately clear."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This is not a standard or conventional gesture used to represent the concept of 'property' in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and can be easily replicated by any learner."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'hugging', 'cold', 'holding', or 'enclosing' rather than 'property'."
+    ],
+    "confidence": "medium"
+  }
+}

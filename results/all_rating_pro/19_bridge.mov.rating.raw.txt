@@ -1,0 +1,40 @@
+{
+  "target_word": "Bridge",
+  "video_file": "19_bridge.mov.AVI",
+  "brief_gesture_description": "The actor raises both arms and sweeps them in a large arc from one side of her body to the other, tracing the shape of an arch.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of tracing a large arch in the air is a highly transparent visual representation of the physical structure of a bridge."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture involves drawing the shape of the object rather than simulating a physical interaction with it, providing moderate imagery of its form."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is expansive and clear, using both arms to create a large, sweeping arc across the upper body."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the entire movement."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The single, continuous sweeping motion is simple, clear, and perfectly suited for conveying the concept without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Tracing an arch is a widely recognized, intuitive, and common way to visually represent a bridge in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The sweeping arm motion is physically simple, requires no special coordination, and is effortless for a learner to mimic."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

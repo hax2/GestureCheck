@@ -1,0 +1,42 @@
+{
+  "target_word": "Present",
+  "video_file": "18_Present.avi",
+  "brief_gesture_description": "The actor performs a gesture as if offering or handing something to someone, extending both hands forward with palms up.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly mimics the act of offering or presenting an object to another person, which is a direct iconic representation of the word 'present'."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement simulates the physical action of holding and extending an object toward someone, engaging motor imagery related to giving."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though not overly expansive or rapid, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for conveying the meaning of 'present' in a learning context."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of offering something with palms up is a universally understood and common social convention in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'give', 'offer', or 'here', which are semantically very close to 'present'."
+    ],
+    "confidence": "high"
+  }
+}

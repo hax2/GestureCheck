@@ -1,0 +1,40 @@
+{
+  "target_word": "View",
+  "video_file": "52_View.avi",
+  "brief_gesture_description": "The actor places her hand horizontally above her eyes, mimicking the action of shielding one's eyes to look into the distance.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a classic, highly recognizable iconic representation of looking at a view or shielding eyes to see something far away."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It directly simulates the physical action of shading the eyes to improve vision, which is a common perceptual experience associated with viewing."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively contained and brief, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral, with only a slight focus in the eyes, providing minimal emotional context."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a universally understood gesture in Western culture for looking at a view."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and natural to perform."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

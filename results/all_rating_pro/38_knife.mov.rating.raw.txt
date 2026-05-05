@@ -1,0 +1,40 @@
+{
+  "target_word": "Knife",
+  "video_file": "38_knife.mov.AVI",
+  "brief_gesture_description": "The actor raises her right arm high with a flat hand, fingers together, and brings it down swiftly in a chopping motion.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The flat hand clearly represents a blade, and the downward motion perfectly mimics the action of chopping with a knife, making the visual relationship highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture strongly evokes the physical sensation and bodily action of wielding a large knife and striking downward."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is pronounced, involving a full arm extension and a rapid downward stroke, making it visually commanding."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor maintains a mostly neutral expression, with perhaps a slight look of focus during the downward motion, providing a weak emotional cue."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and highly informative, offering an optimal balance for learning without any cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using a flat hand in a chopping motion to represent a knife or cutting is a highly familiar and universally understood gesture in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The single, straightforward chopping motion is very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Poster",
+  "video_file": "44_poster.mov.AVI",
+  "brief_gesture_description": "The actor performs a sweeping motion with both arms, starting from the side and moving in an arc to the front, as if smoothing out or displaying a large flat surface.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The sweeping motion mimics the act of smoothing out or hanging a poster, which provides a moderate visual link to the concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the physical action of interacting with a large, flat object, engaging the arms in a way that suggests surface manipulation."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and involves the full range of the arms, making it moderately salient without being overly dramatic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, intuitive, and well-suited for representing the act of displaying a poster."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "While not a conventionalized emblem, the action of smoothing or placing a poster is a common, recognizable physical task."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and natural, making it extremely easy for a learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as smoothing out a tablecloth, a map, or any large flat surface, not exclusively a poster."
+    ],
+    "confidence": "high"
+  }
+}

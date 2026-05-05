@@ -1,0 +1,40 @@
+{
+  "target_word": "Guitar",
+  "video_file": "19_Guitar.avi",
+  "brief_gesture_description": "The actor mimics holding the neck of a guitar with her left hand while making a strumming motion with her right hand near her torso.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent and universally recognized pantomime of playing a guitar."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the physical action, posture, and bodily experience of holding and strumming the instrument."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is clear and pronounced, involving both arms with a distinct, repetitive strumming action that draws attention."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, conveying no emotional meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly captures the essence of the word without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'air guitar' gesture is highly familiar and widely used in Western culture to represent the instrument."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and effortless to enact, requiring no special physical skills or coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Zip",
+  "video_file": "01_zip.mov.AVI",
+  "brief_gesture_description": "The actor performs a vertical motion with her hand starting from her chest and moving downward, mimicking the action of pulling a zipper.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The movement is a direct and highly recognizable pantomime of the physical action of zipping a zipper."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture perfectly simulates the tactile and motor experience of operating a zipper."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and contained within the torso area."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matches the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Zipping a zipper is a universal, everyday physical action familiar to almost everyone in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy and natural for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

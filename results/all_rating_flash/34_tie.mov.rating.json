@@ -1,0 +1,42 @@
+{
+  "target_word": "Tie",
+  "video_file": "34_tie.mov.AVI",
+  "brief_gesture_description": "The actor brings both hands to the center of her chest/neck area, mimicking the motion of adjusting or tying a necktie.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand movement clearly mimics the action of adjusting or tying a necktie at the collar."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the specific physical interaction of handling a tie, which is a common motor experience."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small, contained, and performed at a moderate speed, lacking high visual impact."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of adjusting a tie is a universally recognized gesture in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as adjusting a necklace or a scarf, though 'tie' is the most direct association."
+    ],
+    "confidence": "high"
+  }
+}

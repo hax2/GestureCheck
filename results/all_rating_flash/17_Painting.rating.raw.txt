@@ -1,0 +1,40 @@
+{
+  "target_word": "Painting",
+  "video_file": "17_Painting.avi",
+  "brief_gesture_description": "The actor performs a repetitive, sweeping motion with her right hand, mimicking the action of using a paintbrush on a vertical surface.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly and directly mimics the physical action of painting on a canvas or wall."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement strongly simulates the motor action of painting, engaging the arm and hand in a way that evokes the physical experience of the task."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively contained and moderate in speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matches the target word without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of painting is a universally recognized physical activity, making the gesture highly familiar."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate, requiring no special skill or coordination."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

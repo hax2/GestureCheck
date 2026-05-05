@@ -1,0 +1,42 @@
+{
+  "target_word": "Temple",
+  "video_file": "16_temple.mov.AVI",
+  "brief_gesture_description": "The actor brings her hands together in a prayer position in front of her chest, closes her eyes, and bows slightly forward.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture depicts the action of praying rather than the physical structure of a temple, relying on a strong association between the action and the location."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the bodily action of praying or showing reverence, simulating the physical experience associated with being in a temple."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is slow, deliberate, and constrained to the center of the body, lacking expansive or rapid dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The actor closes her eyes and maintains a calm, serene expression, conveying a moderate sense of reverence or peace."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple, clear, and easy to process, making it an optimal fit for learning."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The prayer hands gesture is a widely recognized symbol of religious or spiritual practice across many cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Bringing the hands together and bowing slightly is a very natural and effortless motor action to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could easily be interpreted as 'pray', 'religion', or 'church' rather than specifically 'temple'."
+    ],
+    "confidence": "high"
+  }
+}

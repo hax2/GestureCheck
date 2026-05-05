@@ -1,0 +1,40 @@
+{
+  "target_word": "Ball",
+  "video_file": "04_Ball.avi",
+  "brief_gesture_description": "The actor holds her hands in front of her as if gripping a round object, then moves her arms upwards and to the side in a throwing motion.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly depicts the shape of the object and the primary action associated with it (throwing), making it highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The action of gripping an imaginary object and performing a throwing motion provides a very vivid bodily experience related to a ball."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement has a clear trajectory and dynamic emphasis during the throw, but it is functional rather than emotionally expressive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains largely neutral, with only a slight look of focus during the throwing action."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The two-part motion (holding, then throwing) is simple, intuitive, and perfectly captures the concept without being overloaded."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of holding and throwing a ball is a universally recognized physical activity across cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural, requires no special coordination, and is effortless for learners to mimic."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

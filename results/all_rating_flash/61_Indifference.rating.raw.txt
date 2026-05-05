@@ -1,0 +1,40 @@
+{
+  "target_word": "Indifference",
+  "video_file": "61_Indifference.avi",
+  "brief_gesture_description": "The actor performs a classic shrug gesture by raising both shoulders simultaneously and then letting them drop, accompanied by a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The shrug is the universal, highly iconic gesture for expressing indifference, lack of knowledge, or lack of concern."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The physical act of shrugging is a direct bodily manifestation of the feeling of indifference."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct, though relatively brief and contained within the shoulder area."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains largely neutral, which is consistent with indifference, but lacks a strong, expressive emotional signal."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The shrug is a highly common and widely recognized gesture in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy and natural for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

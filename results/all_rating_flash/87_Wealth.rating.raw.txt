@@ -1,0 +1,42 @@
+{
+  "target_word": "Wealth",
+  "video_file": "87_Wealth.avi",
+  "brief_gesture_description": "The actor holds both hands in front of her, palms facing up, and makes a small, quick upward motion as if presenting or offering something.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture resembles an offering or presentation, which is only tangentially related to the abstract concept of wealth."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "It evokes the physical act of holding or offering, but does not strongly simulate the experience of having or possessing wealth."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, quick, and relatively subtle, lacking expansive or commanding dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to perform, though its connection to the target word is not highly intuitive."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture of holding palms up is a common way to indicate 'here it is' or 'offering,' but it is not a standard emblem for wealth."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'offering,' 'giving,' or 'here,' rather than specifically 'wealth'."
+    ],
+    "confidence": "medium"
+  }
+}

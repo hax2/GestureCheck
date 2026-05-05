@@ -1,0 +1,42 @@
+{
+  "target_word": "Coffee",
+  "video_file": "18_coffee.mov.AVI",
+  "brief_gesture_description": "The actor mimics holding a cup or saucer with one hand while using the other hand to bring an imaginary cup to her mouth and drink, tilting her head back slightly.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture highly transparently represents the action of drinking from a cup, which is strongly and directly associated with coffee."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "Vividly simulates the physical action of holding a cup and the bodily experience of drinking a beverage."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, involving both arms and the head, but remains moderate in size and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral, with only a slight focus on the action of drinking, lacking strong emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly balances informativeness with ease of understanding for a learner."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The pantomime of drinking from a cup is a highly familiar and universally recognized gesture in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture mimics a common daily action, making it very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could represent any hot beverage drunk from a cup (like tea), but it is highly appropriate for coffee."
+    ],
+    "confidence": "high"
+  }
+}

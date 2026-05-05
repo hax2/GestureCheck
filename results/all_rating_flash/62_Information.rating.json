@@ -1,0 +1,42 @@
+{
+  "target_word": "Information",
+  "video_file": "62_Information.avi",
+  "brief_gesture_description": "The actor performs a sweeping motion with her right hand, starting from near her head and moving outward and downward, as if distributing or presenting something.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture is abstract and does not clearly represent the concept of 'information' in a visual or iconic way."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement suggests a generic action of 'giving' or 'spreading,' which has a weak connection to the abstract concept of information."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, with a moderate range of motion, making it noticeable without being overly dramatic."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, professional facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, easy to perform, and does not distract from the learning process."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture is somewhat recognizable as a 'presenting' or 'distributing' motion, which is common in Western communication."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and natural, making it effortless for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'giving,' 'sharing,' or 'presenting' rather than specifically 'information'."
+    ],
+    "confidence": "medium"
+  }
+}

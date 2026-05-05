@@ -1,0 +1,42 @@
+{
+  "target_word": "Procedure",
+  "video_file": "84_Procedure.avi",
+  "brief_gesture_description": "The actor stands still and performs a simple, rhythmic stepping motion with one foot, then returns to a neutral standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The stepping motion has no clear visual or semantic connection to the abstract concept of a 'procedure'."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement is a generic physical action that does not evoke the cognitive or sequential nature of a procedure."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is slow and limited to a small, repetitive foot tap, lacking dynamic or expansive qualities."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 2,
+      "rationale": "The gesture is simple, but it is confusing because it does not relate to the target word, making it ineffective for learning."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While the movement itself is a common physical action, it is not a recognized cultural gesture for the word 'procedure'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is a very simple, natural physical action that anyone can easily replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is completely abstract and lacks any semantic link to the word 'procedure', making it impossible to interpret the intended meaning without the label."
+    ],
+    "confidence": "high"
+  }
+}

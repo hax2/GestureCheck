@@ -1,0 +1,42 @@
+{
+  "target_word": "Therapy",
+  "video_file": "77_Therapy.avi",
+  "brief_gesture_description": "The actor performs a gentle, rhythmic rubbing motion on their upper arm, as if soothing a sore muscle or applying a topical treatment.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture represents the act of receiving physical therapy or soothing a physical ailment, which is a common association with the concept of therapy."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The rubbing motion strongly evokes the tactile sensation of self-care or physical treatment."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is small, localized to the arm, and relatively slow, making it subtle rather than expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, expressionless face throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, repetitive, and easy to perform, making it highly appropriate for a learning context."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Rubbing a sore area is a universally understood gesture for physical discomfort and the need for care."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural and requires no special coordination or effort to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as 'massage', 'pain', or 'applying lotion' rather than specifically 'therapy'."
+    ],
+    "confidence": "high"
+  }
+}

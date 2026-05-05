@@ -1,0 +1,42 @@
+{
+  "target_word": "Style",
+  "video_file": "71_Style.avi",
+  "brief_gesture_description": "The actor performs a sweeping motion with her right hand from her side up toward her head, then poses with her hand on her hip.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture resembles a 'posing' or 'fashion' motion, which is loosely related to style, but it is not a direct or transparent representation of the abstract concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "It evokes a sense of modeling or showing off one's appearance, which has a weak sensorimotor link to the concept of style."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, involving a full arm sweep and a postural shift, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral with a slight, subtle smile, providing only a weak emotional cue."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, easy to follow, and fits well within a learning context without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The 'hand on hip' pose and the sweeping motion are common cultural tropes associated with fashion, modeling, and style."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to perform, requiring no special physical skill."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'fashion', 'modeling', or 'beauty' rather than the broader concept of 'style'."
+    ],
+    "confidence": "high"
+  }
+}

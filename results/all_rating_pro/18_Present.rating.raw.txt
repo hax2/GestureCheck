@@ -1,0 +1,42 @@
+{
+  "target_word": "Present",
+  "video_file": "18_Present.avi",
+  "brief_gesture_description": "The actor holds both hands out in front of her, palms facing inward as if holding a box, and moves them forward as if offering it to someone.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly depicts the action of holding and offering a physical object, which strongly aligns with the concept of giving a present."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The action of holding an imaginary box and extending the arms forward strongly evokes the physical experience of giving a gift."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and involves both arms, but is relatively constrained and moderate in speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of understanding."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Offering an object with both hands is a highly recognizable and common gesture for giving a present in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very natural, requires no special coordination, and is effortless to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could also be interpreted as 'give' or 'offer' generally, rather than specifically a 'present'."
+    ],
+    "confidence": "high"
+  }
+}

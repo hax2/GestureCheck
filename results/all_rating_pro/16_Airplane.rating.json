@@ -1,0 +1,40 @@
+{
+  "target_word": "Airplane",
+  "video_file": "16_Airplane.avi",
+  "brief_gesture_description": "The actor extends both arms straight out to the sides and tilts her torso left and right, mimicking the wings of an airplane banking.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The extended arms perfectly represent the wings of an airplane, and the tilting motion clearly depicts the plane banking or turning in flight."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the physical sensation of pretending to fly, engaging the arms and torso in a sweeping motion."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is expansive, utilizing the full wingspan of the arms and noticeable torso tilting, making it visually prominent."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple yet highly informative, providing an optimal balance for learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a universally recognized gesture for an airplane in Western cultures, commonly used in childhood play."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gross motor movements involved are very natural, simple, and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

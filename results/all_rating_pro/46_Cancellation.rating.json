@@ -1,0 +1,42 @@
+{
+  "target_word": "Cancellation",
+  "video_file": "46_Cancellation.avi",
+  "brief_gesture_description": "The actor raises her right arm and makes a single horizontal swiping motion from left to right, resembling crossing something out.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The horizontal swipe visually represents the action of crossing something out or removing it, which aligns well with the concept of cancellation."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical action of striking through text on a page or pushing an object away to reject it."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is a single, clear, and moderate-speed arm swipe that is distinct but not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of cognitive processing."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The 'crossing out' or 'waving away' gesture is commonly understood in Western cultures to signify cancellation, negation, or rejection."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a simple, single-arm movement that is very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted more broadly as 'no', 'reject', or 'swipe away'."
+    ],
+    "confidence": "high"
+  }
+}

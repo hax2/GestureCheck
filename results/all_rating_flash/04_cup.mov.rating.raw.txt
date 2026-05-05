@@ -1,0 +1,40 @@
+{
+  "target_word": "Cup",
+  "video_file": "04_cup.mov.AVI",
+  "brief_gesture_description": "The actor brings both hands together in front of her face, forming a rounded, cup-like shape with her palms, then brings them down to her chest area.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The hand shape clearly and directly mimics the physical form of a cup, making the meaning highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical act of holding or cupping an object, evoking a strong sensorimotor experience."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The facial expression remains neutral throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word 'cup'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using hands to represent a container or cup is a universally understood and common iconic gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

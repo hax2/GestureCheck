@@ -1,0 +1,42 @@
+{
+  "target_word": "Dish Washing Liquid",
+  "video_file": "24_dish washing liquid.mov.AVI",
+  "brief_gesture_description": "The actor mimics holding a bottle and squeezing it downwards with one hand, then brings both hands together in a circular rubbing motion as if washing.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly depicts the sequence of dispensing a liquid from a bottle and then washing, which strongly resembles the use of dish washing liquid."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The actions of grasping, squeezing, and rubbing hands together evoke very vivid physical interactions and bodily experiences related to the word."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and involves both hands, but remains relatively contained in front of the torso with moderate speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The two-step sequence (squeezing then washing) is informative and easy to follow without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The motions of dispensing liquid soap from a bottle and washing are highly familiar and universally understood in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture consists of simple, everyday motor actions that are very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The rubbing motion resembles washing hands rather than specifically washing a dish, which could slightly overlap with 'hand soap'."
+    ],
+    "confidence": "high"
+  }
+}

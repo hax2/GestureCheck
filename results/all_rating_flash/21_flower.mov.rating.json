@@ -1,0 +1,40 @@
+{
+  "target_word": "Flower",
+  "video_file": "21_flower.mov.AVI",
+  "brief_gesture_description": "The actor holds her hands together in front of her chest, then slowly opens them outward and upward, mimicking the blooming of a flower.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly and directly mimics the physical process of a flower bud opening into a bloom."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement simulates the growth and expansion of a plant, providing a strong visual-motor representation of the concept."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is smooth and deliberate, though not particularly large or fast, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a flower."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'blooming' gesture is a universally understood iconic representation of a flower."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to perform, requiring no special motor skills."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

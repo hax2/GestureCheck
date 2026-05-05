@@ -1,0 +1,40 @@
+{
+  "target_word": "Thread",
+  "video_file": "15_thread.mov.AVI",
+  "brief_gesture_description": "The actor pinches her fingers together near her chest and then pulls her hand upwards and outwards, simulating the action of pulling a long piece of thread.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The action of pinching and pulling an invisible, thin object clearly represents the physical interaction with a thread."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the fine motor action of holding and pulling a delicate string or thread."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size, starting small and extending the arm fully, but it is not overly rapid or complex."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of understanding for a learner."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The pantomime of pulling a thread is a common and easily recognizable action in many cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple, natural, and effortless for a learner to mimic."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

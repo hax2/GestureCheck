@@ -1,0 +1,42 @@
+{
+  "target_word": "Tent",
+  "video_file": "44_Tent.avi",
+  "brief_gesture_description": "The actor brings their hands together above their head, forming a triangular shape with their arms and hands to represent the roof of a tent.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The triangular shape formed by the arms and hands is a highly transparent and iconic representation of a tent's structure."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the shape of the object rather than the action of setting one up, providing moderate sensorimotor imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though relatively contained within the upper body space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using hands to form a roof shape is a universally understood iconic gesture in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Could potentially be interpreted as a house or a roof, but in the context of the word 'tent', it is clear."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Towel",
+  "video_file": "30_towel.mov.AVI",
+  "brief_gesture_description": "The actor raises her right arm above her head and makes a circular, twirling motion, simulating swinging a towel in the air.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture represents a specific action associated with a towel (twirling it in the air, often in celebration), but it does not depict the prototypical use of drying oneself."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the physical action and bodily experience of holding and swinging an object overhead."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is large and pronounced, involving the entire arm extended above the head."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, straightforward, and easy to process without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "While twirling a towel is a recognizable action in certain cultural contexts (e.g., sports events), it is not the most common or universal association with the word."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a simple, single-arm motion that is very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture depicts twirling a towel rather than the more common action of drying off, which might momentarily confuse learners expecting a drying motion."
+    ],
+    "confidence": "high"
+  }
+}

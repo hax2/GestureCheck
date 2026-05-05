@@ -1,0 +1,40 @@
+{
+  "target_word": "Collection",
+  "video_file": "33_Collection.avi",
+  "brief_gesture_description": "The actor extends both arms to the sides and then sweeps them inward towards the center of her body, as if gathering multiple objects together.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The sweeping motion of the arms bringing imaginary objects together clearly represents the act of collecting or forming a collection."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly simulates the physical action of gathering multiple items into a single group or pile."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and involves both arms moving across the body, but it remains moderate in speed and overall size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, focusing on her hands without conveying emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is straightforward, intuitive, and directly maps to the concept without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The physical act of gathering is a widely understood and common metaphor for collecting things together."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The sweeping arm motion is very simple, natural, and effortless for a learner to mimic."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Theory",
+  "video_file": "76_Theory.avi",
+  "brief_gesture_description": "The actor raises both hands to chest level with palms facing each other, as if holding or framing an invisible, abstract object, holds the position briefly, and then lowers her arms.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of holding an invisible space weakly resembles the abstract nature of a 'theory' as a framed concept or idea, but the visual connection is not highly transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture evokes a weak physical interaction of holding or weighing an abstract object in one's hands."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively subtle, consisting of a simple raising and holding of the arms without expansive or rapid dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is motorically simple and not overloaded, though its abstract nature requires some cognitive mapping to the word."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "Using hands to frame or hold an invisible space is a somewhat recognizable convention for indicating an abstract concept or idea in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a very basic and natural arm movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is highly abstract and could easily be interpreted as 'concept', 'idea', 'box', or 'size' without the target word context."
+    ],
+    "confidence": "high"
+  }
+}

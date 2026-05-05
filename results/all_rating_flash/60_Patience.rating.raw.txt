@@ -1,0 +1,42 @@
+{
+  "target_word": "Patience",
+  "video_file": "60_Patience.avi",
+  "brief_gesture_description": "The actor stands still, raises both hands with palms facing downward, and slowly pushes them down toward the floor in a calming motion.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The downward pressing motion is a common metaphorical gesture for 'calming down' or 'waiting,' which aligns well with the concept of patience."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the physical act of trying to settle or calm a situation, providing a moderate sensorimotor link to the concept."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is deliberate and slow, which is appropriate for the meaning, though it is not particularly expansive or high-energy."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression remains largely neutral, missing an opportunity to convey the calm or composed affect associated with patience."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, clear, and perfectly suited for a learning context."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The 'calm down' gesture is widely recognized in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'stop' or 'calm down' rather than specifically 'patience'."
+    ],
+    "confidence": "high"
+  }
+}

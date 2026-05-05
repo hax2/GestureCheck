@@ -1,0 +1,42 @@
+{
+  "target_word": "Correction",
+  "video_file": "63_Correction.avi",
+  "brief_gesture_description": "The actor raises her right hand with the index finger extended and makes a sweeping motion from left to right, resembling the action of crossing something out.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly represents the physical action of crossing out an error, which is strongly associated with making a correction."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical action of striking through text on a page or board."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is a clear, moderate-sized sweep of the arm that is easily noticeable."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is a simple, single motion that perfectly conveys the concept without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of crossing something out to indicate an error or correction is highly familiar in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a simple arm sweep that is very easy and natural for anyone to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted simply as 'no' or 'wrong', but in the context of 'correction', the crossing-out metaphor is clear."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Crutch",
+  "video_file": "31_crutch.mov.AVI",
+  "brief_gesture_description": "The actor places one hand on their hip and leans slightly to the side, mimicking the posture of someone using a crutch under their arm.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The posture clearly mimics the physical stance of someone leaning on a crutch, making the semantic link quite transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture effectively simulates the bodily experience of supporting one's weight with a crutch."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively subtle and static, focusing more on a fixed posture than dynamic motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, serious facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The posture of leaning on a crutch is a universally recognized physical stance in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and easy for any learner to replicate physically."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the context of the word 'crutch', the posture could potentially be interpreted as general leaning or hip pain."
+    ],
+    "confidence": "high"
+  }
+}

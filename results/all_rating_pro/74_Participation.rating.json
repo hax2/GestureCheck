@@ -1,0 +1,40 @@
+{
+  "target_word": "Participation",
+  "video_file": "74_Participation.avi",
+  "brief_gesture_description": "The actor points to her chest with her index finger, then raises her arm and points upward and forward, mimicking the action of raising a hand to volunteer or speak.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "Raising a hand is a strong, conventional visual metaphor for volunteering or participating in a group setting."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical, bodily action of raising one's hand in a classroom or meeting to signal involvement."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct, involving a two-part motion from the chest to an elevated arm position, but remains moderate in speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly balances informativeness with ease of cognitive processing."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Raising a hand to indicate participation is a highly familiar and universally understood convention in Western educational and professional contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves basic, everyday movements that are very natural and effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

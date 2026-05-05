@@ -1,0 +1,40 @@
+{
+  "target_word": "Poster",
+  "video_file": "44_poster.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands and moves them downwards in parallel, simulating the action of unrolling or outlining a large rectangular poster on a wall.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly outlines the shape and size of a poster being placed on a wall, providing a strong visual representation."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The action strongly evokes the physical experience of handling, unrolling, or hanging a large piece of paper."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The movement is expansive and pronounced, using both arms to trace a large shape in space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly captures the concept without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Outlining a shape in the air to represent an object is a common and easily understood communicative strategy."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is straightforward, requiring no special coordination, making it effortless for a learner to copy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

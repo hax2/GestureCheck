@@ -1,0 +1,40 @@
+{
+  "target_word": "Warning",
+  "video_file": "86_Warning.avi",
+  "brief_gesture_description": "The actor raises her right hand with the index finger pointing up and wags it back and forth while maintaining a serious facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The wagging index finger is a strong conventional emblem that directly represents the act of issuing a warning or scolding."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Evokes the specific physical action of pointing and wagging a finger at someone to caution them."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is localized to the hand and finger, featuring a repetitive but relatively small motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor's serious and stern facial expression effectively conveys the gravity and affective tone of a warning."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple, direct, and easy to process, making it optimal for learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a highly recognizable and widely used gesture in Western cultures for warning or reprimanding."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a simple, single-handed movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

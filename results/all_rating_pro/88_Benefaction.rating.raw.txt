@@ -1,0 +1,42 @@
+{
+  "target_word": "Benefaction",
+  "video_file": "88_Benefaction.avi",
+  "brief_gesture_description": "The actor bends slightly and extends her right arm forward and downward with an open hand, as if offering or giving something to someone.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture of extending an open hand forward clearly represents the act of giving or offering a gift, which aligns well with the meaning of benefaction."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the physical action of holding an object and handing it over to another person."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement involves a moderate extension of the arm and a slight bend of the torso, but it is relatively slow and not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression remains largely neutral, with only a very subtle, gentle look accompanying the offering motion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple, single-motion gesture perfectly captures the core concept of giving without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The act of extending a hand to offer something is a highly recognizable and universally understood gesture for giving in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is straightforward, requires no special coordination, and is very natural and effortless to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The downward angle of the reach might imply giving to someone smaller or placing something down, rather than a general exchange, but the core meaning of giving remains clear."
+    ],
+    "confidence": "high"
+  }
+}

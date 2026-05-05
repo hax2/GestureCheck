@@ -1,0 +1,40 @@
+{
+  "target_word": "Sympathy",
+  "video_file": "83_Sympathy.avi",
+  "brief_gesture_description": "The actor leans forward slightly, clasps her hands together in front of her torso, and displays a concerned, slightly sad facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The posture of leaning forward with clasped hands is a recognized social signal for showing concern, visually representing the act of offering sympathy."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical feeling of leaning towards someone to offer comfort or listen attentively to their troubles."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is slow, subtle, and constrained, involving only a slight lean and bringing the hands together."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor's facial expression clearly conveys sadness and concern, which strongly matches the affective meaning of sympathy."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, providing an optimal balance of informativeness without any cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This specific body language and facial expression are widely understood in Western cultures as a sign of empathy, condolence, or sympathy."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is extremely simple, requiring only a slight change in posture and hand position, making it effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

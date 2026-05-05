@@ -1,0 +1,40 @@
+{
+  "target_word": "Mirror",
+  "video_file": "37_Mirror.avi",
+  "brief_gesture_description": "The actor raises her right hand, palm facing her face, and looks into it as if holding and looking into a hand mirror.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture highly transparently represents the semantics by mimicking the action of holding and looking into a hand mirror."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture strongly evokes the physical action of grasping a mirror and the perceptual experience of looking at one's reflection."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is moderate in size and speed, consisting of a simple arm raise and a brief hold."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression is mostly neutral, showing only a slight focus on the imaginary mirror."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of processing."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Mimicking looking into a hand mirror by looking at one's palm is a highly familiar and widely understood gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a very simple arm movement that is effortless and natural for anyone to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

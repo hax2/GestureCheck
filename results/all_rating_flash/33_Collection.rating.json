@@ -1,0 +1,42 @@
+{
+  "target_word": "Collection",
+  "video_file": "33_Collection.avi",
+  "brief_gesture_description": "The actor stands still and makes a sweeping motion with both hands, moving them from the sides toward the center of her body, as if gathering objects together.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The sweeping, gathering motion of the arms toward the center clearly represents the act of collecting or bringing items together."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical action of gathering objects, which is a strong sensorimotor representation of the concept of a collection."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is performed at a moderate speed and range."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and directly maps to the meaning of the word without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The act of gathering or collecting items with one's arms is a universal, easily understood physical action."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple and natural, making it extremely easy for a learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'gathering' or 'grouping', which are synonyms for 'collection', so the meaning is quite stable."
+    ],
+    "confidence": "high"
+  }
+}

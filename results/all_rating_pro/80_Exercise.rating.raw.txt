@@ -1,0 +1,40 @@
+{
+  "target_word": "Exercise",
+  "video_file": "80_Exercise.avi",
+  "brief_gesture_description": "The actor extends her arms forward and performs a full-body squat, then returns to a standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "Performing a squat is a direct and highly transparent visual representation of the concept of physical exercise."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The full-body movement of squatting strongly evokes the physical exertion and bodily action associated with exercising."
+    },
+    "motional_salience_gesture": {
+      "score": 4,
+      "rationale": "The gesture involves a large, full-body vertical movement that is visually prominent and expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the movement, conveying no emotional meaning."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The single, clear action of a squat is perfectly balanced, being highly informative of the concept without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The squat is a highly familiar and widely recognized exercise movement in Western culture."
+    },
+    "enactment_potential": {
+      "score": 4,
+      "rationale": "The movement is a basic physical action that is easy for most learners to reproduce, though it requires full-body engagement and standing up."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Plea",
+  "video_file": "56_Plea.avi",
+  "brief_gesture_description": "The actor stands still, brings her hands together in a prayer-like position in front of her chest, and slightly bows her head, mimicking a gesture of begging or pleading.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of clasping hands together in front of the chest is a universally recognized iconic representation of begging, imploring, or making a plea."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture evokes the physical act of begging or beseeching, which is directly related to the semantic meaning of a plea."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained, focusing on the hands and a slight head tilt, rather than expansive or highly dynamic movement."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 3,
+      "rationale": "The facial expression is serious and slightly somber, which supports the meaning of a plea, though it is not overly dramatic."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, clear, and perfectly fits the meaning of the word without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The 'prayer hands' gesture for pleading is highly familiar and widely understood in Western cultural contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to perform, making it easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

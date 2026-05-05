@@ -1,0 +1,42 @@
+{
+  "target_word": "Bottle",
+  "video_file": "15_Bottle.avi",
+  "brief_gesture_description": "The actor performs a drinking motion by raising her hand to her mouth, tilting her head back, and then lowering her hand.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the action of drinking from a bottle, which is a strong iconic representation of the object's primary function."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement simulates the physical interaction of holding a bottle and tilting it to drink, engaging motor imagery related to the object."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively contained and standard in speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word 'bottle'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of drinking from a bottle is a universal human experience and highly familiar in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also represent 'drinking' or 'water' rather than specifically a 'bottle', though it is highly contextually relevant."
+    ],
+    "confidence": "high"
+  }
+}

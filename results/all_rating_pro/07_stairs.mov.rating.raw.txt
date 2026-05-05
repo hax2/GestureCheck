@@ -1,0 +1,40 @@
+{
+  "target_word": "Stairs",
+  "video_file": "07_stairs.mov.AVI",
+  "brief_gesture_description": "The actor raises both hands, palms facing down, and moves them upwards and forwards in an alternating, stepping motion to trace the shape of a staircase.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The alternating upward and forward movement of the flat hands perfectly traces the physical shape of a staircase."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the physical structure of stairs and the upward progression of climbing them."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is steady and descriptive, lacking strong emotional dynamics or intensity."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral and focused throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is straightforward, easy to process, and effectively conveys the meaning without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Using hands to indicate steps or ascending levels is a widely understood and common representational strategy."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The alternating hand movement is simple, natural, and requires no special coordination to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

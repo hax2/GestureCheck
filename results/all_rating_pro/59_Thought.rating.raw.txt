@@ -1,0 +1,42 @@
+{
+  "target_word": "Thought",
+  "video_file": "59_Thought.avi",
+  "brief_gesture_description": "The actor raises her right hand with the index finger pointing upwards near her head, while looking slightly up.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture is a highly conventionalized metaphorical representation of having a thought or an idea, acting as a clear visual symbol for the abstract concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture evokes the physical action often associated with a sudden realization or signaling that one has an idea to share."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is a clear, distinct upward motion of the arm, moderate in size and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's facial expression is mostly neutral, with only a very subtle upward gaze suggesting realization."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple, direct, and perfectly suited for easy cognitive processing."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Raising an index finger near the head is a universally recognized emblem for an idea or thought in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The simple motion of raising an arm and pointing a finger is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is often more specifically associated with 'idea' or 'eureka' rather than the general process of 'thought', but the connection is still very strong."
+    ],
+    "confidence": "high"
+  }
+}

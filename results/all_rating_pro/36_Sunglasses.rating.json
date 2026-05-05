@@ -1,0 +1,42 @@
+{
+  "target_word": "Sunglasses",
+  "video_file": "36_Sunglasses.avi",
+  "brief_gesture_description": "The actor brings both hands up to her face, forming circles with her thumbs and index fingers, and places them over her eyes like lenses.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture highly transparently represents the shape and placement of sunglasses on the face."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement strongly evokes the physical action of putting on and wearing glasses."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct, but relatively contained and moderate in speed and size."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of understanding."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Forming circles over the eyes is a widely recognized and highly familiar gesture for glasses in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a very simple motor action that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'glasses' or 'binoculars', but fits 'sunglasses' perfectly."
+    ],
+    "confidence": "high"
+  }
+}

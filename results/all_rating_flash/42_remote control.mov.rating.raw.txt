@@ -1,0 +1,42 @@
+{
+  "target_word": "Remote Control",
+  "video_file": "42_remote control.mov.AVI",
+  "brief_gesture_description": "The actor stands still, then briefly extends her right arm forward with a closed hand, mimicking the action of pointing a remote control at a device, before returning to a neutral position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the action of pointing a remote control at a television or device, which is a highly recognizable iconic representation."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement directly simulates the physical interaction of using a remote control, engaging the motor schema associated with the object."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and contained, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, serious facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Pointing a remote control is a ubiquitous, culturally familiar action in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as pointing at something or using a laser pointer, but in the context of the target word, it is clearly a remote control."
+    ],
+    "confidence": "high"
+  }
+}

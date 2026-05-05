@@ -1,0 +1,42 @@
+{
+  "target_word": "Recommendation",
+  "video_file": "58_Recommendation.avi",
+  "brief_gesture_description": "The actor performs a gesture where she extends her hands forward with palms facing upward, as if offering or presenting something, then pulls them back slightly toward her chest.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture resembles the act of offering or presenting an idea or object, which is a component of making a recommendation, though it is not a direct representation of the abstract concept."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The movement simulates the physical act of presenting or offering something to another person, which provides a moderate sensorimotor link to the act of recommending."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively small and contained, lacking the expansive or rapid dynamics that would make it highly salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple, clear, and easy to associate with the act of offering a suggestion."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The 'offering' gesture is a common and widely understood social convention in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it effortless for learners to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as 'offering', 'giving', or 'presenting' rather than specifically 'recommendation'."
+    ],
+    "confidence": "high"
+  }
+}

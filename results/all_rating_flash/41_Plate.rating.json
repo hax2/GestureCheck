@@ -1,0 +1,42 @@
+{
+  "target_word": "Plate",
+  "video_file": "41_Plate.avi",
+  "brief_gesture_description": "The actor makes a circular motion with her hand, as if tracing the rim of a plate, then brings her hands together as if holding a plate.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The circular hand motion clearly mimics the shape of a plate, making the iconic relationship quite transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical act of tracing the shape and holding a plate, engaging motor imagery related to interacting with the object."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Tracing a circular shape to represent a plate is a universally understood and common iconic gesture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The circular motion could potentially be interpreted as a bowl or a generic round object, but in context, it strongly suggests a plate."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target_word": "Wave",
+  "video_file": "39_wave.mov.AVI",
+  "brief_gesture_description": "The actor performs a single, lateral wave motion with her right hand, moving it from the center of her body outward to the right and back.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a standard, highly recognizable iconic representation of waving hello or goodbye."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "It directly simulates the physical action of waving, which is a common motor experience."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively contained and not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, serious facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for learning the word 'wave'."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Waving is a universally recognized gesture in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and natural for anyone to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

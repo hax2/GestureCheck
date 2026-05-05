@@ -1,0 +1,42 @@
+{
+  "target_word": "Procedure",
+  "video_file": "84_Procedure.avi",
+  "brief_gesture_description": "The actor lifts her right leg and takes a deliberate step forward, then brings her left leg to meet it.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "Taking a physical step metaphorically represents a 'step' in a process, but weakly resembles the abstract concept of a full procedure."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture involves a clear, full-body movement of the legs, evoking the physical sensation of walking or moving forward."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is distinct and involves the whole leg and a shift in body weight, providing moderate visual salience."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the video."
+    },
+    "gesture_complexity_fit": {
+      "score": 3,
+      "rationale": "The gesture is very simple, which makes it easy to process, though it may lack the detail needed to fully convey the target word."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While 'taking a step' is a common verbal metaphor for a procedure, it is rarely used as a standalone physical gesture for the concept."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "Taking a single step forward is a very natural and effortless action for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could easily be interpreted as 'step', 'walk', 'forward', or 'progress' rather than specifically 'procedure'."
+    ],
+    "confidence": "high"
+  }
+}

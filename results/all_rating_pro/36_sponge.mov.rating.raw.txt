@@ -1,0 +1,40 @@
+{
+  "target_word": "Sponge",
+  "video_file": "36_sponge.mov.AVI",
+  "brief_gesture_description": "The actor brings both hands to her chest and performs a squeezing motion, simulating the action of wringing out a sponge.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The squeezing motion directly and transparently represents the primary function and physical property of a sponge."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture vividly simulates the tactile experience and motor action of squeezing a soft, wet object."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and pronounced, but localized to the chest area without being overly large or rapid."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The actor's face shows a slight expression of effort during the squeeze, providing a weak but relevant cue."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly captures the essence of the word without any unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of squeezing a sponge is a common, everyday action that is widely recognized and understood."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The squeezing motion is natural, effortless, and very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

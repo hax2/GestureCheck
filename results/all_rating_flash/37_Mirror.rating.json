@@ -1,0 +1,42 @@
+{
+  "target_word": "Mirror",
+  "video_file": "37_Mirror.avi",
+  "brief_gesture_description": "The actor stands facing forward, raises her right hand to her face level with the palm facing outward, and then moves it slightly as if looking into or touching a reflective surface.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture mimics the action of looking into or touching a mirror, which is a clear iconic representation of the word."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement simulates the physical interaction one has with a mirror, engaging the learner's sensorimotor experience of reflection."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though relatively contained and not overly expansive."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the concept of a mirror."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of looking at one's reflection is a universal human experience, making the gesture highly familiar."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'looking at a window' or 'waving', but in context, it clearly represents a mirror."
+    ],
+    "confidence": "high"
+  }
+}

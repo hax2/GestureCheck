@@ -1,0 +1,40 @@
+{
+  "target_word": "Telephone",
+  "video_file": "40_Telephone.avi",
+  "brief_gesture_description": "The actor performs a classic pantomime gesture of holding a telephone receiver to their ear using their hand.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent and iconic representation of using a traditional telephone handset."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It directly simulates the physical action of holding a phone to the ear, evoking strong sensorimotor associations."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively simple and contained within a small space."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a universally recognized emblem for a telephone in Western culture."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely easy and natural for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

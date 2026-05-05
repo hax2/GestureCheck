@@ -1,0 +1,40 @@
+{
+  "target_word": "Stamp",
+  "video_file": "14_stamp.mov.AVI",
+  "brief_gesture_description": "The actor holds one hand flat, palm up, and uses the other hand to make a downward pressing motion onto the palm, simulating the action of stamping a document.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly and directly mimics the physical action of using a hand stamp on a surface."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "It effectively simulates the tactile and motor experience of pressing a stamp down."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively small and contained within the hand/arm area."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly matches the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of stamping is a universally recognized office or administrative gesture in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very easy and natural for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

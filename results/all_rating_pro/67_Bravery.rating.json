@@ -1,0 +1,42 @@
+{
+  "target_word": "Bravery",
+  "video_file": "67_Bravery.avi",
+  "brief_gesture_description": "The actor begins with her arms bent, elbows out, and fists clenched near her shoulders in a posture of strength, then lowers her arms to her sides.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture uses a metaphor of physical strength (clenched fists, broad posture) to represent the abstract concept of bravery, providing a moderate visual link."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The tensing of the arms and clenching of fists strongly evoke the bodily sensation of preparing for a challenge or standing firm."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is minimal, consisting mainly of holding a static pose and then returning the arms to a neutral position."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor's facial expression remains neutral throughout the video, offering no emotional cues."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is very simple and direct, making it optimally balanced for learning without cognitive overload."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The 'strong' pose with clenched fists is a common cultural emblem for strength, courage, and bravery in Western contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves basic arm movements and a simple posture that are effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture might also be interpreted simply as 'strength' or 'muscles' rather than specifically 'bravery'."
+    ],
+    "confidence": "high"
+  }
+}

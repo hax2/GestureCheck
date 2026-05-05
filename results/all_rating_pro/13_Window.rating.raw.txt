@@ -1,0 +1,40 @@
+{
+  "target_word": "Window",
+  "video_file": "13_Window.avi",
+  "brief_gesture_description": "The actor uses both hands to trace a large rectangular shape in the air in front of her.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly traces a rectangular shape, which is the typical visual form of a window, providing a strong visual resemblance."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture involves the physical action of outlining a shape in space, engaging the arms, but does not simulate interacting with a window (like opening it)."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and uses both arms to define a space, but it is relatively slow and simple in its dynamics."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "Tracing a simple shape is highly intuitive and perfectly balances informativeness with simplicity for learning."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Drawing a shape in the air to represent an object of that shape is a common and easily understood communicative convention."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The action of tracing a box in the air is physically undemanding and very easy for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Cable",
+  "video_file": "21_Cable.avi",
+  "brief_gesture_description": "The actor brings both hands together in front of her body with a pinching grip, mimicking the action of holding and connecting two ends of a cable.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The gesture represents the action of connecting a cable rather than the physical shape of the cable itself, providing moderate visual resemblance to the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The pinching grip and joining motion strongly evoke the physical experience of handling and connecting a wire or cable."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, bringing the hands from the sides to the center, but remains moderate in size and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and effectively conveys the concept without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of connecting two ends of a cable is a common, universally understood interaction in modern contexts."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves a very simple and natural hand movement that is effortless for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture focuses on the action of connecting rather than the object itself, which could also be interpreted as 'plug', 'connect', or 'tie'."
+    ],
+    "confidence": "high"
+  }
+}

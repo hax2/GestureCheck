@@ -1,0 +1,40 @@
+{
+  "target_word": "Alternative",
+  "video_file": "47_Alternative.avi",
+  "brief_gesture_description": "The actor raises her left hand palm up, looks at it, then lowers it while raising her right hand palm up and looking at it, as if presenting two different options.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture metaphorically represents two distinct choices by presenting them sequentially in opposite hands."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "Evokes the physical action of holding or weighing two different objects in the hands."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and distinct, alternating between the left and right sides, but remains moderate in size and speed."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 2,
+      "rationale": "The facial expression is mostly neutral, with a slight shift in gaze to follow the hands, indicating focus rather than emotion."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The simple alternating hand movement perfectly captures the concept of 'alternative' without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This 'on the one hand, on the other hand' gesture is a highly familiar and widely used convention for presenting options in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture involves basic arm and hand movements that are very easy and natural for learners to reproduce."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

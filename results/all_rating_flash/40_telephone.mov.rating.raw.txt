@@ -1,0 +1,40 @@
+{
+  "target_word": "Telephone",
+  "video_file": "40_telephone.mov.AVI",
+  "brief_gesture_description": "The actor performs a classic 'telephone' gesture by forming a handset shape with her hand and placing it against her ear, accompanied by a slight head tilt and a neutral facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture is a highly transparent and universally recognized iconic representation of holding a telephone handset to one's ear."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture directly simulates the physical action of using a traditional telephone, engaging clear motor imagery."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively contained and standard in its execution."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for vocabulary learning."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "This is a globally recognized emblem for a telephone, highly familiar in Western and many other cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is extremely simple and natural for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

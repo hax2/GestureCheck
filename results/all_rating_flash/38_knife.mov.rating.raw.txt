@@ -1,0 +1,42 @@
+{
+  "target_word": "Knife",
+  "video_file": "38_knife.mov.AVI",
+  "brief_gesture_description": "The actor performs a single, sharp downward chopping motion with her right hand, mimicking the action of using a knife.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The downward chopping motion clearly mimics the action of using a knife to cut something."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical action of cutting, which is a core sensorimotor experience associated with a knife."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively brief and contained."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, serious facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of chopping is a universally understood gesture for using a knife."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very simple and natural to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'chopping' or 'cutting' generally, rather than specifically 'knife', though it is highly contextually appropriate."
+    ],
+    "confidence": "high"
+  }
+}

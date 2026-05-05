@@ -1,0 +1,40 @@
+{
+  "target_word": "Sympathy",
+  "video_file": "83_Sympathy.avi",
+  "brief_gesture_description": "The actor leans forward slightly, clasps her hands together near her chest, and adopts a somber, concerned facial expression.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The posture of leaning in with clasped hands is a conventional, iconic way to express concern or sympathy for someone else's situation."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates a bodily posture of leaning toward someone in distress, which evokes a physical sense of empathy."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is relatively subtle and constrained, focusing more on posture than expansive motion."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 4,
+      "rationale": "The actor's facial expression is clearly somber and concerned, which effectively communicates the emotional weight of sympathy."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The gesture is simple, clear, and directly maps to the target word without unnecessary complexity."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Leaning in with clasped hands is a very common and widely understood gesture for expressing sympathy in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The gesture is very natural and easy for any learner to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "target_word": "Tradition",
+  "video_file": "78_Tradition.avi",
+  "brief_gesture_description": "The actor starts with hands clasped together in front of the chest, then opens them outward and downward in a smooth, symmetrical motion.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture is abstract and does not clearly represent the concept of 'tradition' visually; it could represent many other concepts like 'opening' or 'sharing'."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is graceful but lacks a specific physical action or interaction that would ground the abstract concept of tradition in bodily experience."
+    },
+    "motional_salience_gesture": {
+      "score": 2,
+      "rationale": "The movement is slow, controlled, and relatively small in scale, lacking the dynamism needed to be highly salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral, static facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 4,
+      "rationale": "The gesture is simple and easy to perform, though its lack of semantic clarity makes it less effective for learning."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "The gesture is a generic, somewhat formal movement that is recognizable but not tied to a specific cultural convention for 'tradition'."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is very simple, symmetrical, and requires no special coordination, making it effortless to replicate."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is highly abstract and could be interpreted as 'opening', 'presenting', or 'releasing' rather than 'tradition'."
+    ],
+    "confidence": "high"
+  }
+}

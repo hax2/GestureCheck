@@ -1,0 +1,40 @@
+{
+  "target_word": "Banana",
+  "video_file": "43_banana.mov.AVI",
+  "brief_gesture_description": "The actor raises her right hand and makes a downward pulling motion, simulating the action of peeling a banana.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The peeling motion is a highly transparent and recognizable action directly associated with a banana."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture vividly simulates the physical interaction and bodily experience of holding and peeling the fruit."
+    },
+    "motional_salience_gesture": {
+      "score": 3,
+      "rationale": "The movement is clear and pronounced but relatively brief and localized to one arm, making it moderately salient."
+    },
+    "emotional_salience_facial_expression": {
+      "score": 1,
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+    },
+    "gesture_complexity_fit": {
+      "score": 5,
+      "rationale": "The single peeling motion is simple, direct, and perfectly captures the essence of the word without being overly complex."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The action of peeling a banana is a very common and universally understood concept in Western cultures."
+    },
+    "enactment_potential": {
+      "score": 5,
+      "rationale": "The movement is simple, requires no special coordination, and is effortless for learners to enact."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}
