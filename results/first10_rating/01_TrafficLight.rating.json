@@ -1,42 +1,42 @@
 {
   "target_word": "Traffic Light",
   "video_file": "01_TrafficLight.avi",
-  "brief_gesture_description": "The actor raises her right arm and makes a flat-hand gesture, moving it slightly as if indicating a signal or light, then returns to a neutral standing position.",
+  "brief_gesture_description": "The actor raises her right arm and moves her hand in a vertical, stop-and-go motion, mimicking the changing lights of a traffic signal.",
   "ratings": {
     "iconicity": {
-      "score": 2,
-      "rationale": "The gesture is abstract and does not clearly depict the physical structure or function of a traffic light."
+      "score": 4,
+      "rationale": "The vertical movement of the hand clearly mimics the sequence of a traffic light changing colors."
     },
     "sensorimotor_imagery": {
-      "score": 2,
-      "rationale": "There is a slight action-related element, but it does not strongly evoke the experience of interacting with a traffic light."
+      "score": 3,
+      "rationale": "It simulates the visual experience of observing a traffic light, though it lacks the physical interaction of driving."
     },
     "motional_salience_gesture": {
-      "score": 1,
-      "rationale": "The movement is functional and lacks distinct emotional or dynamic emphasis."
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not particularly expansive or rapid."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
-      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
     },
     "gesture_complexity_fit": {
-      "score": 4,
-      "rationale": "The gesture is simple and easy to perform, though its connection to the target word is weak."
+      "score": 5,
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a traffic light."
     },
     "cultural_familiarity": {
-      "score": 2,
-      "rationale": "The gesture is not a standard or widely recognized cultural sign for a traffic light."
+      "score": 5,
+      "rationale": "Traffic lights are a universal cultural symbol, and the vertical motion is widely understood."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The movement is very simple and physically easy for any learner to replicate."
+      "rationale": "The movement is very simple and easy for any learner to replicate."
     }
   },
   "coherence_check": {
     "is_video_interpretable": true,
     "possible_ambiguities": [
-      "The gesture is quite abstract and could be interpreted as waving, signaling, or pointing rather than specifically representing a traffic light."
+      "The gesture could potentially be interpreted as a generic 'stop' signal or a 'wait' gesture if not contextualized."
     ],
-    "confidence": "medium"
+    "confidence": "high"
   }
 }

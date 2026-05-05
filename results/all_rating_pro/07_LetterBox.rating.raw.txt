@@ -1,35 +1,35 @@
 {
   "target_word": "Letter Box",
   "video_file": "07_LetterBox.avi",
-  "brief_gesture_description": "The actor raises one hand as if holding open a flap, and uses the other hand to mimic sliding a letter into the opening.",
+  "brief_gesture_description": "The actor raises her left hand to represent a horizontal slot and uses her right hand to simulate inserting a letter into it.",
   "ratings": {
     "iconicity": {
-      "score": 5,
-      "rationale": "The gesture highly transparently represents the action of opening a letterbox and inserting mail."
+      "score": 4,
+      "rationale": "The gesture clearly depicts the action of interacting with a letter box by simulating the insertion of a letter into a slot."
     },
     "sensorimotor_imagery": {
       "score": 5,
-      "rationale": "Strongly evokes the physical sensation of holding a flap open and sliding an object into a slot."
+      "rationale": "The gesture vividly evokes the physical action and bodily experience of posting a letter."
     },
     "motional_salience_gesture": {
-      "score": 2,
-      "rationale": "The movement is functional and deliberate, lacking strong emotional expressiveness."
+      "score": 4,
+      "rationale": "The movement is clear and pronounced, involving both arms to create a distinct action sequence."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
       "rationale": "The actor maintains a neutral facial expression throughout the video."
     },
     "gesture_complexity_fit": {
-      "score": 4,
-      "rationale": "The two-handed, asymmetrical movement is slightly complex but perfectly captures the meaning without being overwhelming."
+      "score": 5,
+      "rationale": "The gesture is straightforward and perfectly balances informativeness with simplicity for learning."
     },
     "cultural_familiarity": {
-      "score": 4,
-      "rationale": "The action of mailing a letter through a slot is a widely recognized concept across many cultures."
+      "score": 5,
+      "rationale": "The action of posting a letter into a slot is a highly familiar and universally understood concept in Western cultures."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The gesture is straightforward and easy for learners to physically reproduce."
+      "rationale": "The gesture involves simple, everyday arm movements that are very natural and effortless to reproduce."
     }
   },
   "coherence_check": {

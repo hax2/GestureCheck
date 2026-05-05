@@ -1,41 +1,41 @@
 {
   "target_word": "Entrance Ticket",
   "video_file": "10_EntranceTicket.avi",
-  "brief_gesture_description": "The actor performs a sweeping motion with her right arm, moving it from her side across her body to the left, as if scanning or presenting a ticket at an entrance.",
+  "brief_gesture_description": "The actor performs a sweeping motion with her right arm from right to left, as if scanning or presenting a ticket at an entrance gate.",
   "ratings": {
     "iconicity": {
-      "score": 3,
-      "rationale": "The sweeping motion mimics the act of scanning a ticket or passing through a turnstile, which is moderately iconic for the concept of an entrance ticket."
+      "score": 4,
+      "rationale": "The sweeping motion effectively mimics the action of scanning a ticket or passing through an automated turnstile, which is a clear iconic representation of using an entrance ticket."
     },
     "sensorimotor_imagery": {
-      "score": 3,
-      "rationale": "The gesture simulates the physical action of presenting a ticket, engaging the arm and shoulder in a way that mimics the interaction with an entry point."
+      "score": 4,
+      "rationale": "The gesture simulates the physical interaction of presenting a ticket to a scanner, engaging the arm and hand in a way that mirrors the real-world action."
     },
     "motional_salience_gesture": {
-      "score": 2,
-      "rationale": "The movement is functional and clear but lacks significant emotional intensity or dynamic variation."
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though it is relatively contained and not overly expansive or rapid."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
-      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective context."
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is simple, direct, and easy to understand in the context of the target word."
+      "rationale": "The gesture is simple, direct, and perfectly suited for representing the concept of an entrance ticket without unnecessary cognitive load."
     },
     "cultural_familiarity": {
-      "score": 4,
-      "rationale": "The action of scanning or presenting a ticket is a common, globally recognized experience."
+      "score": 5,
+      "rationale": "The action of scanning a ticket or passing through a gate is a universally recognized experience in modern Western contexts."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The movement is very simple and requires no special coordination, making it easy for any learner to replicate."
+      "rationale": "The movement is very simple and natural, making it extremely easy for any learner to replicate."
     }
   },
   "coherence_check": {
     "is_video_interpretable": true,
     "possible_ambiguities": [
-      "The gesture could also be interpreted as 'waving' or 'sweeping' if not contextualized by the target word."
+      "The gesture could also be interpreted as swiping a credit card or waving a hand, but in the context of 'entrance ticket', it is highly coherent."
     ],
     "confidence": "high"
   }

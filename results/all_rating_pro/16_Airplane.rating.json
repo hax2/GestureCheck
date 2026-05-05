@@ -1,35 +1,35 @@
 {
   "target_word": "Airplane",
   "video_file": "16_Airplane.avi",
-  "brief_gesture_description": "The actor extends both arms straight out to the sides and tilts her torso left and right, mimicking the wings of an airplane banking.",
+  "brief_gesture_description": "The actor extends both arms straight out to the sides and tilts her torso left and right, mimicking the wings and banking motion of an airplane.",
   "ratings": {
     "iconicity": {
       "score": 5,
-      "rationale": "The extended arms perfectly represent the wings of an airplane, and the tilting motion clearly depicts the plane banking or turning in flight."
+      "rationale": "Extending the arms horizontally and tilting the torso perfectly mimics the wings and banking motion of an airplane, providing a highly transparent visual representation."
     },
     "sensorimotor_imagery": {
-      "score": 4,
-      "rationale": "The gesture strongly evokes the physical sensation of pretending to fly, engaging the arms and torso in a sweeping motion."
+      "score": 5,
+      "rationale": "The gesture involves full upper-body engagement, vividly simulating the physical action and experience of an airplane flying and banking."
     },
     "motional_salience_gesture": {
       "score": 4,
-      "rationale": "The movement is expansive, utilizing the full wingspan of the arms and noticeable torso tilting, making it visually prominent."
+      "rationale": "The gesture involves wide arm extensions and noticeable torso tilting, making it a pronounced and expansive movement that easily captures attention."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
-      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is extremely simple yet highly informative, providing an optimal balance for learning."
+      "rationale": "The movement is simple, direct, and perfectly captures the core concept without any unnecessary complexity, making it optimal for learning."
     },
     "cultural_familiarity": {
       "score": 5,
-      "rationale": "This is a universally recognized gesture for an airplane in Western cultures, commonly used in childhood play."
+      "rationale": "Pretending to be an airplane by extending one's arms is a highly recognizable and universally understood gesture in Western cultures, often used in childhood play."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The gross motor movements involved are very natural, simple, and effortless for learners to reproduce."
+      "rationale": "The gross motor movements of extending the arms and tilting the body are very natural, simple, and effortless for learners to reproduce."
     }
   },
   "coherence_check": {

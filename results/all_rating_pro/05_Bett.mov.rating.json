@@ -1,35 +1,35 @@
 {
   "target_word": "Bett",
   "video_file": "05_Bett.mov.avi",
-  "brief_gesture_description": "The actor tilts her head to the side, closes her eyes, and rests her head on her folded hands, simulating the act of sleeping.",
+  "brief_gesture_description": "The actor places her hands together palm-to-palm, tilts her head to the side, and rests her cheek on her hands, simulating sleeping.",
   "ratings": {
     "iconicity": {
       "score": 5,
-      "rationale": "The gesture is a highly transparent metonymic representation, using the action of sleeping to clearly indicate the object 'bed'."
+      "rationale": "The gesture of resting the head on folded hands perfectly mimics the action of sleeping on a pillow, strongly representing the concept of a bed."
     },
     "sensorimotor_imagery": {
       "score": 5,
-      "rationale": "The gesture directly and vividly simulates the physical bodily experience of resting one's head on a pillow."
+      "rationale": "The gesture directly simulates the bodily experience of resting the head, evoking strong sensorimotor associations with lying in a bed."
     },
     "motional_salience_gesture": {
       "score": 3,
-      "rationale": "The movement is slow, gentle, and calming, which perfectly fits the concept of rest, though it lacks high dynamic intensity."
+      "rationale": "The movement is smooth and constrained to the upper body, lacking large or rapid dynamics."
     },
     "emotional_salience_facial_expression": {
-      "score": 4,
-      "rationale": "The actor's closed eyes and relaxed facial expression clearly communicate a peaceful and restful affective state."
+      "score": 3,
+      "rationale": "The actor's face relaxes and eyes close slightly, conveying a calm, restful state associated with sleeping."
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is extremely simple, intuitive, and perfectly balances informativeness with ease of cognitive processing."
+      "rationale": "The gesture is simple, intuitive, and easy to process, making it ideal for learning."
     },
     "cultural_familiarity": {
       "score": 5,
-      "rationale": "Resting the head on folded hands is a universally recognized and highly familiar gesture for sleep or a bed."
+      "rationale": "Placing hands together under a tilted head is a widely recognized emblem for sleep in Western cultures."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The gesture requires minimal motor coordination and is effortless for learners to reproduce."
+      "rationale": "The movement is simple, requires no special coordination, and is effortless to perform."
     }
   },
   "coherence_check": {

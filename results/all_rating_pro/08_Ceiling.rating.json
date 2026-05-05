@@ -1,35 +1,35 @@
 {
   "target_word": "Ceiling",
   "video_file": "08_Ceiling.avi",
-  "brief_gesture_description": "The actor raises both arms above her head, palms facing down and fingers touching, to form a flat horizontal surface, while looking upwards.",
+  "brief_gesture_description": "The actor raises both arms above her head, palms facing down and fingers pointing towards each other, creating a flat horizontal surface above her.",
   "ratings": {
     "iconicity": {
       "score": 5,
-      "rationale": "The gesture of forming a flat surface above the head is a highly transparent visual representation of a ceiling."
+      "rationale": "The flat hands held above the head perfectly mimic the flat, horizontal surface of a ceiling."
     },
     "sensorimotor_imagery": {
       "score": 4,
-      "rationale": "Reaching upwards to define a spatial boundary strongly evokes the physical experience of a ceiling's location and shape."
+      "rationale": "Reaching up and indicating the space above evokes the physical relationship and spatial awareness one has with a ceiling."
     },
     "motional_salience_gesture": {
-      "score": 2,
-      "rationale": "The movement is deliberate and descriptive, lacking strong emotional dynamics or expressive intensity."
+      "score": 4,
+      "rationale": "The gesture involves a large, upward movement of both arms, making it visually prominent and expansive."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
-      "rationale": "The actor's facial expression remains neutral throughout the video, conveying no emotional meaning."
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, with no emotional cues."
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is simple, direct, and perfectly captures the concept without any unnecessary complexity."
+      "rationale": "The movement is simple, direct, and easy to process, making it an optimal fit for vocabulary learning."
     },
     "cultural_familiarity": {
-      "score": 5,
-      "rationale": "Using flat hands above the head to indicate a roof or ceiling is a widely recognized and common spatial gesture."
+      "score": 4,
+      "rationale": "Indicating a flat surface above the head is a commonly understood way to represent a ceiling or roof."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The movement involves a simple raising of the arms, making it very natural and effortless for learners to reproduce."
+      "rationale": "The gesture requires only basic motor skills (raising arms) and is effortless for learners to reproduce."
     }
   },
   "coherence_check": {

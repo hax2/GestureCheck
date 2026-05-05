@@ -1,41 +1,41 @@
 {
   "target_word": "Monument",
   "video_file": "09_Monument.avi",
-  "brief_gesture_description": "The actor stands, then slowly raises both arms upward in a wide, sweeping motion, forming an arch shape above their head, then lowers them back to their sides.",
+  "brief_gesture_description": "The actor stands, then slowly raises both arms upward in a curved motion, forming an arch shape above their head, mimicking the structure of a monument.",
   "ratings": {
     "iconicity": {
       "score": 4,
-      "rationale": "The upward sweeping arm movement effectively traces the outline of a tall, arched, or structured monument."
+      "rationale": "The arm movement clearly traces the outline of an arch or a tall, structured object, which is a common iconic representation of a monument."
     },
     "sensorimotor_imagery": {
       "score": 3,
-      "rationale": "The movement simulates the physical scale and verticality associated with a large structure, though it lacks interaction with a specific object."
+      "rationale": "The gesture simulates the physical act of building or tracing the height and shape of a structure, engaging the upper body."
     },
     "motional_salience_gesture": {
-      "score": 2,
-      "rationale": "The movement is slow and deliberate, which conveys a sense of grandeur or stability, but it is not highly emotionally expressive."
+      "score": 3,
+      "rationale": "The movement is deliberate and expansive, though performed at a slow, steady pace."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
-      "rationale": "The actor's facial expression remains neutral throughout the gesture."
+      "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture."
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is simple, clear, and easy to associate with the concept of a large, standing structure."
+      "rationale": "The gesture is simple, clear, and directly maps to the concept of a tall, static structure."
     },
     "cultural_familiarity": {
       "score": 4,
-      "rationale": "Using arms to represent height or a large structure is a fairly universal and intuitive gesture."
+      "rationale": "Using hands to outline the shape of a structure is a universally understood iconic gesture."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The movement is very simple and involves basic arm extensions that any learner can easily replicate."
+      "rationale": "The movement is very simple and requires no special coordination, making it easy for anyone to replicate."
     }
   },
   "coherence_check": {
     "is_video_interpretable": true,
     "possible_ambiguities": [
-      "The gesture could also be interpreted as representing 'arch', 'sky', or 'growth' depending on the context."
+      "The gesture could potentially be interpreted as 'arch', 'building', or 'tall' without the context of the word 'monument'."
     ],
     "confidence": "high"
   }

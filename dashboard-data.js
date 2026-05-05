@@ -36,95 +36,96 @@ window.RATING_DASHBOARD = {
       "target_word": "Traffic Light",
       "title": "01_TrafficLight.avi",
       "local_path": "data/gesture_videos/01_TrafficLight.avi",
+      "video": "assets/rating-videos/01_TrafficLight.mp4",
       "complete": true,
-      "max_abs_delta": 3,
-      "mean_abs_delta": 0.857,
-      "flash_confidence": "medium",
+      "max_abs_delta": 1,
+      "mean_abs_delta": 0.286,
+      "flash_confidence": "high",
       "pro_confidence": "high",
-      "flash_ambiguities": "The gesture is quite abstract and could be interpreted as waving, signaling, or pointing rather than specifically representing a traffic light.",
-      "pro_ambiguities": "The gesture represents 'stop' rather than the object 'traffic light' itself, which might cause slight confusion if learners expect a representation of the three lights.",
+      "flash_ambiguities": "The gesture could potentially be interpreted as a generic 'stop' signal or a 'wait' gesture if not contextualized.",
+      "pro_ambiguities": "The gesture signifies 'stop' rather than the physical object 'traffic light', which might be slightly ambiguous without context.",
       "ratings": {
         "iconicity": {
           "label": "Iconicity",
           "flash": {
-            "score": 2,
-            "rationale": "The gesture is abstract and does not clearly depict the physical structure or function of a traffic light."
+            "score": 4,
+            "rationale": "The vertical movement of the hand clearly mimics the sequence of a traffic light changing colors."
           },
           "pro": {
-            "score": 2,
-            "rationale": "The gesture visually represents the action of stopping rather than the physical shape or appearance of a traffic light, making the visual resemblance to the object itself weak."
+            "score": 3,
+            "rationale": "The gesture represents the 'stop' command associated with a red traffic light, rather than the physical appearance of the light itself."
           },
-          "delta": 0
+          "delta": -1
         },
         "sensorimotor_imagery": {
           "label": "Sensorimotor imagery",
           "flash": {
-            "score": 2,
-            "rationale": "There is a slight action-related element, but it does not strongly evoke the experience of interacting with a traffic light."
+            "score": 3,
+            "rationale": "It simulates the visual experience of observing a traffic light, though it lacks the physical interaction of driving."
           },
           "pro": {
-            "score": 3,
-            "rationale": "The gesture evokes the physical action of halting or directing traffic, providing a moderate bodily connection to the function of a traffic light."
+            "score": 4,
+            "rationale": "Evokes the physical action of halting or signaling someone to stop, which is the primary function of a traffic light."
           },
           "delta": 1
         },
         "motional_salience_gesture": {
           "label": "Motional salience",
           "flash": {
-            "score": 1,
-            "rationale": "The movement is functional and lacks distinct emotional or dynamic emphasis."
+            "score": 3,
+            "rationale": "The movement is clear and deliberate, though not particularly expansive or rapid."
           },
           "pro": {
-            "score": 2,
-            "rationale": "The movement is straightforward and functional, lacking significant dynamic emphasis or emotional expressiveness."
+            "score": 3,
+            "rationale": "The movement is a clear, deliberate raising of the arm, moderate in size and speed."
           },
-          "delta": 1
+          "delta": 0
         },
         "emotional_salience_facial_expression": {
           "label": "Facial emotion",
           "flash": {
             "score": 1,
-            "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+            "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
           },
           "pro": {
             "score": 1,
-            "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture."
           },
           "delta": 0
         },
         "gesture_complexity_fit": {
           "label": "Complexity fit",
           "flash": {
-            "score": 4,
-            "rationale": "The gesture is simple and easy to perform, though its connection to the target word is weak."
+            "score": 5,
+            "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a traffic light."
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is extremely simple and clear, making it an optimal, low-cognitive-load movement for a learning context."
+            "rationale": "The gesture is very simple, direct, and perfectly balances informativeness with ease of understanding."
           },
-          "delta": 1
+          "delta": 0
         },
         "cultural_familiarity": {
           "label": "Cultural familiarity",
           "flash": {
-            "score": 2,
-            "rationale": "The gesture is not a standard or widely recognized cultural sign for a traffic light."
+            "score": 5,
+            "rationale": "Traffic lights are a universal cultural symbol, and the vertical motion is widely understood."
           },
           "pro": {
             "score": 5,
-            "rationale": "The raised open palm is a universally recognized gesture for 'stop', which is strongly associated with traffic control."
+            "rationale": "The raised hand with palm facing outward is a highly familiar and universally recognized sign for 'stop' in Western cultures."
           },
-          "delta": 3
+          "delta": 0
         },
         "enactment_potential": {
           "label": "Enactment potential",
           "flash": {
             "score": 5,
-            "rationale": "The movement is very simple and physically easy for any learner to replicate."
+            "rationale": "The movement is very simple and easy for any learner to replicate."
           },
           "pro": {
             "score": 5,
-            "rationale": "The movement involves a basic arm raise and hand position that is effortless for learners to reproduce."
+            "rationale": "The gesture involves a basic arm movement that is effortless for learners to reproduce."
           },
           "delta": 0
         }
@@ -136,47 +137,48 @@ window.RATING_DASHBOARD = {
       "target_word": "Trailer",
       "title": "02_Trailer.avi",
       "local_path": "data/gesture_videos/02_Trailer.avi",
+      "video": "assets/rating-videos/02_Trailer.mp4",
       "complete": true,
       "max_abs_delta": 1,
-      "mean_abs_delta": 0.286,
+      "mean_abs_delta": 0.714,
       "flash_confidence": "high",
       "pro_confidence": "high",
-      "flash_ambiguities": "The gesture could potentially be interpreted as 'hitching' or 'towing' generally, rather than specifically 'trailer'.",
-      "pro_ambiguities": "The gesture represents the action associated with the object (pulling) rather than the shape of the object itself, which could be interpreted as 'pull' or 'tow'.",
+      "flash_ambiguities": "The gesture could be interpreted as hitching a trailer, but without context, it might also look like simply reaching behind one's back.",
+      "pro_ambiguities": "The gesture represents the action of pulling rather than the object itself, which could be interpreted as verbs like 'pull' or 'drag'.",
       "ratings": {
         "iconicity": {
           "label": "Iconicity",
           "flash": {
-            "score": 4,
-            "rationale": "The gesture mimics the physical action of hitching a trailer to a vehicle, which is a clear iconic representation of the word."
+            "score": 3,
+            "rationale": "The gesture mimics the act of hitching a trailer to a vehicle, which is a moderate iconic representation of the word's function."
           },
           "pro": {
             "score": 4,
-            "rationale": "The gesture clearly represents the defining function of a trailer, which is being pulled behind a vehicle or person."
+            "rationale": "The gesture clearly depicts the action of towing or pulling something behind, which is the defining characteristic of a trailer."
           },
-          "delta": 0
+          "delta": 1
         },
         "sensorimotor_imagery": {
           "label": "Sensorimotor imagery",
           "flash": {
-            "score": 4,
-            "rationale": "The movement simulates the specific physical interaction of connecting a trailer, engaging the body in a functional task."
+            "score": 3,
+            "rationale": "It simulates the physical action of connecting a trailer, providing a moderate sensorimotor link to the concept."
           },
           "pro": {
             "score": 4,
-            "rationale": "The forward lean and backward arm extension strongly simulate the physical effort and bodily experience of towing a heavy load."
+            "rationale": "The posture and arm position strongly evoke the physical sensation of dragging or pulling a heavy load."
           },
-          "delta": 0
+          "delta": 1
         },
         "motional_salience_gesture": {
           "label": "Motional salience",
           "flash": {
             "score": 2,
-            "rationale": "The movement is functional and precise but lacks significant emotional intensity or dynamic emphasis."
+            "rationale": "The movement is relatively small and constrained to the area behind the back, making it somewhat subtle."
           },
           "pro": {
             "score": 3,
-            "rationale": "The movement is deliberate and conveys physical effort, but lacks strong emotional expressiveness."
+            "rationale": "The movement involves a full-body shift and arm extension, making it moderately salient but not overly expansive."
           },
           "delta": 1
         },
@@ -184,47 +186,47 @@ window.RATING_DASHBOARD = {
           "label": "Facial emotion",
           "flash": {
             "score": 1,
-            "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture."
           },
           "pro": {
             "score": 2,
-            "rationale": "The actor's facial expression remains mostly neutral, with only a slight indication of focus or effort while looking back."
+            "rationale": "The facial expression is mostly neutral, showing only a slight hint of physical effort."
           },
           "delta": 1
         },
         "gesture_complexity_fit": {
           "label": "Complexity fit",
           "flash": {
-            "score": 5,
-            "rationale": "The gesture is simple, direct, and perfectly suited for illustrating the concept of a trailer."
+            "score": 4,
+            "rationale": "The gesture is simple, clear, and directly related to the concept without unnecessary complexity."
           },
           "pro": {
-            "score": 5,
-            "rationale": "The gesture is simple, direct, and effectively conveys the core concept without unnecessary complexity."
+            "score": 4,
+            "rationale": "The gesture is straightforward and effectively conveys the concept without unnecessary complexity."
           },
           "delta": 0
         },
         "cultural_familiarity": {
           "label": "Cultural familiarity",
           "flash": {
-            "score": 4,
-            "rationale": "The action of hitching a trailer is a widely understood mechanical concept in many cultures."
+            "score": 3,
+            "rationale": "The action of hitching a trailer is a recognizable concept in many Western contexts, though the specific gesture is not a standard emblem."
           },
           "pro": {
             "score": 4,
-            "rationale": "The pantomime of pulling something heavy behind oneself is a widely understood concept across cultures."
+            "rationale": "Pantomiming pulling something behind oneself is a recognizable way to represent towing or a trailer."
           },
-          "delta": 0
+          "delta": 1
         },
         "enactment_potential": {
           "label": "Enactment potential",
           "flash": {
             "score": 5,
-            "rationale": "The gesture is very simple and involves basic arm and torso movements that are easy for anyone to replicate."
+            "rationale": "The movement is very simple and easy for any learner to replicate."
           },
           "pro": {
             "score": 5,
-            "rationale": "The movement involves basic body mechanics that are very easy for learners to reproduce."
+            "rationale": "The movement is simple, requires no special coordination, and is very easy for learners to enact."
           },
           "delta": 0
         }
@@ -236,23 +238,24 @@ window.RATING_DASHBOARD = {
       "target_word": "Balcony",
       "title": "03_Balcony.avi",
       "local_path": "data/gesture_videos/03_Balcony.avi",
+      "video": "assets/rating-videos/03_Balcony.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
       "flash_confidence": "high",
       "pro_confidence": "high",
-      "flash_ambiguities": "The gesture could also be interpreted as leaning on a fence or a counter, but in the context of 'balcony', it is highly appropriate.",
-      "pro_ambiguities": "Without the target word, the gesture could potentially be interpreted as leaning on a fence, a counter, or looking out a window.",
+      "flash_ambiguities": "The gesture could potentially be interpreted as leaning on a fence or a counter, but in the context of the word 'balcony', it is highly specific.",
+      "pro_ambiguities": "The gesture could potentially be interpreted as leaning on a table or a fence, though 'balcony' is a very strong fit.",
       "ratings": {
         "iconicity": {
           "label": "Iconicity",
           "flash": {
             "score": 4,
-            "rationale": "The posture of leaning on an imaginary railing is a clear and recognizable representation of standing on a balcony."
+            "rationale": "The posture of leaning on an imaginary railing is a clear and recognizable iconic representation of standing on a balcony."
           },
           "pro": {
             "score": 4,
-            "rationale": "The gesture clearly represents the action of leaning on a railing, which is strongly associated with a balcony, depicting the interaction with the object rather than the architectural structure itself."
+            "rationale": "The gesture clearly depicts the action of leaning on a railing, visually representing the physical structure and typical interaction with a balcony."
           },
           "delta": 0
         },
@@ -260,23 +263,23 @@ window.RATING_DASHBOARD = {
           "label": "Sensorimotor imagery",
           "flash": {
             "score": 4,
-            "rationale": "The gesture effectively simulates the physical experience of leaning on a balcony railing."
+            "rationale": "The gesture effectively simulates the physical experience of leaning on a balcony railing, engaging the upper body in a way that mirrors the real-world action."
           },
           "pro": {
-            "score": 5,
-            "rationale": "The gesture vividly simulates the physical action and bodily posture of resting one's arms on a balcony railing."
+            "score": 4,
+            "rationale": "The gesture strongly evokes the bodily experience of resting one's arms on a solid surface and leaning forward to look out."
           },
-          "delta": 1
+          "delta": 0
         },
         "motional_salience_gesture": {
           "label": "Motional salience",
           "flash": {
-            "score": 2,
-            "rationale": "The movement is functional and descriptive rather than emotionally expressive."
+            "score": 3,
+            "rationale": "The movement is clear and purposeful, though relatively contained and static, which is appropriate for the nature of the action being depicted."
           },
           "pro": {
-            "score": 2,
-            "rationale": "The movement is calm, smooth, and deliberate, lacking strong emotional dynamics or intensity."
+            "score": 3,
+            "rationale": "The movement is clear and deliberate, but moderate in its spatial extent and speed."
           },
           "delta": 0
         },
@@ -284,23 +287,23 @@ window.RATING_DASHBOARD = {
           "label": "Facial emotion",
           "flash": {
             "score": 1,
-            "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+            "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
           },
           "pro": {
-            "score": 1,
-            "rationale": "The actor's facial expression remains neutral throughout the gesture."
+            "score": 2,
+            "rationale": "The actor's facial expression remains mostly neutral, with only a slight indication of looking outward."
           },
-          "delta": 0
+          "delta": 1
         },
         "gesture_complexity_fit": {
           "label": "Complexity fit",
           "flash": {
             "score": 5,
-            "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a balcony."
+            "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a balcony without unnecessary complexity."
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of understanding for a learner."
+            "rationale": "The gesture is simple, direct, and optimally balances informativeness with ease of understanding for a learner."
           },
           "delta": 0
         },
@@ -308,11 +311,11 @@ window.RATING_DASHBOARD = {
           "label": "Cultural familiarity",
           "flash": {
             "score": 5,
-            "rationale": "Leaning on a railing is a universally understood posture associated with balconies."
+            "rationale": "The action of leaning on a railing is a universally understood gesture in Western contexts."
           },
           "pro": {
             "score": 4,
-            "rationale": "The action of leaning on a railing is a common and widely recognized behavior across many cultures."
+            "rationale": "Pantomiming leaning on a railing is a common and easily understood way to represent a balcony or looking out from a height in Western culture."
           },
           "delta": -1
         },
@@ -320,11 +323,11 @@ window.RATING_DASHBOARD = {
           "label": "Enactment potential",
           "flash": {
             "score": 5,
-            "rationale": "The gesture is very simple and natural for any learner to replicate."
+            "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture involves a simple arm movement and a slight body lean that is effortless for anyone to reproduce."
+            "rationale": "The movement is very natural, requires no special coordination, and is effortless for learners to reproduce."
           },
           "delta": 0
         }
@@ -336,109 +339,10 @@ window.RATING_DASHBOARD = {
       "target_word": "Ball",
       "title": "04_Ball.avi",
       "local_path": "data/gesture_videos/04_Ball.avi",
+      "video": "assets/rating-videos/04_Ball.mp4",
       "complete": true,
       "max_abs_delta": 1,
-      "mean_abs_delta": 0.571,
-      "flash_confidence": "high",
-      "pro_confidence": "high",
-      "flash_ambiguities": "The gesture could also represent 'round', 'circle', or 'throwing' depending on context.",
-      "pro_ambiguities": "",
-      "ratings": {
-        "iconicity": {
-          "label": "Iconicity",
-          "flash": {
-            "score": 4,
-            "rationale": "The curved arm movement clearly mimics the round shape of a ball."
-          },
-          "pro": {
-            "score": 5,
-            "rationale": "The gesture clearly depicts the shape of the object and the primary action associated with it (throwing), making it highly transparent."
-          },
-          "delta": 1
-        },
-        "sensorimotor_imagery": {
-          "label": "Sensorimotor imagery",
-          "flash": {
-            "score": 4,
-            "rationale": "The movement simulates the physical interaction of holding or shaping a spherical object."
-          },
-          "pro": {
-            "score": 5,
-            "rationale": "The action of gripping an imaginary object and performing a throwing motion provides a very vivid bodily experience related to a ball."
-          },
-          "delta": 1
-        },
-        "motional_salience_gesture": {
-          "label": "Motional salience",
-          "flash": {
-            "score": 2,
-            "rationale": "The movement is functional and descriptive rather than emotionally expressive."
-          },
-          "pro": {
-            "score": 3,
-            "rationale": "The movement has a clear trajectory and dynamic emphasis during the throw, but it is functional rather than emotionally expressive."
-          },
-          "delta": 1
-        },
-        "emotional_salience_facial_expression": {
-          "label": "Facial emotion",
-          "flash": {
-            "score": 1,
-            "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
-          },
-          "pro": {
-            "score": 2,
-            "rationale": "The actor's facial expression remains largely neutral, with only a slight look of focus during the throwing action."
-          },
-          "delta": 1
-        },
-        "gesture_complexity_fit": {
-          "label": "Complexity fit",
-          "flash": {
-            "score": 5,
-            "rationale": "The gesture is simple, direct, and perfectly suited for representing the concept of a ball."
-          },
-          "pro": {
-            "score": 5,
-            "rationale": "The two-part motion (holding, then throwing) is simple, intuitive, and perfectly captures the concept without being overloaded."
-          },
-          "delta": 0
-        },
-        "cultural_familiarity": {
-          "label": "Cultural familiarity",
-          "flash": {
-            "score": 5,
-            "rationale": "Using hands to indicate a round shape is a universal gesture."
-          },
-          "pro": {
-            "score": 5,
-            "rationale": "The action of holding and throwing a ball is a universally recognized physical activity across cultures."
-          },
-          "delta": 0
-        },
-        "enactment_potential": {
-          "label": "Enactment potential",
-          "flash": {
-            "score": 5,
-            "rationale": "The movement is very simple and easy for any learner to replicate."
-          },
-          "pro": {
-            "score": 5,
-            "rationale": "The movement is very natural, requires no special coordination, and is effortless for learners to mimic."
-          },
-          "delta": 0
-        }
-      }
-    },
-    {
-      "index": 5,
-      "collection": "gesture",
-      "target_word": "Bett",
-      "title": "05_Bett.mov.avi",
-      "local_path": "data/gesture_videos/05_Bett.mov.avi",
-      "complete": true,
-      "max_abs_delta": 0,
-      "mean_abs_delta": 0.0,
+      "mean_abs_delta": 0.143,
       "flash_confidence": "high",
       "pro_confidence": "high",
       "flash_ambiguities": "",
@@ -448,47 +352,47 @@ window.RATING_DASHBOARD = {
           "label": "Iconicity",
           "flash": {
             "score": 5,
-            "rationale": "The gesture is a classic, universally recognized pantomime for sleeping, which is the primary function of a bed."
+            "rationale": "The circular hand movement clearly and transparently depicts the spherical shape of a ball."
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is a highly transparent metonymic representation, using the action of sleeping to clearly indicate the object 'bed'."
+            "rationale": "The hands forming a spherical shape combined with a throwing motion provides a highly transparent visual representation of a ball and its typical use."
           },
           "delta": 0
         },
         "sensorimotor_imagery": {
           "label": "Sensorimotor imagery",
           "flash": {
-            "score": 5,
-            "rationale": "It directly simulates the physical posture and sensation of resting one's head on a pillow, evoking the sensorimotor experience of sleeping."
+            "score": 4,
+            "rationale": "The gesture simulates the physical interaction of tracing the outline of a round object, evoking the tactile experience of a ball."
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture directly and vividly simulates the physical bodily experience of resting one's head on a pillow."
+            "rationale": "The gesture vividly simulates the physical sensation of holding a round object and the bodily action of throwing it."
           },
-          "delta": 0
+          "delta": 1
         },
         "motional_salience_gesture": {
           "label": "Motional salience",
           "flash": {
-            "score": 3,
-            "rationale": "The movement is smooth and deliberate, effectively conveying the calm associated with sleep, though it is not highly dynamic."
+            "score": 4,
+            "rationale": "The movement is expansive and uses both arms, making it visually prominent and easy to follow."
           },
           "pro": {
-            "score": 3,
-            "rationale": "The movement is slow, gentle, and calming, which perfectly fits the concept of rest, though it lacks high dynamic intensity."
+            "score": 4,
+            "rationale": "The gesture involves a clear, expansive movement of both arms across and away from the body, making it visually prominent."
           },
           "delta": 0
         },
         "emotional_salience_facial_expression": {
           "label": "Facial emotion",
           "flash": {
-            "score": 4,
-            "rationale": "The actor adopts a soft, relaxed facial expression with closed eyes, which clearly communicates the state of sleepiness or rest."
+            "score": 1,
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture."
           },
           "pro": {
-            "score": 4,
-            "rationale": "The actor's closed eyes and relaxed facial expression clearly communicate a peaceful and restful affective state."
+            "score": 1,
+            "rationale": "The actor's facial expression remains neutral throughout the gesture, conveying no affective meaning."
           },
           "delta": 0
         },
@@ -496,11 +400,11 @@ window.RATING_DASHBOARD = {
           "label": "Complexity fit",
           "flash": {
             "score": 5,
-            "rationale": "The gesture is simple, intuitive, and perfectly suited for vocabulary learning as it is easy to associate with the target word."
+            "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a ball."
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is extremely simple, intuitive, and perfectly balances informativeness with ease of cognitive processing."
+            "rationale": "The movement is straightforward and perfectly balances simplicity with clear semantic meaning, making it optimal for learning."
           },
           "delta": 0
         },
@@ -508,11 +412,11 @@ window.RATING_DASHBOARD = {
           "label": "Cultural familiarity",
           "flash": {
             "score": 5,
-            "rationale": "The 'hands-under-cheek' gesture for sleeping is a cross-culturally recognized symbol."
+            "rationale": "Tracing a circle to represent a round object is a universally understood and highly familiar gesture."
           },
           "pro": {
             "score": 5,
-            "rationale": "Resting the head on folded hands is a universally recognized and highly familiar gesture for sleep or a bed."
+            "rationale": "The pantomime of holding and throwing a ball is a highly recognizable and universally understood action in Western cultures."
           },
           "delta": 0
         },
@@ -524,7 +428,108 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture requires minimal motor coordination and is effortless for learners to reproduce."
+            "rationale": "The throwing motion is very natural, requires no special coordination, and is effortless for learners to reproduce."
+          },
+          "delta": 0
+        }
+      }
+    },
+    {
+      "index": 5,
+      "collection": "gesture",
+      "target_word": "Bett",
+      "title": "05_Bett.mov.avi",
+      "local_path": "data/gesture_videos/05_Bett.mov.avi",
+      "video": "assets/rating-videos/05_Bett.mp4",
+      "complete": true,
+      "max_abs_delta": 1,
+      "mean_abs_delta": 0.143,
+      "flash_confidence": "high",
+      "pro_confidence": "high",
+      "flash_ambiguities": "The gesture could also be interpreted as 'sleep' or 'tired' rather than specifically 'bed', though it is strongly associated with the object.",
+      "pro_ambiguities": "",
+      "ratings": {
+        "iconicity": {
+          "label": "Iconicity",
+          "flash": {
+            "score": 5,
+            "rationale": "The gesture is a classic, universally recognized pantomime for sleeping, which is the primary function of a bed."
+          },
+          "pro": {
+            "score": 5,
+            "rationale": "The gesture of resting the head on folded hands perfectly mimics the action of sleeping on a pillow, strongly representing the concept of a bed."
+          },
+          "delta": 0
+        },
+        "sensorimotor_imagery": {
+          "label": "Sensorimotor imagery",
+          "flash": {
+            "score": 5,
+            "rationale": "It directly simulates the physical posture and sensation of resting one's head on a pillow, evoking the bodily experience of sleeping."
+          },
+          "pro": {
+            "score": 5,
+            "rationale": "The gesture directly simulates the bodily experience of resting the head, evoking strong sensorimotor associations with lying in a bed."
+          },
+          "delta": 0
+        },
+        "motional_salience_gesture": {
+          "label": "Motional salience",
+          "flash": {
+            "score": 3,
+            "rationale": "The movement is clear and deliberate, though relatively small and contained within the upper body space."
+          },
+          "pro": {
+            "score": 3,
+            "rationale": "The movement is smooth and constrained to the upper body, lacking large or rapid dynamics."
+          },
+          "delta": 0
+        },
+        "emotional_salience_facial_expression": {
+          "label": "Facial emotion",
+          "flash": {
+            "score": 4,
+            "rationale": "The actor adopts a calm, closed-eye expression that effectively conveys the feeling of sleepiness or relaxation."
+          },
+          "pro": {
+            "score": 3,
+            "rationale": "The actor's face relaxes and eyes close slightly, conveying a calm, restful state associated with sleeping."
+          },
+          "delta": -1
+        },
+        "gesture_complexity_fit": {
+          "label": "Complexity fit",
+          "flash": {
+            "score": 5,
+            "rationale": "The gesture is simple, intuitive, and perfectly suited for learners of all levels."
+          },
+          "pro": {
+            "score": 5,
+            "rationale": "The gesture is simple, intuitive, and easy to process, making it ideal for learning."
+          },
+          "delta": 0
+        },
+        "cultural_familiarity": {
+          "label": "Cultural familiarity",
+          "flash": {
+            "score": 5,
+            "rationale": "The 'hands-under-cheek' gesture for sleeping is a highly common and culturally universal signifier."
+          },
+          "pro": {
+            "score": 5,
+            "rationale": "Placing hands together under a tilted head is a widely recognized emblem for sleep in Western cultures."
+          },
+          "delta": 0
+        },
+        "enactment_potential": {
+          "label": "Enactment potential",
+          "flash": {
+            "score": 5,
+            "rationale": "The gesture is extremely easy and natural for anyone to replicate."
+          },
+          "pro": {
+            "score": 5,
+            "rationale": "The movement is simple, requires no special coordination, and is effortless to perform."
           },
           "delta": 0
         }
@@ -536,23 +541,24 @@ window.RATING_DASHBOARD = {
       "target_word": "Monitor",
       "title": "06_Monitor.avi",
       "local_path": "data/gesture_videos/06_Monitor.avi",
+      "video": "assets/rating-videos/06_Monitor.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
       "flash_confidence": "high",
       "pro_confidence": "high",
-      "flash_ambiguities": "Could potentially be interpreted as 'frame', 'picture', or 'window' depending on context.",
+      "flash_ambiguities": "The gesture could potentially be interpreted as 'frame', 'picture', or 'television' depending on context, though 'monitor' is the most logical fit.",
       "pro_ambiguities": "",
       "ratings": {
         "iconicity": {
           "label": "Iconicity",
           "flash": {
             "score": 4,
-            "rationale": "The rectangular hand shape clearly mimics the frame of a computer monitor or screen."
+            "rationale": "The gesture clearly outlines the rectangular shape of a monitor screen, making the iconic relationship to the target word very transparent."
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture directly traces the physical, rectangular shape of a monitor, providing a highly transparent visual representation of the object."
+            "rationale": "The gesture directly traces the rectangular shape of a computer monitor, providing a highly transparent visual representation of the object."
           },
           "delta": 1
         },
@@ -560,23 +566,23 @@ window.RATING_DASHBOARD = {
           "label": "Sensorimotor imagery",
           "flash": {
             "score": 3,
-            "rationale": "It simulates the act of framing or looking at a screen, which is a common perceptual experience associated with the word."
+            "rationale": "It simulates the physical act of framing or defining the boundaries of a screen, which provides a moderate level of sensorimotor engagement."
           },
           "pro": {
             "score": 3,
-            "rationale": "The action involves tracing an outline, which evokes the physical dimensions of the object, but it does not simulate interacting with or using a monitor."
+            "rationale": "The action of tracing the outline evokes the physical dimensions and boundaries of the object, providing moderate sensorimotor engagement."
           },
           "delta": 0
         },
         "motional_salience_gesture": {
           "label": "Motional salience",
           "flash": {
-            "score": 2,
-            "rationale": "The movement is functional and precise rather than emotionally expressive."
+            "score": 3,
+            "rationale": "The movement is clear and deliberate, though not overly expansive or rapid, providing a moderate level of visual salience."
           },
           "pro": {
-            "score": 2,
-            "rationale": "The movement is smooth, deliberate, and descriptive, lacking strong emotional dynamics or intensity."
+            "score": 3,
+            "rationale": "The movement is clear and uses both arms to draw a distinct shape in the space in front of the body, making it moderately salient."
           },
           "delta": 0
         },
@@ -584,7 +590,7 @@ window.RATING_DASHBOARD = {
           "label": "Facial emotion",
           "flash": {
             "score": 1,
-            "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+            "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
           },
           "pro": {
             "score": 1,
@@ -596,11 +602,11 @@ window.RATING_DASHBOARD = {
           "label": "Complexity fit",
           "flash": {
             "score": 5,
-            "rationale": "The gesture is simple, intuitive, and directly maps to the concept of a screen."
+            "rationale": "The gesture is simple, direct, and perfectly aligned with the concept of a monitor, making it highly appropriate for learning."
           },
           "pro": {
             "score": 5,
-            "rationale": "The simple tracing motion is optimal for conveying the concept clearly without any unnecessary motor or cognitive complexity."
+            "rationale": "The simple tracing motion is perfectly balanced, conveying the meaning clearly without any unnecessary complexity."
           },
           "delta": 0
         },
@@ -608,11 +614,11 @@ window.RATING_DASHBOARD = {
           "label": "Cultural familiarity",
           "flash": {
             "score": 5,
-            "rationale": "Using hands to frame a view or screen is a universally understood gesture in modern digital culture."
+            "rationale": "Tracing a rectangle to represent a screen is a universally understood gesture in modern, technology-driven cultures."
           },
           "pro": {
             "score": 5,
-            "rationale": "Tracing a rectangle in the air to indicate a screen, picture, or monitor is a highly familiar and widely understood gesture."
+            "rationale": "Drawing a rectangle in the air is a widely recognized and common gesture for a screen, TV, or monitor in Western cultures."
           },
           "delta": 0
         },
@@ -620,11 +626,11 @@ window.RATING_DASHBOARD = {
           "label": "Enactment potential",
           "flash": {
             "score": 5,
-            "rationale": "The gesture is very easy to replicate and requires no special coordination."
+            "rationale": "The gesture is very simple and requires no special motor skills, making it extremely easy for any learner to replicate."
           },
           "pro": {
             "score": 5,
-            "rationale": "The movement is very straightforward and effortless for learners to reproduce."
+            "rationale": "The movement is simple, symmetrical, and effortless for learners to reproduce."
           },
           "delta": 0
         }
@@ -636,55 +642,56 @@ window.RATING_DASHBOARD = {
       "target_word": "Letter Box",
       "title": "07_LetterBox.avi",
       "local_path": "data/gesture_videos/07_LetterBox.avi",
+      "video": "assets/rating-videos/07_LetterBox.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
       "flash_confidence": "high",
       "pro_confidence": "high",
-      "flash_ambiguities": "The gesture could potentially be interpreted as opening a small door or a slot for any purpose, not necessarily a letter box.",
+      "flash_ambiguities": "The rectangular shape could potentially be interpreted as a window or a picture frame, but the downward insertion motion clarifies the 'letter box' meaning.",
       "pro_ambiguities": "",
       "ratings": {
         "iconicity": {
           "label": "Iconicity",
           "flash": {
             "score": 4,
-            "rationale": "The hand movements clearly simulate the physical interaction of opening a letter box slot and inserting mail."
+            "rationale": "The rectangular hand shape clearly outlines the frame of a letter box, and the downward motion mimics the act of inserting mail."
           },
           "pro": {
-            "score": 5,
-            "rationale": "The gesture highly transparently represents the action of opening a letterbox and inserting mail."
+            "score": 4,
+            "rationale": "The gesture clearly depicts the action of interacting with a letter box by simulating the insertion of a letter into a slot."
           },
-          "delta": 1
+          "delta": 0
         },
         "sensorimotor_imagery": {
           "label": "Sensorimotor imagery",
           "flash": {
             "score": 4,
-            "rationale": "The gesture effectively simulates the tactile experience of manipulating a letter box flap."
+            "rationale": "The gesture simulates the physical interaction of placing a letter into a slot, which is a common sensorimotor experience."
           },
           "pro": {
             "score": 5,
-            "rationale": "Strongly evokes the physical sensation of holding a flap open and sliding an object into a slot."
+            "rationale": "The gesture vividly evokes the physical action and bodily experience of posting a letter."
           },
           "delta": 1
         },
         "motional_salience_gesture": {
           "label": "Motional salience",
           "flash": {
-            "score": 2,
-            "rationale": "The movement is functional and precise, but lacks significant emotional or dynamic intensity."
+            "score": 3,
+            "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
           },
           "pro": {
-            "score": 2,
-            "rationale": "The movement is functional and deliberate, lacking strong emotional expressiveness."
+            "score": 4,
+            "rationale": "The movement is clear and pronounced, involving both arms to create a distinct action sequence."
           },
-          "delta": 0
+          "delta": 1
         },
         "emotional_salience_facial_expression": {
           "label": "Facial emotion",
           "flash": {
             "score": 1,
-            "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture."
           },
           "pro": {
             "score": 1,
@@ -696,35 +703,35 @@ window.RATING_DASHBOARD = {
           "label": "Complexity fit",
           "flash": {
             "score": 5,
-            "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word."
+            "rationale": "The gesture is simple, intuitive, and perfectly matches the concept of a letter box."
           },
           "pro": {
-            "score": 4,
-            "rationale": "The two-handed, asymmetrical movement is slightly complex but perfectly captures the meaning without being overwhelming."
+            "score": 5,
+            "rationale": "The gesture is straightforward and perfectly balances informativeness with simplicity for learning."
           },
-          "delta": -1
+          "delta": 0
         },
         "cultural_familiarity": {
           "label": "Cultural familiarity",
           "flash": {
             "score": 4,
-            "rationale": "The action of posting a letter is a widely understood cultural practice, though physical letter boxes are becoming less common in some digital-first societies."
+            "rationale": "The concept of a letter box and the action of posting mail are widely understood in Western cultural contexts."
           },
           "pro": {
-            "score": 4,
-            "rationale": "The action of mailing a letter through a slot is a widely recognized concept across many cultures."
+            "score": 5,
+            "rationale": "The action of posting a letter into a slot is a highly familiar and universally understood concept in Western cultures."
           },
-          "delta": 0
+          "delta": 1
         },
         "enactment_potential": {
           "label": "Enactment potential",
           "flash": {
             "score": 5,
-            "rationale": "The gesture is very simple and involves natural hand movements that are easy for anyone to replicate."
+            "rationale": "The gesture is very simple and easy for any learner to replicate."
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is straightforward and easy for learners to physically reproduce."
+            "rationale": "The gesture involves simple, everyday arm movements that are very natural and effortless to reproduce."
           },
           "delta": 0
         }
@@ -736,9 +743,10 @@ window.RATING_DASHBOARD = {
       "target_word": "Ceiling",
       "title": "08_Ceiling.avi",
       "local_path": "data/gesture_videos/08_Ceiling.avi",
+      "video": "assets/rating-videos/08_Ceiling.mp4",
       "complete": true,
-      "max_abs_delta": 0,
-      "mean_abs_delta": 0.0,
+      "max_abs_delta": 1,
+      "mean_abs_delta": 0.286,
       "flash_confidence": "high",
       "pro_confidence": "high",
       "flash_ambiguities": "",
@@ -748,11 +756,11 @@ window.RATING_DASHBOARD = {
           "label": "Iconicity",
           "flash": {
             "score": 5,
-            "rationale": "The gesture clearly and directly mimics the flat, overhead nature of a ceiling."
+            "rationale": "The gesture clearly and directly represents the concept of a ceiling by using the hands to define a flat, overhead boundary."
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture of forming a flat surface above the head is a highly transparent visual representation of a ceiling."
+            "rationale": "The flat hands held above the head perfectly mimic the flat, horizontal surface of a ceiling."
           },
           "delta": 0
         },
@@ -760,35 +768,35 @@ window.RATING_DASHBOARD = {
           "label": "Sensorimotor imagery",
           "flash": {
             "score": 4,
-            "rationale": "It simulates the spatial experience of reaching toward or indicating the height of a ceiling."
+            "rationale": "The movement simulates the physical act of reaching toward or indicating the overhead space, which is a common spatial interaction."
           },
           "pro": {
             "score": 4,
-            "rationale": "Reaching upwards to define a spatial boundary strongly evokes the physical experience of a ceiling's location and shape."
+            "rationale": "Reaching up and indicating the space above evokes the physical relationship and spatial awareness one has with a ceiling."
           },
           "delta": 0
         },
         "motional_salience_gesture": {
           "label": "Motional salience",
           "flash": {
-            "score": 2,
-            "rationale": "The movement is functional and clear, but lacks significant emotional or dynamic intensity."
+            "score": 3,
+            "rationale": "The movement is clear and deliberate, though it is relatively simple and contained within a vertical plane."
           },
           "pro": {
-            "score": 2,
-            "rationale": "The movement is deliberate and descriptive, lacking strong emotional dynamics or expressive intensity."
+            "score": 4,
+            "rationale": "The gesture involves a large, upward movement of both arms, making it visually prominent and expansive."
           },
-          "delta": 0
+          "delta": 1
         },
         "emotional_salience_facial_expression": {
           "label": "Facial emotion",
           "flash": {
             "score": 1,
-            "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+            "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
           },
           "pro": {
             "score": 1,
-            "rationale": "The actor's facial expression remains neutral throughout the video, conveying no emotional meaning."
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture, with no emotional cues."
           },
           "delta": 0
         },
@@ -796,11 +804,11 @@ window.RATING_DASHBOARD = {
           "label": "Complexity fit",
           "flash": {
             "score": 5,
-            "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word."
+            "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the spatial concept of a ceiling."
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is simple, direct, and perfectly captures the concept without any unnecessary complexity."
+            "rationale": "The movement is simple, direct, and easy to process, making it an optimal fit for vocabulary learning."
           },
           "delta": 0
         },
@@ -808,23 +816,23 @@ window.RATING_DASHBOARD = {
           "label": "Cultural familiarity",
           "flash": {
             "score": 5,
-            "rationale": "Using hands to indicate an overhead surface is a universally understood gesture."
+            "rationale": "Using hands to indicate an overhead surface is a universally understood iconic gesture in Western contexts."
           },
           "pro": {
-            "score": 5,
-            "rationale": "Using flat hands above the head to indicate a roof or ceiling is a widely recognized and common spatial gesture."
+            "score": 4,
+            "rationale": "Indicating a flat surface above the head is a commonly understood way to represent a ceiling or roof."
           },
-          "delta": 0
+          "delta": -1
         },
         "enactment_potential": {
           "label": "Enactment potential",
           "flash": {
             "score": 5,
-            "rationale": "The movement is very simple and easy for any learner to replicate."
+            "rationale": "The gesture involves basic arm movements that are very easy for any learner to replicate."
           },
           "pro": {
             "score": 5,
-            "rationale": "The movement involves a simple raising of the arms, making it very natural and effortless for learners to reproduce."
+            "rationale": "The gesture requires only basic motor skills (raising arms) and is effortless for learners to reproduce."
           },
           "delta": 0
         }
@@ -836,23 +844,24 @@ window.RATING_DASHBOARD = {
       "target_word": "Monument",
       "title": "09_Monument.avi",
       "local_path": "data/gesture_videos/09_Monument.avi",
+      "video": "assets/rating-videos/09_Monument.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
       "flash_confidence": "high",
       "pro_confidence": "high",
-      "flash_ambiguities": "The gesture could also be interpreted as representing 'arch', 'sky', or 'growth' depending on the context.",
-      "pro_ambiguities": "The gesture could also represent 'tall', 'building', or 'sky', but fits 'monument' well in context.",
+      "flash_ambiguities": "The gesture could potentially be interpreted as 'arch', 'building', or 'tall' without the context of the word 'monument'.",
+      "pro_ambiguities": "",
       "ratings": {
         "iconicity": {
           "label": "Iconicity",
           "flash": {
             "score": 4,
-            "rationale": "The upward sweeping arm movement effectively traces the outline of a tall, arched, or structured monument."
+            "rationale": "The arm movement clearly traces the outline of an arch or a tall, structured object, which is a common iconic representation of a monument."
           },
           "pro": {
             "score": 4,
-            "rationale": "The upward arm movement and gaze clearly represent the height and scale typical of a monument."
+            "rationale": "The gesture clearly represents the verticality and large scale typical of a monument by tracing a tall shape in the air."
           },
           "delta": 0
         },
@@ -860,23 +869,23 @@ window.RATING_DASHBOARD = {
           "label": "Sensorimotor imagery",
           "flash": {
             "score": 3,
-            "rationale": "The movement simulates the physical scale and verticality associated with a large structure, though it lacks interaction with a specific object."
+            "rationale": "The gesture simulates the physical act of building or tracing the height and shape of a structure, engaging the upper body."
           },
           "pro": {
             "score": 4,
-            "rationale": "The gesture strongly evokes the physical sensation of standing at the base of a large structure and looking up at it."
+            "rationale": "The action of looking up and reaching high strongly evokes the physical experience of standing at the base of a large structure."
           },
           "delta": 1
         },
         "motional_salience_gesture": {
           "label": "Motional salience",
           "flash": {
-            "score": 2,
-            "rationale": "The movement is slow and deliberate, which conveys a sense of grandeur or stability, but it is not highly emotionally expressive."
+            "score": 3,
+            "rationale": "The movement is deliberate and expansive, though performed at a slow, steady pace."
           },
           "pro": {
-            "score": 3,
-            "rationale": "The slow, expansive upward movement conveys a moderate sense of size and grandeur."
+            "score": 4,
+            "rationale": "The movement is expansive, involving full arm extension above the head and a noticeable change in head posture."
           },
           "delta": 1
         },
@@ -884,11 +893,11 @@ window.RATING_DASHBOARD = {
           "label": "Facial emotion",
           "flash": {
             "score": 1,
-            "rationale": "The actor's facial expression remains neutral throughout the gesture."
+            "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture."
           },
           "pro": {
             "score": 2,
-            "rationale": "The facial expression is mostly neutral, though the upward gaze suggests looking at something impressive."
+            "rationale": "The facial expression is mostly neutral, though the upward gaze slightly suggests looking at something grand."
           },
           "delta": 1
         },
@@ -896,11 +905,11 @@ window.RATING_DASHBOARD = {
           "label": "Complexity fit",
           "flash": {
             "score": 5,
-            "rationale": "The gesture is simple, clear, and easy to associate with the concept of a large, standing structure."
+            "rationale": "The gesture is simple, clear, and directly maps to the concept of a tall, static structure."
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is simple, direct, and perfectly captures the core concept of a tall structure without unnecessary complexity."
+            "rationale": "The gesture is simple, direct, and effectively conveys the core physical attribute of the target word without unnecessary complexity."
           },
           "delta": 0
         },
@@ -908,11 +917,11 @@ window.RATING_DASHBOARD = {
           "label": "Cultural familiarity",
           "flash": {
             "score": 4,
-            "rationale": "Using arms to represent height or a large structure is a fairly universal and intuitive gesture."
+            "rationale": "Using hands to outline the shape of a structure is a universally understood iconic gesture."
           },
           "pro": {
             "score": 4,
-            "rationale": "Using vertical space and an upward gaze to indicate height or grandeur is a widely understood concept."
+            "rationale": "Using upward reaching and gazing to indicate something tall or grand is a widely understood convention."
           },
           "delta": 0
         },
@@ -920,11 +929,11 @@ window.RATING_DASHBOARD = {
           "label": "Enactment potential",
           "flash": {
             "score": 5,
-            "rationale": "The movement is very simple and involves basic arm extensions that any learner can easily replicate."
+            "rationale": "The movement is very simple and requires no special coordination, making it easy for anyone to replicate."
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture requires minimal coordination and is very easy for learners to reproduce."
+            "rationale": "The movement is very natural, requires no special coordination, and is effortless for learners to reproduce."
           },
           "delta": 0
         }
@@ -936,47 +945,48 @@ window.RATING_DASHBOARD = {
       "target_word": "Entrance Ticket",
       "title": "10_EntranceTicket.avi",
       "local_path": "data/gesture_videos/10_EntranceTicket.avi",
+      "video": "assets/rating-videos/10_EntranceTicket.mp4",
       "complete": true,
-      "max_abs_delta": 1,
-      "mean_abs_delta": 0.429,
+      "max_abs_delta": 0,
+      "mean_abs_delta": 0.0,
       "flash_confidence": "high",
       "pro_confidence": "high",
-      "flash_ambiguities": "The gesture could also be interpreted as 'waving' or 'sweeping' if not contextualized by the target word.",
-      "pro_ambiguities": "The gesture represents the action of using the ticket rather than the physical shape of the ticket itself, but the meaning remains clear.",
+      "flash_ambiguities": "The gesture could also be interpreted as swiping a credit card or waving a hand, but in the context of 'entrance ticket', it is highly coherent.",
+      "pro_ambiguities": "The gesture could be interpreted as handing over any small object, not exclusively an entrance ticket, though the context makes it clear.",
       "ratings": {
         "iconicity": {
           "label": "Iconicity",
           "flash": {
-            "score": 3,
-            "rationale": "The sweeping motion mimics the act of scanning a ticket or passing through a turnstile, which is moderately iconic for the concept of an entrance ticket."
+            "score": 4,
+            "rationale": "The sweeping motion effectively mimics the action of scanning a ticket or passing through an automated turnstile, which is a clear iconic representation of using an entrance ticket."
           },
           "pro": {
             "score": 4,
-            "rationale": "The gesture clearly depicts the action of handing over a small object, which strongly represents the functional use of an entrance ticket."
+            "rationale": "The gesture clearly visually represents the action of presenting a ticket for entry, which is strongly associated with the target word."
           },
-          "delta": 1
+          "delta": 0
         },
         "sensorimotor_imagery": {
           "label": "Sensorimotor imagery",
           "flash": {
-            "score": 3,
-            "rationale": "The gesture simulates the physical action of presenting a ticket, engaging the arm and shoulder in a way that mimics the interaction with an entry point."
+            "score": 4,
+            "rationale": "The gesture simulates the physical interaction of presenting a ticket to a scanner, engaging the arm and hand in a way that mirrors the real-world action."
           },
           "pro": {
             "score": 4,
-            "rationale": "The movement effectively evokes the physical sensation of holding a small piece of paper and extending the arm to present it."
+            "rationale": "The gesture strongly evokes the physical action and bodily experience of holding a small piece of paper and handing it over."
           },
-          "delta": 1
+          "delta": 0
         },
         "motional_salience_gesture": {
           "label": "Motional salience",
           "flash": {
-            "score": 2,
-            "rationale": "The movement is functional and clear but lacks significant emotional intensity or dynamic variation."
+            "score": 3,
+            "rationale": "The movement is clear and purposeful, though it is relatively contained and not overly expansive or rapid."
           },
           "pro": {
-            "score": 2,
-            "rationale": "The movement is deliberate and functional, lacking strong emotional dynamics or expressive intensity."
+            "score": 3,
+            "rationale": "The movement is clear and deliberate, but relatively simple and constrained to a single arm extension."
           },
           "delta": 0
         },
@@ -984,11 +994,11 @@ window.RATING_DASHBOARD = {
           "label": "Facial emotion",
           "flash": {
             "score": 1,
-            "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective context."
           },
           "pro": {
             "score": 1,
-            "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
           },
           "delta": 0
         },
@@ -996,35 +1006,35 @@ window.RATING_DASHBOARD = {
           "label": "Complexity fit",
           "flash": {
             "score": 5,
-            "rationale": "The gesture is simple, direct, and easy to understand in the context of the target word."
+            "rationale": "The gesture is simple, direct, and perfectly suited for representing the concept of an entrance ticket without unnecessary cognitive load."
           },
           "pro": {
             "score": 5,
-            "rationale": "The single, straightforward motion is simple to process and perfectly balanced for learning."
+            "rationale": "The gesture is simple, direct, and optimally balances informativeness with ease of understanding for a learner."
           },
           "delta": 0
         },
         "cultural_familiarity": {
           "label": "Cultural familiarity",
           "flash": {
-            "score": 4,
-            "rationale": "The action of scanning or presenting a ticket is a common, globally recognized experience."
+            "score": 5,
+            "rationale": "The action of scanning a ticket or passing through a gate is a universally recognized experience in modern Western contexts."
           },
           "pro": {
             "score": 5,
-            "rationale": "The action of presenting a ticket or pass for entry is a widely recognized and common behavior."
+            "rationale": "The action of presenting a ticket or pass is a highly familiar and universally understood convention in Western cultures."
           },
-          "delta": 1
+          "delta": 0
         },
         "enactment_potential": {
           "label": "Enactment potential",
           "flash": {
             "score": 5,
-            "rationale": "The movement is very simple and requires no special coordination, making it easy for any learner to replicate."
+            "rationale": "The movement is very simple and natural, making it extremely easy for any learner to replicate."
           },
           "pro": {
             "score": 5,
-            "rationale": "The simple arm extension and basic hand shape are effortless for learners to reproduce."
+            "rationale": "The movement is a basic, everyday arm extension that is very natural and effortless for learners to reproduce."
           },
           "delta": 0
         }
@@ -1036,6 +1046,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Thread",
       "title": "11_Thread.avi",
       "local_path": "data/gesture_videos/11_Thread.avi",
+      "video": "assets/rating-videos/11_Thread.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -1136,6 +1147,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Bicycle",
       "title": "12_Bicycle.avi",
       "local_path": "data/gesture_videos/12_Bicycle.avi",
+      "video": "assets/rating-videos/12_Bicycle.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -1236,6 +1248,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Window",
       "title": "13_Window.avi",
       "local_path": "data/gesture_videos/13_Window.avi",
+      "video": "assets/rating-videos/13_Window.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -1336,6 +1349,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Remote Control",
       "title": "14_RemoteControl.avi",
       "local_path": "data/gesture_videos/14_RemoteControl.avi",
+      "video": "assets/rating-videos/14_RemoteControl.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -1352,7 +1366,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture highly transparently represents the action of holding and using a remote control."
+            "rationale": "The gesture highly transparently represents the semantics by mimicking the exact action of holding and using a remote control."
           },
           "delta": 0
         },
@@ -1364,7 +1378,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture vividly simulates the physical grip and specific thumb action used to operate a remote control."
+            "rationale": "The gesture provides a very vivid simulation of the physical experience of gripping a remote and pressing a button with the thumb."
           },
           "delta": 0
         },
@@ -1376,7 +1390,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 2,
-            "rationale": "The movement is relatively subtle, consisting only of a slight arm raise and a small thumb press."
+            "rationale": "The movement is relatively subtle and constrained, involving only a slight arm raise and a small thumb action."
           },
           "delta": 0
         },
@@ -1400,7 +1414,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is simple, direct, and perfectly captures the essence of the object without any unnecessary complexity."
+            "rationale": "The gesture is simple, direct, and perfectly captures the essence of the target word without any unnecessary complexity."
           },
           "delta": 0
         },
@@ -1412,7 +1426,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The action of pointing a handheld device and pressing a button with the thumb is universally recognized in Western cultures as using a remote control."
+            "rationale": "This pantomime of using a remote control is a highly familiar and universally understood gesture in Western cultures."
           },
           "delta": 0
         },
@@ -1424,7 +1438,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture involves minimal, everyday movements that are effortless for learners to reproduce."
+            "rationale": "The gesture involves minimal, everyday movements that are extremely natural and effortless for anyone to reproduce."
           },
           "delta": 0
         }
@@ -1436,6 +1450,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Bottle",
       "title": "15_Bottle.avi",
       "local_path": "data/gesture_videos/15_Bottle.avi",
+      "video": "assets/rating-videos/15_Bottle.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -1536,9 +1551,10 @@ window.RATING_DASHBOARD = {
       "target_word": "Airplane",
       "title": "16_Airplane.avi",
       "local_path": "data/gesture_videos/16_Airplane.avi",
+      "video": "assets/rating-videos/16_Airplane.mp4",
       "complete": true,
       "max_abs_delta": 1,
-      "mean_abs_delta": 0.143,
+      "mean_abs_delta": 0.286,
       "flash_confidence": "high",
       "pro_confidence": "high",
       "flash_ambiguities": "",
@@ -1552,7 +1568,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The extended arms perfectly represent the wings of an airplane, and the tilting motion clearly depicts the plane banking or turning in flight."
+            "rationale": "Extending the arms horizontally and tilting the torso perfectly mimics the wings and banking motion of an airplane, providing a highly transparent visual representation."
           },
           "delta": 0
         },
@@ -1563,10 +1579,10 @@ window.RATING_DASHBOARD = {
             "rationale": "The gesture simulates the physical experience of flight and balance, which is strongly associated with the concept of an airplane."
           },
           "pro": {
-            "score": 4,
-            "rationale": "The gesture strongly evokes the physical sensation of pretending to fly, engaging the arms and torso in a sweeping motion."
+            "score": 5,
+            "rationale": "The gesture involves full upper-body engagement, vividly simulating the physical action and experience of an airplane flying and banking."
           },
-          "delta": 0
+          "delta": 1
         },
         "motional_salience_gesture": {
           "label": "Motional salience",
@@ -1576,7 +1592,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 4,
-            "rationale": "The movement is expansive, utilizing the full wingspan of the arms and noticeable torso tilting, making it visually prominent."
+            "rationale": "The gesture involves wide arm extensions and noticeable torso tilting, making it a pronounced and expansive movement that easily captures attention."
           },
           "delta": 1
         },
@@ -1588,7 +1604,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 1,
-            "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+            "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
           },
           "delta": 0
         },
@@ -1600,7 +1616,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is extremely simple yet highly informative, providing an optimal balance for learning."
+            "rationale": "The movement is simple, direct, and perfectly captures the core concept without any unnecessary complexity, making it optimal for learning."
           },
           "delta": 0
         },
@@ -1612,7 +1628,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "This is a universally recognized gesture for an airplane in Western cultures, commonly used in childhood play."
+            "rationale": "Pretending to be an airplane by extending one's arms is a highly recognizable and universally understood gesture in Western cultures, often used in childhood play."
           },
           "delta": 0
         },
@@ -1624,7 +1640,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The gross motor movements involved are very natural, simple, and effortless for learners to reproduce."
+            "rationale": "The gross motor movements of extending the arms and tilting the body are very natural, simple, and effortless for learners to reproduce."
           },
           "delta": 0
         }
@@ -1636,6 +1652,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Painting",
       "title": "17_Painting.avi",
       "local_path": "data/gesture_videos/17_Painting.avi",
+      "video": "assets/rating-videos/17_Painting.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -1736,13 +1753,14 @@ window.RATING_DASHBOARD = {
       "target_word": "Present",
       "title": "18_Present.avi",
       "local_path": "data/gesture_videos/18_Present.avi",
+      "video": "assets/rating-videos/18_Present.mp4",
       "complete": true,
       "max_abs_delta": 1,
-      "mean_abs_delta": 0.143,
+      "mean_abs_delta": 0.286,
       "flash_confidence": "high",
       "pro_confidence": "high",
       "flash_ambiguities": "The gesture could also be interpreted as 'give', 'offer', or 'here', which are semantically very close to 'present'.",
-      "pro_ambiguities": "Could also be interpreted as 'give' or 'offer' generally, rather than specifically a 'present'.",
+      "pro_ambiguities": "The word 'present' can also mean 'current time' or 'to present (verb)', but the gesture clearly aligns with the noun meaning 'gift'.",
       "ratings": {
         "iconicity": {
           "label": "Iconicity",
@@ -1751,10 +1769,10 @@ window.RATING_DASHBOARD = {
             "rationale": "The gesture clearly mimics the act of offering or presenting an object to another person, which is a direct iconic representation of the word 'present'."
           },
           "pro": {
-            "score": 4,
-            "rationale": "The gesture clearly depicts the action of holding and offering a physical object, which strongly aligns with the concept of giving a present."
+            "score": 5,
+            "rationale": "The gesture of holding an imaginary box and offering it forward perfectly mimics the action of giving a present."
           },
-          "delta": -1
+          "delta": 0
         },
         "sensorimotor_imagery": {
           "label": "Sensorimotor imagery",
@@ -1763,10 +1781,10 @@ window.RATING_DASHBOARD = {
             "rationale": "The movement simulates the physical action of holding and extending an object toward someone, engaging motor imagery related to giving."
           },
           "pro": {
-            "score": 4,
-            "rationale": "The action of holding an imaginary box and extending the arms forward strongly evokes the physical experience of giving a gift."
+            "score": 5,
+            "rationale": "Strongly evokes the physical sensation of holding an object with both hands and extending the arms to hand it over."
           },
-          "delta": 0
+          "delta": 1
         },
         "motional_salience_gesture": {
           "label": "Motional salience",
@@ -1775,10 +1793,10 @@ window.RATING_DASHBOARD = {
             "rationale": "The movement is clear and purposeful, though not overly expansive or rapid, making it moderately salient."
           },
           "pro": {
-            "score": 3,
-            "rationale": "The movement is clear and involves both arms, but is relatively constrained and moderate in speed."
+            "score": 4,
+            "rationale": "Clear, deliberate forward movement of both arms, making it visually distinct and easy to follow."
           },
-          "delta": 0
+          "delta": 1
         },
         "emotional_salience_facial_expression": {
           "label": "Facial emotion",
@@ -1800,7 +1818,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of understanding."
+            "rationale": "The gesture is simple, intuitive, and directly conveys the meaning without unnecessary movements."
           },
           "delta": 0
         },
@@ -1812,7 +1830,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "Offering an object with both hands is a highly recognizable and common gesture for giving a present in Western cultures."
+            "rationale": "The action of offering an object with both hands is a universally recognized gesture for giving a gift in Western cultures."
           },
           "delta": 0
         },
@@ -1824,7 +1842,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The movement is very natural, requires no special coordination, and is effortless to enact."
+            "rationale": "The movement is basic and requires no special coordination, making it effortless to copy."
           },
           "delta": 0
         }
@@ -1836,6 +1854,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Guitar",
       "title": "19_Guitar.avi",
       "local_path": "data/gesture_videos/19_Guitar.avi",
+      "video": "assets/rating-videos/19_Guitar.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -1852,7 +1871,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is a highly transparent and universally recognized pantomime of playing a guitar."
+            "rationale": "The gesture perfectly mimics the action of playing a guitar, providing a highly transparent visual representation of the target word."
           },
           "delta": 0
         },
@@ -1864,7 +1883,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture directly simulates the physical action, posture, and bodily experience of holding and strumming the instrument."
+            "rationale": "The gesture vividly simulates the physical interaction and bodily actions required to hold and strum a guitar."
           },
           "delta": 0
         },
@@ -1876,7 +1895,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 4,
-            "rationale": "The movement is clear and pronounced, involving both arms with a distinct, repetitive strumming action that draws attention."
+            "rationale": "The strumming motion and extended arm create a clear, pronounced, and easily noticeable movement."
           },
           "delta": 1
         },
@@ -1900,7 +1919,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is simple, intuitive, and perfectly captures the essence of the word without any unnecessary complexity."
+            "rationale": "The gesture is straightforward and perfectly captures the essence of the word without any unnecessary or confusing complexity."
           },
           "delta": 0
         },
@@ -1912,7 +1931,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The 'air guitar' gesture is highly familiar and widely used in Western culture to represent the instrument."
+            "rationale": "The 'air guitar' gesture is a highly familiar and universally recognized action in Western cultures."
           },
           "delta": 0
         },
@@ -1924,7 +1943,7 @@ window.RATING_DASHBOARD = {
           },
           "pro": {
             "score": 5,
-            "rationale": "The gesture is very natural and effortless to enact, requiring no special physical skills or coordination."
+            "rationale": "The movements are simple, natural, and effortless for learners to reproduce."
           },
           "delta": 0
         }
@@ -1936,6 +1955,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Purse",
       "title": "20_Purse.avi",
       "local_path": "data/gesture_videos/20_Purse.avi",
+      "video": "assets/rating-videos/20_Purse.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -2036,6 +2056,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Cable",
       "title": "21_Cable.avi",
       "local_path": "data/gesture_videos/21_Cable.avi",
+      "video": "assets/rating-videos/21_Cable.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -2136,6 +2157,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Camera",
       "title": "22_Camera.avi",
       "local_path": "data/gesture_videos/22_Camera.avi",
+      "video": "assets/rating-videos/22_Camera.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -2236,6 +2258,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Till",
       "title": "23_Till.avi",
       "local_path": "data/gesture_videos/23_Till.avi",
+      "video": "assets/rating-videos/23_Till.mp4",
       "complete": true,
       "max_abs_delta": 3,
       "mean_abs_delta": 1.286,
@@ -2336,6 +2359,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Catalog",
       "title": "24_Catalog.avi",
       "local_path": "data/gesture_videos/24_Catalog.avi",
+      "video": "assets/rating-videos/24_Catalog.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -2436,6 +2460,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Clothes",
       "title": "25_Clothes.avi",
       "local_path": "data/gesture_videos/25_Clothes.avi",
+      "video": "assets/rating-videos/25_Clothes.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -2536,6 +2561,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Suitcase",
       "title": "26_Suitcase.avi",
       "local_path": "data/gesture_videos/26_Suitcase.avi",
+      "video": "assets/rating-videos/26_Suitcase.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -2636,6 +2662,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Machine",
       "title": "27_Machine.avi",
       "local_path": "data/gesture_videos/27_Machine.avi",
+      "video": "assets/rating-videos/27_Machine.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -2736,6 +2763,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Mask",
       "title": "28_Mask.avi",
       "local_path": "data/gesture_videos/28_Mask.avi",
+      "video": "assets/rating-videos/28_Mask.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -2836,6 +2864,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Paper",
       "title": "29_Paper.avi",
       "local_path": "data/gesture_videos/29_Paper.avi",
+      "video": "assets/rating-videos/29_Paper.mp4",
       "complete": true,
       "max_abs_delta": 3,
       "mean_abs_delta": 1.0,
@@ -2936,6 +2965,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Tire",
       "title": "30_Tire.avi",
       "local_path": "data/gesture_videos/30_Tire.avi",
+      "video": "assets/rating-videos/30_Tire.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -3036,6 +3066,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Ring",
       "title": "31_Ring.avi",
       "local_path": "data/gesture_videos/31_Ring.avi",
+      "video": "assets/rating-videos/31_Ring.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.286,
@@ -3136,6 +3167,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Backpack",
       "title": "32_Backpack.avi",
       "local_path": "data/gesture_videos/32_Backpack.avi",
+      "video": "assets/rating-videos/32_Backpack.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -3236,6 +3268,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Collection",
       "title": "33_Collection.avi",
       "local_path": "data/gesture_videos/33_Collection.avi",
+      "video": "assets/rating-videos/33_Collection.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -3336,6 +3369,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Key",
       "title": "34_Key.avi",
       "local_path": "data/gesture_videos/34_Key.avi",
+      "video": "assets/rating-videos/34_Key.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -3436,6 +3470,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Drawer",
       "title": "35_Drawer.avi",
       "local_path": "data/gesture_videos/35_Drawer.avi",
+      "video": "assets/rating-videos/35_Drawer.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -3536,6 +3571,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Sunglasses",
       "title": "36_Sunglasses.avi",
       "local_path": "data/gesture_videos/36_Sunglasses.avi",
+      "video": "assets/rating-videos/36_Sunglasses.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -3636,6 +3672,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Mirror",
       "title": "37_Mirror.avi",
       "local_path": "data/gesture_videos/37_Mirror.avi",
+      "video": "assets/rating-videos/37_Mirror.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -3736,6 +3773,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Tram",
       "title": "38_Tram.avi",
       "local_path": "data/gesture_videos/38_Tram.avi",
+      "video": "assets/rating-videos/38_Tram.mp4",
       "complete": true,
       "max_abs_delta": 4,
       "mean_abs_delta": 1.714,
@@ -3836,6 +3874,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Daily Newspaper",
       "title": "39_DailyNewspaper.avi",
       "local_path": "data/gesture_videos/39_DailyNewspaper.avi",
+      "video": "assets/rating-videos/39_DailyNewspaper.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 1.286,
@@ -3936,6 +3975,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Telephone",
       "title": "40_Telephone.avi",
       "local_path": "data/gesture_videos/40_Telephone.avi",
+      "video": "assets/rating-videos/40_Telephone.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -4036,6 +4076,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Plate",
       "title": "41_Plate.avi",
       "local_path": "data/gesture_videos/41_Plate.avi",
+      "video": "assets/rating-videos/41_Plate.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -4136,6 +4177,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Carpet",
       "title": "42_Carpet.avi",
       "local_path": "data/gesture_videos/42_Carpet.avi",
+      "video": "assets/rating-videos/42_Carpet.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -4236,6 +4278,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Bandage",
       "title": "43_Bandage.avi",
       "local_path": "data/gesture_videos/43_Bandage.avi",
+      "video": "assets/rating-videos/43_Bandage.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -4336,6 +4379,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Tent",
       "title": "44_Tent.avi",
       "local_path": "data/gesture_videos/44_Tent.avi",
+      "video": "assets/rating-videos/44_Tent.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -4436,6 +4480,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Cigarette",
       "title": "45_Cigarette.avi",
       "local_path": "data/gesture_videos/45_Cigarette.avi",
+      "video": "assets/rating-videos/45_Cigarette.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -4536,6 +4581,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Cancellation",
       "title": "46_Cancellation.avi",
       "local_path": "data/gesture_videos/46_Cancellation.avi",
+      "video": "assets/rating-videos/46_Cancellation.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -4636,6 +4682,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Alternative",
       "title": "47_Alternative.avi",
       "local_path": "data/gesture_videos/47_Alternative.avi",
+      "video": "assets/rating-videos/47_Alternative.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -4736,6 +4783,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Requirement",
       "title": "48_Requirement.avi",
       "local_path": "data/gesture_videos/48_Requirement.avi",
+      "video": "assets/rating-videos/48_Requirement.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.714,
@@ -4836,6 +4884,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Arrival",
       "title": "49_Arrival.avi",
       "local_path": "data/gesture_videos/49_Arrival.avi",
+      "video": "assets/rating-videos/49_Arrival.mp4",
       "complete": true,
       "max_abs_delta": 3,
       "mean_abs_delta": 0.571,
@@ -4936,6 +4985,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Attention",
       "title": "50_Attention.avi",
       "local_path": "data/gesture_videos/50_Attention.avi",
+      "video": "assets/rating-videos/50_Attention.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -5036,6 +5086,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Effort",
       "title": "51_Effort.avi",
       "local_path": "data/gesture_videos/51_Effort.avi",
+      "video": "assets/rating-videos/51_Effort.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.571,
@@ -5136,6 +5187,7 @@ window.RATING_DASHBOARD = {
       "target_word": "View",
       "title": "52_View.avi",
       "local_path": "data/gesture_videos/52_View.avi",
+      "video": "assets/rating-videos/52_View.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -5236,6 +5288,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Command",
       "title": "53_Command.avi",
       "local_path": "data/gesture_videos/53_Command.avi",
+      "video": "assets/rating-videos/53_Command.mp4",
       "complete": true,
       "max_abs_delta": 3,
       "mean_abs_delta": 0.571,
@@ -5336,6 +5389,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Property",
       "title": "54_Property.avi",
       "local_path": "data/gesture_videos/54_Property.avi",
+      "video": "assets/rating-videos/54_Property.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 1.286,
@@ -5436,6 +5490,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Destination",
       "title": "55_Destination.avi",
       "local_path": "data/gesture_videos/55_Destination.avi",
+      "video": "assets/rating-videos/55_Destination.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -5536,6 +5591,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Plea",
       "title": "56_Plea.avi",
       "local_path": "data/gesture_videos/56_Plea.avi",
+      "video": "assets/rating-videos/56_Plea.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -5636,6 +5692,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Discipline",
       "title": "57_Discipline.avi",
       "local_path": "data/gesture_videos/57_Discipline.avi",
+      "video": "assets/rating-videos/57_Discipline.mp4",
       "complete": true,
       "max_abs_delta": 3,
       "mean_abs_delta": 1.714,
@@ -5736,6 +5793,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Recommendation",
       "title": "58_Recommendation.avi",
       "local_path": "data/gesture_videos/58_Recommendation.avi",
+      "video": "assets/rating-videos/58_Recommendation.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.714,
@@ -5836,6 +5894,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Thought",
       "title": "59_Thought.avi",
       "local_path": "data/gesture_videos/59_Thought.avi",
+      "video": "assets/rating-videos/59_Thought.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -5936,6 +5995,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Patience",
       "title": "60_Patience.avi",
       "local_path": "data/gesture_videos/60_Patience.avi",
+      "video": "assets/rating-videos/60_Patience.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -6036,6 +6096,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Indifference",
       "title": "61_Indifference.avi",
       "local_path": "data/gesture_videos/61_Indifference.avi",
+      "video": "assets/rating-videos/61_Indifference.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.571,
@@ -6136,6 +6197,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Information",
       "title": "62_Information.avi",
       "local_path": "data/gesture_videos/62_Information.avi",
+      "video": "assets/rating-videos/62_Information.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.714,
@@ -6236,6 +6298,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Correction",
       "title": "63_Correction.avi",
       "local_path": "data/gesture_videos/63_Correction.avi",
+      "video": "assets/rating-videos/63_Correction.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.429,
@@ -6336,6 +6399,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Boredom",
       "title": "64_Boredom.avi",
       "local_path": "data/gesture_videos/64_Boredom.avi",
+      "video": "assets/rating-videos/64_Boredom.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -6436,6 +6500,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Mentality",
       "title": "65_Mentality.avi",
       "local_path": "data/gesture_videos/65_Mentality.avi",
+      "video": "assets/rating-videos/65_Mentality.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.857,
@@ -6536,6 +6601,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Method",
       "title": "66_Method.avi",
       "local_path": "data/gesture_videos/66_Method.avi",
+      "video": "assets/rating-videos/66_Method.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -6636,6 +6702,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Bravery",
       "title": "67_Bravery.avi",
       "local_path": "data/gesture_videos/67_Bravery.avi",
+      "video": "assets/rating-videos/67_Bravery.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -6736,6 +6803,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Partnership",
       "title": "68_Partnership.avi",
       "local_path": "data/gesture_videos/68_Partnership.avi",
+      "video": "assets/rating-videos/68_Partnership.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -6836,6 +6904,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Consideration",
       "title": "69_Consideration.avi",
       "local_path": "data/gesture_videos/69_Consideration.avi",
+      "video": "assets/rating-videos/69_Consideration.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -6936,6 +7005,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Sensation",
       "title": "70_Sensation.avi",
       "local_path": "data/gesture_videos/70_Sensation.avi",
+      "video": "assets/rating-videos/70_Sensation.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -7036,6 +7106,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Style",
       "title": "71_Style.avi",
       "local_path": "data/gesture_videos/71_Style.avi",
+      "video": "assets/rating-videos/71_Style.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.714,
@@ -7136,6 +7207,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Talent",
       "title": "72_Talent.avi",
       "local_path": "data/gesture_videos/72_Talent.avi",
+      "video": "assets/rating-videos/72_Talent.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.571,
@@ -7236,6 +7308,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Fact",
       "title": "73_Fact.avi",
       "local_path": "data/gesture_videos/73_Fact.avi",
+      "video": "assets/rating-videos/73_Fact.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -7336,6 +7409,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Participation",
       "title": "74_Participation.avi",
       "local_path": "data/gesture_videos/74_Participation.avi",
+      "video": "assets/rating-videos/74_Participation.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -7436,6 +7510,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Tendency",
       "title": "75_Tendency.avi",
       "local_path": "data/gesture_videos/75_Tendency.avi",
+      "video": "assets/rating-videos/75_Tendency.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -7536,6 +7611,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Theory",
       "title": "76_Theory.avi",
       "local_path": "data/gesture_videos/76_Theory.avi",
+      "video": "assets/rating-videos/76_Theory.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -7636,6 +7712,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Therapy",
       "title": "77_Therapy.avi",
       "local_path": "data/gesture_videos/77_Therapy.avi",
+      "video": "assets/rating-videos/77_Therapy.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -7736,6 +7813,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Tradition",
       "title": "78_Tradition.avi",
       "local_path": "data/gesture_videos/78_Tradition.avi",
+      "video": "assets/rating-videos/78_Tradition.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.857,
@@ -7836,6 +7914,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Triumph",
       "title": "79_Triumph.avi",
       "local_path": "data/gesture_videos/79_Triumph.avi",
+      "video": "assets/rating-videos/79_Triumph.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -7936,6 +8015,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Exercise",
       "title": "80_Exercise.avi",
       "local_path": "data/gesture_videos/80_Exercise.avi",
+      "video": "assets/rating-videos/80_Exercise.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -8036,6 +8116,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Innocence",
       "title": "81_Innocence.avi",
       "local_path": "data/gesture_videos/81_Innocence.avi",
+      "video": "assets/rating-videos/81_Innocence.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -8136,6 +8217,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Change",
       "title": "82_Change.avi",
       "local_path": "data/gesture_videos/82_Change.avi",
+      "video": "assets/rating-videos/82_Change.mp4",
       "complete": true,
       "max_abs_delta": 3,
       "mean_abs_delta": 1.286,
@@ -8236,6 +8318,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Sympathy",
       "title": "83_Sympathy.avi",
       "local_path": "data/gesture_videos/83_Sympathy.avi",
+      "video": "assets/rating-videos/83_Sympathy.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -8336,6 +8419,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Procedure",
       "title": "84_Procedure.avi",
       "local_path": "data/gesture_videos/84_Procedure.avi",
+      "video": "assets/rating-videos/84_Procedure.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.714,
@@ -8436,6 +8520,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Excuse",
       "title": "85_Excuse.avi",
       "local_path": "data/gesture_videos/85_Excuse.avi",
+      "video": "assets/rating-videos/85_Excuse.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -8536,6 +8621,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Warning",
       "title": "86_Warning.avi",
       "local_path": "data/gesture_videos/86_Warning.avi",
+      "video": "assets/rating-videos/86_Warning.mp4",
       "complete": true,
       "max_abs_delta": 3,
       "mean_abs_delta": 0.714,
@@ -8636,6 +8722,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Wealth",
       "title": "87_Wealth.avi",
       "local_path": "data/gesture_videos/87_Wealth.avi",
+      "video": "assets/rating-videos/87_Wealth.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -8736,6 +8823,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Benefaction",
       "title": "88_Benefaction.avi",
       "local_path": "data/gesture_videos/88_Benefaction.avi",
+      "video": "assets/rating-videos/88_Benefaction.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.571,
@@ -8836,6 +8924,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Admission",
       "title": "89_Admission.avi",
       "local_path": "data/gesture_videos/89_Admission.avi",
+      "video": "assets/rating-videos/89_Admission.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -8936,6 +9025,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Purpose",
       "title": "90_Purpose.avi",
       "local_path": "data/gesture_videos/90_Purpose.avi",
+      "video": "assets/rating-videos/90_Purpose.mp4",
       "complete": true,
       "max_abs_delta": 3,
       "mean_abs_delta": 1.857,
@@ -9036,6 +9126,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Zip",
       "title": "01_zip.mov.AVI",
       "local_path": "data/videos/01_zip.mov.AVI",
+      "video": "assets/rating-videos/01_zip.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -9136,6 +9227,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Earring",
       "title": "02_earring.mov.AVI",
       "local_path": "data/videos/02_earring.mov.AVI",
+      "video": "assets/rating-videos/02_earring.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -9236,6 +9328,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Peppermill",
       "title": "03_peppermill.mov.AVI",
       "local_path": "data/videos/03_peppermill.mov.AVI",
+      "video": "assets/rating-videos/03_peppermill.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -9336,6 +9429,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Cup",
       "title": "04_cup.mov.AVI",
       "local_path": "data/videos/04_cup.mov.AVI",
+      "video": "assets/rating-videos/04_cup.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -9436,6 +9530,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Broom",
       "title": "05_broom.mov.AVI",
       "local_path": "data/videos/05_broom.mov.AVI",
+      "video": "assets/rating-videos/05_broom.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -9536,6 +9631,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Parsley",
       "title": "06_parseley.mov.AVI",
       "local_path": "data/videos/06_parseley.mov.AVI",
+      "video": "assets/rating-videos/06_parseley.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -9636,6 +9732,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Stairs",
       "title": "07_stairs.mov.AVI",
       "local_path": "data/videos/07_stairs.mov.AVI",
+      "video": "assets/rating-videos/07_stairs.mp4",
       "complete": true,
       "max_abs_delta": 4,
       "mean_abs_delta": 2.0,
@@ -9736,6 +9833,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Hair Dryer",
       "title": "08_hair dryer.mov.AVI",
       "local_path": "data/videos/08_hair dryer.mov.AVI",
+      "video": "assets/rating-videos/08_hair_dryer.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -9836,6 +9934,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Watering Can",
       "title": "09_gießkanne.mov.AVI",
       "local_path": "data/videos/09_gießkanne.mov.AVI",
+      "video": "assets/rating-videos/09_gie_kanne.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -9936,6 +10035,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Tissue",
       "title": "10_tissue.mov.AVI",
       "local_path": "data/videos/10_tissue.mov.AVI",
+      "video": "assets/rating-videos/10_tissue.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -10036,6 +10136,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Soap",
       "title": "11_soap.mov.AVI",
       "local_path": "data/videos/11_soap.mov.AVI",
+      "video": "assets/rating-videos/11_soap.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -10136,6 +10237,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Shelf",
       "title": "12_shelf.mov.AVI",
       "local_path": "data/videos/12_shelf.mov.AVI",
+      "video": "assets/rating-videos/12_shelf.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -10236,6 +10338,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Violin",
       "title": "13_violine.mov.AVI",
       "local_path": "data/videos/13_violine.mov.AVI",
+      "video": "assets/rating-videos/13_violine.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -10336,6 +10439,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Stamp",
       "title": "14_stamp.mov.AVI",
       "local_path": "data/videos/14_stamp.mov.AVI",
+      "video": "assets/rating-videos/14_stamp.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -10436,6 +10540,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Thread",
       "title": "15_thread.mov.AVI",
       "local_path": "data/videos/15_thread.mov.AVI",
+      "video": "assets/rating-videos/15_thread.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -10536,6 +10641,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Temple",
       "title": "16_temple.mov.AVI",
       "local_path": "data/videos/16_temple.mov.AVI",
+      "video": "assets/rating-videos/16_temple.mp4",
       "complete": true,
       "max_abs_delta": 3,
       "mean_abs_delta": 1.286,
@@ -10636,6 +10742,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Chair",
       "title": "17_chair.mov.AVI",
       "local_path": "data/videos/17_chair.mov.AVI",
+      "video": "assets/rating-videos/17_chair.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.857,
@@ -10736,6 +10843,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Coffee",
       "title": "18_coffee.mov.AVI",
       "local_path": "data/videos/18_coffee.mov.AVI",
+      "video": "assets/rating-videos/18_coffee.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -10836,6 +10944,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Bridge",
       "title": "19_bridge.mov.AVI",
       "local_path": "data/videos/19_bridge.mov.AVI",
+      "video": "assets/rating-videos/19_bridge.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -10936,6 +11045,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Earth",
       "title": "20_earth.mov.AVI",
       "local_path": "data/videos/20_earth.mov.AVI",
+      "video": "assets/rating-videos/20_earth.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -11036,6 +11146,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Flower",
       "title": "21_flower.mov.AVI",
       "local_path": "data/videos/21_flower.mov.AVI",
+      "video": "assets/rating-videos/21_flower.mp4",
       "complete": true,
       "max_abs_delta": 3,
       "mean_abs_delta": 0.714,
@@ -11136,6 +11247,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Shampoo",
       "title": "22_shampoo.mov.AVI",
       "local_path": "data/videos/22_shampoo.mov.AVI",
+      "video": "assets/rating-videos/22_shampoo.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -11236,6 +11348,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Jumper",
       "title": "23_jumper.mov.AVI",
       "local_path": "data/videos/23_jumper.mov.AVI",
+      "video": "assets/rating-videos/23_jumper.mp4",
       "complete": true,
       "max_abs_delta": 0,
       "mean_abs_delta": 0.0,
@@ -11336,6 +11449,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Dish Washing Liquid",
       "title": "24_dish washing liquid.mov.AVI",
       "local_path": "data/videos/24_dish washing liquid.mov.AVI",
+      "video": "assets/rating-videos/24_dish_washing_liquid.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -11436,6 +11550,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Pumpkin",
       "title": "25_pumpkin.mov.AVI",
       "local_path": "data/videos/25_pumpkin.mov.AVI",
+      "video": "assets/rating-videos/25_pumpkin.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -11536,6 +11651,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Eraser",
       "title": "26_radiergummi.mov.AVI",
       "local_path": "data/videos/26_radiergummi.mov.AVI",
+      "video": "assets/rating-videos/26_radiergummi.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.286,
@@ -11636,6 +11752,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Stamp For Letter",
       "title": "27_stamp for letter.mov.AVI",
       "local_path": "data/videos/27_stamp for letter.mov.AVI",
+      "video": "assets/rating-videos/27_stamp_for_letter.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -11736,6 +11853,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Flute",
       "title": "28_flute.mov.AVI",
       "local_path": "data/videos/28_flute.mov.AVI",
+      "video": "assets/rating-videos/28_flute.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -11836,6 +11954,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Metal Sheet",
       "title": "29_metal sheet.mov.AVI",
       "local_path": "data/videos/29_metal sheet.mov.AVI",
+      "video": "assets/rating-videos/29_metal_sheet.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -11936,6 +12055,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Towel",
       "title": "30_towel.mov.AVI",
       "local_path": "data/videos/30_towel.mov.AVI",
+      "video": "assets/rating-videos/30_towel.mp4",
       "complete": true,
       "max_abs_delta": 3,
       "mean_abs_delta": 1.571,
@@ -12036,6 +12156,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Crutch",
       "title": "31_crutch.mov.AVI",
       "local_path": "data/videos/31_crutch.mov.AVI",
+      "video": "assets/rating-videos/31_crutch.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.714,
@@ -12136,6 +12257,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Saw",
       "title": "32_saw.mov.AVI",
       "local_path": "data/videos/32_saw.mov.AVI",
+      "video": "assets/rating-videos/32_saw.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -12236,6 +12358,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Perfume",
       "title": "33_perfume.mov.AVI",
       "local_path": "data/videos/33_perfume.mov.AVI",
+      "video": "assets/rating-videos/33_perfume.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -12336,6 +12459,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Tie",
       "title": "34_tie.mov.AVI",
       "local_path": "data/videos/34_tie.mov.AVI",
+      "video": "assets/rating-videos/34_tie.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -12436,6 +12560,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Button",
       "title": "35_button.mov.AVI",
       "local_path": "data/videos/35_button.mov.AVI",
+      "video": "assets/rating-videos/35_button.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -12536,6 +12661,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Sponge",
       "title": "36_sponge.mov.AVI",
       "local_path": "data/videos/36_sponge.mov.AVI",
+      "video": "assets/rating-videos/36_sponge.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -12636,6 +12762,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Piece Of Paper",
       "title": "37_piece of paper.mov.AVI",
       "local_path": "data/videos/37_piece of paper.mov.AVI",
+      "video": "assets/rating-videos/37_piece_of_paper.mp4",
       "complete": true,
       "max_abs_delta": 4,
       "mean_abs_delta": 2.143,
@@ -12736,6 +12863,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Knife",
       "title": "38_knife.mov.AVI",
       "local_path": "data/videos/38_knife.mov.AVI",
+      "video": "assets/rating-videos/38_knife.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.571,
@@ -12836,6 +12964,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Wave",
       "title": "39_wave.mov.AVI",
       "local_path": "data/videos/39_wave.mov.AVI",
+      "video": "assets/rating-videos/39_wave.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.143,
@@ -12936,6 +13065,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Telephone",
       "title": "40_telephone.mov.AVI",
       "local_path": "data/videos/40_telephone.mov.AVI",
+      "video": "assets/rating-videos/40_telephone.mp4",
       "complete": true,
       "max_abs_delta": 2,
       "mean_abs_delta": 0.286,
@@ -13036,6 +13166,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Mirror",
       "title": "41_mirrow.mov.AVI",
       "local_path": "data/videos/41_mirrow.mov.AVI",
+      "video": "assets/rating-videos/41_mirrow.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -13136,6 +13267,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Remote Control",
       "title": "42_remote control.mov.AVI",
       "local_path": "data/videos/42_remote control.mov.AVI",
+      "video": "assets/rating-videos/42_remote_control.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.429,
@@ -13236,6 +13368,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Banana",
       "title": "43_banana.mov.AVI",
       "local_path": "data/videos/43_banana.mov.AVI",
+      "video": "assets/rating-videos/43_banana.mp4",
       "complete": true,
       "max_abs_delta": 4,
       "mean_abs_delta": 2.143,
@@ -13336,6 +13469,7 @@ window.RATING_DASHBOARD = {
       "target_word": "Poster",
       "title": "44_poster.mov.AVI",
       "local_path": "data/videos/44_poster.mov.AVI",
+      "video": "assets/rating-videos/44_poster.mp4",
       "complete": true,
       "max_abs_delta": 1,
       "mean_abs_delta": 0.714,

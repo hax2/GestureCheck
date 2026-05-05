@@ -1,42 +1,40 @@
 {
   "target_word": "Ball",
   "video_file": "04_Ball.avi",
-  "brief_gesture_description": "The actor performs a sweeping, curved motion with both arms, as if tracing the shape of a large ball or throwing/catching a large object.",
+  "brief_gesture_description": "The actor uses both hands to trace the shape of a large, round object in the air, moving them in a circular motion to represent a ball.",
   "ratings": {
     "iconicity": {
-      "score": 4,
-      "rationale": "The curved arm movement clearly mimics the round shape of a ball."
+      "score": 5,
+      "rationale": "The circular hand movement clearly and transparently depicts the spherical shape of a ball."
     },
     "sensorimotor_imagery": {
       "score": 4,
-      "rationale": "The movement simulates the physical interaction of holding or shaping a spherical object."
+      "rationale": "The gesture simulates the physical interaction of tracing the outline of a round object, evoking the tactile experience of a ball."
     },
     "motional_salience_gesture": {
-      "score": 2,
-      "rationale": "The movement is functional and descriptive rather than emotionally expressive."
+      "score": 4,
+      "rationale": "The movement is expansive and uses both arms, making it visually prominent and easy to follow."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
-      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is simple, direct, and perfectly suited for representing the concept of a ball."
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a ball."
     },
     "cultural_familiarity": {
       "score": 5,
-      "rationale": "Using hands to indicate a round shape is a universal gesture."
+      "rationale": "Tracing a circle to represent a round object is a universally understood and highly familiar gesture."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The movement is very simple and easy for any learner to replicate."
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
     }
   },
   "coherence_check": {
     "is_video_interpretable": true,
-    "possible_ambiguities": [
-      "The gesture could also represent 'round', 'circle', or 'throwing' depending on context."
-    ],
+    "possible_ambiguities": [],
     "confidence": "high"
   }
 }

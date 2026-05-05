@@ -38,6 +38,12 @@ def result_path(results_dir: Path, title: str) -> Path:
     return results_dir / f"{Path(title).stem}.rating.json"
 
 
+def video_slug(title: str) -> str:
+    stem = Path(title).stem
+    stem = re.sub(r"\.mov$", "", stem, flags=re.IGNORECASE)
+    return re.sub(r"[^A-Za-z0-9]+", "_", stem).strip("_")
+
+
 def score(result: dict[str, Any] | None, key: str) -> int | None:
     if not result:
         return None
@@ -126,6 +132,7 @@ def dashboard_payload(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 "target_word": row["target_word"],
                 "title": row["title"],
                 "local_path": row["local_path"],
+                "video": f"assets/rating-videos/{video_slug(row['title'])}.mp4",
                 "complete": row["complete"],
                 "max_abs_delta": row["max_abs_delta"],
                 "mean_abs_delta": row["mean_abs_delta"],

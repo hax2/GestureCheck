@@ -17,6 +17,21 @@ const detailDrawer = document.getElementById("detailDrawer");
 const averageChart = document.getElementById("averageChart");
 const deltaChart = document.getElementById("deltaChart");
 
+const ratingDefinitions = {
+  iconicity: "The degree to which the gesture visually resembles the semantics of the target word.",
+  sensorimotor_imagery:
+    "The extent to which the gesture evokes bodily actions, physical interactions, or perceptual experiences related to the word's semantics.",
+  motional_salience_gesture:
+    "How strongly a gesture stands out based on its movement features, such as large, fast, or complex actions, thereby guiding attention and supporting encoding.",
+  emotional_salience_facial_expression:
+    "The extent to which facial expressions accompanying the gesture communicate affective meaning.",
+  gesture_complexity_fit:
+    "The degree to which the gesture's motor and cognitive complexity is appropriate for the learning context.",
+  cultural_familiarity:
+    "The degree to which a gesture is readily recognized and interpreted based on shared sociocultural conventions and prior experience, defined here with respect to Western cultural contexts.",
+  enactment_potential: "How easily learners can reproduce the gesture themselves.",
+};
+
 function initControls() {
   const collections = [...new Set(rows.map((row) => row.collection).filter(Boolean))].sort();
   collections.forEach((collection) => {
@@ -211,14 +226,21 @@ function openDetail(row) {
         <h2>${row.target_word}</h2>
         <p class="confidence">${row.title}</p>
       </div>
-      <button type="button" aria-label="Close">×</button>
+      <button class="detail-close" type="button" aria-label="Close">×</button>
     </div>
+    <video class="detail-video" controls playsinline src="${row.video || ""}"></video>
     ${ratings
       .map((rating) => {
         const value = row.ratings[rating.key];
+        const definition = ratingDefinitions[rating.key] || "No definition available.";
         return `
           <article class="detail-card">
-            <h3>${rating.label} · delta ${fmt(value.delta)}</h3>
+            <h3 class="rating-title" tabindex="0">
+              <span>${rating.label}</span>
+              <span class="category-help" aria-hidden="true">?</span>
+              <span class="category-tooltip" role="tooltip">${definition}</span>
+              <span class="rating-delta">delta ${fmt(value.delta)}</span>
+            </h3>
             <div class="rationale-grid">
               <div>
                 <strong>Flash ${fmt(value.flash.score)}</strong>
@@ -234,7 +256,7 @@ function openDetail(row) {
       })
       .join("")}
   `;
-  detailDrawer.querySelector("button").addEventListener("click", () => {
+  detailDrawer.querySelector(".detail-close").addEventListener("click", () => {
     detailDrawer.classList.remove("open");
   });
   detailDrawer.classList.add("open");

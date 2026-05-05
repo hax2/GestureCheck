@@ -1,19 +1,19 @@
 {
   "target_word": "Present",
   "video_file": "18_Present.avi",
-  "brief_gesture_description": "The actor holds both hands out in front of her, palms facing inward as if holding a box, and moves them forward as if offering it to someone.",
+  "brief_gesture_description": "The actor holds both hands out in front of her as if holding a box, then moves them forward as if offering the box to someone.",
   "ratings": {
     "iconicity": {
-      "score": 4,
-      "rationale": "The gesture clearly depicts the action of holding and offering a physical object, which strongly aligns with the concept of giving a present."
+      "score": 5,
+      "rationale": "The gesture of holding an imaginary box and offering it forward perfectly mimics the action of giving a present."
     },
     "sensorimotor_imagery": {
-      "score": 4,
-      "rationale": "The action of holding an imaginary box and extending the arms forward strongly evokes the physical experience of giving a gift."
+      "score": 5,
+      "rationale": "Strongly evokes the physical sensation of holding an object with both hands and extending the arms to hand it over."
     },
     "motional_salience_gesture": {
-      "score": 3,
-      "rationale": "The movement is clear and involves both arms, but is relatively constrained and moderate in speed."
+      "score": 4,
+      "rationale": "Clear, deliberate forward movement of both arms, making it visually distinct and easy to follow."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
@@ -21,21 +21,21 @@
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of understanding."
+      "rationale": "The gesture is simple, intuitive, and directly conveys the meaning without unnecessary movements."
     },
     "cultural_familiarity": {
       "score": 5,
-      "rationale": "Offering an object with both hands is a highly recognizable and common gesture for giving a present in Western cultures."
+      "rationale": "The action of offering an object with both hands is a universally recognized gesture for giving a gift in Western cultures."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The movement is very natural, requires no special coordination, and is effortless to enact."
+      "rationale": "The movement is basic and requires no special coordination, making it effortless to copy."
     }
   },
   "coherence_check": {
     "is_video_interpretable": true,
     "possible_ambiguities": [
-      "Could also be interpreted as 'give' or 'offer' generally, rather than specifically a 'present'."
+      "The word 'present' can also mean 'current time' or 'to present (verb)', but the gesture clearly aligns with the noun meaning 'gift'."
     ],
     "confidence": "high"
   }

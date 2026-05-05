@@ -273,6 +273,15 @@ tbody tr:hover {
   cursor: pointer;
 }
 
+.detail-video {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  display: block;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  background: #111;
+}
+
 .detail-card {
   border-top: 1px solid var(--line);
   padding: 12px 0;
@@ -281,6 +290,71 @@ tbody tr:hover {
 .detail-card h3 {
   margin: 0 0 8px;
   font-size: 14px;
+}
+
+.rating-title {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  cursor: help;
+  outline: none;
+}
+
+.rating-title:focus-visible {
+  border-radius: 4px;
+  box-shadow: 0 0 0 3px rgba(29, 111, 114, 0.16);
+}
+
+.category-help {
+  width: 18px;
+  height: 18px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #fff;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.rating-title:hover .category-help,
+.rating-title:focus-visible .category-help {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.rating-delta {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.category-tooltip {
+  position: absolute;
+  z-index: 30;
+  left: 0;
+  bottom: calc(100% + 8px);
+  width: min(360px, calc(100vw - 56px));
+  padding: 9px 11px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+  color: #3f4c53;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+}
+
+.rating-title:hover .category-tooltip,
+.rating-title:focus-visible .category-tooltip {
+  opacity: 1;
 }
 
 .rationale-grid {

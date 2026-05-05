@@ -1841,41 +1841,41 @@ window.GESTURE_RESULTS = [
     "rating": {
       "target_word": "Traffic Light",
       "video_file": "01_TrafficLight.avi",
-      "brief_gesture_description": "The actor raises her right arm with the elbow bent and palm facing forward, resembling a 'stop' hand signal, before lowering it back to her side.",
+      "brief_gesture_description": "The actor raises her right arm with the palm facing forward, resembling a 'stop' hand signal.",
       "ratings": {
         "iconicity": {
-          "score": 2,
-          "rationale": "The gesture visually represents the action of stopping rather than the physical shape or appearance of a traffic light, making the visual resemblance to the object itself weak."
+          "score": 3,
+          "rationale": "The gesture represents the 'stop' command associated with a red traffic light, rather than the physical appearance of the light itself."
         },
         "sensorimotor_imagery": {
-          "score": 3,
-          "rationale": "The gesture evokes the physical action of halting or directing traffic, providing a moderate bodily connection to the function of a traffic light."
+          "score": 4,
+          "rationale": "Evokes the physical action of halting or signaling someone to stop, which is the primary function of a traffic light."
         },
         "motional_salience_gesture": {
-          "score": 2,
-          "rationale": "The movement is straightforward and functional, lacking significant dynamic emphasis or emotional expressiveness."
+          "score": 3,
+          "rationale": "The movement is a clear, deliberate raising of the arm, moderate in size and speed."
         },
         "emotional_salience_facial_expression": {
           "score": 1,
-          "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
+          "rationale": "The actor maintains a neutral facial expression throughout the gesture."
         },
         "gesture_complexity_fit": {
           "score": 5,
-          "rationale": "The gesture is extremely simple and clear, making it an optimal, low-cognitive-load movement for a learning context."
+          "rationale": "The gesture is very simple, direct, and perfectly balances informativeness with ease of understanding."
         },
         "cultural_familiarity": {
           "score": 5,
-          "rationale": "The raised open palm is a universally recognized gesture for 'stop', which is strongly associated with traffic control."
+          "rationale": "The raised hand with palm facing outward is a highly familiar and universally recognized sign for 'stop' in Western cultures."
         },
         "enactment_potential": {
           "score": 5,
-          "rationale": "The movement involves a basic arm raise and hand position that is effortless for learners to reproduce."
+          "rationale": "The gesture involves a basic arm movement that is effortless for learners to reproduce."
         }
       },
       "coherence_check": {
         "is_video_interpretable": true,
         "possible_ambiguities": [
-          "The gesture represents 'stop' rather than the object 'traffic light' itself, which might cause slight confusion if learners expect a representation of the three lights."
+          "The gesture signifies 'stop' rather than the physical object 'traffic light', which might be slightly ambiguous without context."
         ],
         "confidence": "high"
       }
@@ -1922,43 +1922,43 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Traffic Light",
           "video_file": "01_TrafficLight.avi",
-          "brief_gesture_description": "The actor raises her right arm and makes a flat-hand gesture, moving it slightly as if indicating a signal or light, then returns to a neutral standing position.",
+          "brief_gesture_description": "The actor raises her right arm and moves her hand in a vertical, stop-and-go motion, mimicking the changing lights of a traffic signal.",
           "ratings": {
             "iconicity": {
-              "score": 2,
-              "rationale": "The gesture is abstract and does not clearly depict the physical structure or function of a traffic light."
+              "score": 4,
+              "rationale": "The vertical movement of the hand clearly mimics the sequence of a traffic light changing colors."
             },
             "sensorimotor_imagery": {
-              "score": 2,
-              "rationale": "There is a slight action-related element, but it does not strongly evoke the experience of interacting with a traffic light."
+              "score": 3,
+              "rationale": "It simulates the visual experience of observing a traffic light, though it lacks the physical interaction of driving."
             },
             "motional_salience_gesture": {
-              "score": 1,
-              "rationale": "The movement is functional and lacks distinct emotional or dynamic emphasis."
+              "score": 3,
+              "rationale": "The movement is clear and deliberate, though not particularly expansive or rapid."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
-              "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+              "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
             },
             "gesture_complexity_fit": {
-              "score": 4,
-              "rationale": "The gesture is simple and easy to perform, though its connection to the target word is weak."
+              "score": 5,
+              "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a traffic light."
             },
             "cultural_familiarity": {
-              "score": 2,
-              "rationale": "The gesture is not a standard or widely recognized cultural sign for a traffic light."
+              "score": 5,
+              "rationale": "Traffic lights are a universal cultural symbol, and the vertical motion is widely understood."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The movement is very simple and physically easy for any learner to replicate."
+              "rationale": "The movement is very simple and easy for any learner to replicate."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
             "possible_ambiguities": [
-              "The gesture is quite abstract and could be interpreted as waving, signaling, or pointing rather than specifically representing a traffic light."
+              "The gesture could potentially be interpreted as a generic 'stop' signal or a 'wait' gesture if not contextualized."
             ],
-            "confidence": "medium"
+            "confidence": "high"
           }
         }
       },
@@ -2003,41 +2003,41 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Traffic Light",
           "video_file": "01_TrafficLight.avi",
-          "brief_gesture_description": "The actor raises her right arm with the elbow bent and palm facing forward, resembling a 'stop' hand signal, before lowering it back to her side.",
+          "brief_gesture_description": "The actor raises her right arm with the palm facing forward, resembling a 'stop' hand signal.",
           "ratings": {
             "iconicity": {
-              "score": 2,
-              "rationale": "The gesture visually represents the action of stopping rather than the physical shape or appearance of a traffic light, making the visual resemblance to the object itself weak."
+              "score": 3,
+              "rationale": "The gesture represents the 'stop' command associated with a red traffic light, rather than the physical appearance of the light itself."
             },
             "sensorimotor_imagery": {
-              "score": 3,
-              "rationale": "The gesture evokes the physical action of halting or directing traffic, providing a moderate bodily connection to the function of a traffic light."
+              "score": 4,
+              "rationale": "Evokes the physical action of halting or signaling someone to stop, which is the primary function of a traffic light."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is straightforward and functional, lacking significant dynamic emphasis or emotional expressiveness."
+              "score": 3,
+              "rationale": "The movement is a clear, deliberate raising of the arm, moderate in size and speed."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
-              "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
+              "rationale": "The actor maintains a neutral facial expression throughout the gesture."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is extremely simple and clear, making it an optimal, low-cognitive-load movement for a learning context."
+              "rationale": "The gesture is very simple, direct, and perfectly balances informativeness with ease of understanding."
             },
             "cultural_familiarity": {
               "score": 5,
-              "rationale": "The raised open palm is a universally recognized gesture for 'stop', which is strongly associated with traffic control."
+              "rationale": "The raised hand with palm facing outward is a highly familiar and universally recognized sign for 'stop' in Western cultures."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The movement involves a basic arm raise and hand position that is effortless for learners to reproduce."
+              "rationale": "The gesture involves a basic arm movement that is effortless for learners to reproduce."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
             "possible_ambiguities": [
-              "The gesture represents 'stop' rather than the object 'traffic light' itself, which might cause slight confusion if learners expect a representation of the three lights."
+              "The gesture signifies 'stop' rather than the physical object 'traffic light', which might be slightly ambiguous without context."
             ],
             "confidence": "high"
           }
@@ -2095,41 +2095,41 @@ window.GESTURE_RESULTS = [
     "rating": {
       "target_word": "Trailer",
       "video_file": "02_Trailer.avi",
-      "brief_gesture_description": "The actor bends forward slightly, looks back over her shoulder, and extends her arms backwards as if pulling a heavy object behind her.",
+      "brief_gesture_description": "The actor turns slightly, leans forward, and reaches both arms behind her back as if pulling a heavy object behind her.",
       "ratings": {
         "iconicity": {
           "score": 4,
-          "rationale": "The gesture clearly represents the defining function of a trailer, which is being pulled behind a vehicle or person."
+          "rationale": "The gesture clearly depicts the action of towing or pulling something behind, which is the defining characteristic of a trailer."
         },
         "sensorimotor_imagery": {
           "score": 4,
-          "rationale": "The forward lean and backward arm extension strongly simulate the physical effort and bodily experience of towing a heavy load."
+          "rationale": "The posture and arm position strongly evoke the physical sensation of dragging or pulling a heavy load."
         },
         "motional_salience_gesture": {
           "score": 3,
-          "rationale": "The movement is deliberate and conveys physical effort, but lacks strong emotional expressiveness."
+          "rationale": "The movement involves a full-body shift and arm extension, making it moderately salient but not overly expansive."
         },
         "emotional_salience_facial_expression": {
           "score": 2,
-          "rationale": "The actor's facial expression remains mostly neutral, with only a slight indication of focus or effort while looking back."
+          "rationale": "The facial expression is mostly neutral, showing only a slight hint of physical effort."
         },
         "gesture_complexity_fit": {
-          "score": 5,
-          "rationale": "The gesture is simple, direct, and effectively conveys the core concept without unnecessary complexity."
+          "score": 4,
+          "rationale": "The gesture is straightforward and effectively conveys the concept without unnecessary complexity."
         },
         "cultural_familiarity": {
           "score": 4,
-          "rationale": "The pantomime of pulling something heavy behind oneself is a widely understood concept across cultures."
+          "rationale": "Pantomiming pulling something behind oneself is a recognizable way to represent towing or a trailer."
         },
         "enactment_potential": {
           "score": 5,
-          "rationale": "The movement involves basic body mechanics that are very easy for learners to reproduce."
+          "rationale": "The movement is simple, requires no special coordination, and is very easy for learners to enact."
         }
       },
       "coherence_check": {
         "is_video_interpretable": true,
         "possible_ambiguities": [
-          "The gesture represents the action associated with the object (pulling) rather than the shape of the object itself, which could be interpreted as 'pull' or 'tow'."
+          "The gesture represents the action of pulling rather than the object itself, which could be interpreted as verbs like 'pull' or 'drag'."
         ],
         "confidence": "high"
       }
@@ -2177,41 +2177,41 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Trailer",
           "video_file": "02_Trailer.avi",
-          "brief_gesture_description": "The actor stands, leans forward slightly while moving her hands behind her back as if hitching something, then returns to a standing position.",
+          "brief_gesture_description": "The actor stands still, then leans forward slightly while moving her hands behind her back as if hitching something, then returns to a neutral standing position.",
           "ratings": {
             "iconicity": {
-              "score": 4,
-              "rationale": "The gesture mimics the physical action of hitching a trailer to a vehicle, which is a clear iconic representation of the word."
+              "score": 3,
+              "rationale": "The gesture mimics the act of hitching a trailer to a vehicle, which is a moderate iconic representation of the word's function."
             },
             "sensorimotor_imagery": {
-              "score": 4,
-              "rationale": "The movement simulates the specific physical interaction of connecting a trailer, engaging the body in a functional task."
+              "score": 3,
+              "rationale": "It simulates the physical action of connecting a trailer, providing a moderate sensorimotor link to the concept."
             },
             "motional_salience_gesture": {
               "score": 2,
-              "rationale": "The movement is functional and precise but lacks significant emotional intensity or dynamic emphasis."
+              "rationale": "The movement is relatively small and constrained to the area behind the back, making it somewhat subtle."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
-              "rationale": "The actor maintains a neutral, task-focused facial expression throughout the gesture."
+              "rationale": "The actor maintains a neutral facial expression throughout the gesture."
             },
             "gesture_complexity_fit": {
-              "score": 5,
-              "rationale": "The gesture is simple, direct, and perfectly suited for illustrating the concept of a trailer."
+              "score": 4,
+              "rationale": "The gesture is simple, clear, and directly related to the concept without unnecessary complexity."
             },
             "cultural_familiarity": {
-              "score": 4,
-              "rationale": "The action of hitching a trailer is a widely understood mechanical concept in many cultures."
+              "score": 3,
+              "rationale": "The action of hitching a trailer is a recognizable concept in many Western contexts, though the specific gesture is not a standard emblem."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The gesture is very simple and involves basic arm and torso movements that are easy for anyone to replicate."
+              "rationale": "The movement is very simple and easy for any learner to replicate."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
             "possible_ambiguities": [
-              "The gesture could potentially be interpreted as 'hitching' or 'towing' generally, rather than specifically 'trailer'."
+              "The gesture could be interpreted as hitching a trailer, but without context, it might also look like simply reaching behind one's back."
             ],
             "confidence": "high"
           }
@@ -2264,41 +2264,41 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Trailer",
           "video_file": "02_Trailer.avi",
-          "brief_gesture_description": "The actor bends forward slightly, looks back over her shoulder, and extends her arms backwards as if pulling a heavy object behind her.",
+          "brief_gesture_description": "The actor turns slightly, leans forward, and reaches both arms behind her back as if pulling a heavy object behind her.",
           "ratings": {
             "iconicity": {
               "score": 4,
-              "rationale": "The gesture clearly represents the defining function of a trailer, which is being pulled behind a vehicle or person."
+              "rationale": "The gesture clearly depicts the action of towing or pulling something behind, which is the defining characteristic of a trailer."
             },
             "sensorimotor_imagery": {
               "score": 4,
-              "rationale": "The forward lean and backward arm extension strongly simulate the physical effort and bodily experience of towing a heavy load."
+              "rationale": "The posture and arm position strongly evoke the physical sensation of dragging or pulling a heavy load."
             },
             "motional_salience_gesture": {
               "score": 3,
-              "rationale": "The movement is deliberate and conveys physical effort, but lacks strong emotional expressiveness."
+              "rationale": "The movement involves a full-body shift and arm extension, making it moderately salient but not overly expansive."
             },
             "emotional_salience_facial_expression": {
               "score": 2,
-              "rationale": "The actor's facial expression remains mostly neutral, with only a slight indication of focus or effort while looking back."
+              "rationale": "The facial expression is mostly neutral, showing only a slight hint of physical effort."
             },
             "gesture_complexity_fit": {
-              "score": 5,
-              "rationale": "The gesture is simple, direct, and effectively conveys the core concept without unnecessary complexity."
+              "score": 4,
+              "rationale": "The gesture is straightforward and effectively conveys the concept without unnecessary complexity."
             },
             "cultural_familiarity": {
               "score": 4,
-              "rationale": "The pantomime of pulling something heavy behind oneself is a widely understood concept across cultures."
+              "rationale": "Pantomiming pulling something behind oneself is a recognizable way to represent towing or a trailer."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The movement involves basic body mechanics that are very easy for learners to reproduce."
+              "rationale": "The movement is simple, requires no special coordination, and is very easy for learners to enact."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
             "possible_ambiguities": [
-              "The gesture represents the action associated with the object (pulling) rather than the shape of the object itself, which could be interpreted as 'pull' or 'tow'."
+              "The gesture represents the action of pulling rather than the object itself, which could be interpreted as verbs like 'pull' or 'drag'."
             ],
             "confidence": "high"
           }
@@ -2356,41 +2356,41 @@ window.GESTURE_RESULTS = [
     "rating": {
       "target_word": "Balcony",
       "video_file": "03_Balcony.avi",
-      "brief_gesture_description": "The actor brings her arms forward and rests her forearms horizontally in front of her while leaning slightly forward, simulating leaning on a balcony railing.",
+      "brief_gesture_description": "The actor brings her arms forward and rests her forearms on an imaginary horizontal surface, leaning slightly forward as if looking over a railing.",
       "ratings": {
         "iconicity": {
           "score": 4,
-          "rationale": "The gesture clearly represents the action of leaning on a railing, which is strongly associated with a balcony, depicting the interaction with the object rather than the architectural structure itself."
+          "rationale": "The gesture clearly depicts the action of leaning on a railing, visually representing the physical structure and typical interaction with a balcony."
         },
         "sensorimotor_imagery": {
-          "score": 5,
-          "rationale": "The gesture vividly simulates the physical action and bodily posture of resting one's arms on a balcony railing."
+          "score": 4,
+          "rationale": "The gesture strongly evokes the bodily experience of resting one's arms on a solid surface and leaning forward to look out."
         },
         "motional_salience_gesture": {
-          "score": 2,
-          "rationale": "The movement is calm, smooth, and deliberate, lacking strong emotional dynamics or intensity."
+          "score": 3,
+          "rationale": "The movement is clear and deliberate, but moderate in its spatial extent and speed."
         },
         "emotional_salience_facial_expression": {
-          "score": 1,
-          "rationale": "The actor's facial expression remains neutral throughout the gesture."
+          "score": 2,
+          "rationale": "The actor's facial expression remains mostly neutral, with only a slight indication of looking outward."
         },
         "gesture_complexity_fit": {
           "score": 5,
-          "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of understanding for a learner."
+          "rationale": "The gesture is simple, direct, and optimally balances informativeness with ease of understanding for a learner."
         },
         "cultural_familiarity": {
           "score": 4,
-          "rationale": "The action of leaning on a railing is a common and widely recognized behavior across many cultures."
+          "rationale": "Pantomiming leaning on a railing is a common and easily understood way to represent a balcony or looking out from a height in Western culture."
         },
         "enactment_potential": {
           "score": 5,
-          "rationale": "The gesture involves a simple arm movement and a slight body lean that is effortless for anyone to reproduce."
+          "rationale": "The movement is very natural, requires no special coordination, and is effortless for learners to reproduce."
         }
       },
       "coherence_check": {
         "is_video_interpretable": true,
         "possible_ambiguities": [
-          "Without the target word, the gesture could potentially be interpreted as leaning on a fence, a counter, or looking out a window."
+          "The gesture could potentially be interpreted as leaning on a table or a fence, though 'balcony' is a very strong fit."
         ],
         "confidence": "high"
       }
@@ -2441,37 +2441,37 @@ window.GESTURE_RESULTS = [
           "ratings": {
             "iconicity": {
               "score": 4,
-              "rationale": "The posture of leaning on an imaginary railing is a clear and recognizable representation of standing on a balcony."
+              "rationale": "The posture of leaning on an imaginary railing is a clear and recognizable iconic representation of standing on a balcony."
             },
             "sensorimotor_imagery": {
               "score": 4,
-              "rationale": "The gesture effectively simulates the physical experience of leaning on a balcony railing."
+              "rationale": "The gesture effectively simulates the physical experience of leaning on a balcony railing, engaging the upper body in a way that mirrors the real-world action."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is functional and descriptive rather than emotionally expressive."
+              "score": 3,
+              "rationale": "The movement is clear and purposeful, though relatively contained and static, which is appropriate for the nature of the action being depicted."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
-              "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+              "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a balcony."
+              "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a balcony without unnecessary complexity."
             },
             "cultural_familiarity": {
               "score": 5,
-              "rationale": "Leaning on a railing is a universally understood posture associated with balconies."
+              "rationale": "The action of leaning on a railing is a universally understood gesture in Western contexts."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The gesture is very simple and natural for any learner to replicate."
+              "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
             "possible_ambiguities": [
-              "The gesture could also be interpreted as leaning on a fence or a counter, but in the context of 'balcony', it is highly appropriate."
+              "The gesture could potentially be interpreted as leaning on a fence or a counter, but in the context of the word 'balcony', it is highly specific."
             ],
             "confidence": "high"
           }
@@ -2524,41 +2524,41 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Balcony",
           "video_file": "03_Balcony.avi",
-          "brief_gesture_description": "The actor brings her arms forward and rests her forearms horizontally in front of her while leaning slightly forward, simulating leaning on a balcony railing.",
+          "brief_gesture_description": "The actor brings her arms forward and rests her forearms on an imaginary horizontal surface, leaning slightly forward as if looking over a railing.",
           "ratings": {
             "iconicity": {
               "score": 4,
-              "rationale": "The gesture clearly represents the action of leaning on a railing, which is strongly associated with a balcony, depicting the interaction with the object rather than the architectural structure itself."
+              "rationale": "The gesture clearly depicts the action of leaning on a railing, visually representing the physical structure and typical interaction with a balcony."
             },
             "sensorimotor_imagery": {
-              "score": 5,
-              "rationale": "The gesture vividly simulates the physical action and bodily posture of resting one's arms on a balcony railing."
+              "score": 4,
+              "rationale": "The gesture strongly evokes the bodily experience of resting one's arms on a solid surface and leaning forward to look out."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is calm, smooth, and deliberate, lacking strong emotional dynamics or intensity."
+              "score": 3,
+              "rationale": "The movement is clear and deliberate, but moderate in its spatial extent and speed."
             },
             "emotional_salience_facial_expression": {
-              "score": 1,
-              "rationale": "The actor's facial expression remains neutral throughout the gesture."
+              "score": 2,
+              "rationale": "The actor's facial expression remains mostly neutral, with only a slight indication of looking outward."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is simple, direct, and perfectly balances informativeness with ease of understanding for a learner."
+              "rationale": "The gesture is simple, direct, and optimally balances informativeness with ease of understanding for a learner."
             },
             "cultural_familiarity": {
               "score": 4,
-              "rationale": "The action of leaning on a railing is a common and widely recognized behavior across many cultures."
+              "rationale": "Pantomiming leaning on a railing is a common and easily understood way to represent a balcony or looking out from a height in Western culture."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The gesture involves a simple arm movement and a slight body lean that is effortless for anyone to reproduce."
+              "rationale": "The movement is very natural, requires no special coordination, and is effortless for learners to reproduce."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
             "possible_ambiguities": [
-              "Without the target word, the gesture could potentially be interpreted as leaning on a fence, a counter, or looking out a window."
+              "The gesture could potentially be interpreted as leaning on a table or a fence, though 'balcony' is a very strong fit."
             ],
             "confidence": "high"
           }
@@ -2616,35 +2616,35 @@ window.GESTURE_RESULTS = [
     "rating": {
       "target_word": "Ball",
       "video_file": "04_Ball.avi",
-      "brief_gesture_description": "The actor holds her hands in front of her as if gripping a round object, then moves her arms upwards and to the side in a throwing motion.",
+      "brief_gesture_description": "The actor holds her hands in front of her as if grasping a round object, then moves her arms upward and to the side in a throwing motion.",
       "ratings": {
         "iconicity": {
           "score": 5,
-          "rationale": "The gesture clearly depicts the shape of the object and the primary action associated with it (throwing), making it highly transparent."
+          "rationale": "The hands forming a spherical shape combined with a throwing motion provides a highly transparent visual representation of a ball and its typical use."
         },
         "sensorimotor_imagery": {
           "score": 5,
-          "rationale": "The action of gripping an imaginary object and performing a throwing motion provides a very vivid bodily experience related to a ball."
+          "rationale": "The gesture vividly simulates the physical sensation of holding a round object and the bodily action of throwing it."
         },
         "motional_salience_gesture": {
-          "score": 3,
-          "rationale": "The movement has a clear trajectory and dynamic emphasis during the throw, but it is functional rather than emotionally expressive."
+          "score": 4,
+          "rationale": "The gesture involves a clear, expansive movement of both arms across and away from the body, making it visually prominent."
         },
         "emotional_salience_facial_expression": {
-          "score": 2,
-          "rationale": "The actor's facial expression remains largely neutral, with only a slight look of focus during the throwing action."
+          "score": 1,
+          "rationale": "The actor's facial expression remains neutral throughout the gesture, conveying no affective meaning."
         },
         "gesture_complexity_fit": {
           "score": 5,
-          "rationale": "The two-part motion (holding, then throwing) is simple, intuitive, and perfectly captures the concept without being overloaded."
+          "rationale": "The movement is straightforward and perfectly balances simplicity with clear semantic meaning, making it optimal for learning."
         },
         "cultural_familiarity": {
           "score": 5,
-          "rationale": "The action of holding and throwing a ball is a universally recognized physical activity across cultures."
+          "rationale": "The pantomime of holding and throwing a ball is a highly recognizable and universally understood action in Western cultures."
         },
         "enactment_potential": {
           "score": 5,
-          "rationale": "The movement is very natural, requires no special coordination, and is effortless for learners to mimic."
+          "rationale": "The throwing motion is very natural, requires no special coordination, and is effortless for learners to reproduce."
         }
       },
       "coherence_check": {
@@ -2696,42 +2696,40 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Ball",
           "video_file": "04_Ball.avi",
-          "brief_gesture_description": "The actor performs a sweeping, curved motion with both arms, as if tracing the shape of a large ball or throwing/catching a large object.",
+          "brief_gesture_description": "The actor uses both hands to trace the shape of a large, round object in the air, moving them in a circular motion to represent a ball.",
           "ratings": {
             "iconicity": {
-              "score": 4,
-              "rationale": "The curved arm movement clearly mimics the round shape of a ball."
+              "score": 5,
+              "rationale": "The circular hand movement clearly and transparently depicts the spherical shape of a ball."
             },
             "sensorimotor_imagery": {
               "score": 4,
-              "rationale": "The movement simulates the physical interaction of holding or shaping a spherical object."
+              "rationale": "The gesture simulates the physical interaction of tracing the outline of a round object, evoking the tactile experience of a ball."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is functional and descriptive rather than emotionally expressive."
+              "score": 4,
+              "rationale": "The movement is expansive and uses both arms, making it visually prominent and easy to follow."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
-              "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+              "rationale": "The actor maintains a neutral facial expression throughout the gesture."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is simple, direct, and perfectly suited for representing the concept of a ball."
+              "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a ball."
             },
             "cultural_familiarity": {
               "score": 5,
-              "rationale": "Using hands to indicate a round shape is a universal gesture."
+              "rationale": "Tracing a circle to represent a round object is a universally understood and highly familiar gesture."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The movement is very simple and easy for any learner to replicate."
+              "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
-            "possible_ambiguities": [
-              "The gesture could also represent 'round', 'circle', or 'throwing' depending on context."
-            ],
+            "possible_ambiguities": [],
             "confidence": "high"
           }
         }
@@ -2783,35 +2781,35 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Ball",
           "video_file": "04_Ball.avi",
-          "brief_gesture_description": "The actor holds her hands in front of her as if gripping a round object, then moves her arms upwards and to the side in a throwing motion.",
+          "brief_gesture_description": "The actor holds her hands in front of her as if grasping a round object, then moves her arms upward and to the side in a throwing motion.",
           "ratings": {
             "iconicity": {
               "score": 5,
-              "rationale": "The gesture clearly depicts the shape of the object and the primary action associated with it (throwing), making it highly transparent."
+              "rationale": "The hands forming a spherical shape combined with a throwing motion provides a highly transparent visual representation of a ball and its typical use."
             },
             "sensorimotor_imagery": {
               "score": 5,
-              "rationale": "The action of gripping an imaginary object and performing a throwing motion provides a very vivid bodily experience related to a ball."
+              "rationale": "The gesture vividly simulates the physical sensation of holding a round object and the bodily action of throwing it."
             },
             "motional_salience_gesture": {
-              "score": 3,
-              "rationale": "The movement has a clear trajectory and dynamic emphasis during the throw, but it is functional rather than emotionally expressive."
+              "score": 4,
+              "rationale": "The gesture involves a clear, expansive movement of both arms across and away from the body, making it visually prominent."
             },
             "emotional_salience_facial_expression": {
-              "score": 2,
-              "rationale": "The actor's facial expression remains largely neutral, with only a slight look of focus during the throwing action."
+              "score": 1,
+              "rationale": "The actor's facial expression remains neutral throughout the gesture, conveying no affective meaning."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The two-part motion (holding, then throwing) is simple, intuitive, and perfectly captures the concept without being overloaded."
+              "rationale": "The movement is straightforward and perfectly balances simplicity with clear semantic meaning, making it optimal for learning."
             },
             "cultural_familiarity": {
               "score": 5,
-              "rationale": "The action of holding and throwing a ball is a universally recognized physical activity across cultures."
+              "rationale": "The pantomime of holding and throwing a ball is a highly recognizable and universally understood action in Western cultures."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The movement is very natural, requires no special coordination, and is effortless for learners to mimic."
+              "rationale": "The throwing motion is very natural, requires no special coordination, and is effortless for learners to reproduce."
             }
           },
           "coherence_check": {
@@ -2877,35 +2875,35 @@ window.GESTURE_RESULTS = [
     "rating": {
       "target_word": "Bett",
       "video_file": "05_Bett.mov.avi",
-      "brief_gesture_description": "The actor tilts her head to the side, closes her eyes, and rests her head on her folded hands, simulating the act of sleeping.",
+      "brief_gesture_description": "The actor places her hands together palm-to-palm, tilts her head to the side, and rests her cheek on her hands, simulating sleeping.",
       "ratings": {
         "iconicity": {
           "score": 5,
-          "rationale": "The gesture is a highly transparent metonymic representation, using the action of sleeping to clearly indicate the object 'bed'."
+          "rationale": "The gesture of resting the head on folded hands perfectly mimics the action of sleeping on a pillow, strongly representing the concept of a bed."
         },
         "sensorimotor_imagery": {
           "score": 5,
-          "rationale": "The gesture directly and vividly simulates the physical bodily experience of resting one's head on a pillow."
+          "rationale": "The gesture directly simulates the bodily experience of resting the head, evoking strong sensorimotor associations with lying in a bed."
         },
         "motional_salience_gesture": {
           "score": 3,
-          "rationale": "The movement is slow, gentle, and calming, which perfectly fits the concept of rest, though it lacks high dynamic intensity."
+          "rationale": "The movement is smooth and constrained to the upper body, lacking large or rapid dynamics."
         },
         "emotional_salience_facial_expression": {
-          "score": 4,
-          "rationale": "The actor's closed eyes and relaxed facial expression clearly communicate a peaceful and restful affective state."
+          "score": 3,
+          "rationale": "The actor's face relaxes and eyes close slightly, conveying a calm, restful state associated with sleeping."
         },
         "gesture_complexity_fit": {
           "score": 5,
-          "rationale": "The gesture is extremely simple, intuitive, and perfectly balances informativeness with ease of cognitive processing."
+          "rationale": "The gesture is simple, intuitive, and easy to process, making it ideal for learning."
         },
         "cultural_familiarity": {
           "score": 5,
-          "rationale": "Resting the head on folded hands is a universally recognized and highly familiar gesture for sleep or a bed."
+          "rationale": "Placing hands together under a tilted head is a widely recognized emblem for sleep in Western cultures."
         },
         "enactment_potential": {
           "score": 5,
-          "rationale": "The gesture requires minimal motor coordination and is effortless for learners to reproduce."
+          "rationale": "The movement is simple, requires no special coordination, and is effortless to perform."
         }
       },
       "coherence_check": {
@@ -2956,7 +2954,7 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Bett",
           "video_file": "05_Bett.mov.avi",
-          "brief_gesture_description": "The actor places both hands together, tilts her head, and rests it on her hands, mimicking the act of sleeping.",
+          "brief_gesture_description": "The actor places her hands together, tilts her head, and rests it on her hands, mimicking the act of sleeping.",
           "ratings": {
             "iconicity": {
               "score": 5,
@@ -2964,32 +2962,34 @@ window.GESTURE_RESULTS = [
             },
             "sensorimotor_imagery": {
               "score": 5,
-              "rationale": "It directly simulates the physical posture and sensation of resting one's head on a pillow, evoking the sensorimotor experience of sleeping."
+              "rationale": "It directly simulates the physical posture and sensation of resting one's head on a pillow, evoking the bodily experience of sleeping."
             },
             "motional_salience_gesture": {
               "score": 3,
-              "rationale": "The movement is smooth and deliberate, effectively conveying the calm associated with sleep, though it is not highly dynamic."
+              "rationale": "The movement is clear and deliberate, though relatively small and contained within the upper body space."
             },
             "emotional_salience_facial_expression": {
               "score": 4,
-              "rationale": "The actor adopts a soft, relaxed facial expression with closed eyes, which clearly communicates the state of sleepiness or rest."
+              "rationale": "The actor adopts a calm, closed-eye expression that effectively conveys the feeling of sleepiness or relaxation."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is simple, intuitive, and perfectly suited for vocabulary learning as it is easy to associate with the target word."
+              "rationale": "The gesture is simple, intuitive, and perfectly suited for learners of all levels."
             },
             "cultural_familiarity": {
               "score": 5,
-              "rationale": "The 'hands-under-cheek' gesture for sleeping is a cross-culturally recognized symbol."
+              "rationale": "The 'hands-under-cheek' gesture for sleeping is a highly common and culturally universal signifier."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
+              "rationale": "The gesture is extremely easy and natural for anyone to replicate."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
-            "possible_ambiguities": [],
+            "possible_ambiguities": [
+              "The gesture could also be interpreted as 'sleep' or 'tired' rather than specifically 'bed', though it is strongly associated with the object."
+            ],
             "confidence": "high"
           }
         }
@@ -3045,35 +3045,35 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Bett",
           "video_file": "05_Bett.mov.avi",
-          "brief_gesture_description": "The actor tilts her head to the side, closes her eyes, and rests her head on her folded hands, simulating the act of sleeping.",
+          "brief_gesture_description": "The actor places her hands together palm-to-palm, tilts her head to the side, and rests her cheek on her hands, simulating sleeping.",
           "ratings": {
             "iconicity": {
               "score": 5,
-              "rationale": "The gesture is a highly transparent metonymic representation, using the action of sleeping to clearly indicate the object 'bed'."
+              "rationale": "The gesture of resting the head on folded hands perfectly mimics the action of sleeping on a pillow, strongly representing the concept of a bed."
             },
             "sensorimotor_imagery": {
               "score": 5,
-              "rationale": "The gesture directly and vividly simulates the physical bodily experience of resting one's head on a pillow."
+              "rationale": "The gesture directly simulates the bodily experience of resting the head, evoking strong sensorimotor associations with lying in a bed."
             },
             "motional_salience_gesture": {
               "score": 3,
-              "rationale": "The movement is slow, gentle, and calming, which perfectly fits the concept of rest, though it lacks high dynamic intensity."
+              "rationale": "The movement is smooth and constrained to the upper body, lacking large or rapid dynamics."
             },
             "emotional_salience_facial_expression": {
-              "score": 4,
-              "rationale": "The actor's closed eyes and relaxed facial expression clearly communicate a peaceful and restful affective state."
+              "score": 3,
+              "rationale": "The actor's face relaxes and eyes close slightly, conveying a calm, restful state associated with sleeping."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is extremely simple, intuitive, and perfectly balances informativeness with ease of cognitive processing."
+              "rationale": "The gesture is simple, intuitive, and easy to process, making it ideal for learning."
             },
             "cultural_familiarity": {
               "score": 5,
-              "rationale": "Resting the head on folded hands is a universally recognized and highly familiar gesture for sleep or a bed."
+              "rationale": "Placing hands together under a tilted head is a widely recognized emblem for sleep in Western cultures."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The gesture requires minimal motor coordination and is effortless for learners to reproduce."
+              "rationale": "The movement is simple, requires no special coordination, and is effortless to perform."
             }
           },
           "coherence_check": {
@@ -3139,19 +3139,19 @@ window.GESTURE_RESULTS = [
     "rating": {
       "target_word": "Monitor",
       "video_file": "06_Monitor.avi",
-      "brief_gesture_description": "The actor uses both index fingers to trace a rectangular shape in the air, starting from the top corners, moving down, and meeting at the bottom center.",
+      "brief_gesture_description": "The actor uses both index fingers to trace the outline of a rectangle in the air, starting from the top corners, moving down, and then inwards to meet at the bottom center.",
       "ratings": {
         "iconicity": {
           "score": 5,
-          "rationale": "The gesture directly traces the physical, rectangular shape of a monitor, providing a highly transparent visual representation of the object."
+          "rationale": "The gesture directly traces the rectangular shape of a computer monitor, providing a highly transparent visual representation of the object."
         },
         "sensorimotor_imagery": {
           "score": 3,
-          "rationale": "The action involves tracing an outline, which evokes the physical dimensions of the object, but it does not simulate interacting with or using a monitor."
+          "rationale": "The action of tracing the outline evokes the physical dimensions and boundaries of the object, providing moderate sensorimotor engagement."
         },
         "motional_salience_gesture": {
-          "score": 2,
-          "rationale": "The movement is smooth, deliberate, and descriptive, lacking strong emotional dynamics or intensity."
+          "score": 3,
+          "rationale": "The movement is clear and uses both arms to draw a distinct shape in the space in front of the body, making it moderately salient."
         },
         "emotional_salience_facial_expression": {
           "score": 1,
@@ -3159,15 +3159,15 @@ window.GESTURE_RESULTS = [
         },
         "gesture_complexity_fit": {
           "score": 5,
-          "rationale": "The simple tracing motion is optimal for conveying the concept clearly without any unnecessary motor or cognitive complexity."
+          "rationale": "The simple tracing motion is perfectly balanced, conveying the meaning clearly without any unnecessary complexity."
         },
         "cultural_familiarity": {
           "score": 5,
-          "rationale": "Tracing a rectangle in the air to indicate a screen, picture, or monitor is a highly familiar and widely understood gesture."
+          "rationale": "Drawing a rectangle in the air is a widely recognized and common gesture for a screen, TV, or monitor in Western cultures."
         },
         "enactment_potential": {
           "score": 5,
-          "rationale": "The movement is very straightforward and effortless for learners to reproduce."
+          "rationale": "The movement is simple, symmetrical, and effortless for learners to reproduce."
         }
       },
       "coherence_check": {
@@ -3219,41 +3219,41 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Monitor",
           "video_file": "06_Monitor.avi",
-          "brief_gesture_description": "The actor raises both hands to eye level, forming a rectangular shape with her fingers to simulate looking at a screen.",
+          "brief_gesture_description": "The actor uses both hands to trace a rectangular shape in the air in front of her, mimicking the outline of a computer screen.",
           "ratings": {
             "iconicity": {
               "score": 4,
-              "rationale": "The rectangular hand shape clearly mimics the frame of a computer monitor or screen."
+              "rationale": "The gesture clearly outlines the rectangular shape of a monitor screen, making the iconic relationship to the target word very transparent."
             },
             "sensorimotor_imagery": {
               "score": 3,
-              "rationale": "It simulates the act of framing or looking at a screen, which is a common perceptual experience associated with the word."
+              "rationale": "It simulates the physical act of framing or defining the boundaries of a screen, which provides a moderate level of sensorimotor engagement."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is functional and precise rather than emotionally expressive."
+              "score": 3,
+              "rationale": "The movement is clear and deliberate, though not overly expansive or rapid, providing a moderate level of visual salience."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
-              "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+              "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is simple, intuitive, and directly maps to the concept of a screen."
+              "rationale": "The gesture is simple, direct, and perfectly aligned with the concept of a monitor, making it highly appropriate for learning."
             },
             "cultural_familiarity": {
               "score": 5,
-              "rationale": "Using hands to frame a view or screen is a universally understood gesture in modern digital culture."
+              "rationale": "Tracing a rectangle to represent a screen is a universally understood gesture in modern, technology-driven cultures."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The gesture is very easy to replicate and requires no special coordination."
+              "rationale": "The gesture is very simple and requires no special motor skills, making it extremely easy for any learner to replicate."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
             "possible_ambiguities": [
-              "Could potentially be interpreted as 'frame', 'picture', or 'window' depending on context."
+              "The gesture could potentially be interpreted as 'frame', 'picture', or 'television' depending on context, though 'monitor' is the most logical fit."
             ],
             "confidence": "high"
           }
@@ -3310,19 +3310,19 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Monitor",
           "video_file": "06_Monitor.avi",
-          "brief_gesture_description": "The actor uses both index fingers to trace a rectangular shape in the air, starting from the top corners, moving down, and meeting at the bottom center.",
+          "brief_gesture_description": "The actor uses both index fingers to trace the outline of a rectangle in the air, starting from the top corners, moving down, and then inwards to meet at the bottom center.",
           "ratings": {
             "iconicity": {
               "score": 5,
-              "rationale": "The gesture directly traces the physical, rectangular shape of a monitor, providing a highly transparent visual representation of the object."
+              "rationale": "The gesture directly traces the rectangular shape of a computer monitor, providing a highly transparent visual representation of the object."
             },
             "sensorimotor_imagery": {
               "score": 3,
-              "rationale": "The action involves tracing an outline, which evokes the physical dimensions of the object, but it does not simulate interacting with or using a monitor."
+              "rationale": "The action of tracing the outline evokes the physical dimensions and boundaries of the object, providing moderate sensorimotor engagement."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is smooth, deliberate, and descriptive, lacking strong emotional dynamics or intensity."
+              "score": 3,
+              "rationale": "The movement is clear and uses both arms to draw a distinct shape in the space in front of the body, making it moderately salient."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
@@ -3330,15 +3330,15 @@ window.GESTURE_RESULTS = [
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The simple tracing motion is optimal for conveying the concept clearly without any unnecessary motor or cognitive complexity."
+              "rationale": "The simple tracing motion is perfectly balanced, conveying the meaning clearly without any unnecessary complexity."
             },
             "cultural_familiarity": {
               "score": 5,
-              "rationale": "Tracing a rectangle in the air to indicate a screen, picture, or monitor is a highly familiar and widely understood gesture."
+              "rationale": "Drawing a rectangle in the air is a widely recognized and common gesture for a screen, TV, or monitor in Western cultures."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The movement is very straightforward and effortless for learners to reproduce."
+              "rationale": "The movement is simple, symmetrical, and effortless for learners to reproduce."
             }
           },
           "coherence_check": {
@@ -3405,35 +3405,35 @@ window.GESTURE_RESULTS = [
     "rating": {
       "target_word": "Letter Box",
       "video_file": "07_LetterBox.avi",
-      "brief_gesture_description": "The actor raises one hand as if holding open a flap, and uses the other hand to mimic sliding a letter into the opening.",
+      "brief_gesture_description": "The actor raises her left hand to represent a horizontal slot and uses her right hand to simulate inserting a letter into it.",
       "ratings": {
         "iconicity": {
-          "score": 5,
-          "rationale": "The gesture highly transparently represents the action of opening a letterbox and inserting mail."
+          "score": 4,
+          "rationale": "The gesture clearly depicts the action of interacting with a letter box by simulating the insertion of a letter into a slot."
         },
         "sensorimotor_imagery": {
           "score": 5,
-          "rationale": "Strongly evokes the physical sensation of holding a flap open and sliding an object into a slot."
+          "rationale": "The gesture vividly evokes the physical action and bodily experience of posting a letter."
         },
         "motional_salience_gesture": {
-          "score": 2,
-          "rationale": "The movement is functional and deliberate, lacking strong emotional expressiveness."
+          "score": 4,
+          "rationale": "The movement is clear and pronounced, involving both arms to create a distinct action sequence."
         },
         "emotional_salience_facial_expression": {
           "score": 1,
           "rationale": "The actor maintains a neutral facial expression throughout the video."
         },
         "gesture_complexity_fit": {
-          "score": 4,
-          "rationale": "The two-handed, asymmetrical movement is slightly complex but perfectly captures the meaning without being overwhelming."
+          "score": 5,
+          "rationale": "The gesture is straightforward and perfectly balances informativeness with simplicity for learning."
         },
         "cultural_familiarity": {
-          "score": 4,
-          "rationale": "The action of mailing a letter through a slot is a widely recognized concept across many cultures."
+          "score": 5,
+          "rationale": "The action of posting a letter into a slot is a highly familiar and universally understood concept in Western cultures."
         },
         "enactment_potential": {
           "score": 5,
-          "rationale": "The gesture is straightforward and easy for learners to physically reproduce."
+          "rationale": "The gesture involves simple, everyday arm movements that are very natural and effortless to reproduce."
         }
       },
       "coherence_check": {
@@ -3484,41 +3484,41 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Letter Box",
           "video_file": "07_LetterBox.avi",
-          "brief_gesture_description": "The actor uses both hands to mimic the action of opening a small flap or slot, then inserting an object into it.",
+          "brief_gesture_description": "The actor raises both hands to form a rectangular shape in the air, then makes a downward motion as if dropping something through a slot.",
           "ratings": {
             "iconicity": {
               "score": 4,
-              "rationale": "The hand movements clearly simulate the physical interaction of opening a letter box slot and inserting mail."
+              "rationale": "The rectangular hand shape clearly outlines the frame of a letter box, and the downward motion mimics the act of inserting mail."
             },
             "sensorimotor_imagery": {
               "score": 4,
-              "rationale": "The gesture effectively simulates the tactile experience of manipulating a letter box flap."
+              "rationale": "The gesture simulates the physical interaction of placing a letter into a slot, which is a common sensorimotor experience."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is functional and precise, but lacks significant emotional or dynamic intensity."
+              "score": 3,
+              "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
-              "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+              "rationale": "The actor maintains a neutral facial expression throughout the gesture."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word."
+              "rationale": "The gesture is simple, intuitive, and perfectly matches the concept of a letter box."
             },
             "cultural_familiarity": {
               "score": 4,
-              "rationale": "The action of posting a letter is a widely understood cultural practice, though physical letter boxes are becoming less common in some digital-first societies."
+              "rationale": "The concept of a letter box and the action of posting mail are widely understood in Western cultural contexts."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The gesture is very simple and involves natural hand movements that are easy for anyone to replicate."
+              "rationale": "The gesture is very simple and easy for any learner to replicate."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
             "possible_ambiguities": [
-              "The gesture could potentially be interpreted as opening a small door or a slot for any purpose, not necessarily a letter box."
+              "The rectangular shape could potentially be interpreted as a window or a picture frame, but the downward insertion motion clarifies the 'letter box' meaning."
             ],
             "confidence": "high"
           }
@@ -3576,35 +3576,35 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Letter Box",
           "video_file": "07_LetterBox.avi",
-          "brief_gesture_description": "The actor raises one hand as if holding open a flap, and uses the other hand to mimic sliding a letter into the opening.",
+          "brief_gesture_description": "The actor raises her left hand to represent a horizontal slot and uses her right hand to simulate inserting a letter into it.",
           "ratings": {
             "iconicity": {
-              "score": 5,
-              "rationale": "The gesture highly transparently represents the action of opening a letterbox and inserting mail."
+              "score": 4,
+              "rationale": "The gesture clearly depicts the action of interacting with a letter box by simulating the insertion of a letter into a slot."
             },
             "sensorimotor_imagery": {
               "score": 5,
-              "rationale": "Strongly evokes the physical sensation of holding a flap open and sliding an object into a slot."
+              "rationale": "The gesture vividly evokes the physical action and bodily experience of posting a letter."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is functional and deliberate, lacking strong emotional expressiveness."
+              "score": 4,
+              "rationale": "The movement is clear and pronounced, involving both arms to create a distinct action sequence."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
               "rationale": "The actor maintains a neutral facial expression throughout the video."
             },
             "gesture_complexity_fit": {
-              "score": 4,
-              "rationale": "The two-handed, asymmetrical movement is slightly complex but perfectly captures the meaning without being overwhelming."
+              "score": 5,
+              "rationale": "The gesture is straightforward and perfectly balances informativeness with simplicity for learning."
             },
             "cultural_familiarity": {
-              "score": 4,
-              "rationale": "The action of mailing a letter through a slot is a widely recognized concept across many cultures."
+              "score": 5,
+              "rationale": "The action of posting a letter into a slot is a highly familiar and universally understood concept in Western cultures."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The gesture is straightforward and easy for learners to physically reproduce."
+              "rationale": "The gesture involves simple, everyday arm movements that are very natural and effortless to reproduce."
             }
           },
           "coherence_check": {
@@ -3671,35 +3671,35 @@ window.GESTURE_RESULTS = [
     "rating": {
       "target_word": "Ceiling",
       "video_file": "08_Ceiling.avi",
-      "brief_gesture_description": "The actor raises both arms above her head, palms facing down and fingers touching, to form a flat horizontal surface, while looking upwards.",
+      "brief_gesture_description": "The actor raises both arms above her head, palms facing down and fingers pointing towards each other, creating a flat horizontal surface above her.",
       "ratings": {
         "iconicity": {
           "score": 5,
-          "rationale": "The gesture of forming a flat surface above the head is a highly transparent visual representation of a ceiling."
+          "rationale": "The flat hands held above the head perfectly mimic the flat, horizontal surface of a ceiling."
         },
         "sensorimotor_imagery": {
           "score": 4,
-          "rationale": "Reaching upwards to define a spatial boundary strongly evokes the physical experience of a ceiling's location and shape."
+          "rationale": "Reaching up and indicating the space above evokes the physical relationship and spatial awareness one has with a ceiling."
         },
         "motional_salience_gesture": {
-          "score": 2,
-          "rationale": "The movement is deliberate and descriptive, lacking strong emotional dynamics or expressive intensity."
+          "score": 4,
+          "rationale": "The gesture involves a large, upward movement of both arms, making it visually prominent and expansive."
         },
         "emotional_salience_facial_expression": {
           "score": 1,
-          "rationale": "The actor's facial expression remains neutral throughout the video, conveying no emotional meaning."
+          "rationale": "The actor maintains a neutral facial expression throughout the gesture, with no emotional cues."
         },
         "gesture_complexity_fit": {
           "score": 5,
-          "rationale": "The gesture is simple, direct, and perfectly captures the concept without any unnecessary complexity."
+          "rationale": "The movement is simple, direct, and easy to process, making it an optimal fit for vocabulary learning."
         },
         "cultural_familiarity": {
-          "score": 5,
-          "rationale": "Using flat hands above the head to indicate a roof or ceiling is a widely recognized and common spatial gesture."
+          "score": 4,
+          "rationale": "Indicating a flat surface above the head is a commonly understood way to represent a ceiling or roof."
         },
         "enactment_potential": {
           "score": 5,
-          "rationale": "The movement involves a simple raising of the arms, making it very natural and effortless for learners to reproduce."
+          "rationale": "The gesture requires only basic motor skills (raising arms) and is effortless for learners to reproduce."
         }
       },
       "coherence_check": {
@@ -3756,35 +3756,35 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Ceiling",
           "video_file": "08_Ceiling.avi",
-          "brief_gesture_description": "The actor stands, raises both arms above her head, and forms a flat, horizontal shape with her hands to represent the ceiling, then lowers them back to her sides.",
+          "brief_gesture_description": "The actor stands still, then raises both arms above her head, palms facing upward, to mimic the flat surface of a ceiling, before returning her arms to her sides.",
           "ratings": {
             "iconicity": {
               "score": 5,
-              "rationale": "The gesture clearly and directly mimics the flat, overhead nature of a ceiling."
+              "rationale": "The gesture clearly and directly represents the concept of a ceiling by using the hands to define a flat, overhead boundary."
             },
             "sensorimotor_imagery": {
               "score": 4,
-              "rationale": "It simulates the spatial experience of reaching toward or indicating the height of a ceiling."
+              "rationale": "The movement simulates the physical act of reaching toward or indicating the overhead space, which is a common spatial interaction."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is functional and clear, but lacks significant emotional or dynamic intensity."
+              "score": 3,
+              "rationale": "The movement is clear and deliberate, though it is relatively simple and contained within a vertical plane."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
-              "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+              "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word."
+              "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the spatial concept of a ceiling."
             },
             "cultural_familiarity": {
               "score": 5,
-              "rationale": "Using hands to indicate an overhead surface is a universally understood gesture."
+              "rationale": "Using hands to indicate an overhead surface is a universally understood iconic gesture in Western contexts."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The movement is very simple and easy for any learner to replicate."
+              "rationale": "The gesture involves basic arm movements that are very easy for any learner to replicate."
             }
           },
           "coherence_check": {
@@ -3846,35 +3846,35 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Ceiling",
           "video_file": "08_Ceiling.avi",
-          "brief_gesture_description": "The actor raises both arms above her head, palms facing down and fingers touching, to form a flat horizontal surface, while looking upwards.",
+          "brief_gesture_description": "The actor raises both arms above her head, palms facing down and fingers pointing towards each other, creating a flat horizontal surface above her.",
           "ratings": {
             "iconicity": {
               "score": 5,
-              "rationale": "The gesture of forming a flat surface above the head is a highly transparent visual representation of a ceiling."
+              "rationale": "The flat hands held above the head perfectly mimic the flat, horizontal surface of a ceiling."
             },
             "sensorimotor_imagery": {
               "score": 4,
-              "rationale": "Reaching upwards to define a spatial boundary strongly evokes the physical experience of a ceiling's location and shape."
+              "rationale": "Reaching up and indicating the space above evokes the physical relationship and spatial awareness one has with a ceiling."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is deliberate and descriptive, lacking strong emotional dynamics or expressive intensity."
+              "score": 4,
+              "rationale": "The gesture involves a large, upward movement of both arms, making it visually prominent and expansive."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
-              "rationale": "The actor's facial expression remains neutral throughout the video, conveying no emotional meaning."
+              "rationale": "The actor maintains a neutral facial expression throughout the gesture, with no emotional cues."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is simple, direct, and perfectly captures the concept without any unnecessary complexity."
+              "rationale": "The movement is simple, direct, and easy to process, making it an optimal fit for vocabulary learning."
             },
             "cultural_familiarity": {
-              "score": 5,
-              "rationale": "Using flat hands above the head to indicate a roof or ceiling is a widely recognized and common spatial gesture."
+              "score": 4,
+              "rationale": "Indicating a flat surface above the head is a commonly understood way to represent a ceiling or roof."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The movement involves a simple raising of the arms, making it very natural and effortless for learners to reproduce."
+              "rationale": "The gesture requires only basic motor skills (raising arms) and is effortless for learners to reproduce."
             }
           },
           "coherence_check": {
@@ -3941,42 +3941,40 @@ window.GESTURE_RESULTS = [
     "rating": {
       "target_word": "Monument",
       "video_file": "09_Monument.avi",
-      "brief_gesture_description": "The actor raises both arms upwards and tilts her head back to look up, as if indicating a tall, imposing structure.",
+      "brief_gesture_description": "The actor raises both arms high above her head while looking upwards, as if indicating or tracing the shape of a tall, imposing structure.",
       "ratings": {
         "iconicity": {
           "score": 4,
-          "rationale": "The upward arm movement and gaze clearly represent the height and scale typical of a monument."
+          "rationale": "The gesture clearly represents the verticality and large scale typical of a monument by tracing a tall shape in the air."
         },
         "sensorimotor_imagery": {
           "score": 4,
-          "rationale": "The gesture strongly evokes the physical sensation of standing at the base of a large structure and looking up at it."
+          "rationale": "The action of looking up and reaching high strongly evokes the physical experience of standing at the base of a large structure."
         },
         "motional_salience_gesture": {
-          "score": 3,
-          "rationale": "The slow, expansive upward movement conveys a moderate sense of size and grandeur."
+          "score": 4,
+          "rationale": "The movement is expansive, involving full arm extension above the head and a noticeable change in head posture."
         },
         "emotional_salience_facial_expression": {
           "score": 2,
-          "rationale": "The facial expression is mostly neutral, though the upward gaze suggests looking at something impressive."
+          "rationale": "The facial expression is mostly neutral, though the upward gaze slightly suggests looking at something grand."
         },
         "gesture_complexity_fit": {
           "score": 5,
-          "rationale": "The gesture is simple, direct, and perfectly captures the core concept of a tall structure without unnecessary complexity."
+          "rationale": "The gesture is simple, direct, and effectively conveys the core physical attribute of the target word without unnecessary complexity."
         },
         "cultural_familiarity": {
           "score": 4,
-          "rationale": "Using vertical space and an upward gaze to indicate height or grandeur is a widely understood concept."
+          "rationale": "Using upward reaching and gazing to indicate something tall or grand is a widely understood convention."
         },
         "enactment_potential": {
           "score": 5,
-          "rationale": "The gesture requires minimal coordination and is very easy for learners to reproduce."
+          "rationale": "The movement is very natural, requires no special coordination, and is effortless for learners to reproduce."
         }
       },
       "coherence_check": {
         "is_video_interpretable": true,
-        "possible_ambiguities": [
-          "The gesture could also represent 'tall', 'building', or 'sky', but fits 'monument' well in context."
-        ],
+        "possible_ambiguities": [],
         "confidence": "high"
       }
     },
@@ -4023,41 +4021,41 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Monument",
           "video_file": "09_Monument.avi",
-          "brief_gesture_description": "The actor stands, then slowly raises both arms upward in a wide, sweeping motion, forming an arch shape above their head, then lowers them back to their sides.",
+          "brief_gesture_description": "The actor stands, then slowly raises both arms upward in a curved motion, forming an arch shape above their head, mimicking the structure of a monument.",
           "ratings": {
             "iconicity": {
               "score": 4,
-              "rationale": "The upward sweeping arm movement effectively traces the outline of a tall, arched, or structured monument."
+              "rationale": "The arm movement clearly traces the outline of an arch or a tall, structured object, which is a common iconic representation of a monument."
             },
             "sensorimotor_imagery": {
               "score": 3,
-              "rationale": "The movement simulates the physical scale and verticality associated with a large structure, though it lacks interaction with a specific object."
+              "rationale": "The gesture simulates the physical act of building or tracing the height and shape of a structure, engaging the upper body."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is slow and deliberate, which conveys a sense of grandeur or stability, but it is not highly emotionally expressive."
+              "score": 3,
+              "rationale": "The movement is deliberate and expansive, though performed at a slow, steady pace."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
-              "rationale": "The actor's facial expression remains neutral throughout the gesture."
+              "rationale": "The actor maintains a neutral, focused facial expression throughout the gesture."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is simple, clear, and easy to associate with the concept of a large, standing structure."
+              "rationale": "The gesture is simple, clear, and directly maps to the concept of a tall, static structure."
             },
             "cultural_familiarity": {
               "score": 4,
-              "rationale": "Using arms to represent height or a large structure is a fairly universal and intuitive gesture."
+              "rationale": "Using hands to outline the shape of a structure is a universally understood iconic gesture."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The movement is very simple and involves basic arm extensions that any learner can easily replicate."
+              "rationale": "The movement is very simple and requires no special coordination, making it easy for anyone to replicate."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
             "possible_ambiguities": [
-              "The gesture could also be interpreted as representing 'arch', 'sky', or 'growth' depending on the context."
+              "The gesture could potentially be interpreted as 'arch', 'building', or 'tall' without the context of the word 'monument'."
             ],
             "confidence": "high"
           }
@@ -4115,42 +4113,40 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Monument",
           "video_file": "09_Monument.avi",
-          "brief_gesture_description": "The actor raises both arms upwards and tilts her head back to look up, as if indicating a tall, imposing structure.",
+          "brief_gesture_description": "The actor raises both arms high above her head while looking upwards, as if indicating or tracing the shape of a tall, imposing structure.",
           "ratings": {
             "iconicity": {
               "score": 4,
-              "rationale": "The upward arm movement and gaze clearly represent the height and scale typical of a monument."
+              "rationale": "The gesture clearly represents the verticality and large scale typical of a monument by tracing a tall shape in the air."
             },
             "sensorimotor_imagery": {
               "score": 4,
-              "rationale": "The gesture strongly evokes the physical sensation of standing at the base of a large structure and looking up at it."
+              "rationale": "The action of looking up and reaching high strongly evokes the physical experience of standing at the base of a large structure."
             },
             "motional_salience_gesture": {
-              "score": 3,
-              "rationale": "The slow, expansive upward movement conveys a moderate sense of size and grandeur."
+              "score": 4,
+              "rationale": "The movement is expansive, involving full arm extension above the head and a noticeable change in head posture."
             },
             "emotional_salience_facial_expression": {
               "score": 2,
-              "rationale": "The facial expression is mostly neutral, though the upward gaze suggests looking at something impressive."
+              "rationale": "The facial expression is mostly neutral, though the upward gaze slightly suggests looking at something grand."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is simple, direct, and perfectly captures the core concept of a tall structure without unnecessary complexity."
+              "rationale": "The gesture is simple, direct, and effectively conveys the core physical attribute of the target word without unnecessary complexity."
             },
             "cultural_familiarity": {
               "score": 4,
-              "rationale": "Using vertical space and an upward gaze to indicate height or grandeur is a widely understood concept."
+              "rationale": "Using upward reaching and gazing to indicate something tall or grand is a widely understood convention."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The gesture requires minimal coordination and is very easy for learners to reproduce."
+              "rationale": "The movement is very natural, requires no special coordination, and is effortless for learners to reproduce."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
-            "possible_ambiguities": [
-              "The gesture could also represent 'tall', 'building', or 'sky', but fits 'monument' well in context."
-            ],
+            "possible_ambiguities": [],
             "confidence": "high"
           }
         }
@@ -4201,41 +4197,41 @@ window.GESTURE_RESULTS = [
     "rating": {
       "target_word": "Entrance Ticket",
       "video_file": "10_EntranceTicket.avi",
-      "brief_gesture_description": "The actor turns slightly to the right and extends her right arm, holding her fingers together as if presenting a small object to someone.",
+      "brief_gesture_description": "The actor extends her right arm forward with her hand slightly open, simulating the action of holding and presenting a small object like a ticket to someone.",
       "ratings": {
         "iconicity": {
           "score": 4,
-          "rationale": "The gesture clearly depicts the action of handing over a small object, which strongly represents the functional use of an entrance ticket."
+          "rationale": "The gesture clearly visually represents the action of presenting a ticket for entry, which is strongly associated with the target word."
         },
         "sensorimotor_imagery": {
           "score": 4,
-          "rationale": "The movement effectively evokes the physical sensation of holding a small piece of paper and extending the arm to present it."
+          "rationale": "The gesture strongly evokes the physical action and bodily experience of holding a small piece of paper and handing it over."
         },
         "motional_salience_gesture": {
-          "score": 2,
-          "rationale": "The movement is deliberate and functional, lacking strong emotional dynamics or expressive intensity."
+          "score": 3,
+          "rationale": "The movement is clear and deliberate, but relatively simple and constrained to a single arm extension."
         },
         "emotional_salience_facial_expression": {
           "score": 1,
-          "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+          "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
         },
         "gesture_complexity_fit": {
           "score": 5,
-          "rationale": "The single, straightforward motion is simple to process and perfectly balanced for learning."
+          "rationale": "The gesture is simple, direct, and optimally balances informativeness with ease of understanding for a learner."
         },
         "cultural_familiarity": {
           "score": 5,
-          "rationale": "The action of presenting a ticket or pass for entry is a widely recognized and common behavior."
+          "rationale": "The action of presenting a ticket or pass is a highly familiar and universally understood convention in Western cultures."
         },
         "enactment_potential": {
           "score": 5,
-          "rationale": "The simple arm extension and basic hand shape are effortless for learners to reproduce."
+          "rationale": "The movement is a basic, everyday arm extension that is very natural and effortless for learners to reproduce."
         }
       },
       "coherence_check": {
         "is_video_interpretable": true,
         "possible_ambiguities": [
-          "The gesture represents the action of using the ticket rather than the physical shape of the ticket itself, but the meaning remains clear."
+          "The gesture could be interpreted as handing over any small object, not exclusively an entrance ticket, though the context makes it clear."
         ],
         "confidence": "high"
       }
@@ -4283,41 +4279,41 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Entrance Ticket",
           "video_file": "10_EntranceTicket.avi",
-          "brief_gesture_description": "The actor performs a sweeping motion with her right arm, moving it from her side across her body to the left, as if scanning or presenting a ticket at an entrance.",
+          "brief_gesture_description": "The actor performs a sweeping motion with her right arm from right to left, as if scanning or presenting a ticket at an entrance gate.",
           "ratings": {
             "iconicity": {
-              "score": 3,
-              "rationale": "The sweeping motion mimics the act of scanning a ticket or passing through a turnstile, which is moderately iconic for the concept of an entrance ticket."
+              "score": 4,
+              "rationale": "The sweeping motion effectively mimics the action of scanning a ticket or passing through an automated turnstile, which is a clear iconic representation of using an entrance ticket."
             },
             "sensorimotor_imagery": {
-              "score": 3,
-              "rationale": "The gesture simulates the physical action of presenting a ticket, engaging the arm and shoulder in a way that mimics the interaction with an entry point."
+              "score": 4,
+              "rationale": "The gesture simulates the physical interaction of presenting a ticket to a scanner, engaging the arm and hand in a way that mirrors the real-world action."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is functional and clear but lacks significant emotional intensity or dynamic variation."
+              "score": 3,
+              "rationale": "The movement is clear and purposeful, though it is relatively contained and not overly expansive or rapid."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
-              "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+              "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no additional affective context."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The gesture is simple, direct, and easy to understand in the context of the target word."
+              "rationale": "The gesture is simple, direct, and perfectly suited for representing the concept of an entrance ticket without unnecessary cognitive load."
             },
             "cultural_familiarity": {
-              "score": 4,
-              "rationale": "The action of scanning or presenting a ticket is a common, globally recognized experience."
+              "score": 5,
+              "rationale": "The action of scanning a ticket or passing through a gate is a universally recognized experience in modern Western contexts."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The movement is very simple and requires no special coordination, making it easy for any learner to replicate."
+              "rationale": "The movement is very simple and natural, making it extremely easy for any learner to replicate."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
             "possible_ambiguities": [
-              "The gesture could also be interpreted as 'waving' or 'sweeping' if not contextualized by the target word."
+              "The gesture could also be interpreted as swiping a credit card or waving a hand, but in the context of 'entrance ticket', it is highly coherent."
             ],
             "confidence": "high"
           }
@@ -4364,41 +4360,41 @@ window.GESTURE_RESULTS = [
         "rating": {
           "target_word": "Entrance Ticket",
           "video_file": "10_EntranceTicket.avi",
-          "brief_gesture_description": "The actor turns slightly to the right and extends her right arm, holding her fingers together as if presenting a small object to someone.",
+          "brief_gesture_description": "The actor extends her right arm forward with her hand slightly open, simulating the action of holding and presenting a small object like a ticket to someone.",
           "ratings": {
             "iconicity": {
               "score": 4,
-              "rationale": "The gesture clearly depicts the action of handing over a small object, which strongly represents the functional use of an entrance ticket."
+              "rationale": "The gesture clearly visually represents the action of presenting a ticket for entry, which is strongly associated with the target word."
             },
             "sensorimotor_imagery": {
               "score": 4,
-              "rationale": "The movement effectively evokes the physical sensation of holding a small piece of paper and extending the arm to present it."
+              "rationale": "The gesture strongly evokes the physical action and bodily experience of holding a small piece of paper and handing it over."
             },
             "motional_salience_gesture": {
-              "score": 2,
-              "rationale": "The movement is deliberate and functional, lacking strong emotional dynamics or expressive intensity."
+              "score": 3,
+              "rationale": "The movement is clear and deliberate, but relatively simple and constrained to a single arm extension."
             },
             "emotional_salience_facial_expression": {
               "score": 1,
-              "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+              "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
             },
             "gesture_complexity_fit": {
               "score": 5,
-              "rationale": "The single, straightforward motion is simple to process and perfectly balanced for learning."
+              "rationale": "The gesture is simple, direct, and optimally balances informativeness with ease of understanding for a learner."
             },
             "cultural_familiarity": {
               "score": 5,
-              "rationale": "The action of presenting a ticket or pass for entry is a widely recognized and common behavior."
+              "rationale": "The action of presenting a ticket or pass is a highly familiar and universally understood convention in Western cultures."
             },
             "enactment_potential": {
               "score": 5,
-              "rationale": "The simple arm extension and basic hand shape are effortless for learners to reproduce."
+              "rationale": "The movement is a basic, everyday arm extension that is very natural and effortless for learners to reproduce."
             }
           },
           "coherence_check": {
             "is_video_interpretable": true,
             "possible_ambiguities": [
-              "The gesture represents the action of using the ticket rather than the physical shape of the ticket itself, but the meaning remains clear."
+              "The gesture could be interpreted as handing over any small object, not exclusively an entrance ticket, though the context makes it clear."
             ],
             "confidence": "high"
           }

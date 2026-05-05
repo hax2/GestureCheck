@@ -1,41 +1,41 @@
 {
   "target_word": "Traffic Light",
   "video_file": "01_TrafficLight.avi",
-  "brief_gesture_description": "The actor raises her right arm with the elbow bent and palm facing forward, resembling a 'stop' hand signal, before lowering it back to her side.",
+  "brief_gesture_description": "The actor raises her right arm with the palm facing forward, resembling a 'stop' hand signal.",
   "ratings": {
     "iconicity": {
-      "score": 2,
-      "rationale": "The gesture visually represents the action of stopping rather than the physical shape or appearance of a traffic light, making the visual resemblance to the object itself weak."
+      "score": 3,
+      "rationale": "The gesture represents the 'stop' command associated with a red traffic light, rather than the physical appearance of the light itself."
     },
     "sensorimotor_imagery": {
-      "score": 3,
-      "rationale": "The gesture evokes the physical action of halting or directing traffic, providing a moderate bodily connection to the function of a traffic light."
+      "score": 4,
+      "rationale": "Evokes the physical action of halting or signaling someone to stop, which is the primary function of a traffic light."
     },
     "motional_salience_gesture": {
-      "score": 2,
-      "rationale": "The movement is straightforward and functional, lacking significant dynamic emphasis or emotional expressiveness."
+      "score": 3,
+      "rationale": "The movement is a clear, deliberate raising of the arm, moderate in size and speed."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
-      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is extremely simple and clear, making it an optimal, low-cognitive-load movement for a learning context."
+      "rationale": "The gesture is very simple, direct, and perfectly balances informativeness with ease of understanding."
     },
     "cultural_familiarity": {
       "score": 5,
-      "rationale": "The raised open palm is a universally recognized gesture for 'stop', which is strongly associated with traffic control."
+      "rationale": "The raised hand with palm facing outward is a highly familiar and universally recognized sign for 'stop' in Western cultures."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The movement involves a basic arm raise and hand position that is effortless for learners to reproduce."
+      "rationale": "The gesture involves a basic arm movement that is effortless for learners to reproduce."
     }
   },
   "coherence_check": {
     "is_video_interpretable": true,
     "possible_ambiguities": [
-      "The gesture represents 'stop' rather than the object 'traffic light' itself, which might cause slight confusion if learners expect a representation of the three lights."
+      "The gesture signifies 'stop' rather than the physical object 'traffic light', which might be slightly ambiguous without context."
     ],
     "confidence": "high"
   }

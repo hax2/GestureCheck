@@ -1,35 +1,35 @@
 {
   "target_word": "Ceiling",
   "video_file": "08_Ceiling.avi",
-  "brief_gesture_description": "The actor stands, raises both arms above her head, and forms a flat, horizontal shape with her hands to represent the ceiling, then lowers them back to her sides.",
+  "brief_gesture_description": "The actor stands still, then raises both arms above her head, palms facing upward, to mimic the flat surface of a ceiling, before returning her arms to her sides.",
   "ratings": {
     "iconicity": {
       "score": 5,
-      "rationale": "The gesture clearly and directly mimics the flat, overhead nature of a ceiling."
+      "rationale": "The gesture clearly and directly represents the concept of a ceiling by using the hands to define a flat, overhead boundary."
     },
     "sensorimotor_imagery": {
       "score": 4,
-      "rationale": "It simulates the spatial experience of reaching toward or indicating the height of a ceiling."
+      "rationale": "The movement simulates the physical act of reaching toward or indicating the overhead space, which is a common spatial interaction."
     },
     "motional_salience_gesture": {
-      "score": 2,
-      "rationale": "The movement is functional and clear, but lacks significant emotional or dynamic intensity."
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though it is relatively simple and contained within a vertical plane."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
-      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the word."
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for learning the spatial concept of a ceiling."
     },
     "cultural_familiarity": {
       "score": 5,
-      "rationale": "Using hands to indicate an overhead surface is a universally understood gesture."
+      "rationale": "Using hands to indicate an overhead surface is a universally understood iconic gesture in Western contexts."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The movement is very simple and easy for any learner to replicate."
+      "rationale": "The gesture involves basic arm movements that are very easy for any learner to replicate."
     }
   },
   "coherence_check": {

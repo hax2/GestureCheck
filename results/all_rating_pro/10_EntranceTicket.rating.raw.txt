@@ -1,41 +1,41 @@
 {
   "target_word": "Entrance Ticket",
   "video_file": "10_EntranceTicket.avi",
-  "brief_gesture_description": "The actor turns slightly to the right and extends her right arm, holding her fingers together as if presenting a small object to someone.",
+  "brief_gesture_description": "The actor extends her right arm forward with her hand slightly open, simulating the action of holding and presenting a small object like a ticket to someone.",
   "ratings": {
     "iconicity": {
       "score": 4,
-      "rationale": "The gesture clearly depicts the action of handing over a small object, which strongly represents the functional use of an entrance ticket."
+      "rationale": "The gesture clearly visually represents the action of presenting a ticket for entry, which is strongly associated with the target word."
     },
     "sensorimotor_imagery": {
       "score": 4,
-      "rationale": "The movement effectively evokes the physical sensation of holding a small piece of paper and extending the arm to present it."
+      "rationale": "The gesture strongly evokes the physical action and bodily experience of holding a small piece of paper and handing it over."
     },
     "motional_salience_gesture": {
-      "score": 2,
-      "rationale": "The movement is deliberate and functional, lacking strong emotional dynamics or expressive intensity."
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, but relatively simple and constrained to a single arm extension."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
-      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture, providing no emotional cues."
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The single, straightforward motion is simple to process and perfectly balanced for learning."
+      "rationale": "The gesture is simple, direct, and optimally balances informativeness with ease of understanding for a learner."
     },
     "cultural_familiarity": {
       "score": 5,
-      "rationale": "The action of presenting a ticket or pass for entry is a widely recognized and common behavior."
+      "rationale": "The action of presenting a ticket or pass is a highly familiar and universally understood convention in Western cultures."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The simple arm extension and basic hand shape are effortless for learners to reproduce."
+      "rationale": "The movement is a basic, everyday arm extension that is very natural and effortless for learners to reproduce."
     }
   },
   "coherence_check": {
     "is_video_interpretable": true,
     "possible_ambiguities": [
-      "The gesture represents the action of using the ticket rather than the physical shape of the ticket itself, but the meaning remains clear."
+      "The gesture could be interpreted as handing over any small object, not exclusively an entrance ticket, though the context makes it clear."
     ],
     "confidence": "high"
   }

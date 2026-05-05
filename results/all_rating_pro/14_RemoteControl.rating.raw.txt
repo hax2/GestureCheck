@@ -5,15 +5,15 @@
   "ratings": {
     "iconicity": {
       "score": 5,
-      "rationale": "The gesture highly transparently represents the action of holding and using a remote control."
+      "rationale": "The gesture highly transparently represents the semantics by mimicking the exact action of holding and using a remote control."
     },
     "sensorimotor_imagery": {
       "score": 5,
-      "rationale": "The gesture vividly simulates the physical grip and specific thumb action used to operate a remote control."
+      "rationale": "The gesture provides a very vivid simulation of the physical experience of gripping a remote and pressing a button with the thumb."
     },
     "motional_salience_gesture": {
       "score": 2,
-      "rationale": "The movement is relatively subtle, consisting only of a slight arm raise and a small thumb press."
+      "rationale": "The movement is relatively subtle and constrained, involving only a slight arm raise and a small thumb action."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
@@ -21,15 +21,15 @@
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is simple, direct, and perfectly captures the essence of the object without any unnecessary complexity."
+      "rationale": "The gesture is simple, direct, and perfectly captures the essence of the target word without any unnecessary complexity."
     },
     "cultural_familiarity": {
       "score": 5,
-      "rationale": "The action of pointing a handheld device and pressing a button with the thumb is universally recognized in Western cultures as using a remote control."
+      "rationale": "This pantomime of using a remote control is a highly familiar and universally understood gesture in Western cultures."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The gesture involves minimal, everyday movements that are effortless for learners to reproduce."
+      "rationale": "The gesture involves minimal, everyday movements that are extremely natural and effortless for anyone to reproduce."
     }
   },
   "coherence_check": {

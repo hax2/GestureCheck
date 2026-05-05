@@ -1,19 +1,19 @@
 {
   "target_word": "Guitar",
   "video_file": "19_Guitar.avi",
-  "brief_gesture_description": "The actor mimics holding the neck of a guitar with her left hand while making a strumming motion with her right hand near her torso.",
+  "brief_gesture_description": "The actor holds her left arm out as if grasping the neck of a guitar and moves her right hand up and down near her torso as if strumming the strings.",
   "ratings": {
     "iconicity": {
       "score": 5,
-      "rationale": "The gesture is a highly transparent and universally recognized pantomime of playing a guitar."
+      "rationale": "The gesture perfectly mimics the action of playing a guitar, providing a highly transparent visual representation of the target word."
     },
     "sensorimotor_imagery": {
       "score": 5,
-      "rationale": "The gesture directly simulates the physical action, posture, and bodily experience of holding and strumming the instrument."
+      "rationale": "The gesture vividly simulates the physical interaction and bodily actions required to hold and strum a guitar."
     },
     "motional_salience_gesture": {
       "score": 4,
-      "rationale": "The movement is clear and pronounced, involving both arms with a distinct, repetitive strumming action that draws attention."
+      "rationale": "The strumming motion and extended arm create a clear, pronounced, and easily noticeable movement."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
@@ -21,15 +21,15 @@
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is simple, intuitive, and perfectly captures the essence of the word without any unnecessary complexity."
+      "rationale": "The gesture is straightforward and perfectly captures the essence of the word without any unnecessary or confusing complexity."
     },
     "cultural_familiarity": {
       "score": 5,
-      "rationale": "The 'air guitar' gesture is highly familiar and widely used in Western culture to represent the instrument."
+      "rationale": "The 'air guitar' gesture is a highly familiar and universally recognized action in Western cultures."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The gesture is very natural and effortless to enact, requiring no special physical skills or coordination."
+      "rationale": "The movements are simple, natural, and effortless for learners to reproduce."
     }
   },
   "coherence_check": {

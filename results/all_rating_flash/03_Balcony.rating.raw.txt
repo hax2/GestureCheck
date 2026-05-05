@@ -5,37 +5,37 @@
   "ratings": {
     "iconicity": {
       "score": 4,
-      "rationale": "The posture of leaning on an imaginary railing is a clear and recognizable representation of standing on a balcony."
+      "rationale": "The posture of leaning on an imaginary railing is a clear and recognizable iconic representation of standing on a balcony."
     },
     "sensorimotor_imagery": {
       "score": 4,
-      "rationale": "The gesture effectively simulates the physical experience of leaning on a balcony railing."
+      "rationale": "The gesture effectively simulates the physical experience of leaning on a balcony railing, engaging the upper body in a way that mirrors the real-world action."
     },
     "motional_salience_gesture": {
-      "score": 2,
-      "rationale": "The movement is functional and descriptive rather than emotionally expressive."
+      "score": 3,
+      "rationale": "The movement is clear and purposeful, though relatively contained and static, which is appropriate for the nature of the action being depicted."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
-      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a balcony."
+      "rationale": "The gesture is simple, intuitive, and perfectly suited for representing the concept of a balcony without unnecessary complexity."
     },
     "cultural_familiarity": {
       "score": 5,
-      "rationale": "Leaning on a railing is a universally understood posture associated with balconies."
+      "rationale": "The action of leaning on a railing is a universally understood gesture in Western contexts."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The gesture is very simple and natural for any learner to replicate."
+      "rationale": "The gesture is very simple and natural, making it extremely easy for any learner to replicate."
     }
   },
   "coherence_check": {
     "is_video_interpretable": true,
     "possible_ambiguities": [
-      "The gesture could also be interpreted as leaning on a fence or a counter, but in the context of 'balcony', it is highly appropriate."
+      "The gesture could potentially be interpreted as leaning on a fence or a counter, but in the context of the word 'balcony', it is highly specific."
     ],
     "confidence": "high"
   }

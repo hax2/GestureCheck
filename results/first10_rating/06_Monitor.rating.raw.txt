@@ -1,41 +1,41 @@
 {
   "target_word": "Monitor",
   "video_file": "06_Monitor.avi",
-  "brief_gesture_description": "The actor raises both hands to eye level, forming a rectangular shape with her fingers to simulate looking at a screen.",
+  "brief_gesture_description": "The actor uses both hands to trace a rectangular shape in the air in front of her, mimicking the outline of a computer screen.",
   "ratings": {
     "iconicity": {
       "score": 4,
-      "rationale": "The rectangular hand shape clearly mimics the frame of a computer monitor or screen."
+      "rationale": "The gesture clearly outlines the rectangular shape of a monitor screen, making the iconic relationship to the target word very transparent."
     },
     "sensorimotor_imagery": {
       "score": 3,
-      "rationale": "It simulates the act of framing or looking at a screen, which is a common perceptual experience associated with the word."
+      "rationale": "It simulates the physical act of framing or defining the boundaries of a screen, which provides a moderate level of sensorimotor engagement."
     },
     "motional_salience_gesture": {
-      "score": 2,
-      "rationale": "The movement is functional and precise rather than emotionally expressive."
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid, providing a moderate level of visual salience."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
-      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout."
+      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is simple, intuitive, and directly maps to the concept of a screen."
+      "rationale": "The gesture is simple, direct, and perfectly aligned with the concept of a monitor, making it highly appropriate for learning."
     },
     "cultural_familiarity": {
       "score": 5,
-      "rationale": "Using hands to frame a view or screen is a universally understood gesture in modern digital culture."
+      "rationale": "Tracing a rectangle to represent a screen is a universally understood gesture in modern, technology-driven cultures."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The gesture is very easy to replicate and requires no special coordination."
+      "rationale": "The gesture is very simple and requires no special motor skills, making it extremely easy for any learner to replicate."
     }
   },
   "coherence_check": {
     "is_video_interpretable": true,
     "possible_ambiguities": [
-      "Could potentially be interpreted as 'frame', 'picture', or 'window' depending on context."
+      "The gesture could potentially be interpreted as 'frame', 'picture', or 'television' depending on context, though 'monitor' is the most logical fit."
     ],
     "confidence": "high"
   }

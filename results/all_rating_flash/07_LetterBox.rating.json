@@ -1,41 +1,41 @@
 {
   "target_word": "Letter Box",
   "video_file": "07_LetterBox.avi",
-  "brief_gesture_description": "The actor uses both hands to mimic the action of opening a small flap or slot, then inserting an object into it.",
+  "brief_gesture_description": "The actor raises both hands to form a rectangular shape in the air, then makes a downward motion as if dropping something through a slot.",
   "ratings": {
     "iconicity": {
       "score": 4,
-      "rationale": "The hand movements clearly simulate the physical interaction of opening a letter box slot and inserting mail."
+      "rationale": "The rectangular hand shape clearly outlines the frame of a letter box, and the downward motion mimics the act of inserting mail."
     },
     "sensorimotor_imagery": {
       "score": 4,
-      "rationale": "The gesture effectively simulates the tactile experience of manipulating a letter box flap."
+      "rationale": "The gesture simulates the physical interaction of placing a letter into a slot, which is a common sensorimotor experience."
     },
     "motional_salience_gesture": {
-      "score": 2,
-      "rationale": "The movement is functional and precise, but lacks significant emotional or dynamic intensity."
+      "score": 3,
+      "rationale": "The movement is clear and deliberate, though not overly expansive or rapid."
     },
     "emotional_salience_facial_expression": {
       "score": 1,
-      "rationale": "The actor maintains a neutral, task-oriented facial expression throughout the gesture."
+      "rationale": "The actor maintains a neutral facial expression throughout the gesture."
     },
     "gesture_complexity_fit": {
       "score": 5,
-      "rationale": "The gesture is simple, direct, and perfectly suited for representing the target word."
+      "rationale": "The gesture is simple, intuitive, and perfectly matches the concept of a letter box."
     },
     "cultural_familiarity": {
       "score": 4,
-      "rationale": "The action of posting a letter is a widely understood cultural practice, though physical letter boxes are becoming less common in some digital-first societies."
+      "rationale": "The concept of a letter box and the action of posting mail are widely understood in Western cultural contexts."
     },
     "enactment_potential": {
       "score": 5,
-      "rationale": "The gesture is very simple and involves natural hand movements that are easy for anyone to replicate."
+      "rationale": "The gesture is very simple and easy for any learner to replicate."
     }
   },
   "coherence_check": {
     "is_video_interpretable": true,
     "possible_ambiguities": [
-      "The gesture could potentially be interpreted as opening a small door or a slot for any purpose, not necessarily a letter box."
+      "The rectangular shape could potentially be interpreted as a window or a picture frame, but the downward insertion motion clarifies the 'letter box' meaning."
     ],
     "confidence": "high"
   }
