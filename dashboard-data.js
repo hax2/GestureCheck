@@ -33,6 +33,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 1,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Traffic Light",
       "title": "01_TrafficLight.avi",
       "local_path": "data/gesture_videos/01_TrafficLight.avi",
@@ -134,6 +135,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 2,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Trailer",
       "title": "02_Trailer.avi",
       "local_path": "data/gesture_videos/02_Trailer.avi",
@@ -235,6 +237,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 3,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Balcony",
       "title": "03_Balcony.avi",
       "local_path": "data/gesture_videos/03_Balcony.avi",
@@ -336,6 +339,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 4,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Ball",
       "title": "04_Ball.avi",
       "local_path": "data/gesture_videos/04_Ball.avi",
@@ -437,6 +441,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 5,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Bett",
       "title": "05_Bett.mov.avi",
       "local_path": "data/gesture_videos/05_Bett.mov.avi",
@@ -538,6 +543,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 6,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Monitor",
       "title": "06_Monitor.avi",
       "local_path": "data/gesture_videos/06_Monitor.avi",
@@ -639,6 +645,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 7,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Letter Box",
       "title": "07_LetterBox.avi",
       "local_path": "data/gesture_videos/07_LetterBox.avi",
@@ -740,6 +747,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 8,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Ceiling",
       "title": "08_Ceiling.avi",
       "local_path": "data/gesture_videos/08_Ceiling.avi",
@@ -841,6 +849,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 9,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Monument",
       "title": "09_Monument.avi",
       "local_path": "data/gesture_videos/09_Monument.avi",
@@ -942,6 +951,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 10,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Entrance Ticket",
       "title": "10_EntranceTicket.avi",
       "local_path": "data/gesture_videos/10_EntranceTicket.avi",
@@ -1043,6 +1053,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 11,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Thread",
       "title": "11_Thread.avi",
       "local_path": "data/gesture_videos/11_Thread.avi",
@@ -1144,6 +1155,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 12,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Bicycle",
       "title": "12_Bicycle.avi",
       "local_path": "data/gesture_videos/12_Bicycle.avi",
@@ -1245,6 +1257,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 13,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Window",
       "title": "13_Window.avi",
       "local_path": "data/gesture_videos/13_Window.avi",
@@ -1346,6 +1359,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 14,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Remote Control",
       "title": "14_RemoteControl.avi",
       "local_path": "data/gesture_videos/14_RemoteControl.avi",
@@ -1447,6 +1461,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 15,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Bottle",
       "title": "15_Bottle.avi",
       "local_path": "data/gesture_videos/15_Bottle.avi",
@@ -1548,6 +1563,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 16,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Airplane",
       "title": "16_Airplane.avi",
       "local_path": "data/gesture_videos/16_Airplane.avi",
@@ -1649,6 +1665,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 17,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Painting",
       "title": "17_Painting.avi",
       "local_path": "data/gesture_videos/17_Painting.avi",
@@ -1750,6 +1767,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 18,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Present",
       "title": "18_Present.avi",
       "local_path": "data/gesture_videos/18_Present.avi",
@@ -1851,6 +1869,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 19,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Guitar",
       "title": "19_Guitar.avi",
       "local_path": "data/gesture_videos/19_Guitar.avi",
@@ -1952,6 +1971,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 20,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Purse",
       "title": "20_Purse.avi",
       "local_path": "data/gesture_videos/20_Purse.avi",
@@ -2053,6 +2073,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 21,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Cable",
       "title": "21_Cable.avi",
       "local_path": "data/gesture_videos/21_Cable.avi",
@@ -2154,6 +2175,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 22,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Camera",
       "title": "22_Camera.avi",
       "local_path": "data/gesture_videos/22_Camera.avi",
@@ -2255,6 +2277,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 23,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Till",
       "title": "23_Till.avi",
       "local_path": "data/gesture_videos/23_Till.avi",
@@ -2356,6 +2379,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 24,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Catalog",
       "title": "24_Catalog.avi",
       "local_path": "data/gesture_videos/24_Catalog.avi",
@@ -2457,6 +2481,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 25,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Clothes",
       "title": "25_Clothes.avi",
       "local_path": "data/gesture_videos/25_Clothes.avi",
@@ -2558,6 +2583,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 26,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Suitcase",
       "title": "26_Suitcase.avi",
       "local_path": "data/gesture_videos/26_Suitcase.avi",
@@ -2659,6 +2685,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 27,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Machine",
       "title": "27_Machine.avi",
       "local_path": "data/gesture_videos/27_Machine.avi",
@@ -2760,6 +2787,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 28,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Mask",
       "title": "28_Mask.avi",
       "local_path": "data/gesture_videos/28_Mask.avi",
@@ -2861,6 +2889,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 29,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Paper",
       "title": "29_Paper.avi",
       "local_path": "data/gesture_videos/29_Paper.avi",
@@ -2962,6 +2991,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 30,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Tire",
       "title": "30_Tire.avi",
       "local_path": "data/gesture_videos/30_Tire.avi",
@@ -3063,6 +3093,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 31,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Ring",
       "title": "31_Ring.avi",
       "local_path": "data/gesture_videos/31_Ring.avi",
@@ -3164,6 +3195,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 32,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Backpack",
       "title": "32_Backpack.avi",
       "local_path": "data/gesture_videos/32_Backpack.avi",
@@ -3265,6 +3297,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 33,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Collection",
       "title": "33_Collection.avi",
       "local_path": "data/gesture_videos/33_Collection.avi",
@@ -3366,6 +3399,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 34,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Key",
       "title": "34_Key.avi",
       "local_path": "data/gesture_videos/34_Key.avi",
@@ -3467,6 +3501,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 35,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Drawer",
       "title": "35_Drawer.avi",
       "local_path": "data/gesture_videos/35_Drawer.avi",
@@ -3568,6 +3603,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 36,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Sunglasses",
       "title": "36_Sunglasses.avi",
       "local_path": "data/gesture_videos/36_Sunglasses.avi",
@@ -3669,6 +3705,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 37,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Mirror",
       "title": "37_Mirror.avi",
       "local_path": "data/gesture_videos/37_Mirror.avi",
@@ -3770,6 +3807,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 38,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Tram",
       "title": "38_Tram.avi",
       "local_path": "data/gesture_videos/38_Tram.avi",
@@ -3871,6 +3909,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 39,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Daily Newspaper",
       "title": "39_DailyNewspaper.avi",
       "local_path": "data/gesture_videos/39_DailyNewspaper.avi",
@@ -3972,6 +4011,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 40,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Telephone",
       "title": "40_Telephone.avi",
       "local_path": "data/gesture_videos/40_Telephone.avi",
@@ -4073,6 +4113,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 41,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Plate",
       "title": "41_Plate.avi",
       "local_path": "data/gesture_videos/41_Plate.avi",
@@ -4174,6 +4215,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 42,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Carpet",
       "title": "42_Carpet.avi",
       "local_path": "data/gesture_videos/42_Carpet.avi",
@@ -4275,6 +4317,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 43,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Bandage",
       "title": "43_Bandage.avi",
       "local_path": "data/gesture_videos/43_Bandage.avi",
@@ -4376,6 +4419,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 44,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Tent",
       "title": "44_Tent.avi",
       "local_path": "data/gesture_videos/44_Tent.avi",
@@ -4477,6 +4521,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 45,
       "collection": "gesture",
+      "concreteness": "concrete",
       "target_word": "Cigarette",
       "title": "45_Cigarette.avi",
       "local_path": "data/gesture_videos/45_Cigarette.avi",
@@ -4578,6 +4623,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 46,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Cancellation",
       "title": "46_Cancellation.avi",
       "local_path": "data/gesture_videos/46_Cancellation.avi",
@@ -4679,6 +4725,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 47,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Alternative",
       "title": "47_Alternative.avi",
       "local_path": "data/gesture_videos/47_Alternative.avi",
@@ -4780,6 +4827,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 48,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Requirement",
       "title": "48_Requirement.avi",
       "local_path": "data/gesture_videos/48_Requirement.avi",
@@ -4881,6 +4929,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 49,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Arrival",
       "title": "49_Arrival.avi",
       "local_path": "data/gesture_videos/49_Arrival.avi",
@@ -4982,6 +5031,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 50,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Attention",
       "title": "50_Attention.avi",
       "local_path": "data/gesture_videos/50_Attention.avi",
@@ -5083,6 +5133,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 51,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Effort",
       "title": "51_Effort.avi",
       "local_path": "data/gesture_videos/51_Effort.avi",
@@ -5184,6 +5235,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 52,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "View",
       "title": "52_View.avi",
       "local_path": "data/gesture_videos/52_View.avi",
@@ -5285,6 +5337,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 53,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Command",
       "title": "53_Command.avi",
       "local_path": "data/gesture_videos/53_Command.avi",
@@ -5386,6 +5439,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 54,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Property",
       "title": "54_Property.avi",
       "local_path": "data/gesture_videos/54_Property.avi",
@@ -5487,6 +5541,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 55,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Destination",
       "title": "55_Destination.avi",
       "local_path": "data/gesture_videos/55_Destination.avi",
@@ -5588,6 +5643,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 56,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Plea",
       "title": "56_Plea.avi",
       "local_path": "data/gesture_videos/56_Plea.avi",
@@ -5689,6 +5745,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 57,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Discipline",
       "title": "57_Discipline.avi",
       "local_path": "data/gesture_videos/57_Discipline.avi",
@@ -5790,6 +5847,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 58,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Recommendation",
       "title": "58_Recommendation.avi",
       "local_path": "data/gesture_videos/58_Recommendation.avi",
@@ -5891,6 +5949,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 59,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Thought",
       "title": "59_Thought.avi",
       "local_path": "data/gesture_videos/59_Thought.avi",
@@ -5992,6 +6051,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 60,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Patience",
       "title": "60_Patience.avi",
       "local_path": "data/gesture_videos/60_Patience.avi",
@@ -6093,6 +6153,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 61,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Indifference",
       "title": "61_Indifference.avi",
       "local_path": "data/gesture_videos/61_Indifference.avi",
@@ -6194,6 +6255,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 62,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Information",
       "title": "62_Information.avi",
       "local_path": "data/gesture_videos/62_Information.avi",
@@ -6295,6 +6357,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 63,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Correction",
       "title": "63_Correction.avi",
       "local_path": "data/gesture_videos/63_Correction.avi",
@@ -6396,6 +6459,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 64,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Boredom",
       "title": "64_Boredom.avi",
       "local_path": "data/gesture_videos/64_Boredom.avi",
@@ -6497,6 +6561,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 65,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Mentality",
       "title": "65_Mentality.avi",
       "local_path": "data/gesture_videos/65_Mentality.avi",
@@ -6598,6 +6663,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 66,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Method",
       "title": "66_Method.avi",
       "local_path": "data/gesture_videos/66_Method.avi",
@@ -6699,6 +6765,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 67,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Bravery",
       "title": "67_Bravery.avi",
       "local_path": "data/gesture_videos/67_Bravery.avi",
@@ -6800,6 +6867,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 68,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Partnership",
       "title": "68_Partnership.avi",
       "local_path": "data/gesture_videos/68_Partnership.avi",
@@ -6901,6 +6969,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 69,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Consideration",
       "title": "69_Consideration.avi",
       "local_path": "data/gesture_videos/69_Consideration.avi",
@@ -7002,6 +7071,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 70,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Sensation",
       "title": "70_Sensation.avi",
       "local_path": "data/gesture_videos/70_Sensation.avi",
@@ -7103,6 +7173,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 71,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Style",
       "title": "71_Style.avi",
       "local_path": "data/gesture_videos/71_Style.avi",
@@ -7204,6 +7275,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 72,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Talent",
       "title": "72_Talent.avi",
       "local_path": "data/gesture_videos/72_Talent.avi",
@@ -7305,6 +7377,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 73,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Fact",
       "title": "73_Fact.avi",
       "local_path": "data/gesture_videos/73_Fact.avi",
@@ -7406,6 +7479,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 74,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Participation",
       "title": "74_Participation.avi",
       "local_path": "data/gesture_videos/74_Participation.avi",
@@ -7507,6 +7581,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 75,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Tendency",
       "title": "75_Tendency.avi",
       "local_path": "data/gesture_videos/75_Tendency.avi",
@@ -7608,6 +7683,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 76,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Theory",
       "title": "76_Theory.avi",
       "local_path": "data/gesture_videos/76_Theory.avi",
@@ -7709,6 +7785,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 77,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Therapy",
       "title": "77_Therapy.avi",
       "local_path": "data/gesture_videos/77_Therapy.avi",
@@ -7810,6 +7887,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 78,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Tradition",
       "title": "78_Tradition.avi",
       "local_path": "data/gesture_videos/78_Tradition.avi",
@@ -7911,6 +7989,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 79,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Triumph",
       "title": "79_Triumph.avi",
       "local_path": "data/gesture_videos/79_Triumph.avi",
@@ -8012,6 +8091,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 80,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Exercise",
       "title": "80_Exercise.avi",
       "local_path": "data/gesture_videos/80_Exercise.avi",
@@ -8113,6 +8193,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 81,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Innocence",
       "title": "81_Innocence.avi",
       "local_path": "data/gesture_videos/81_Innocence.avi",
@@ -8214,6 +8295,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 82,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Change",
       "title": "82_Change.avi",
       "local_path": "data/gesture_videos/82_Change.avi",
@@ -8315,6 +8397,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 83,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Sympathy",
       "title": "83_Sympathy.avi",
       "local_path": "data/gesture_videos/83_Sympathy.avi",
@@ -8416,6 +8499,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 84,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Procedure",
       "title": "84_Procedure.avi",
       "local_path": "data/gesture_videos/84_Procedure.avi",
@@ -8517,6 +8601,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 85,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Excuse",
       "title": "85_Excuse.avi",
       "local_path": "data/gesture_videos/85_Excuse.avi",
@@ -8618,6 +8703,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 86,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Warning",
       "title": "86_Warning.avi",
       "local_path": "data/gesture_videos/86_Warning.avi",
@@ -8719,6 +8805,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 87,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Wealth",
       "title": "87_Wealth.avi",
       "local_path": "data/gesture_videos/87_Wealth.avi",
@@ -8820,6 +8907,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 88,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Benefaction",
       "title": "88_Benefaction.avi",
       "local_path": "data/gesture_videos/88_Benefaction.avi",
@@ -8921,6 +9009,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 89,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Admission",
       "title": "89_Admission.avi",
       "local_path": "data/gesture_videos/89_Admission.avi",
@@ -9022,6 +9111,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 90,
       "collection": "gesture",
+      "concreteness": "abstract",
       "target_word": "Purpose",
       "title": "90_Purpose.avi",
       "local_path": "data/gesture_videos/90_Purpose.avi",
@@ -9123,6 +9213,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 91,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Zip",
       "title": "01_zip.mov.AVI",
       "local_path": "data/videos/01_zip.mov.AVI",
@@ -9224,6 +9315,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 92,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Earring",
       "title": "02_earring.mov.AVI",
       "local_path": "data/videos/02_earring.mov.AVI",
@@ -9325,6 +9417,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 93,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Peppermill",
       "title": "03_peppermill.mov.AVI",
       "local_path": "data/videos/03_peppermill.mov.AVI",
@@ -9426,6 +9519,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 94,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Cup",
       "title": "04_cup.mov.AVI",
       "local_path": "data/videos/04_cup.mov.AVI",
@@ -9527,6 +9621,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 95,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Broom",
       "title": "05_broom.mov.AVI",
       "local_path": "data/videos/05_broom.mov.AVI",
@@ -9628,6 +9723,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 96,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Parsley",
       "title": "06_parseley.mov.AVI",
       "local_path": "data/videos/06_parseley.mov.AVI",
@@ -9729,6 +9825,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 97,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Stairs",
       "title": "07_stairs.mov.AVI",
       "local_path": "data/videos/07_stairs.mov.AVI",
@@ -9830,6 +9927,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 98,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Hair Dryer",
       "title": "08_hair dryer.mov.AVI",
       "local_path": "data/videos/08_hair dryer.mov.AVI",
@@ -9931,6 +10029,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 99,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Watering Can",
       "title": "09_gießkanne.mov.AVI",
       "local_path": "data/videos/09_gießkanne.mov.AVI",
@@ -10032,6 +10131,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 100,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Tissue",
       "title": "10_tissue.mov.AVI",
       "local_path": "data/videos/10_tissue.mov.AVI",
@@ -10133,6 +10233,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 101,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Soap",
       "title": "11_soap.mov.AVI",
       "local_path": "data/videos/11_soap.mov.AVI",
@@ -10234,6 +10335,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 102,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Shelf",
       "title": "12_shelf.mov.AVI",
       "local_path": "data/videos/12_shelf.mov.AVI",
@@ -10335,6 +10437,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 103,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Violin",
       "title": "13_violine.mov.AVI",
       "local_path": "data/videos/13_violine.mov.AVI",
@@ -10436,6 +10539,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 104,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Stamp",
       "title": "14_stamp.mov.AVI",
       "local_path": "data/videos/14_stamp.mov.AVI",
@@ -10537,6 +10641,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 105,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Thread",
       "title": "15_thread.mov.AVI",
       "local_path": "data/videos/15_thread.mov.AVI",
@@ -10638,6 +10743,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 106,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Temple",
       "title": "16_temple.mov.AVI",
       "local_path": "data/videos/16_temple.mov.AVI",
@@ -10739,6 +10845,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 107,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Chair",
       "title": "17_chair.mov.AVI",
       "local_path": "data/videos/17_chair.mov.AVI",
@@ -10840,6 +10947,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 108,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Coffee",
       "title": "18_coffee.mov.AVI",
       "local_path": "data/videos/18_coffee.mov.AVI",
@@ -10941,6 +11049,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 109,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Bridge",
       "title": "19_bridge.mov.AVI",
       "local_path": "data/videos/19_bridge.mov.AVI",
@@ -11042,6 +11151,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 110,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Earth",
       "title": "20_earth.mov.AVI",
       "local_path": "data/videos/20_earth.mov.AVI",
@@ -11143,6 +11253,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 111,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Flower",
       "title": "21_flower.mov.AVI",
       "local_path": "data/videos/21_flower.mov.AVI",
@@ -11244,6 +11355,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 112,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Shampoo",
       "title": "22_shampoo.mov.AVI",
       "local_path": "data/videos/22_shampoo.mov.AVI",
@@ -11345,6 +11457,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 113,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Jumper",
       "title": "23_jumper.mov.AVI",
       "local_path": "data/videos/23_jumper.mov.AVI",
@@ -11446,6 +11559,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 114,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Dish Washing Liquid",
       "title": "24_dish washing liquid.mov.AVI",
       "local_path": "data/videos/24_dish washing liquid.mov.AVI",
@@ -11547,6 +11661,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 115,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Pumpkin",
       "title": "25_pumpkin.mov.AVI",
       "local_path": "data/videos/25_pumpkin.mov.AVI",
@@ -11648,6 +11763,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 116,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Eraser",
       "title": "26_radiergummi.mov.AVI",
       "local_path": "data/videos/26_radiergummi.mov.AVI",
@@ -11749,6 +11865,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 117,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Stamp For Letter",
       "title": "27_stamp for letter.mov.AVI",
       "local_path": "data/videos/27_stamp for letter.mov.AVI",
@@ -11850,6 +11967,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 118,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Flute",
       "title": "28_flute.mov.AVI",
       "local_path": "data/videos/28_flute.mov.AVI",
@@ -11951,6 +12069,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 119,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Metal Sheet",
       "title": "29_metal sheet.mov.AVI",
       "local_path": "data/videos/29_metal sheet.mov.AVI",
@@ -12052,6 +12171,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 120,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Towel",
       "title": "30_towel.mov.AVI",
       "local_path": "data/videos/30_towel.mov.AVI",
@@ -12153,6 +12273,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 121,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Crutch",
       "title": "31_crutch.mov.AVI",
       "local_path": "data/videos/31_crutch.mov.AVI",
@@ -12254,6 +12375,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 122,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Saw",
       "title": "32_saw.mov.AVI",
       "local_path": "data/videos/32_saw.mov.AVI",
@@ -12355,6 +12477,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 123,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Perfume",
       "title": "33_perfume.mov.AVI",
       "local_path": "data/videos/33_perfume.mov.AVI",
@@ -12456,6 +12579,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 124,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Tie",
       "title": "34_tie.mov.AVI",
       "local_path": "data/videos/34_tie.mov.AVI",
@@ -12557,6 +12681,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 125,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Button",
       "title": "35_button.mov.AVI",
       "local_path": "data/videos/35_button.mov.AVI",
@@ -12658,6 +12783,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 126,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Sponge",
       "title": "36_sponge.mov.AVI",
       "local_path": "data/videos/36_sponge.mov.AVI",
@@ -12759,6 +12885,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 127,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Piece Of Paper",
       "title": "37_piece of paper.mov.AVI",
       "local_path": "data/videos/37_piece of paper.mov.AVI",
@@ -12860,6 +12987,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 128,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Knife",
       "title": "38_knife.mov.AVI",
       "local_path": "data/videos/38_knife.mov.AVI",
@@ -12961,6 +13089,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 129,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Wave",
       "title": "39_wave.mov.AVI",
       "local_path": "data/videos/39_wave.mov.AVI",
@@ -13062,6 +13191,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 130,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Telephone",
       "title": "40_telephone.mov.AVI",
       "local_path": "data/videos/40_telephone.mov.AVI",
@@ -13163,6 +13293,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 131,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Mirror",
       "title": "41_mirrow.mov.AVI",
       "local_path": "data/videos/41_mirrow.mov.AVI",
@@ -13264,6 +13395,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 132,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Remote Control",
       "title": "42_remote control.mov.AVI",
       "local_path": "data/videos/42_remote control.mov.AVI",
@@ -13365,6 +13497,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 133,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Banana",
       "title": "43_banana.mov.AVI",
       "local_path": "data/videos/43_banana.mov.AVI",
@@ -13466,6 +13599,7 @@ window.RATING_DASHBOARD = {
     {
       "index": 134,
       "collection": "object",
+      "concreteness": "concrete",
       "target_word": "Poster",
       "title": "44_poster.mov.AVI",
       "local_path": "data/videos/44_poster.mov.AVI",

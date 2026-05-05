@@ -16,6 +16,11 @@
         <a class="workbook-link" href="rating-results.xlsx">XLSX</a>
       </header>
 
+      <nav class="page-tabs" aria-label="Dashboard pages">
+        <button id="overviewPageTab" class="page-tab active" type="button">Overview</button>
+        <button id="concretePageTab" class="page-tab" type="button">Concrete/Abstract</button>
+      </nav>
+
       <section class="controls" aria-label="Dashboard filters">
         <label>
           Search
@@ -45,65 +50,109 @@
         </label>
       </section>
 
-      <section class="summary-grid" aria-label="Summary">
-        <article>
-          <span id="totalCount">0</span>
-          <p>rows</p>
-        </article>
-        <article>
-          <span id="completeCount">0</span>
-          <p>complete</p>
-        </article>
-        <article>
-          <span id="meanDelta">0</span>
-          <p>mean abs delta</p>
-        </article>
-        <article>
-          <span id="maxDelta">0</span>
-          <p>max delta</p>
-        </article>
-      </section>
+      <section id="overviewPage" class="dashboard-page active">
+        <section class="summary-grid" aria-label="Summary">
+          <article>
+            <span id="totalCount">0</span>
+            <p>rows</p>
+          </article>
+          <article>
+            <span id="completeCount">0</span>
+            <p>complete</p>
+          </article>
+          <article>
+            <span id="meanDelta">0</span>
+            <p>mean abs delta</p>
+          </article>
+          <article>
+            <span id="maxDelta">0</span>
+            <p>max delta</p>
+          </article>
+        </section>
 
-      <section class="chart-grid">
-        <article class="chart-panel">
-          <div class="section-head">
-            <h2>Average Scores</h2>
-            <div class="chart-legend" aria-label="Average score legend">
-              <span><i class="legend-swatch flash"></i>Flash</span>
-              <span><i class="legend-swatch pro"></i>Pro</span>
+        <section class="chart-grid">
+          <article class="chart-panel">
+            <div class="section-head">
+              <h2>Average Scores</h2>
+              <div class="chart-legend" aria-label="Average score legend">
+                <span><i class="legend-swatch flash"></i>Flash</span>
+                <span><i class="legend-swatch pro"></i>Pro</span>
+              </div>
             </div>
-          </div>
-          <canvas id="averageChart" width="680" height="360"></canvas>
-        </article>
-        <article class="chart-panel">
+            <canvas id="averageChart" width="680" height="360"></canvas>
+          </article>
+          <article class="chart-panel">
+            <div class="section-head">
+              <h2>Largest Disagreements</h2>
+            </div>
+            <canvas id="deltaChart" width="680" height="320"></canvas>
+          </article>
+        </section>
+
+        <section class="table-panel">
           <div class="section-head">
-            <h2>Largest Disagreements</h2>
+            <h2>Items</h2>
+            <span id="visibleCount"></span>
           </div>
-          <canvas id="deltaChart" width="680" height="320"></canvas>
-        </article>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Word</th>
+                  <th>Collection</th>
+                  <th>Rating</th>
+                  <th>Flash</th>
+                  <th>Pro</th>
+                  <th>Delta</th>
+                  <th>Confidence</th>
+                </tr>
+              </thead>
+              <tbody id="itemsBody"></tbody>
+            </table>
+          </div>
+        </section>
       </section>
 
-      <section class="table-panel">
-        <div class="section-head">
-          <h2>Items</h2>
-          <span id="visibleCount"></span>
-        </div>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Word</th>
-                <th>Collection</th>
-                <th>Rating</th>
-                <th>Flash</th>
-                <th>Pro</th>
-                <th>Delta</th>
-                <th>Confidence</th>
-              </tr>
-            </thead>
-            <tbody id="itemsBody"></tbody>
-          </table>
-        </div>
+      <section id="concretePage" class="dashboard-page">
+        <section id="concreteSummary" class="summary-grid concrete-summary" aria-label="Concrete and abstract summary"></section>
+
+        <section class="chart-grid single">
+          <article class="chart-panel">
+            <div class="section-head">
+              <h2>Concrete vs Abstract Scores</h2>
+              <div class="chart-legend" aria-label="Concrete and abstract legend">
+                <span><i class="legend-swatch concrete-flash"></i>Concrete Flash</span>
+                <span><i class="legend-swatch concrete-pro"></i>Concrete Pro</span>
+                <span><i class="legend-swatch abstract-flash"></i>Abstract Flash</span>
+                <span><i class="legend-swatch abstract-pro"></i>Abstract Pro</span>
+              </div>
+            </div>
+            <canvas id="concreteChart" width="1200" height="390"></canvas>
+          </article>
+        </section>
+
+        <section class="table-panel">
+          <div class="section-head">
+            <h2>Concrete/Abstract Items</h2>
+            <span id="concreteVisibleCount"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Word</th>
+                  <th>Type</th>
+                  <th>Collection</th>
+                  <th>Rating</th>
+                  <th>Flash</th>
+                  <th>Pro</th>
+                  <th>Delta</th>
+                </tr>
+              </thead>
+              <tbody id="concreteItemsBody"></tbody>
+            </table>
+          </div>
+        </section>
       </section>
 
       <aside id="detailDrawer" class="detail-drawer" aria-label="Item details"></aside>

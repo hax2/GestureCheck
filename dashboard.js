@@ -16,7 +16,16 @@ const itemsBody = document.getElementById("itemsBody");
 const detailDrawer = document.getElementById("detailDrawer");
 const averageChart = document.getElementById("averageChart");
 const deltaChart = document.getElementById("deltaChart");
+const overviewPageTab = document.getElementById("overviewPageTab");
+const concretePageTab = document.getElementById("concretePageTab");
+const overviewPage = document.getElementById("overviewPage");
+const concretePage = document.getElementById("concretePage");
+const concreteSummary = document.getElementById("concreteSummary");
+const concreteChart = document.getElementById("concreteChart");
+const concreteVisibleCount = document.getElementById("concreteVisibleCount");
+const concreteItemsBody = document.getElementById("concreteItemsBody");
 let deltaChartHits = [];
+let activePage = "overview";
 
 const ratingDefinitions = {
   iconicity: "The degree to which the gesture visually resembles the semantics of the target word.",
@@ -88,9 +97,27 @@ function average(values) {
   return clean.reduce((sum, value) => sum + value, 0) / clean.length;
 }
 
+function modelAverage(row, key = selectedRating()) {
+  return average([ratingValue(row, "flash", key), ratingValue(row, "pro", key)]);
+}
+
+function typeLabel(value) {
+  return value === "abstract" ? "Abstract" : "Concrete";
+}
+
 function fmt(value) {
   if (value === null || value === undefined || Number.isNaN(value)) return "";
   return Number.isInteger(value) ? String(value) : value.toFixed(2);
+}
+
+function setActivePage(page) {
+  activePage = page;
+  const showOverview = page === "overview";
+  overviewPageTab.classList.toggle("active", showOverview);
+  concretePageTab.classList.toggle("active", !showOverview);
+  overviewPage.classList.toggle("active", showOverview);
+  concretePage.classList.toggle("active", !showOverview);
+  render();
 }
 
 function renderSummary(visibleRows) {
@@ -190,6 +217,61 @@ function drawHorizontalChart(canvas, items, key) {
   });
 }
 
+function drawGroupedChart(canvas, labels, series) {
+  const context = canvas.getContext("2d");
+  const width = canvas.width;
+  const height = canvas.height;
+  context.clearRect(0, 0, width, height);
+  context.fillStyle = "#ffffff";
+  context.fillRect(0, 0, width, height);
+
+  const padding = { top: 20, right: 24, bottom: 76, left: 42 };
+  const chartWidth = width - padding.left - padding.right;
+  const chartHeight = height - padding.top - padding.bottom;
+  const max = Math.max(5, ...series.flatMap((entry) => entry.values.filter((value) => value !== null)));
+
+  context.strokeStyle = "#d7dee3";
+  context.lineWidth = 1;
+  context.font = "12px Inter, system-ui, sans-serif";
+  for (let i = 1; i <= 5; i += 1) {
+    const y = padding.top + chartHeight - (i / max) * chartHeight;
+    context.beginPath();
+    context.moveTo(padding.left, y);
+    context.lineTo(width - padding.right, y);
+    context.stroke();
+    context.fillStyle = "#64717a";
+    context.textAlign = "left";
+    context.fillText(String(i), 10, y + 4);
+  }
+
+  const groupWidth = chartWidth / labels.length;
+  const barWidth = Math.max(7, Math.min(20, groupWidth / (series.length + 1)));
+  labels.forEach((label, index) => {
+    series.forEach((entry, seriesIndex) => {
+      const value = entry.values[index];
+      if (value === null) return;
+      const x =
+        padding.left +
+        index * groupWidth +
+        groupWidth / 2 -
+        (barWidth * series.length) / 2 +
+        seriesIndex * barWidth;
+      const barHeight = (value / max) * chartHeight;
+      const y = padding.top + chartHeight - barHeight;
+      context.fillStyle = entry.color;
+      context.fillRect(x, y, barWidth - 2, barHeight);
+    });
+    context.fillStyle = "#64717a";
+    context.textAlign = "center";
+    const labelLines = label.split(" ");
+    const labelX = padding.left + index * groupWidth + groupWidth / 2;
+    const labelY = padding.top + chartHeight + 18;
+    labelLines.forEach((line, lineIndex) => {
+      context.fillText(line, labelX, labelY + lineIndex * 14);
+    });
+  });
+}
+
 function renderCharts(visibleRows) {
   const labels = ratings.map((rating) => rating.label);
   drawBarChart(averageChart, labels, [
@@ -209,6 +291,86 @@ function renderCharts(visibleRows) {
     .sort((a, b) => Math.abs(deltaValue(b, key)) - Math.abs(deltaValue(a, key)))
     .slice(0, 12);
   drawHorizontalChart(deltaChart, top, key);
+}
+
+function groupRows(visibleRows, type) {
+  return visibleRows.filter((row) => row.concreteness === type);
+}
+
+function renderConcreteSummary(visibleRows) {
+  const key = selectedRating();
+  const concreteRows = groupRows(visibleRows, "concrete");
+  const abstractRows = groupRows(visibleRows, "abstract");
+  const summaries = [
+    ["Concrete words/gestures", concreteRows],
+    ["Abstract words/gestures", abstractRows],
+  ];
+  concreteSummary.innerHTML = "";
+  summaries.forEach(([label, group]) => {
+    const scores = group.flatMap((row) => [ratingValue(row, "flash", key), ratingValue(row, "pro", key)]);
+    const deltas = group
+      .map((row) => Math.abs(deltaValue(row, key) ?? NaN))
+      .filter((value) => typeof value === "number" && !Number.isNaN(value));
+    const card = document.createElement("article");
+    card.innerHTML = `
+      <strong>${label}</strong>
+      <span>${group.length}</span>
+      <small>${ratings.find((rating) => rating.key === key)?.label || key}: avg ${fmt(average(scores)) || "-"} · mean disagreement ${fmt(average(deltas)) || "-"}</small>
+    `;
+    concreteSummary.appendChild(card);
+  });
+}
+
+function renderConcreteChart(visibleRows) {
+  const concreteRows = groupRows(visibleRows, "concrete");
+  const abstractRows = groupRows(visibleRows, "abstract");
+  const labels = ratings.map((rating) => rating.label);
+  drawGroupedChart(concreteChart, labels, [
+    {
+      color: "#1d6f72",
+      values: ratings.map((rating) => average(concreteRows.map((row) => ratingValue(row, "flash", rating.key)))),
+    },
+    {
+      color: "#8a5a1f",
+      values: ratings.map((rating) => average(concreteRows.map((row) => ratingValue(row, "pro", rating.key)))),
+    },
+    {
+      color: "#4f6fb0",
+      values: ratings.map((rating) => average(abstractRows.map((row) => ratingValue(row, "flash", rating.key)))),
+    },
+    {
+      color: "#a33a3a",
+      values: ratings.map((rating) => average(abstractRows.map((row) => ratingValue(row, "pro", rating.key)))),
+    },
+  ]);
+}
+
+function renderConcreteTable(visibleRows) {
+  const key = selectedRating();
+  concreteItemsBody.innerHTML = "";
+  const sorted = [...visibleRows]
+    .filter((row) => typeof modelAverage(row, key) === "number")
+    .sort((a, b) => {
+      const typeSort = a.concreteness.localeCompare(b.concreteness);
+      if (typeSort) return typeSort;
+      return modelAverage(b, key) - modelAverage(a, key);
+    });
+  concreteVisibleCount.textContent = `${sorted.length} visible`;
+  sorted.forEach((row) => {
+    const delta = deltaValue(row, key);
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td><strong>${row.target_word}</strong><br><span class="confidence">${row.title}</span></td>
+      <td>${typeLabel(row.concreteness)}</td>
+      <td>${row.collection}</td>
+      <td>${row.ratings[key]?.label || key}</td>
+      <td>${fmt(ratingValue(row, "flash", key))}</td>
+      <td>${fmt(ratingValue(row, "pro", key))}</td>
+      <td class="delta ${Math.abs(delta ?? 0) >= 2 ? "hot" : ""}">${fmt(delta)}</td>
+    `;
+    tr.addEventListener("click", () => openDetail(row));
+    concreteItemsBody.appendChild(tr);
+  });
 }
 
 function renderTable(visibleRows) {
@@ -282,11 +444,19 @@ function closeDetail() {
 function render() {
   const visibleRows = filteredRows();
   renderSummary(visibleRows);
-  renderCharts(visibleRows);
-  renderTable(visibleRows);
+  if (activePage === "overview") {
+    renderCharts(visibleRows);
+    renderTable(visibleRows);
+  } else {
+    renderConcreteSummary(visibleRows);
+    renderConcreteChart(visibleRows);
+    renderConcreteTable(visibleRows);
+  }
 }
 
 initControls();
+overviewPageTab.addEventListener("click", () => setActivePage("overview"));
+concretePageTab.addEventListener("click", () => setActivePage("concrete"));
 [searchInput, collectionFilter, ratingFilter, sortSelect, completeOnly].forEach((control) => {
   control.addEventListener("input", render);
   control.addEventListener("change", render);

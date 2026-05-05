@@ -81,6 +81,44 @@ h2 {
   text-decoration: none;
 }
 
+.page-tabs {
+  display: inline-grid;
+  grid-auto-flow: column;
+  margin-bottom: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface-soft);
+  box-shadow: var(--shadow);
+}
+
+.page-tab {
+  min-width: 150px;
+  border: 0;
+  border-right: 1px solid var(--line);
+  padding: 9px 12px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.page-tab:last-child {
+  border-right: 0;
+}
+
+.page-tab.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.dashboard-page {
+  display: none;
+}
+
+.dashboard-page.active {
+  display: block;
+}
+
 .controls,
 .summary-grid,
 .chart-grid {
@@ -163,6 +201,10 @@ select {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.chart-grid.single {
+  grid-template-columns: 1fr;
+}
+
 .chart-panel {
   padding: 14px;
 }
@@ -197,6 +239,22 @@ select {
   background: var(--accent-2);
 }
 
+.legend-swatch.concrete-flash {
+  background: #1d6f72;
+}
+
+.legend-swatch.concrete-pro {
+  background: #8a5a1f;
+}
+
+.legend-swatch.abstract-flash {
+  background: #4f6fb0;
+}
+
+.legend-swatch.abstract-pro {
+  background: #a33a3a;
+}
+
 canvas {
   width: 100%;
   height: 360px;
@@ -216,6 +274,27 @@ canvas {
 #visibleCount {
   color: var(--muted);
   font-size: 13px;
+}
+
+.concrete-summary article {
+  min-height: 92px;
+}
+
+.concrete-summary strong {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+
+.concrete-summary span {
+  font-size: 22px;
+}
+
+.concrete-summary small {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 12px;
 }
 
 .table-wrap {
@@ -405,6 +484,10 @@ tbody tr:hover {
   .chart-grid,
   .summary-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .chart-grid.single {
+    grid-template-columns: 1fr;
   }
 }
 

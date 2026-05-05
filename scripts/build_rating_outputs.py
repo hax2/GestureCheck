@@ -44,6 +44,15 @@ def video_slug(title: str) -> str:
     return re.sub(r"[^A-Za-z0-9]+", "_", stem).strip("_")
 
 
+def concreteness(item: dict[str, Any]) -> str:
+    if item.get("collection") == "object":
+        return "concrete"
+    match = re.match(r"^(\d+)", item["title"])
+    if match and int(match.group(1)) <= 45:
+        return "concrete"
+    return "abstract"
+
+
 def score(result: dict[str, Any] | None, key: str) -> int | None:
     if not result:
         return None
@@ -91,6 +100,7 @@ def build_rows(manifest: list[dict[str, Any]], model_dirs: dict[str, Path]) -> l
             {
                 "index": position,
                 "collection": item.get("collection", ""),
+                "concreteness": concreteness(item),
                 "target_word": item["target_word"],
                 "title": item["title"],
                 "local_path": item.get("local_path", ""),
@@ -129,6 +139,7 @@ def dashboard_payload(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
             {
                 "index": row["index"],
                 "collection": row["collection"],
+                "concreteness": row["concreteness"],
                 "target_word": row["target_word"],
                 "title": row["title"],
                 "local_path": row["local_path"],
@@ -237,6 +248,7 @@ def workbook_rows(rows: list[dict[str, Any]]) -> list[list[Any]]:
     header = [
         "Index",
         "Collection",
+        "Concrete/abstract",
         "Target word",
         "Video file",
         "Flash confidence",
@@ -262,6 +274,7 @@ def workbook_rows(rows: list[dict[str, Any]]) -> list[list[Any]]:
         values: list[Any] = [
             row["index"],
             row["collection"],
+            row["concreteness"],
             row["target_word"],
             row["title"],
             confidence(row["results"]["flash"]),
