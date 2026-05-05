@@ -99,7 +99,7 @@ function drawBarChart(canvas, labels, series) {
   context.fillStyle = "#ffffff";
   context.fillRect(0, 0, width, height);
 
-  const padding = { top: 20, right: 22, bottom: 72, left: 42 };
+  const padding = { top: 20, right: 22, bottom: 112, left: 42 };
   const chartWidth = width - padding.left - padding.right;
   const chartHeight = height - padding.top - padding.bottom;
   const max = Math.max(5, ...series.flatMap((entry) => entry.values.filter((value) => value !== null)));
@@ -129,7 +129,7 @@ function drawBarChart(canvas, labels, series) {
       context.fillRect(x, y, barWidth - 2, barHeight);
     });
     context.save();
-    context.translate(padding.left + index * groupWidth + groupWidth / 2, height - 8);
+    context.translate(padding.left + index * groupWidth + groupWidth / 2, height - 14);
     context.rotate(-Math.PI / 4);
     context.fillStyle = "#64717a";
     context.textAlign = "right";
@@ -196,7 +196,6 @@ function renderTable(visibleRows) {
       <td>${fmt(ratingValue(row, "flash", key))}</td>
       <td>${fmt(ratingValue(row, "pro", key))}</td>
       <td class="delta ${Math.abs(delta ?? 0) >= 2 ? "hot" : ""}">${fmt(delta)}</td>
-      <td>${fmt(row.max_abs_delta)}</td>
       <td class="confidence">F: ${row.flash_confidence || "-"}<br>P: ${row.pro_confidence || "-"}</td>
     `;
     tr.addEventListener("click", () => openDetail(row));
