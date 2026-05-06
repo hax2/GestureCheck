@@ -1,0 +1,24 @@
+{
+  "target_word": "Penguin",
+  "video_file": "05_penguin.avi",
+  "brief_gesture_description": "The actor stands with arms held close to the sides, slightly bent at the elbows, and performs a waddling motion by shifting weight from side to side, mimicking the gait of a penguin.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The waddling gait and arm positioning are highly characteristic and iconic representations of a penguin's movement."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture involves a full-body simulation of the penguin's physical movement, which strongly evokes the sensory experience of that specific gait."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Mimicking a penguin's waddle is a universally recognized gesture in Western culture for representing this animal."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

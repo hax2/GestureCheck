@@ -1,0 +1,26 @@
+{
+  "target_word": "Sandwich",
+  "video_file": "09_sandwich.avi",
+  "brief_gesture_description": "The actor raises both hands high above her head with palms facing each other, as if holding a large object, and then lowers her arms.",
+  "ratings": {
+    "iconicity": {
+      "score": 2,
+      "rationale": "The gesture of holding hands apart could abstractly represent two slices of bread, but the large scale and high placement make the visual resemblance to a sandwich very weak."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The action simulates holding a large object, but it does not strongly evoke the typical physical interaction of making, holding, or eating a normal-sized sandwich."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "This specific movement is not a recognized or common gesture for a sandwich in Western culture."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture's large scale and high placement look more like indicating a large box or object rather than a sandwich."
+    ],
+    "confidence": "high"
+  }
+}

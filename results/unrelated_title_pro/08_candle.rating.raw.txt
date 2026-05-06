@@ -1,0 +1,26 @@
+{
+  "target_word": "Candle",
+  "video_file": "08_candle.avi",
+  "brief_gesture_description": "The actor raises both arms above her head, bringing her hands together to form a point, using her body to represent the shape of a candle and its flame.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly uses the verticality of the body to represent the candle stick and the hands meeting at the top to depict the flame, creating a strong visual resemblance to the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture focuses on depicting the static shape of the object rather than simulating an action or physical interaction with a candle (such as lighting it or blowing it out)."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "While the shape is recognizable in a context like charades, using the entire body to mimic a candle is not a conventional or common gesture in everyday Western communication."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "Without the target word, the gesture could be interpreted as representing a roof, a rocket, or simply something tall and pointed."
+    ],
+    "confidence": "high"
+  }
+}

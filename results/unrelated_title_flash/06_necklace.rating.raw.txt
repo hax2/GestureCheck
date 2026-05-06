@@ -1,0 +1,24 @@
+{
+  "target_word": "necklace",
+  "video_file": "06_necklace.avi",
+  "brief_gesture_description": "The actor traces the shape of a necklace around her neck with her index fingers, starting from the center and moving outwards and downwards.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly and accurately traces the physical outline of a necklace around the neck, making the meaning immediately obvious."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical act of wearing or touching a necklace, which evokes a strong tactile and spatial sense of the object."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Tracing the outline of jewelry around the neck is a universally understood and common gesture in Western culture."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

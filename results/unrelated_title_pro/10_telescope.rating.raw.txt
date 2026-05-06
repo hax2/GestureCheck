@@ -1,0 +1,26 @@
+{
+  "target_word": "Telescope",
+  "video_file": "10_telescope.avi",
+  "brief_gesture_description": "The actor extends her right arm forward and brings her hand to her eye, shaping her fingers as if gripping a cylindrical object to look through it.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture provides a highly transparent visual representation of the object by mimicking its shape and how it is used."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement vividly simulates the physical action of gripping a handheld telescope and bringing it to the eye to look through it."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming holding a tube to one's eye is a widely recognized and highly familiar gesture for a telescope or spyglass in Western culture."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture specifically mimics a handheld spyglass rather than a large astronomical telescope, but the meaning remains clear."
+    ],
+    "confidence": "high"
+  }
+}

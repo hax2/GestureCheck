@@ -1,0 +1,26 @@
+{
+  "target_word": "Candle",
+  "video_file": "08_candle.avi",
+  "brief_gesture_description": "The actor stands still, raises both arms above her head with palms facing each other, and then lowers them back to her sides, mimicking the shape of a candle flame or the candle itself.",
+  "ratings": {
+    "iconicity": {
+      "score": 3,
+      "rationale": "The vertical movement and the shape formed by the arms suggest the tall, thin structure of a candle, though it is somewhat abstract."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The movement is a simple vertical tracing, which lacks the specific tactile or motor experience of handling or lighting a candle."
+    },
+    "cultural_familiarity": {
+      "score": 2,
+      "rationale": "This is not a conventional or widely recognized gesture for 'candle' in Western culture; it is a descriptive pantomime."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could be interpreted as representing a tall object, a tree, or a flame, rather than specifically a candle."
+    ],
+    "confidence": "medium"
+  }
+}

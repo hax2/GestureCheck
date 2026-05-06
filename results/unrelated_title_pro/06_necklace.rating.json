@@ -1,0 +1,24 @@
+{
+  "target_word": "Necklace",
+  "video_file": "06_necklace.avi",
+  "brief_gesture_description": "The actor raises both hands to the sides of her neck and then brings them down to meet at the center of her chest, tracing the shape of a necklace.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly traces the shape and location of a necklace around the neck and resting on the chest, providing a highly transparent visual representation."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement simulates the action of putting on or wearing a necklace, evoking a strong bodily experience related to the object."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Tracing the shape of a necklace around the neck is a highly familiar and widely understood gesture for indicating the object in Western cultures."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

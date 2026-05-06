@@ -1,0 +1,26 @@
+{
+  "target_word": "Telescope",
+  "video_file": "10_telescope.avi",
+  "brief_gesture_description": "The actor stands, extends one arm forward, and makes a circular motion with her hand as if looking through a telescope, then returns to a neutral position.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The hand shape and the act of looking through a focused point clearly mimic the action of using a telescope."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical act of holding and peering through a telescope, engaging the arm and eye-focusing motion."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The gesture of holding a hand to the eye to simulate looking through a lens is a universally recognized action in Western culture."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could also be interpreted as looking through a monocular or a spyglass, which are functionally identical to a telescope."
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "target_word": "Elevator",
+  "video_file": "07_elevator.avi",
+  "brief_gesture_description": "The actor stands still and moves both hands vertically in a rhythmic, up-and-down motion, mimicking the movement of an elevator car.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The vertical movement of the hands clearly and directly represents the up-and-down motion of an elevator."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical experience of vertical travel, which is a core sensorimotor aspect of using an elevator."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The concept of an elevator moving vertically is universally understood, and this iconic gesture is highly intuitive and recognizable in Western contexts."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as general 'up and down' movement, but in the context of the target word, it is unambiguous."
+    ],
+    "confidence": "high"
+  }
+}

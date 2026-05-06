@@ -1,0 +1,24 @@
+{
+  "target_word": "Notebook",
+  "video_file": "03_notebook.avi",
+  "brief_gesture_description": "The actor holds her hands together in front of her and then opens them flat, palms facing up, mimicking the action of opening a book or notebook.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture of opening two hands side-by-side perfectly mimics the physical form and opening action of a notebook."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The movement strongly evokes the physical sensation and motor action of holding a closed notebook and opening its cover."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Using open hands to represent a book or notebook is a universally recognized and highly familiar gesture in Western cultures."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

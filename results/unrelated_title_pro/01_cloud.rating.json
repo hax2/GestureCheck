@@ -1,0 +1,24 @@
+{
+  "target_word": "Cloud",
+  "video_file": "01_cloud.avi",
+  "brief_gesture_description": "The actor raises her right hand and traces a wavy, semi-circular shape in the air above head level, mimicking the puffy outline of a cloud.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The wavy, tracing motion clearly outlines the typical puffy shape visually associated with a cloud."
+    },
+    "sensorimotor_imagery": {
+      "score": 2,
+      "rationale": "The gesture involves the motor action of drawing a shape in the air, but does not evoke direct physical interaction with the object."
+    },
+    "cultural_familiarity": {
+      "score": 3,
+      "rationale": "While not a specific, fixed emblem for 'cloud', tracing the shape of an object to describe it is a common and easily understood communicative strategy."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

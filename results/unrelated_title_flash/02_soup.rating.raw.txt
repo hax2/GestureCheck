@@ -1,0 +1,26 @@
+{
+  "target_word": "Soup",
+  "video_file": "02_soup.avi",
+  "brief_gesture_description": "The actor performs a bowing motion while keeping her hands behind her back, then returns to a standing position.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture of bowing does not visually resemble the act of eating, serving, or the physical properties of soup."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The movement is a generic bow and does not simulate any physical interaction with soup, such as holding a spoon or blowing on a hot liquid."
+    },
+    "cultural_familiarity": {
+      "score": 1,
+      "rationale": "Bowing is a social greeting or sign of respect in many cultures, but it has no conventional association with the concept of 'soup' in Western contexts."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture is completely unrelated to the target word, making it difficult to interpret as a representation of 'soup'."
+    ],
+    "confidence": "high"
+  }
+}

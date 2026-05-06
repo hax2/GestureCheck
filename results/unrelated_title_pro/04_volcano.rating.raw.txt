@@ -1,0 +1,24 @@
+{
+  "target_word": "Volcano",
+  "video_file": "04_volcano.avi",
+  "brief_gesture_description": "The actor starts with hands together at chest level, then moves them rapidly upwards and outwards with fingers spread, simulating an explosion or eruption.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The upward and outward spreading motion of the arms highly transparently mimics the shape and eruption of a volcano."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly simulates the dynamic, explosive physical action and outward force of an eruption."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Miming an explosion or eruption with an upward and outward hand gesture is a highly familiar and widely understood convention in Western contexts."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [],
+    "confidence": "high"
+  }
+}

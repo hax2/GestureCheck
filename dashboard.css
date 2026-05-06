@@ -81,6 +81,13 @@ h2 {
   text-decoration: none;
 }
 
+.header-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
 .page-tabs {
   display: inline-grid;
   grid-auto-flow: column;
@@ -551,6 +558,10 @@ tbody tr:hover {
   .workbook-link {
     display: inline-block;
     margin-top: 10px;
+  }
+
+  .header-links {
+    justify-content: flex-start;
   }
 
   .controls,

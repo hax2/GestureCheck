@@ -1,0 +1,26 @@
+{
+  "target_word": "Penguin",
+  "video_file": "05_penguin.avi",
+  "brief_gesture_description": "The actor brings both hands together, rests them against the side of her tilted head, and closes her eyes, mimicking a sleeping posture.",
+  "ratings": {
+    "iconicity": {
+      "score": 1,
+      "rationale": "The gesture visually represents sleeping and has no resemblance to the physical characteristics, shape, or typical movements of a penguin."
+    },
+    "sensorimotor_imagery": {
+      "score": 1,
+      "rationale": "The action evokes the bodily state of resting or sleeping, which does not simulate any physical interactions, movements, or experiences specific to a penguin."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "Resting the head on folded hands with closed eyes is a highly common and widely recognized gesture for sleep in Western cultures."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture clearly depicts 'sleep', which appears entirely unrelated to the provided target word 'Penguin'. It is highly likely there is a mismatch between the video content and the target word."
+    ],
+    "confidence": "high"
+  }
+}

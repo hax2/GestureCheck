@@ -1,0 +1,26 @@
+{
+  "target_word": "Volcano",
+  "video_file": "04_volcano.avi",
+  "brief_gesture_description": "The actor raises both arms above her head, curving them outward and downward to mimic the shape of an erupting volcano.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The arm movement clearly traces the physical shape of a volcano's cone and the outward flow of an eruption, making it a highly transparent representation."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture simulates the physical expansion and upward-to-outward movement associated with a volcanic eruption, engaging the upper body in a way that mimics the event."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The gesture is a common, intuitive way to represent a volcano in Western contexts, making it easily recognizable to most viewers."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "None; the gesture is clear and directly maps to the concept of a volcano."
+    ],
+    "confidence": "high"
+  }
+}

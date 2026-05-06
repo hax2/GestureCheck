@@ -1,0 +1,26 @@
+{
+  "target_word": "Sandwich",
+  "video_file": "09_sandwich.avi",
+  "brief_gesture_description": "The actor performs a motion as if stacking layers of food between two hands, then brings the hands together in a clapping motion to represent closing a sandwich.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The gesture clearly mimics the physical act of assembling and closing a sandwich, making the semantic link quite transparent."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The movement simulates the tactile experience of handling food layers and the final compression of the sandwich, which is highly evocative of the physical action."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "The action of 'stacking' or 'closing' something with two hands is a common, intuitive way to represent making a sandwich in Western contexts."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as clapping or closing a book if not contextualized, but in the context of food, it is clearly a sandwich."
+    ],
+    "confidence": "high"
+  }
+}

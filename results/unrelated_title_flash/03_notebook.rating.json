@@ -1,0 +1,26 @@
+{
+  "target_word": "Notebook",
+  "video_file": "03_notebook.avi",
+  "brief_gesture_description": "The actor holds their hands together in front of their chest, then opens them like a book, and finally makes a writing motion with one hand on the palm of the other.",
+  "ratings": {
+    "iconicity": {
+      "score": 5,
+      "rationale": "The gesture clearly mimics the physical act of opening a notebook and writing in it, which is a highly transparent representation of the object."
+    },
+    "sensorimotor_imagery": {
+      "score": 5,
+      "rationale": "The gesture involves specific, recognizable motor actions (opening a book, writing) that directly simulate the physical interaction one has with a notebook."
+    },
+    "cultural_familiarity": {
+      "score": 5,
+      "rationale": "The actions of opening a book and writing are universal and highly familiar in Western cultural contexts."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "None; the gesture is very clear and directly represents the target word."
+    ],
+    "confidence": "high"
+  }
+}

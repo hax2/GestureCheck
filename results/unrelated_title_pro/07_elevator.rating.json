@@ -1,0 +1,26 @@
+{
+  "target_word": "Elevator",
+  "video_file": "07_elevator.avi",
+  "brief_gesture_description": "The actor turns to the side, raises her right arm straight up with the index finger pointing upwards, and extends her left arm forward as if pressing a button.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The upward pointing finger clearly represents the vertical movement of an elevator, while the forward arm movement represents the interface."
+    },
+    "sensorimotor_imagery": {
+      "score": 4,
+      "rationale": "The gesture strongly evokes the physical action of pressing an elevator button, simulating the primary bodily interaction with the object."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Mimicking the pressing of a button combined with an upward pointing gesture is a recognizable and common way to represent an elevator in Western cultures."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The exact nature of the forward arm extension could be interpreted as pointing rather than pressing a button, though the context makes pressing more likely."
+    ],
+    "confidence": "high"
+  }
+}

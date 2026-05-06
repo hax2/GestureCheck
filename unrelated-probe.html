@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GestureCheck Unrelated Title Probe</title>
+    <link rel="stylesheet" href="unrelated-probe.css">
+  </head>
+  <body>
+    <main class="probe">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">GestureCheck</p>
+          <h1>Unrelated Title Probe</h1>
+          <p class="subtitle">Ten videos were copied under unrelated filenames and target words, then rerated on Iconicity, Sensorimotor imagery, and Cultural familiarity.</p>
+        </div>
+        <a class="nav-link" href="dashboard.html">Dashboard</a>
+      </header>
+
+      <section id="summaryGrid" class="summary-grid" aria-label="Summary"></section>
+
+      <section class="chart-panel">
+        <div class="section-head">
+          <h2>High Scores Despite Unrelated Labels</h2>
+          <div class="legend">
+            <span><i class="swatch flash"></i>Flash</span>
+            <span><i class="swatch pro"></i>Pro</span>
+          </div>
+        </div>
+        <canvas id="highScoreChart" width="900" height="330"></canvas>
+      </section>
+
+      <section class="table-panel">
+        <div class="section-head">
+          <h2>Test Items</h2>
+          <span id="itemCount"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Test word</th>
+                <th>Original video</th>
+                <th>Flash I/S/C</th>
+                <th>Pro I/S/C</th>
+                <th>High scores</th>
+              </tr>
+            </thead>
+            <tbody id="itemsBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="detailPanel" class="detail-panel" aria-label="Probe item details"></section>
+    </main>
+
+    <script src="unrelated-probe-data.js"></script>
+    <script src="unrelated-probe.js"></script>
+  </body>
+</html>

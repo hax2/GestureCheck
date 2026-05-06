@@ -1,0 +1,26 @@
+{
+  "target_word": "Cloud",
+  "video_file": "01_cloud.avi",
+  "brief_gesture_description": "The actor moves her right hand in a circular, sweeping motion in the air, mimicking the shape or movement of a cloud.",
+  "ratings": {
+    "iconicity": {
+      "score": 4,
+      "rationale": "The circular, soft, and sweeping motion of the hand effectively mimics the shape and drifting nature of a cloud."
+    },
+    "sensorimotor_imagery": {
+      "score": 3,
+      "rationale": "The gesture simulates the visual perception of a cloud moving through the sky, though it lacks a strong tactile or physical interaction component."
+    },
+    "cultural_familiarity": {
+      "score": 4,
+      "rationale": "Describing a cloud with a sweeping, rounded hand motion is a common and intuitive way to represent the concept in Western culture."
+    }
+  },
+  "coherence_check": {
+    "is_video_interpretable": true,
+    "possible_ambiguities": [
+      "The gesture could potentially be interpreted as 'smoke' or 'fog' due to the similar visual characteristics."
+    ],
+    "confidence": "high"
+  }
+}
