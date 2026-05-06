@@ -3,6 +3,7 @@ window.SURVEY_CONFIG = {
   // Add a POST endpoint here if you want automatic collection.
   submitUrl: "https://script.google.com/macros/s/AKfycbwA8kJntiYR5wYe7OAAhNblfEltTZLJW5VqNbyK70PUpDy6l3NL98y8KfxdsBn-qspl/exec",
   submitMode: "no-cors",
+  submitEachResponse: true,
 
   // Optional. If set, the final screen links back with ?cc=<completionCode>.
   completionUrl: "",

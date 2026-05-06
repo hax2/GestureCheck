@@ -4,6 +4,7 @@
     assetBaseUrl: "assets/rating-videos/",
     submitUrl: "",
     submitMode: "cors",
+    submitEachResponse: false,
     completionUrl: "",
     completionCode: "GESTURE-RATING-COMPLETE",
     minWatchRatio: 0.8,
@@ -175,6 +176,15 @@
     return `${item.collection || "video"}::${item.title}`;
   }
 
+  function responseId(item) {
+    return [
+      state.participant.participantId || "anonymous",
+      state.participant.sessionId || "session",
+      item.collection || "video",
+      item.title || "untitled",
+    ].join("::");
+  }
+
   function restoreForm(item) {
     ratingForm.reset();
     const saved = state.responses[responseKey(item)];
@@ -254,7 +264,8 @@
       ratings[category.key] = Number(formData.get(category.key));
     });
 
-    state.responses[responseKey(item)] = {
+    const response = {
+      response_id: responseId(item),
       participant_id: state.participant.participantId,
       study_id: state.participant.studyId,
       session_id: state.participant.sessionId,
@@ -271,7 +282,9 @@
       response_seconds: Math.round((Date.now() - state.videoStartedAt) / 1000),
       submitted_at: new Date().toISOString(),
     };
+    state.responses[responseKey(item)] = response;
     saveState();
+    return response;
   }
 
   function validateForm() {
@@ -330,14 +343,18 @@
     return [header.join(","), ...body].join("\n");
   }
 
-  function jsonData() {
+  function payloadFor(responses) {
+    return {
+      participant: state.participant,
+      session_started_at: state.sessionStartedAt,
+      exported_at: new Date().toISOString(),
+      responses,
+    };
+  }
+
+  function jsonData(responses = rows()) {
     return JSON.stringify(
-      {
-        participant: state.participant,
-        session_started_at: state.sessionStartedAt,
-        exported_at: new Date().toISOString(),
-        responses: rows(),
-      },
+      payloadFor(responses),
       null,
       2,
     );
@@ -365,6 +382,10 @@
     submitButton.disabled = !config.submitUrl;
     if (!config.submitUrl) {
       submitStatus.textContent = "No submission endpoint is configured. Use CSV or JSON download.";
+    } else if (config.submitEachResponse) {
+      submitButton.disabled = true;
+      submitButton.textContent = "Submitted as you go";
+      submitStatus.textContent = "Each saved video response is submitted automatically. Download CSV/JSON as a backup.";
     }
 
     const returnUrl = query().get("return") || config.completionUrl;
@@ -379,13 +400,7 @@
     submitButton.disabled = true;
     submitStatus.textContent = "Submitting...";
     try {
-      const response = await fetch(config.submitUrl, {
-        method: "POST",
-        mode: config.submitMode,
-        headers: { "Content-Type": "text/plain;charset=utf-8" },
-        body: jsonData(),
-      });
-      if (config.submitMode !== "no-cors" && !response.ok) throw new Error(`HTTP ${response.status}`);
+      await postResponses(rows());
       submitStatus.textContent =
         config.submitMode === "no-cors"
           ? "Submitted. Download CSV/JSON as a backup if this is a pilot run."
@@ -394,6 +409,23 @@
       submitStatus.textContent = `Submission failed: ${error.message}. Download CSV/JSON as backup.`;
       submitButton.disabled = false;
     }
+  }
+
+  async function postResponses(responses) {
+    const response = await fetch(config.submitUrl, {
+      method: "POST",
+      mode: config.submitMode,
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: jsonData(responses),
+    });
+    if (config.submitMode !== "no-cors" && !response.ok) throw new Error(`HTTP ${response.status}`);
+  }
+
+  function submitResponseInBackground(response) {
+    if (!config.submitUrl || !config.submitEachResponse) return;
+    postResponses([response]).catch((error) => {
+      formWarning.textContent = `Saved locally, but Sheet submission failed: ${error.message}.`;
+    });
   }
 
   async function loadManifest() {
@@ -432,7 +464,8 @@
   ratingForm.addEventListener("submit", (event) => {
     event.preventDefault();
     if (!validateForm()) return;
-    collectCurrentResponse();
+    const response = collectCurrentResponse();
+    submitResponseInBackground(response);
     state.index += 1;
     saveState();
     renderVideo();

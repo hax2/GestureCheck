@@ -23,6 +23,7 @@ const HEADERS = [
   "submitted_at",
   "participant_notes",
   "raw_payload",
+  "response_id",
 ];
 
 function doGet() {
@@ -43,11 +44,12 @@ function doPost(event) {
     }
 
     const sheet = getResponseSheet();
-    sheet.getRange(sheet.getLastRow() + 1, 1, rows.length, HEADERS.length).setValues(rows);
+    const result = upsertRows(sheet, rows);
 
     return jsonResponse({
       ok: true,
-      inserted_rows: rows.length,
+      inserted_rows: result.inserted,
+      updated_rows: result.updated,
       participant_id: payload.participant && payload.participant.participantId,
     });
   } catch (error) {
@@ -92,7 +94,17 @@ function normalizeRows(payload) {
     response.submitted_at || "",
     participant.notes || "",
     rawPayload,
+    response.response_id || buildResponseId(response, participant),
   ]);
+}
+
+function buildResponseId(response, participant) {
+  return [
+    response.participant_id || participant.participantId || "anonymous",
+    response.session_id || participant.sessionId || "session",
+    response.collection || "video",
+    response.title || "untitled",
+  ].join("::");
 }
 
 function getRating(response, key) {
@@ -110,14 +122,62 @@ function getResponseSheet() {
     sheet = spreadsheet.insertSheet(SHEET_NAME);
   }
 
-  const existingHeaders = sheet.getRange(1, 1, 1, HEADERS.length).getValues()[0];
-  const needsHeaders = existingHeaders.every((value) => value === "");
-  if (needsHeaders) {
-    sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]);
-    sheet.setFrozenRows(1);
-  }
+  ensureHeaders(sheet);
 
   return sheet;
+}
+
+function ensureHeaders(sheet) {
+  const width = Math.max(sheet.getLastColumn(), HEADERS.length);
+  const existingHeaders = sheet.getRange(1, 1, 1, width).getValues()[0];
+  const hasAnyHeader = existingHeaders.some((value) => value !== "");
+
+  if (!hasAnyHeader) {
+    sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]);
+    sheet.setFrozenRows(1);
+    return;
+  }
+
+  HEADERS.forEach((header, index) => {
+    if (existingHeaders[index] !== header) {
+      sheet.getRange(1, index + 1).setValue(header);
+    }
+  });
+  sheet.setFrozenRows(1);
+}
+
+function upsertRows(sheet, rows) {
+  const responseIdColumn = HEADERS.indexOf("response_id") + 1;
+  const lastRow = sheet.getLastRow();
+  const existing = {};
+
+  if (lastRow > 1) {
+    const values = sheet.getRange(2, responseIdColumn, lastRow - 1, 1).getValues();
+    values.forEach((row, index) => {
+      const responseId = row[0];
+      if (responseId) {
+        existing[responseId] = index + 2;
+      }
+    });
+  }
+
+  let inserted = 0;
+  let updated = 0;
+  rows.forEach((row) => {
+    const responseId = row[responseIdColumn - 1];
+    const existingRow = existing[responseId];
+    if (existingRow) {
+      sheet.getRange(existingRow, 1, 1, HEADERS.length).setValues([row]);
+      updated += 1;
+    } else {
+      const nextRow = sheet.getLastRow() + 1;
+      sheet.getRange(nextRow, 1, 1, HEADERS.length).setValues([row]);
+      existing[responseId] = nextRow;
+      inserted += 1;
+    }
+  });
+
+  return { inserted, updated };
 }
 
 function jsonResponse(payload) {

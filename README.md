@@ -87,6 +87,7 @@ Expected config:
 window.SURVEY_CONFIG = {
   submitUrl: "https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec",
   submitMode: "no-cors",
+  submitEachResponse: true,
   completionUrl: "",
   completionCode: "GESTURE-RATING-COMPLETE",
   manifestUrl: "all_rating_videos.json",
@@ -96,6 +97,8 @@ window.SURVEY_CONFIG = {
 ```
 
 The Apps Script creates or reuses a `responses` sheet and writes one spreadsheet row per rated video. The survey still provides CSV/JSON downloads as a backup.
+
+With `submitEachResponse: true`, each video response is sent to Google Sheets immediately after the participant saves that video. The final screen does not resubmit the full survey in this mode. The Apps Script uses `response_id` to update an existing row if the same participant/session/video is submitted again.
 
 Browser playback should use MP4 or WebM, not AVI. Convert local manifest videos into deployable MP4 assets with:
 
