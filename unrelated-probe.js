@@ -3,7 +3,7 @@ const probeRows = probeData.rows || [];
 const probeRatings = probeData.ratings || [];
 
 const summaryGrid = document.getElementById("summaryGrid");
-const highScoreChart = document.getElementById("highScoreChart");
+const analysisBody = document.getElementById("analysisBody");
 const itemsBody = document.getElementById("itemsBody");
 const itemCount = document.getElementById("itemCount");
 const detailPanel = document.getElementById("detailPanel");
@@ -25,6 +25,58 @@ function average(values) {
 
 function fmt(value) {
   return Number.isInteger(value) ? String(value) : value.toFixed(2);
+}
+
+function scoreBadge(score) {
+  const tone = score >= 4 ? "high" : score <= 2 ? "low" : "mid";
+  return `<span class="score-badge ${tone}">${score}</span>`;
+}
+
+function scoreBadges(row, model) {
+  return scores(row, model).map(scoreBadge).join("");
+}
+
+function modelSummary(row, model) {
+  const modelScores = scores(row, model);
+  const mean = average(modelScores);
+  return {
+    mean,
+    high: highCount(row, model),
+  };
+}
+
+function readForRow(row) {
+  const flash = modelSummary(row, "flash");
+  const pro = modelSummary(row, "pro");
+  const highDifference = Math.abs(flash.high - pro.high);
+  const meanDifference = Math.abs(flash.mean - pro.mean);
+
+  if (flash.high >= 2 && pro.high >= 2) {
+    return {
+      label: "Both rate the unrelated label highly",
+      tone: "hot",
+      detail: `Flash ${flash.high}/3 high, Pro ${pro.high}/3 high`,
+    };
+  }
+  if (highDifference >= 2 || meanDifference >= 1.5) {
+    return {
+      label: "Model split",
+      tone: "split",
+      detail: `Flash avg ${fmt(flash.mean)}, Pro avg ${fmt(pro.mean)}`,
+    };
+  }
+  if (flash.high <= 1 && pro.high <= 1) {
+    return {
+      label: "Mostly rejected",
+      tone: "cool",
+      detail: `Only ${flash.high + pro.high} of 6 ratings were high`,
+    };
+  }
+  return {
+    label: "Mixed signal",
+    tone: "mixed",
+    detail: `Flash ${flash.high}/3 high, Pro ${pro.high}/3 high`,
+  };
 }
 
 function renderSummary() {
@@ -51,53 +103,33 @@ function renderSummary() {
     .join("");
 }
 
-function drawHighScoreChart() {
-  const context = highScoreChart.getContext("2d");
-  const width = highScoreChart.width;
-  const height = highScoreChart.height;
-  context.clearRect(0, 0, width, height);
-  context.fillStyle = "#ffffff";
-  context.fillRect(0, 0, width, height);
-
-  const padding = { top: 20, right: 24, bottom: 82, left: 40 };
-  const chartWidth = width - padding.left - padding.right;
-  const chartHeight = height - padding.top - padding.bottom;
-  const max = 3;
-
-  context.strokeStyle = "#d7dee3";
-  context.lineWidth = 1;
-  context.font = "12px Inter, system-ui, sans-serif";
-  for (let i = 1; i <= max; i += 1) {
-    const y = padding.top + chartHeight - (i / max) * chartHeight;
-    context.beginPath();
-    context.moveTo(padding.left, y);
-    context.lineTo(width - padding.right, y);
-    context.stroke();
-    context.fillStyle = "#64717a";
-    context.fillText(String(i), 12, y + 4);
-  }
-
-  const groupWidth = chartWidth / probeRows.length;
-  const barWidth = Math.max(10, Math.min(24, groupWidth / 3));
+function renderAnalysis() {
+  analysisBody.innerHTML = "";
   probeRows.forEach((row, index) => {
-    [
-      ["flash", "#1d6f72"],
-      ["pro", "#8a5a1f"],
-    ].forEach(([model, color], modelIndex) => {
-      const value = highCount(row, model);
-      const x = padding.left + index * groupWidth + groupWidth / 2 - barWidth + modelIndex * barWidth;
-      const barHeight = (value / max) * chartHeight;
-      const y = padding.top + chartHeight - barHeight;
-      context.fillStyle = color;
-      context.fillRect(x, y, barWidth - 2, barHeight);
+    const flash = modelSummary(row, "flash");
+    const pro = modelSummary(row, "pro");
+    const read = readForRow(row);
+    const tr = document.createElement("tr");
+    tr.className = index === currentIndex ? "active" : "";
+    tr.innerHTML = `
+      <td><strong>${row.target_word}</strong><br><span class="file-meta">${row.test_title}</span></td>
+      <td>${row.original_title}</td>
+      <td>
+        <div class="score-badges" aria-label="Flash scores">${scoreBadges(row, "flash")}</div>
+        <span class="analysis-note">avg ${fmt(flash.mean)}, ${flash.high}/3 high</span>
+      </td>
+      <td>
+        <div class="score-badges" aria-label="Pro scores">${scoreBadges(row, "pro")}</div>
+        <span class="analysis-note">avg ${fmt(pro.mean)}, ${pro.high}/3 high</span>
+      </td>
+      <td><span class="read-pill ${read.tone}">${read.label}</span><br><span class="analysis-note">${read.detail}</span></td>
+    `;
+    tr.addEventListener("click", () => {
+      currentIndex = index;
+      render();
     });
-
-    context.fillStyle = "#64717a";
-    context.textAlign = "center";
-    const label = row.target_word.length > 10 ? row.target_word.slice(0, 10) : row.target_word;
-    context.fillText(label, padding.left + index * groupWidth + groupWidth / 2, height - 22);
+    analysisBody.appendChild(tr);
   });
-  context.textAlign = "left";
 }
 
 function renderTable() {
@@ -164,7 +196,7 @@ function renderDetail() {
 
 function render() {
   renderSummary();
-  drawHighScoreChart();
+  renderAnalysis();
   renderTable();
   renderDetail();
 }

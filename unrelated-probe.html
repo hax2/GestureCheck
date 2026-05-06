@@ -19,15 +19,25 @@
 
       <section id="summaryGrid" class="summary-grid" aria-label="Summary"></section>
 
-      <section class="chart-panel">
+      <section class="analysis-panel">
         <div class="section-head">
-          <h2>High Scores Despite Unrelated Labels</h2>
-          <div class="legend">
-            <span><i class="swatch flash"></i>Flash</span>
-            <span><i class="swatch pro"></i>Pro</span>
-          </div>
+          <h2>Probe Analysis</h2>
+          <span>Scores are Iconicity / Sensorimotor / Cultural familiarity</span>
         </div>
-        <canvas id="highScoreChart" width="900" height="330"></canvas>
+        <div class="table-wrap analysis-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Unrelated label</th>
+                <th>Original video</th>
+                <th>Flash</th>
+                <th>Pro</th>
+                <th>Read</th>
+              </tr>
+            </thead>
+            <tbody id="analysisBody"></tbody>
+          </table>
+        </div>
       </section>
 
       <section class="table-panel">
