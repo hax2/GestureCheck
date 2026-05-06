@@ -94,7 +94,6 @@ h2 {
 }
 
 .summary-grid article,
-.interpretation-panel,
 .analysis-panel,
 .table-panel,
 .detail-panel {
@@ -126,54 +125,6 @@ h2 {
   margin-top: 6px;
   color: var(--muted);
   font-size: 12px;
-}
-
-.interpretation-panel {
-  padding: 14px;
-  margin-bottom: 14px;
-}
-
-.interpretation-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin-top: 12px;
-}
-
-.interpretation-grid article {
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 14px;
-  background: var(--surface-soft);
-}
-
-.interpretation-grid .interpretation-lead {
-  grid-column: span 2;
-}
-
-.interpretation-grid h3 {
-  margin: 0 0 8px;
-  font-size: 14px;
-}
-
-.interpretation-grid p,
-.interpretation-grid ul {
-  margin: 0;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.45;
-}
-
-.interpretation-grid p + p {
-  margin-top: 9px;
-}
-
-.interpretation-grid ul {
-  padding-left: 18px;
-}
-
-.interpretation-grid li + li {
-  margin-top: 5px;
 }
 
 .analysis-panel,
@@ -372,14 +323,9 @@ tbody tr.active {
 
 @media (max-width: 900px) {
   .summary-grid,
-  .interpretation-grid,
   .detail-grid,
   .rationale-grid {
     grid-template-columns: 1fr;
-  }
-
-  .interpretation-grid .interpretation-lead {
-    grid-column: auto;
   }
 
   .masthead,
