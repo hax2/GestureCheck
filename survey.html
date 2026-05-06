@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gesture Rating Survey</title>
+    <link rel="stylesheet" href="survey.css">
+  </head>
+  <body>
+    <main class="survey-shell">
+      <section id="introScreen" class="screen intro-screen">
+        <div class="hero-card">
+          <p class="eyebrow">Human Gesture Rating</p>
+          <h1>Rate short gesture videos for vocabulary learning</h1>
+          <p class="lede">
+            You will watch short videos and rate each gesture on three 1-5 scales.
+            Use the target word shown with each video as the intended meaning.
+          </p>
+
+          <div class="rubric-preview" aria-label="Rating categories">
+            <article>
+              <h2>Iconicity</h2>
+              <p>How much the gesture visually resembles the meaning of the target word.</p>
+            </article>
+            <article>
+              <h2>Sensorimotor Imagery</h2>
+              <p>How strongly the gesture evokes bodily action, physical interaction, or perceptual experience.</p>
+            </article>
+            <article>
+              <h2>Cultural Familiarity</h2>
+              <p>How recognizable the gesture is in Western cultural contexts.</p>
+            </article>
+          </div>
+
+          <form id="participantForm" class="participant-form">
+            <label>
+              Participant ID
+              <input id="participantId" name="participantId" autocomplete="off" placeholder="Auto-filled from Prolific if available">
+            </label>
+            <label>
+              Notes for this session, optional
+              <input id="sessionNotes" name="sessionNotes" autocomplete="off" placeholder="e.g. pilot batch A">
+            </label>
+            <button class="primary-button" type="submit">Start rating</button>
+          </form>
+
+          <p class="fine-print">
+            Your progress is autosaved in this browser. At the end, download the CSV/JSON results or submit to the configured collection endpoint.
+          </p>
+        </div>
+      </section>
+
+      <section id="ratingScreen" class="screen rating-screen hidden">
+        <header class="survey-topbar">
+          <div>
+            <p id="progressText" class="eyebrow"></p>
+            <h1 id="targetWord"></h1>
+            <p id="videoTitle" class="muted"></p>
+          </div>
+          <div class="progress-wrap" aria-label="Survey progress">
+            <div id="progressBar" class="progress-bar"></div>
+          </div>
+        </header>
+
+        <div class="rating-layout">
+          <section class="video-card" aria-label="Video stimulus">
+            <video id="videoPlayer" controls playsinline preload="metadata"></video>
+            <div class="watch-status">
+              <span id="watchStatus">Watch at least 80% of the video before continuing.</span>
+              <button id="replayButton" type="button">Replay</button>
+            </div>
+          </section>
+
+          <form id="ratingForm" class="rating-form">
+            <div id="rubricGrid" class="rubric-grid"></div>
+
+            <label class="full-width">
+              Briefly describe what the gesture shows
+              <textarea id="gestureDescription" rows="3" required placeholder="Example: The actor points upward and traces a rectangular shape."></textarea>
+            </label>
+
+            <label class="full-width">
+              Ambiguities or comments, optional
+              <textarea id="ambiguities" rows="2" placeholder="Anything unclear, culturally specific, or hard to interpret?"></textarea>
+            </label>
+
+            <div id="formWarning" class="form-warning" role="status"></div>
+
+            <div class="nav-row">
+              <button id="backButton" type="button">Back</button>
+              <button id="nextButton" class="primary-button" type="submit">Save and continue</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="doneScreen" class="screen done-screen hidden">
+        <div class="hero-card">
+          <p class="eyebrow">Complete</p>
+          <h1>Ratings captured</h1>
+          <p class="lede">Export the results for analysis. If a collection endpoint is configured, you can also submit directly.</p>
+          <div id="summaryStats" class="summary-stats"></div>
+          <div class="export-actions">
+            <button id="downloadCsvButton" class="primary-button" type="button">Download CSV</button>
+            <button id="downloadJsonButton" type="button">Download JSON</button>
+            <button id="submitButton" type="button">Submit results</button>
+          </div>
+          <p id="submitStatus" class="fine-print"></p>
+          <a id="completionLink" class="completion-link hidden" href="#">Return to study platform</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="survey-config.js"></script>
+    <script src="survey.js"></script>
+  </body>
+</html>

@@ -28,6 +28,79 @@ The local questionnaire in `Gesture Rating Sheet.docx` was converted into a stru
 - cultural familiarity
 - enactment potential
 
+## Human Rating Survey
+
+The repository also contains a GitHub Pages-compatible human rating app:
+
+- `survey.html`
+- `survey.css`
+- `survey.js`
+- `survey-config.js`
+- `all_rating_videos.json`
+- `assets/rating-videos/`
+
+Open it locally through a static server:
+
+```bash
+python3 -m http.server 8765
+```
+
+Then visit:
+
+```text
+http://127.0.0.1:8765/survey.html
+```
+
+Useful URL parameters:
+
+- `?limit=10`: show only the first 10 videos from the manifest.
+- `?order=fixed`: disable participant-specific randomization.
+- `?participant_id=...&study_id=...&session_id=...`: identifiers are captured automatically.
+- `?return=https://...`: show a completion return link after export/submission.
+- `?manifest=custom.json`: use a different manifest with the same fields.
+
+The app uses the same three rubric categories as `prompts/gesture_rating_prompt_three_categories.md`:
+
+- iconicity
+- sensorimotor imagery
+- cultural familiarity
+
+Because GitHub Pages is static hosting, it cannot store submitted survey responses by itself. The included collection path is Google Apps Script writing to Google Sheets.
+
+Google Sheets setup:
+
+1. Create a new Google Sheet.
+2. Open Extensions > Apps Script.
+3. Replace the default script with `google-apps-script/Code.gs`.
+4. Click Deploy > New deployment.
+5. Choose type: Web app.
+6. Execute as: Me.
+7. Who has access: Anyone.
+8. Deploy and copy the Web app URL ending in `/exec`.
+9. Paste that URL into `submitUrl` in `survey-config.js`.
+
+Expected config:
+
+```js
+window.SURVEY_CONFIG = {
+  submitUrl: "https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec",
+  submitMode: "no-cors",
+  completionUrl: "",
+  completionCode: "GESTURE-RATING-COMPLETE",
+  manifestUrl: "all_rating_videos.json",
+  assetBaseUrl: "assets/rating-videos/",
+  minWatchRatio: 0.8,
+};
+```
+
+The Apps Script creates or reuses a `responses` sheet and writes one spreadsheet row per rated video. The survey still provides CSV/JSON downloads as a backup.
+
+Browser playback should use MP4 or WebM, not AVI. Convert local manifest videos into deployable MP4 assets with:
+
+```bash
+python3 scripts/build_rating_videos.py --manifest all_rating_videos.json --output-dir assets/rating-videos --jobs 4
+```
+
 ## Files
 
 - `prompts/gesture_rating_prompt.md`: prompt template based on the attached human rating sheet.
