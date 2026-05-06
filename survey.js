@@ -280,7 +280,7 @@
       return false;
     }
     if (!ratingForm.reportValidity()) {
-      formWarning.textContent = "Please complete all required ratings and the brief gesture description.";
+      formWarning.textContent = "Please complete all required ratings.";
       return false;
     }
     formWarning.textContent = "";
