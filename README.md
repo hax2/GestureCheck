@@ -10,6 +10,8 @@ The repository root contains a static results viewer for GitHub Pages:
 - `app.js`
 - `styles.css`
 - `results-data.js`
+- `generated-videos.html`
+- `generated-videos.css`
 - `assets/videos/`
 
 To publish it, configure GitHub Pages to deploy from the `main` branch and root directory. The page will be available at:
