@@ -18,6 +18,13 @@
       definition: "The degree to which the gesture visually resembles the meaning of the target word.",
       low: "1 = no visual relationship",
       high: "5 = highly transparent visual representation",
+      anchors: [
+        "1: no visual relationship to the semantics",
+        "2: very weak resemblance",
+        "3: moderate resemblance",
+        "4: clear iconic relationship",
+        "5: highly transparent visual representation of semantics",
+      ],
     },
     {
       key: "sensorimotor_imagery",
@@ -25,13 +32,83 @@
       definition: "The extent to which the gesture evokes bodily actions, physical interactions, or perceptual experiences related to the word.",
       low: "1 = no bodily/action component",
       high: "5 = vivid action or bodily experience",
+      anchors: [
+        "1: no sensorimotor component",
+        "2: weak bodily or action-related element",
+        "3: moderate simulation of action or experience",
+        "4: strong sensorimotor imagery",
+        "5: very vivid action or bodily experience representation",
+      ],
+    },
+    {
+      key: "motional_salience_gesture",
+      label: "Motional Salience",
+      definition: "How strongly the gesture stands out based on movement features such as large, fast, or complex actions, thereby guiding attention and supporting encoding.",
+      low: "1 = subtle/minimal movement",
+      high: "5 = visually commanding gesture",
+      anchors: [
+        "1: subtle, constrained, or minimal movement",
+        "2: slight or slow movement dynamics",
+        "3: moderate movement in size, speed, or complexity",
+        "4: clear, pronounced, expansive, or rapid movement",
+        "5: highly prominent and visually commanding gesture",
+      ],
+    },
+    {
+      key: "emotional_salience_facial_expression",
+      label: "Emotional Salience: Facial Expression",
+      definition: "The extent to which facial expressions accompanying the gesture communicate affective meaning.",
+      low: "1 = neutral/no expression",
+      high: "5 = very strong facial expression",
+      anchors: [
+        "1: no facial expression or neutral face",
+        "2: weak emotional cue",
+        "3: moderate emotional cue",
+        "4: clear facial emotional signal",
+        "5: very strong and meaningful facial expression",
+      ],
+    },
+    {
+      key: "gesture_complexity_fit",
+      label: "Gesture Complexity Fit",
+      definition: "The degree to which the gesture's motor and cognitive complexity is appropriate for the learning context.",
+      low: "1 = too complex/confusing",
+      high: "5 = optimal balance",
+      anchors: [
+        "1: too complex or confusing",
+        "2: somewhat difficult or overloaded",
+        "3: moderate complexity",
+        "4: well balanced complexity",
+        "5: optimal balance of informativeness and simplicity",
+      ],
     },
     {
       key: "cultural_familiarity",
       label: "Cultural Familiarity",
-      definition: "How readily the gesture is recognized from shared sociocultural conventions and prior experience in Western cultural contexts.",
+      definition: "How readily the gesture is recognized and interpreted based on shared sociocultural conventions and prior experience in Western cultural contexts.",
       low: "1 = completely unfamiliar",
       high: "5 = highly familiar or widely used",
+      anchors: [
+        "1: completely unfamiliar gesture",
+        "2: rare or unusual gesture",
+        "3: somewhat recognizable",
+        "4: common gesture",
+        "5: highly familiar or widely used gesture",
+      ],
+    },
+    {
+      key: "enactment_potential",
+      label: "Enactment Potential",
+      definition: "How easily learners can reproduce the gesture themselves.",
+      low: "1 = very difficult",
+      high: "5 = natural and effortless",
+      anchors: [
+        "1: very difficult to reproduce",
+        "2: difficult for many learners",
+        "3: moderate difficulty",
+        "4: easy to reproduce",
+        "5: very natural and effortless to enact",
+      ],
     },
   ];
 
@@ -163,6 +240,9 @@
             .join("")}
         </div>
         <div class="scale-labels"><span>${category.low}</span><span>${category.high}</span></div>
+        <ol class="anchor-list">
+          ${category.anchors.map((anchor) => `<li>${anchor}</li>`).join("")}
+        </ol>
       `;
       rubricGrid.appendChild(card);
     });
@@ -325,7 +405,11 @@
       "order_index",
       "iconicity",
       "sensorimotor_imagery",
+      "motional_salience_gesture",
+      "emotional_salience_facial_expression",
+      "gesture_complexity_fit",
       "cultural_familiarity",
+      "enactment_potential",
       "gesture_description",
       "ambiguities",
       "watch_seconds",

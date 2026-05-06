@@ -61,11 +61,15 @@ Useful URL parameters:
 - `?return=https://...`: show a completion return link after export/submission.
 - `?manifest=custom.json`: use a different manifest with the same fields.
 
-The app uses the same three rubric categories as `prompts/gesture_rating_prompt_three_categories.md`:
+The app uses the seven 1-5 rating dimensions from the human rating rubric:
 
 - iconicity
 - sensorimotor imagery
+- motional salience of the gesture
+- emotional salience of the facial expression
+- gesture complexity fit
 - cultural familiarity
+- enactment potential
 
 Because GitHub Pages is static hosting, it cannot store submitted survey responses by itself. The included collection path is Google Apps Script writing to Google Sheets.
 

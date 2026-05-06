@@ -278,6 +278,18 @@ video {
   text-transform: uppercase;
 }
 
+.anchor-list {
+  margin: 12px 0 0;
+  padding-left: 18px;
+  color: #59645f;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.anchor-list li + li {
+  margin-top: 4px;
+}
+
 .full-width {
   grid-column: 1 / -1;
 }
