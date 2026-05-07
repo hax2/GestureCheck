@@ -62,18 +62,11 @@
 
       <section id="tutorialScreen" class="screen tutorial-screen hidden">
         <div class="hero-card tutorial-card">
-          <p class="eyebrow">Rating Tutorial</p>
-          <h1>How to use the 1-5 scales</h1>
-          <p class="lede">
-            Read each definition before starting. During the survey, the same scale anchors will appear next to every video.
-          </p>
-          <div id="tutorialGrid" class="tutorial-grid"></div>
-          <div class="tutorial-confirm">
-            <label class="checkbox-label">
-              <input id="tutorialConfirm" type="checkbox">
-              I have read the category definitions and will use the target word as the semantic reference.
-            </label>
-            <button id="startRatingButton" class="primary-button" type="button" disabled>Start rating videos</button>
+          <p id="tutorialStepText" class="eyebrow">Rating Tutorial</p>
+          <div id="tutorialPanel" class="tutorial-panel"></div>
+          <div class="tutorial-nav">
+            <button id="tutorialBackButton" type="button">Back</button>
+            <button id="tutorialNextButton" class="primary-button" type="button">Next</button>
           </div>
         </div>
       </section>
@@ -94,7 +87,7 @@
           <section class="video-card" aria-label="Video stimulus">
             <video id="videoPlayer" controls playsinline preload="metadata"></video>
             <div class="watch-status">
-              <span id="watchStatus">Watch at least 80% of the video before continuing.</span>
+              <span id="watchStatus">Watch at least 50% of the video before continuing.</span>
               <button id="replayButton" type="button">Replay</button>
             </div>
           </section>

@@ -7,8 +7,9 @@
     submitEachResponse: false,
     completionUrl: "",
     completionCode: "GESTURE-RATING-COMPLETE",
-    minWatchRatio: 0.8,
+    minWatchRatio: 0.5,
     blockSize: 20,
+    tutorialReferenceTitles: ["01_TrafficLight.avi", "21_Cable.avi"],
     ...window.SURVEY_CONFIG,
   };
 
@@ -121,6 +122,9 @@
     responses: {},
     block: null,
     totalVideos: 0,
+    fullManifest: [],
+    tutorialIndex: 0,
+    tutorialReference: null,
     currentWatchSeconds: 0,
     currentMaxTime: 0,
     videoStartedAt: 0,
@@ -137,9 +141,10 @@
   const sessionNotes = $("sessionNotes");
   const blockSummary = $("blockSummary");
   const blockLinks = $("blockLinks");
-  const tutorialGrid = $("tutorialGrid");
-  const tutorialConfirm = $("tutorialConfirm");
-  const startRatingButton = $("startRatingButton");
+  const tutorialStepText = $("tutorialStepText");
+  const tutorialPanel = $("tutorialPanel");
+  const tutorialBackButton = $("tutorialBackButton");
+  const tutorialNextButton = $("tutorialNextButton");
   const progressText = $("progressText");
   const progressBar = $("progressBar");
   const targetWord = $("targetWord");
@@ -229,23 +234,77 @@
     screen.classList.remove("hidden");
   }
 
+  function tutorialSteps() {
+    return [
+      {
+        type: "video",
+        title: "Reference video",
+        body: "Use this sample video to get oriented. It is not part of your assigned rating block. In the survey, always rate the gesture relative to the target word shown above the video.",
+      },
+      ...categories.map((category, index) => ({
+        type: "category",
+        index,
+        category,
+      })),
+      {
+        type: "ready",
+        title: "Ready to rate",
+        body: "You will now rate your assigned videos. Watch at least 50% of each video, then answer all seven scales. Brief descriptions and comments are optional.",
+      },
+    ];
+  }
+
   function renderTutorial() {
-    tutorialGrid.innerHTML = "";
-    categories.forEach((category, index) => {
-      const card = document.createElement("article");
-      card.className = "tutorial-category";
-      card.innerHTML = `
-        <div class="tutorial-number">${index + 1}</div>
+    const steps = tutorialSteps();
+    const step = steps[state.tutorialIndex];
+    tutorialStepText.textContent = `Tutorial ${state.tutorialIndex + 1} of ${steps.length}`;
+    tutorialBackButton.disabled = state.tutorialIndex === 0;
+    tutorialNextButton.textContent = state.tutorialIndex === steps.length - 1 ? "Start rating videos" : "Next";
+
+    if (step.type === "video") {
+      const item = state.tutorialReference;
+      tutorialPanel.innerHTML = `
+        <div class="tutorial-single">
+          <div>
+            <h1>${step.title}</h1>
+            <p class="lede">${step.body}</p>
+            <p class="block-summary">${item ? `Target word: ${item.target_word || item.title}` : "Reference video loading"}</p>
+          </div>
+          <div class="tutorial-video-card">
+            <video controls playsinline preload="metadata" src="${item ? videoUrl(item) : ""}"></video>
+          </div>
+        </div>
+      `;
+      return;
+    }
+
+    if (step.type === "ready") {
+      tutorialPanel.innerHTML = `
+        <div class="tutorial-single">
+          <h1>${step.title}</h1>
+          <p class="lede">${step.body}</p>
+          <div class="tutorial-ready-note">
+            <strong>Reminder:</strong>
+            Use the target word as the semantic reference. Do not infer a different intended word.
+          </div>
+        </div>
+      `;
+      return;
+    }
+
+    const category = step.category;
+    tutorialPanel.innerHTML = `
+      <article class="tutorial-category single-step">
+        <div class="tutorial-number">${step.index + 1}</div>
         <div>
-          <h2>${category.label}</h2>
+          <h1>${category.label}</h1>
           <p>${category.definition}</p>
           <ol class="anchor-list">
             ${category.anchors.map((anchor) => `<li>${anchor}</li>`).join("")}
           </ol>
         </div>
-      `;
-      tutorialGrid.appendChild(card);
-    });
+      </article>
+    `;
   }
 
   function renderBlockLinks(totalVideos, blockSize) {
@@ -262,6 +321,24 @@
         }).join("")}
       </div>
     `;
+  }
+
+  function blockForIndex(index, blockSize) {
+    return Math.floor(index / blockSize) + 1;
+  }
+
+  function pickTutorialReference(fullManifest, assignedBlock, blockSize) {
+    const references = config.tutorialReferenceTitles
+      .map((title) => {
+        const index = fullManifest.findIndex((item) => item.title === title);
+        return index >= 0 ? { item: fullManifest[index], block: blockForIndex(index, blockSize) } : null;
+      })
+      .filter(Boolean);
+
+    const usable = references.find((reference) => !assignedBlock || reference.block !== assignedBlock);
+    if (usable) return usable.item;
+
+    return fullManifest.find((item, index) => !assignedBlock || blockForIndex(index, blockSize) !== assignedBlock) || fullManifest[0];
   }
 
   function renderRubric() {
@@ -326,7 +403,7 @@
     state.currentWatchSeconds = 0;
     state.currentMaxTime = 0;
     state.videoStartedAt = Date.now();
-    watchStatus.textContent = "Watch at least 80% of the video before continuing.";
+    watchStatus.textContent = "Watch at least 50% of the video before continuing.";
     formWarning.textContent = "";
   }
 
@@ -416,7 +493,7 @@
 
   function validateForm() {
     if (!watchedEnough()) {
-      formWarning.textContent = "Please watch at least 80% of the video before continuing.";
+      formWarning.textContent = "Please watch at least 50% of the video before continuing.";
       return false;
     }
     if (!ratingForm.reportValidity()) {
@@ -566,6 +643,7 @@
     const response = await fetch(manifestUrl);
     if (!response.ok) throw new Error(`Could not load ${manifestUrl}`);
     let videos = await response.json();
+    state.fullManifest = videos;
     state.totalVideos = videos.length;
     const block = Number(query().get("block") || 0);
     const blockSize = Number(query().get("block_size") || config.blockSize);
@@ -581,6 +659,7 @@
       blockSummary.textContent = `You are rating ${videos.length} videos. Use ?block=1, ?block=2, etc. to assign 20-video blocks.`;
     }
     renderBlockLinks(state.totalVideos, blockSize);
+    state.tutorialReference = pickTutorialReference(state.fullManifest, state.block, blockSize);
     const limit = Number(query().get("limit") || 0);
     if (limit > 0) videos = videos.slice(0, limit);
     state.videos = videos;
@@ -607,19 +686,25 @@
     loadState();
     if (!state.order.length) state.order = shuffledIndexes(state.videos.length, state.participant.participantId);
     saveState();
-    tutorialConfirm.checked = false;
-    startRatingButton.disabled = true;
+    state.tutorialIndex = 0;
+    renderTutorial();
     show(tutorialScreen);
   });
 
-  tutorialConfirm.addEventListener("change", () => {
-    startRatingButton.disabled = !tutorialConfirm.checked;
+  tutorialBackButton.addEventListener("click", () => {
+    state.tutorialIndex = Math.max(0, state.tutorialIndex - 1);
+    renderTutorial();
   });
 
-  startRatingButton.addEventListener("click", () => {
-    if (!tutorialConfirm.checked) return;
-    renderVideo();
-    show(ratingScreen);
+  tutorialNextButton.addEventListener("click", () => {
+    const lastIndex = tutorialSteps().length - 1;
+    if (state.tutorialIndex >= lastIndex) {
+      renderVideo();
+      show(ratingScreen);
+      return;
+    }
+    state.tutorialIndex += 1;
+    renderTutorial();
   });
 
   ratingForm.addEventListener("submit", (event) => {
@@ -656,7 +741,6 @@
   submitButton.addEventListener("click", submitResults);
 
   renderRubric();
-  renderTutorial();
   initParticipant();
   loadManifest().catch((error) => {
     document.body.innerHTML = `<main class="screen"><div class="hero-card"><h1>Survey failed to load</h1><p>${error.message}</p></div></main>`;

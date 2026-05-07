@@ -191,13 +191,14 @@ h2 {
 }
 
 .tutorial-card {
-  max-width: 1040px;
+  max-width: 980px;
+  margin: 3vh auto;
 }
 
-.tutorial-grid {
+.tutorial-panel {
+  min-height: min(560px, calc(100vh - 220px));
   display: grid;
-  gap: 14px;
-  margin: 30px 0;
+  align-items: center;
 }
 
 .tutorial-category {
@@ -208,6 +209,11 @@ h2 {
   border-radius: 18px;
   padding: 18px;
   background: rgba(233, 240, 220, 0.72);
+}
+
+.tutorial-category.single-step {
+  min-height: min(430px, calc(100vh - 280px));
+  align-items: start;
 }
 
 .tutorial-number {
@@ -225,15 +231,45 @@ h2 {
   font-size: 22px;
 }
 
+.tutorial-category h1,
+.tutorial-single h1 {
+  font-size: clamp(36px, 6vw, 64px);
+  letter-spacing: -0.04em;
+}
+
 .tutorial-category p {
   margin: 8px 0 0;
   color: var(--muted);
   line-height: 1.45;
 }
 
-.tutorial-confirm {
+.tutorial-single {
   display: grid;
-  gap: 14px;
+  gap: 22px;
+}
+
+.tutorial-video-card {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 12px;
+  background: var(--surface);
+}
+
+.tutorial-ready-note {
+  border: 1px solid rgba(180, 73, 35, 0.28);
+  border-radius: 18px;
+  padding: 18px;
+  background: rgba(180, 73, 35, 0.08);
+  color: #4b342c;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+.tutorial-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
 }
 
 .checkbox-label {

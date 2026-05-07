@@ -14,6 +14,7 @@ window.SURVEY_CONFIG = {
   assetBaseUrl: "assets/rating-videos/",
 
   // Participants must watch this fraction of each video before advancing.
-  minWatchRatio: 0.8,
+  minWatchRatio: 0.5,
   blockSize: 20,
+  tutorialReferenceTitles: ["01_TrafficLight.avi", "21_Cable.avi"],
 };
