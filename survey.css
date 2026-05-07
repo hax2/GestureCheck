@@ -353,8 +353,8 @@ textarea {
 
 .rating-layout {
   display: grid;
-  grid-template-columns: minmax(320px, 0.94fr) minmax(440px, 1.06fr);
-  gap: 20px;
+  grid-template-columns: minmax(300px, 0.82fr) minmax(520px, 1.18fr);
+  gap: 22px;
   align-items: start;
 }
 
@@ -396,6 +396,126 @@ video {
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 8px;
   margin-top: 14px;
+}
+
+.rating-form {
+  min-height: 640px;
+  grid-template-rows: minmax(0, 1fr) auto auto auto;
+}
+
+.rating-form.review-mode {
+  grid-template-rows: auto auto auto auto;
+}
+
+.rubric-grid {
+  display: block;
+}
+
+.rating-step-card,
+.rating-review {
+  min-height: 430px;
+  display: grid;
+  align-content: start;
+}
+
+.rating-step-head {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 16px;
+}
+
+.rating-step-head h2 {
+  margin: 0;
+  font-size: clamp(32px, 4.4vw, 54px);
+  letter-spacing: -0.035em;
+}
+
+.rating-step-head p:not(.eyebrow) {
+  margin: 10px 0 0;
+  color: #27332e;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+.score-row-large {
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.score-key {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  border-radius: 16px;
+  padding: 12px;
+  text-align: left;
+}
+
+.score-key.active {
+  border-color: var(--green);
+  background: #dfeede;
+  box-shadow: inset 0 0 0 2px rgba(47, 107, 79, 0.18);
+}
+
+.keycap {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: var(--ink);
+  color: #fff;
+  font: 800 20px/1 ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+.keyboard-hint {
+  margin: 14px 0 0;
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+.review-grid {
+  display: grid;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.review-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 14px;
+  align-items: center;
+  border-radius: 14px;
+  padding: 12px;
+  text-align: left;
+}
+
+.review-row small {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.review-row b {
+  min-width: 48px;
+  border-radius: 999px;
+  padding: 6px 9px;
+  background: var(--green);
+  color: #fff;
+  text-align: center;
+}
+
+.review-row em {
+  color: var(--accent-dark);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.hidden-field {
+  display: none;
 }
 
 .score-option input {

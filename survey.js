@@ -42,6 +42,15 @@
         next: "Next",
         saveContinue: "Save and continue",
         finishSurvey: "Finish survey",
+        confirmRating: "Confirm rating",
+        reviewRatings: "Review ratings",
+        edit: "Edit",
+        keyboardHint: "Keyboard: press 1-5 to rate, Enter to confirm, Backspace to go back.",
+        selectedRating: "Selected rating: {score}/5",
+        noRatingSelected: "Choose a rating from 1 to 5.",
+        ratingProgress: "Category {current} of {total}",
+        returnToReview: "Return to review",
+        saveVideo: "Save video and continue",
         startRating: "Start rating videos",
         tutorialStep: "Tutorial {current} of {total}",
         tutorialIntroTitle: "How the tutorial works",
@@ -143,6 +152,15 @@
       next: "Weiter",
       saveContinue: "Speichern und weiter",
       finishSurvey: "Studie abschließen",
+      confirmRating: "Bewertung bestätigen",
+      reviewRatings: "Bewertungen prüfen",
+      edit: "Bearbeiten",
+      keyboardHint: "Tastatur: 1-5 zum Bewerten, Enter zum Bestätigen, Rücktaste zurück.",
+      selectedRating: "Ausgewählte Bewertung: {score}/5",
+      noRatingSelected: "Wählen Sie eine Bewertung von 1 bis 5.",
+      ratingProgress: "Kategorie {current} von {total}",
+      returnToReview: "Zurück zur Übersicht",
+      saveVideo: "Video speichern und weiter",
       startRating: "Videos bewerten",
       tutorialStep: "Tutorial {current} von {total}",
       tutorialIntroTitle: "So funktioniert das Tutorial",
@@ -243,6 +261,15 @@
       next: "Avanti",
       saveContinue: "Salva e continua",
       finishSurvey: "Termina il sondaggio",
+      confirmRating: "Conferma valutazione",
+      reviewRatings: "Rivedi le valutazioni",
+      edit: "Modifica",
+      keyboardHint: "Tastiera: premi 1-5 per valutare, Invio per confermare, Backspace per tornare indietro.",
+      selectedRating: "Valutazione selezionata: {score}/5",
+      noRatingSelected: "Scegli una valutazione da 1 a 5.",
+      ratingProgress: "Categoria {current} di {total}",
+      returnToReview: "Torna alla revisione",
+      saveVideo: "Salva video e continua",
       startRating: "Inizia a valutare i video",
       tutorialStep: "Tutorial {current} di {total}",
       tutorialIntroTitle: "Come funziona il tutorial",
@@ -381,6 +408,9 @@
     fullManifest: [],
     tutorialIndex: 0,
     tutorialReference: null,
+    ratingStep: 0,
+    draftRatings: {},
+    returningToReview: false,
     currentWatchSeconds: 0,
     currentMaxTime: 0,
     videoStartedAt: 0,
@@ -424,8 +454,10 @@
   const rubricGrid = $("rubricGrid");
   const gestureDescriptionLabel = $("gestureDescriptionLabel");
   const gestureDescription = $("gestureDescription");
+  const gestureDescriptionField = gestureDescription.closest("label");
   const ambiguitiesLabel = $("ambiguitiesLabel");
   const ambiguities = $("ambiguities");
+  const ambiguitiesField = ambiguities.closest("label");
   const formWarning = $("formWarning");
   const backButton = $("backButton");
   const nextButton = $("nextButton");
@@ -664,31 +696,139 @@
 
   function renderRubric() {
     rubricGrid.innerHTML = "";
-    categories.forEach((category) => {
-      const card = document.createElement("article");
-      card.className = "rubric-card";
-      card.innerHTML = `
+    renderRatingStep();
+  }
+
+  function showReview() {
+    return state.ratingStep >= categories.length;
+  }
+
+  function setCommentVisibility(visible) {
+    gestureDescriptionField.classList.toggle("hidden-field", !visible);
+    ambiguitiesField.classList.toggle("hidden-field", !visible);
+  }
+
+  function renderRatingStep() {
+    if (!rubricGrid) return;
+    rubricGrid.innerHTML = "";
+    formWarning.textContent = "";
+
+    if (showReview()) {
+      renderRatingReview();
+      return;
+    }
+
+    setCommentVisibility(false);
+    ratingForm.classList.remove("review-mode");
+    const category = categories[state.ratingStep];
+    const selected = state.draftRatings[category.key];
+    backButton.disabled = state.index === 0 && state.ratingStep === 0;
+    nextButton.textContent = state.returningToReview ? ui.returnToReview : ui.confirmRating;
+
+    const card = document.createElement("article");
+    card.className = "rating-step-card";
+    card.innerHTML = `
+      <div class="rating-step-head">
+        <p class="eyebrow">${format(ui.ratingProgress, { current: state.ratingStep + 1, total: categories.length })}</p>
         <h2>${category.label}</h2>
         <p>${category.definition}</p>
-        <div class="score-row" role="radiogroup" aria-label="${category.label}">
-          ${[1, 2, 3, 4, 5]
-            .map(
-              (score) => `
-                <label class="score-option">
-                  <input type="radio" name="${category.key}" value="${score}" required>
-                  <span>${score}</span>
-                </label>
-              `,
-            )
-            .join("")}
-        </div>
-        <div class="scale-labels"><span>${category.low}</span><span>${category.high}</span></div>
-        <ol class="anchor-list">
-          ${category.anchors.map((anchor) => `<li>${anchor}</li>`).join("")}
-        </ol>
-      `;
-      rubricGrid.appendChild(card);
+      </div>
+      <div class="score-row score-row-large" role="radiogroup" aria-label="${category.label}">
+        ${[1, 2, 3, 4, 5].map((score) => `
+          <button class="score-key${selected === score ? " active" : ""}" type="button" data-score="${score}" aria-pressed="${selected === score}">
+            <span class="keycap">${score}</span>
+            <span>${category.anchors[score - 1]}</span>
+          </button>
+        `).join("")}
+      </div>
+      <div class="scale-labels"><span>${category.low}</span><span>${category.high}</span></div>
+      <p class="keyboard-hint">${selected ? format(ui.selectedRating, { score: selected }) : ui.keyboardHint}</p>
+    `;
+    rubricGrid.appendChild(card);
+    card.querySelectorAll("[data-score]").forEach((button) => {
+      button.addEventListener("click", () => {
+        setDraftRating(Number(button.dataset.score));
+      });
     });
+  }
+
+  function renderRatingReview() {
+    setCommentVisibility(true);
+    ratingForm.classList.add("review-mode");
+    backButton.disabled = false;
+    nextButton.textContent = ui.saveVideo;
+
+    const review = document.createElement("article");
+    review.className = "rating-review";
+    review.innerHTML = `
+      <div class="rating-step-head">
+        <p class="eyebrow">${ui.reviewRatings}</p>
+        <h2>${ui.reviewRatings}</h2>
+        <p>${ui.keyboardHint}</p>
+      </div>
+      <div class="review-grid">
+        ${categories.map((category, index) => `
+          <button class="review-row" type="button" data-edit-index="${index}">
+            <span>
+              <strong>${category.label}</strong>
+              <small>${category.anchors[(state.draftRatings[category.key] || 1) - 1] || ""}</small>
+            </span>
+            <b>${state.draftRatings[category.key] || "-"}/5</b>
+            <em>${ui.edit}</em>
+          </button>
+        `).join("")}
+      </div>
+    `;
+    rubricGrid.appendChild(review);
+    review.querySelectorAll("[data-edit-index]").forEach((button) => {
+      button.addEventListener("click", () => editRating(Number(button.dataset.editIndex)));
+    });
+  }
+
+  function setDraftRating(score) {
+    const category = categories[state.ratingStep];
+    if (!category) return;
+    state.draftRatings[category.key] = score;
+    renderRatingStep();
+  }
+
+  function advanceRatingStep() {
+    if (showReview()) return true;
+    const category = categories[state.ratingStep];
+    if (!state.draftRatings[category.key]) {
+      formWarning.textContent = ui.noRatingSelected;
+      return false;
+    }
+    if (state.returningToReview) {
+      state.returningToReview = false;
+      state.ratingStep = categories.length;
+    } else {
+      state.ratingStep += 1;
+    }
+    renderRatingStep();
+    return false;
+  }
+
+  function editRating(index) {
+    state.ratingStep = index;
+    state.returningToReview = true;
+    renderRatingStep();
+  }
+
+  function goBackWithinRating() {
+    if (showReview()) {
+      state.ratingStep = categories.length - 1;
+      state.returningToReview = false;
+      renderRatingStep();
+      return true;
+    }
+    if (state.ratingStep > 0) {
+      state.ratingStep -= 1;
+      state.returningToReview = false;
+      renderRatingStep();
+      return true;
+    }
+    return false;
   }
 
   function currentItem() {
@@ -710,14 +850,18 @@
 
   function restoreForm(item) {
     ratingForm.reset();
+    state.draftRatings = {};
+    state.ratingStep = 0;
+    state.returningToReview = false;
     const saved = state.responses[responseKey(item)];
-    if (!saved) return;
-    categories.forEach((category) => {
-      const input = ratingForm.querySelector(`input[name="${category.key}"][value="${saved.ratings[category.key]}"]`);
-      if (input) input.checked = true;
-    });
+    if (!saved) {
+      renderRatingStep();
+      return;
+    }
+    state.draftRatings = { ...(saved.ratings || {}) };
     gestureDescription.value = saved.gesture_description || "";
     ambiguities.value = saved.ambiguities || "";
+    renderRatingStep();
   }
 
   function resetWatchState() {
@@ -743,8 +887,6 @@
     videoPlayer.src = videoUrl(item);
     videoPlayer.load();
     restoreForm(item);
-    backButton.disabled = state.index === 0;
-    nextButton.textContent = state.index === state.order.length - 1 ? ui.finishSurvey : ui.saveContinue;
   }
 
   function watchedEnough() {
@@ -782,10 +924,9 @@
 
   function collectCurrentResponse() {
     const item = currentItem();
-    const formData = new FormData(ratingForm);
     const ratings = {};
     categories.forEach((category) => {
-      ratings[category.key] = Number(formData.get(category.key));
+      ratings[category.key] = Number(state.draftRatings[category.key]);
     });
 
     const response = {
@@ -818,7 +959,7 @@
       formWarning.textContent = ui.watchBeforeContinue;
       return false;
     }
-    if (!ratingForm.reportValidity()) {
+    if (categories.some((category) => !state.draftRatings[category.key])) {
       formWarning.textContent = ui.completeRatings;
       return false;
     }
@@ -1039,6 +1180,10 @@
 
   ratingForm.addEventListener("submit", (event) => {
     event.preventDefault();
+    if (!showReview()) {
+      advanceRatingStep();
+      return;
+    }
     if (!validateForm()) return;
     const response = collectCurrentResponse();
     submitResponseInBackground(response);
@@ -1048,6 +1193,7 @@
   });
 
   backButton.addEventListener("click", () => {
+    if (goBackWithinRating()) return;
     if (state.index === 0) return;
     state.index -= 1;
     saveState();
@@ -1057,6 +1203,39 @@
   replayButton.addEventListener("click", () => {
     videoPlayer.currentTime = 0;
     videoPlayer.play();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (ratingScreen.classList.contains("hidden")) return;
+    const tag = event.target?.tagName;
+    if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+    if (/^[1-5]$/.test(event.key) && !showReview()) {
+      event.preventDefault();
+      setDraftRating(Number(event.key));
+      return;
+    }
+    if (event.key === "Enter") {
+      event.preventDefault();
+      if (showReview()) {
+        ratingForm.requestSubmit();
+      } else {
+        advanceRatingStep();
+      }
+      return;
+    }
+    if (event.key === "Backspace" || event.key === "ArrowLeft") {
+      event.preventDefault();
+      if (!goBackWithinRating() && state.index > 0) {
+        state.index -= 1;
+        saveState();
+        renderVideo();
+      }
+      return;
+    }
+    if (event.key === "ArrowRight" && !showReview()) {
+      event.preventDefault();
+      advanceRatingStep();
+    }
   });
 
   videoPlayer.addEventListener("timeupdate", () => {
