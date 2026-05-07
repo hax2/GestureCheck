@@ -451,6 +451,7 @@
   const watchStatus = $("watchStatus");
   const replayButton = $("replayButton");
   const ratingForm = $("ratingForm");
+  const shortcutBar = $("shortcutBar");
   const rubricGrid = $("rubricGrid");
   const gestureDescriptionLabel = $("gestureDescriptionLabel");
   const gestureDescription = $("gestureDescription");
@@ -512,6 +513,7 @@
     gestureDescription.placeholder = ui.descriptionPlaceholder;
     ambiguities.placeholder = ui.ambiguitiesPlaceholder;
     watchStatus.textContent = ui.watchRequirement;
+    shortcutBar.textContent = ui.keyboardHint;
   }
 
   function storageKey() {
@@ -742,7 +744,7 @@
         `).join("")}
       </div>
       <div class="scale-labels"><span>${category.low}</span><span>${category.high}</span></div>
-      <p class="keyboard-hint">${selected ? format(ui.selectedRating, { score: selected }) : ui.keyboardHint}</p>
+      <p class="keyboard-hint">${selected ? format(ui.selectedRating, { score: selected }) : ui.noRatingSelected}</p>
     `;
     rubricGrid.appendChild(card);
     card.querySelectorAll("[data-score]").forEach((button) => {
@@ -764,14 +766,13 @@
       <div class="rating-step-head">
         <p class="eyebrow">${ui.reviewRatings}</p>
         <h2>${ui.reviewRatings}</h2>
-        <p>${ui.keyboardHint}</p>
+        <p>${ui.saveVideo}</p>
       </div>
       <div class="review-grid">
         ${categories.map((category, index) => `
           <button class="review-row" type="button" data-edit-index="${index}">
             <span>
               <strong>${category.label}</strong>
-              <small>${category.anchors[(state.draftRatings[category.key] || 1) - 1] || ""}</small>
             </span>
             <b>${state.draftRatings[category.key] || "-"}/5</b>
             <em>${ui.edit}</em>

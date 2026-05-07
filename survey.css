@@ -399,12 +399,38 @@ video {
 }
 
 .rating-form {
-  min-height: 640px;
-  grid-template-rows: minmax(0, 1fr) auto auto auto;
+  min-height: 580px;
+  grid-template-rows: auto minmax(0, 1fr) auto auto auto;
+  gap: 10px;
 }
 
 .rating-form.review-mode {
-  grid-template-rows: auto auto auto auto;
+  min-height: auto;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+.review-mode .rating-step-head {
+  padding-bottom: 10px;
+}
+
+.review-mode .rating-step-head h2 {
+  font-size: clamp(26px, 3vw, 38px);
+}
+
+.review-mode .rating-step-head p:not(.eyebrow) {
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.shortcut-bar {
+  border: 1px solid rgba(180, 73, 35, 0.22);
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: rgba(180, 73, 35, 0.08);
+  color: var(--accent-dark);
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.25;
 }
 
 .rubric-grid {
@@ -413,9 +439,13 @@ video {
 
 .rating-step-card,
 .rating-review {
-  min-height: 430px;
+  min-height: 400px;
   display: grid;
   align-content: start;
+}
+
+.rating-review {
+  min-height: auto;
 }
 
 .rating-step-head {
@@ -477,18 +507,24 @@ video {
 
 .review-grid {
   display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
-  margin-top: 16px;
+  margin-top: 12px;
 }
 
 .review-row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto auto;
-  gap: 14px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
   align-items: center;
-  border-radius: 14px;
-  padding: 12px;
+  border-radius: 12px;
+  padding: 8px 9px;
   text-align: left;
+}
+
+.review-row strong {
+  font-size: 13px;
+  line-height: 1.15;
 }
 
 .review-row small {
@@ -500,7 +536,7 @@ video {
 }
 
 .review-row b {
-  min-width: 48px;
+  min-width: 44px;
   border-radius: 999px;
   padding: 6px 9px;
   background: var(--green);
@@ -509,9 +545,20 @@ video {
 }
 
 .review-row em {
+  display: none;
   color: var(--accent-dark);
   font-style: normal;
   font-weight: 700;
+}
+
+.review-mode label {
+  gap: 4px;
+  font-size: 13px;
+}
+
+.review-mode textarea {
+  min-height: 38px;
+  padding: 8px 10px;
 }
 
 .hidden-field {
@@ -630,5 +677,9 @@ video {
 
   .tutorial-card {
     min-height: auto;
+  }
+
+  .review-grid {
+    grid-template-columns: 1fr;
   }
 }
