@@ -28,6 +28,7 @@ const HEADERS = [
   "participant_notes",
   "raw_payload",
   "response_id",
+  "block_id",
 ];
 
 function doGet() {
@@ -103,6 +104,7 @@ function normalizeRows(payload) {
     participant.notes || "",
     rawPayload,
     response.response_id || buildResponseId(response, participant),
+    response.block_id || participant.block || payload.block || "",
   ]);
 }
 

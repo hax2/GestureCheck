@@ -8,6 +8,7 @@
     completionUrl: "",
     completionCode: "GESTURE-RATING-COMPLETE",
     minWatchRatio: 0.8,
+    blockSize: 20,
     ...window.SURVEY_CONFIG,
   };
 
@@ -15,7 +16,7 @@
     {
       key: "iconicity",
       label: "Iconicity",
-      definition: "The degree to which the gesture visually resembles the meaning of the target word.",
+      definition: "The degree to which the gesture visually resembles the semantics of the target word.",
       low: "1 = no visual relationship",
       high: "5 = highly transparent visual representation",
       anchors: [
@@ -29,7 +30,7 @@
     {
       key: "sensorimotor_imagery",
       label: "Sensorimotor Imagery",
-      definition: "The extent to which the gesture evokes bodily actions, physical interactions, or perceptual experiences related to the word.",
+      definition: "The extent to which the gesture evokes bodily actions, physical interactions, or perceptual experiences related to the word's semantics.",
       low: "1 = no bodily/action component",
       high: "5 = vivid action or bodily experience",
       anchors: [
@@ -43,20 +44,20 @@
     {
       key: "motional_salience_gesture",
       label: "Motional Salience",
-      definition: "How strongly the gesture stands out based on movement features such as large, fast, or complex actions, thereby guiding attention and supporting encoding.",
+      definition: "Motional salience captures how strongly a gesture stands out based on its movement features, such as large, fast, or complex actions, thereby guiding attention and supporting encoding.",
       low: "1 = subtle/minimal movement",
       high: "5 = visually commanding gesture",
       anchors: [
         "1: subtle, constrained, or minimal movement",
         "2: slight or slow movement dynamics",
         "3: moderate movement in size, speed, or complexity",
-        "4: clear, pronounced, expansive, or rapid movement",
-        "5: highly prominent and visually commanding gesture",
+        "4: clear, pronounced, and expansive or rapid movement",
+        "5: highly prominent, and visually commanding gesture",
       ],
     },
     {
       key: "emotional_salience_facial_expression",
-      label: "Emotional Salience: Facial Expression",
+      label: "Emotional Salience, Facial Expression",
       definition: "The extent to which facial expressions accompanying the gesture communicate affective meaning.",
       low: "1 = neutral/no expression",
       high: "5 = very strong facial expression",
@@ -85,7 +86,7 @@
     {
       key: "cultural_familiarity",
       label: "Cultural Familiarity",
-      definition: "How readily the gesture is recognized and interpreted based on shared sociocultural conventions and prior experience in Western cultural contexts.",
+      definition: "Cultural familiarity in gesture refers to the degree to which a gesture is readily recognized and interpreted based on shared sociocultural conventions and prior experience. In the present framework, this construct is defined with respect to Western cultural contexts, where commonly used gestures, such as emblematic or iconic forms, are assumed to align with learners' existing cultural schemas and thus facilitate comprehension and memory.",
       low: "1 = completely unfamiliar",
       high: "5 = highly familiar or widely used",
       anchors: [
@@ -118,6 +119,8 @@
     order: [],
     index: 0,
     responses: {},
+    block: null,
+    totalVideos: 0,
     currentWatchSeconds: 0,
     currentMaxTime: 0,
     videoStartedAt: 0,
@@ -126,11 +129,17 @@
 
   const $ = (id) => document.getElementById(id);
   const introScreen = $("introScreen");
+  const tutorialScreen = $("tutorialScreen");
   const ratingScreen = $("ratingScreen");
   const doneScreen = $("doneScreen");
   const participantForm = $("participantForm");
   const participantId = $("participantId");
   const sessionNotes = $("sessionNotes");
+  const blockSummary = $("blockSummary");
+  const blockLinks = $("blockLinks");
+  const tutorialGrid = $("tutorialGrid");
+  const tutorialConfirm = $("tutorialConfirm");
+  const startRatingButton = $("startRatingButton");
   const progressText = $("progressText");
   const progressBar = $("progressBar");
   const targetWord = $("targetWord");
@@ -158,7 +167,8 @@
 
   function storageKey() {
     const pid = state.participant.participantId || "anonymous";
-    return `gesture-rating-survey:${pid}`;
+    const block = state.block ? `block-${state.block}` : "all";
+    return `gesture-rating-survey:${pid}:${block}`;
   }
 
   function slug(title) {
@@ -215,8 +225,43 @@
   }
 
   function show(screen) {
-    [introScreen, ratingScreen, doneScreen].forEach((node) => node.classList.add("hidden"));
+    [introScreen, tutorialScreen, ratingScreen, doneScreen].forEach((node) => node.classList.add("hidden"));
     screen.classList.remove("hidden");
+  }
+
+  function renderTutorial() {
+    tutorialGrid.innerHTML = "";
+    categories.forEach((category, index) => {
+      const card = document.createElement("article");
+      card.className = "tutorial-category";
+      card.innerHTML = `
+        <div class="tutorial-number">${index + 1}</div>
+        <div>
+          <h2>${category.label}</h2>
+          <p>${category.definition}</p>
+          <ol class="anchor-list">
+            ${category.anchors.map((anchor) => `<li>${anchor}</li>`).join("")}
+          </ol>
+        </div>
+      `;
+      tutorialGrid.appendChild(card);
+    });
+  }
+
+  function renderBlockLinks(totalVideos, blockSize) {
+    if (!blockLinks || blockSize <= 0) return;
+    const blockCount = Math.ceil(totalVideos / blockSize);
+    const url = new URL(window.location.href);
+    blockLinks.innerHTML = `
+      <h2>20-video block URLs</h2>
+      <div>
+        ${Array.from({ length: blockCount }, (_, index) => {
+          url.searchParams.set("block", String(index + 1));
+          url.searchParams.delete("limit");
+          return `<a href="${url.pathname}${url.search}">Block ${index + 1}</a>`;
+        }).join("")}
+      </div>
+    `;
   }
 
   function renderRubric() {
@@ -319,6 +364,7 @@
         index: state.index,
         responses: state.responses,
         sessionStartedAt: state.sessionStartedAt,
+        block: state.block,
       }),
     );
   }
@@ -351,6 +397,7 @@
       session_id: state.participant.sessionId,
       collection: item.collection || "",
       source: item.source || "",
+      block_id: state.block || "",
       title: item.title,
       target_word: item.target_word || "",
       video_url: videoUrl(item),
@@ -399,6 +446,7 @@
       "session_id",
       "collection",
       "source",
+      "block_id",
       "title",
       "target_word",
       "video_url",
@@ -432,6 +480,7 @@
       participant: state.participant,
       session_started_at: state.sessionStartedAt,
       exported_at: new Date().toISOString(),
+      block: state.block,
       responses,
     };
   }
@@ -460,7 +509,7 @@
     summaryStats.innerHTML = `
       <article><strong>${completed}</strong><span>videos rated</span></article>
       <article><strong>${categories.length}</strong><span>rating dimensions</span></article>
-      <article><strong>${state.participant.participantId || "anonymous"}</strong><span>participant ID</span></article>
+      <article><strong>${state.block ? `Block ${state.block}` : "All"}</strong><span>video set</span></article>
     `;
 
     submitButton.disabled = !config.submitUrl;
@@ -517,6 +566,21 @@
     const response = await fetch(manifestUrl);
     if (!response.ok) throw new Error(`Could not load ${manifestUrl}`);
     let videos = await response.json();
+    state.totalVideos = videos.length;
+    const block = Number(query().get("block") || 0);
+    const blockSize = Number(query().get("block_size") || config.blockSize);
+    if (block > 0 && blockSize > 0) {
+      const start = (block - 1) * blockSize;
+      videos = videos.slice(start, start + blockSize);
+      state.block = block;
+      if (videos.length === 0) {
+        throw new Error(`Block ${block} has no videos. This manifest has ${Math.ceil(state.totalVideos / blockSize)} blocks.`);
+      }
+      blockSummary.textContent = `You are rating block ${block}: videos ${start + 1}-${Math.min(start + blockSize, state.totalVideos)} of ${state.totalVideos}.`;
+    } else {
+      blockSummary.textContent = `You are rating ${videos.length} videos. Use ?block=1, ?block=2, etc. to assign 20-video blocks.`;
+    }
+    renderBlockLinks(state.totalVideos, blockSize);
     const limit = Number(query().get("limit") || 0);
     if (limit > 0) videos = videos.slice(0, limit);
     state.videos = videos;
@@ -530,6 +594,7 @@
       studyId: params.get("study_id") || "",
       sessionId: params.get("session_id") || randomId(),
       notes: "",
+      block: state.block,
     };
   }
 
@@ -537,10 +602,22 @@
     event.preventDefault();
     state.participant.participantId = participantId.value.trim() || `anon-${randomId()}`;
     state.participant.notes = sessionNotes.value.trim();
+    state.participant.block = state.block;
     state.order = shuffledIndexes(state.videos.length, state.participant.participantId);
     loadState();
     if (!state.order.length) state.order = shuffledIndexes(state.videos.length, state.participant.participantId);
     saveState();
+    tutorialConfirm.checked = false;
+    startRatingButton.disabled = true;
+    show(tutorialScreen);
+  });
+
+  tutorialConfirm.addEventListener("change", () => {
+    startRatingButton.disabled = !tutorialConfirm.checked;
+  });
+
+  startRatingButton.addEventListener("click", () => {
+    if (!tutorialConfirm.checked) return;
     renderVideo();
     show(ratingScreen);
   });
@@ -579,6 +656,7 @@
   submitButton.addEventListener("click", submitResults);
 
   renderRubric();
+  renderTutorial();
   initParticipant();
   loadManifest().catch((error) => {
     document.body.innerHTML = `<main class="screen"><div class="hero-card"><h1>Survey failed to load</h1><p>${error.message}</p></div></main>`;

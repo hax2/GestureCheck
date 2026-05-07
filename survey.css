@@ -140,6 +140,46 @@ h2 {
   line-height: 1.45;
 }
 
+.block-summary {
+  display: inline-block;
+  margin: 18px 0 0;
+  border: 1px solid rgba(47, 107, 79, 0.22);
+  border-radius: 999px;
+  padding: 9px 13px;
+  background: rgba(233, 240, 220, 0.72);
+  color: var(--green);
+  font-weight: 700;
+}
+
+.block-links {
+  margin-top: 16px;
+}
+
+.block-links h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.block-links div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.block-links a {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 11px;
+  background: var(--surface);
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.block-links a:hover {
+  border-color: var(--accent);
+}
+
 .participant-form,
 .rating-form {
   display: grid;
@@ -148,6 +188,65 @@ h2 {
 
 .participant-form {
   max-width: 680px;
+}
+
+.tutorial-card {
+  max-width: 1040px;
+}
+
+.tutorial-grid {
+  display: grid;
+  gap: 14px;
+  margin: 30px 0;
+}
+
+.tutorial-category {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 18px;
+  background: rgba(233, 240, 220, 0.72);
+}
+
+.tutorial-number {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fffaf0;
+  font-weight: 700;
+}
+
+.tutorial-category h2 {
+  font-size: 22px;
+}
+
+.tutorial-category p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.tutorial-confirm {
+  display: grid;
+  gap: 14px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.checkbox-label input {
+  width: auto;
+  margin-top: 3px;
 }
 
 label {

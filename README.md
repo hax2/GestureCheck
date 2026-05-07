@@ -56,6 +56,8 @@ http://127.0.0.1:8765/survey.html
 Useful URL parameters:
 
 - `?limit=10`: show only the first 10 videos from the manifest.
+- `?block=1`: show one 20-video block. Use `?block=2`, `?block=3`, etc. for the next blocks.
+- `?block_size=20`: override the default block size.
 - `?order=fixed`: disable participant-specific randomization.
 - `?participant_id=...&study_id=...&session_id=...`: identifiers are captured automatically.
 - `?return=https://...`: show a completion return link after export/submission.
@@ -103,6 +105,16 @@ window.SURVEY_CONFIG = {
 The Apps Script creates or reuses a `responses` sheet and writes one spreadsheet row per rated video. The survey still provides CSV/JSON downloads as a backup.
 
 With `submitEachResponse: true`, each video response is sent to Google Sheets immediately after the participant saves that video. The final screen does not resubmit the full survey in this mode. The Apps Script uses `response_id` to update an existing row if the same participant/session/video is submitted again.
+
+For participant assignment, use separate URLs such as:
+
+```text
+https://samermakes.com/GestureCheck/survey.html?block=1
+https://samermakes.com/GestureCheck/survey.html?block=2
+https://samermakes.com/GestureCheck/survey.html?block=3
+```
+
+The default block size is 20 videos, and the intro page lists all block URLs for the loaded manifest.
 
 Browser playback should use MP4 or WebM, not AVI. Convert local manifest videos into deployable MP4 assets with:
 

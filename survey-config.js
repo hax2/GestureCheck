@@ -15,4 +15,5 @@ window.SURVEY_CONFIG = {
 
   // Participants must watch this fraction of each video before advancing.
   minWatchRatio: 0.8,
+  blockSize: 20,
 };
