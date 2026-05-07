@@ -63,7 +63,15 @@
       <section id="tutorialScreen" class="screen tutorial-screen hidden">
         <div class="hero-card tutorial-card">
           <p id="tutorialStepText" class="eyebrow">Rating Tutorial</p>
-          <div id="tutorialPanel" class="tutorial-panel"></div>
+          <div class="tutorial-layout">
+            <aside class="tutorial-video-sticky" aria-label="Tutorial reference video">
+              <p class="eyebrow">Reference Video</p>
+              <h2 id="tutorialVideoTitle"></h2>
+              <video id="tutorialVideo" controls muted loop playsinline preload="metadata"></video>
+              <p id="tutorialVideoDescription" class="muted"></p>
+            </aside>
+            <div id="tutorialPanel" class="tutorial-panel"></div>
+          </div>
           <div class="tutorial-nav">
             <button id="tutorialBackButton" type="button">Back</button>
             <button id="tutorialNextButton" class="primary-button" type="button">Next</button>

@@ -191,29 +191,56 @@ h2 {
 }
 
 .tutorial-card {
-  max-width: 980px;
-  margin: 3vh auto;
+  max-width: 1120px;
+  margin: 2vh auto;
+}
+
+.tutorial-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.82fr) minmax(360px, 1.18fr);
+  gap: 22px;
+  align-items: stretch;
+  margin-top: 14px;
+}
+
+.tutorial-video-sticky,
+.tutorial-panel {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(233, 240, 220, 0.72);
+}
+
+.tutorial-video-sticky {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  padding: 14px;
+}
+
+.tutorial-video-sticky h2 {
+  font-size: clamp(24px, 3vw, 34px);
+}
+
+.tutorial-video-sticky video {
+  aspect-ratio: 16 / 10;
 }
 
 .tutorial-panel {
-  min-height: min(560px, calc(100vh - 220px));
+  min-height: min(500px, calc(100vh - 245px));
   display: grid;
   align-items: center;
+  padding: clamp(18px, 3vw, 30px);
 }
 
 .tutorial-category {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);
   gap: 14px;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  padding: 18px;
-  background: rgba(233, 240, 220, 0.72);
 }
 
 .tutorial-category.single-step {
-  min-height: min(430px, calc(100vh - 280px));
   align-items: start;
+  padding: 0;
 }
 
 .tutorial-number {
@@ -232,6 +259,7 @@ h2 {
 }
 
 .tutorial-category h1,
+.tutorial-copy h1,
 .tutorial-single h1 {
   font-size: clamp(36px, 6vw, 64px);
   letter-spacing: -0.04em;
@@ -243,16 +271,16 @@ h2 {
   line-height: 1.45;
 }
 
+.tutorial-definition,
+.tutorial-copy p {
+  color: #35413c;
+  font-size: clamp(18px, 2vw, 22px);
+  line-height: 1.45;
+}
+
 .tutorial-single {
   display: grid;
   gap: 22px;
-}
-
-.tutorial-video-card {
-  border: 1px solid var(--line);
-  border-radius: 22px;
-  padding: 12px;
-  background: var(--surface);
 }
 
 .tutorial-ready-note {
@@ -263,6 +291,25 @@ h2 {
   color: #4b342c;
   font-size: 18px;
   line-height: 1.45;
+}
+
+.example-box {
+  margin-top: 18px;
+  border: 1px solid rgba(47, 107, 79, 0.24);
+  border-radius: 16px;
+  padding: 14px;
+  background: rgba(255, 253, 246, 0.74);
+}
+
+.example-box strong {
+  color: var(--green);
+}
+
+.example-box p {
+  margin: 7px 0 0;
+  color: #3d4a45;
+  font-size: 16px;
+  line-height: 1.42;
 }
 
 .tutorial-nav {
@@ -464,9 +511,14 @@ video {
 @media (max-width: 920px) {
   .survey-topbar,
   .rating-layout,
+  .tutorial-layout,
   .rubric-preview,
   .rubric-grid,
   .summary-stats {
     grid-template-columns: 1fr;
+  }
+
+  .tutorial-panel {
+    min-height: auto;
   }
 }

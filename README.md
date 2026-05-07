@@ -100,7 +100,7 @@ window.SURVEY_CONFIG = {
   assetBaseUrl: "assets/rating-videos/",
   minWatchRatio: 0.5,
   blockSize: 20,
-  tutorialReferenceTitles: ["01_TrafficLight.avi", "21_Cable.avi"],
+  tutorialReferenceTitles: ["04_Ball.avi", "40_Telephone.avi"],
 };
 ```
 
@@ -118,7 +118,7 @@ https://samermakes.com/GestureCheck/survey.html?block=3
 
 The default block size is 20 videos, and the intro page lists all block URLs for the loaded manifest.
 
-The tutorial is step-by-step and includes one reference video before the category definitions. By default, block 1 sees `21_Cable.avi`, while all other blocks see `01_TrafficLight.avi`, so the tutorial video is not part of the participant's assigned rating block.
+The tutorial is step-by-step and keeps one looping reference video visible beside the category explanations. By default, block 1 sees `40_Telephone.avi`, while all other blocks see `04_Ball.avi`, so the tutorial video is not part of the participant's assigned rating block.
 
 Browser playback should use MP4 or WebM, not AVI. Convert local manifest videos into deployable MP4 assets with:
 

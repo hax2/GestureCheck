@@ -16,5 +16,5 @@ window.SURVEY_CONFIG = {
   // Participants must watch this fraction of each video before advancing.
   minWatchRatio: 0.5,
   blockSize: 20,
-  tutorialReferenceTitles: ["01_TrafficLight.avi", "21_Cable.avi"],
+  tutorialReferenceTitles: ["04_Ball.avi", "40_Telephone.avi"],
 };

@@ -9,7 +9,7 @@
     completionCode: "GESTURE-RATING-COMPLETE",
     minWatchRatio: 0.5,
     blockSize: 20,
-    tutorialReferenceTitles: ["01_TrafficLight.avi", "21_Cable.avi"],
+    tutorialReferenceTitles: ["04_Ball.avi", "40_Telephone.avi"],
     ...window.SURVEY_CONFIG,
   };
 
@@ -114,6 +114,75 @@
     },
   ];
 
+  const tutorialExamples = {
+    "04_Ball.avi": {
+      description: "Gemini Pro described the gesture as hands forming a spherical shape, followed by an upward and sideward throwing motion.",
+      ratings: {
+        iconicity: {
+          score: 5,
+          rationale: "The hands forming a spherical shape combined with a throwing motion provides a highly transparent visual representation of a ball and its typical use.",
+        },
+        sensorimotor_imagery: {
+          score: 5,
+          rationale: "The gesture vividly simulates the physical sensation of holding a round object and the bodily action of throwing it.",
+        },
+        motional_salience_gesture: {
+          score: 4,
+          rationale: "The gesture involves a clear, expansive movement of both arms across and away from the body, making it visually prominent.",
+        },
+        emotional_salience_facial_expression: {
+          score: 1,
+          rationale: "The actor's facial expression remains neutral throughout the gesture, conveying no affective meaning.",
+        },
+        gesture_complexity_fit: {
+          score: 5,
+          rationale: "The movement is straightforward and perfectly balances simplicity with clear semantic meaning, making it optimal for learning.",
+        },
+        cultural_familiarity: {
+          score: 5,
+          rationale: "The pantomime of holding and throwing a ball is a highly recognizable and universally understood action in Western cultures.",
+        },
+        enactment_potential: {
+          score: 5,
+          rationale: "The throwing motion is very natural, requires no special coordination, and is effortless for learners to reproduce.",
+        },
+      },
+    },
+    "40_Telephone.avi": {
+      description: "Gemini Pro described the gesture as raising the hand to the ear, with thumb near the ear and pinky near the mouth, mimicking a telephone receiver.",
+      ratings: {
+        iconicity: {
+          score: 5,
+          rationale: "The gesture is a highly transparent and universally recognized visual representation of holding a telephone.",
+        },
+        sensorimotor_imagery: {
+          score: 5,
+          rationale: "The gesture directly simulates the physical action and bodily experience of holding a phone to one's ear to listen and speak.",
+        },
+        motional_salience_gesture: {
+          score: 2,
+          rationale: "The movement is relatively subtle and constrained, involving a simple raising of the hand to the head without expansive dynamics.",
+        },
+        emotional_salience_facial_expression: {
+          score: 1,
+          rationale: "The actor maintains a neutral facial expression throughout the gesture.",
+        },
+        gesture_complexity_fit: {
+          score: 5,
+          rationale: "The gesture is extremely simple, direct, and perfectly balances informativeness with ease of understanding.",
+        },
+        cultural_familiarity: {
+          score: 5,
+          rationale: "This specific hand shape and movement is a highly familiar and widely used emblem for a telephone in Western cultures.",
+        },
+        enactment_potential: {
+          score: 5,
+          rationale: "The gesture is very natural, requires minimal effort, and is effortless for learners to reproduce.",
+        },
+      },
+    },
+  };
+
   const state = {
     participant: {},
     videos: [],
@@ -143,6 +212,9 @@
   const blockLinks = $("blockLinks");
   const tutorialStepText = $("tutorialStepText");
   const tutorialPanel = $("tutorialPanel");
+  const tutorialVideo = $("tutorialVideo");
+  const tutorialVideoTitle = $("tutorialVideoTitle");
+  const tutorialVideoDescription = $("tutorialVideoDescription");
   const tutorialBackButton = $("tutorialBackButton");
   const tutorialNextButton = $("tutorialNextButton");
   const progressText = $("progressText");
@@ -237,9 +309,9 @@
   function tutorialSteps() {
     return [
       {
-        type: "video",
-        title: "Reference video",
-        body: "Use this sample video to get oriented. It is not part of your assigned rating block. In the survey, always rate the gesture relative to the target word shown above the video.",
+        type: "intro",
+        title: "Use the video as your evidence",
+        body: "The reference video stays visible during the tutorial. Watch how the same gesture can receive different ratings across categories. In the survey, always rate the visible gesture relative to the target word shown above the video.",
       },
       ...categories.map((category, index) => ({
         type: "category",
@@ -261,17 +333,15 @@
     tutorialBackButton.disabled = state.tutorialIndex === 0;
     tutorialNextButton.textContent = state.tutorialIndex === steps.length - 1 ? "Start rating videos" : "Next";
 
-    if (step.type === "video") {
-      const item = state.tutorialReference;
+    if (step.type === "intro") {
+      const example = tutorialExample();
       tutorialPanel.innerHTML = `
-        <div class="tutorial-single">
-          <div>
-            <h1>${step.title}</h1>
-            <p class="lede">${step.body}</p>
-            <p class="block-summary">${item ? `Target word: ${item.target_word || item.title}` : "Reference video loading"}</p>
-          </div>
-          <div class="tutorial-video-card">
-            <video controls playsinline preload="metadata" src="${item ? videoUrl(item) : ""}"></video>
+        <div class="tutorial-copy">
+          <h1>${step.title}</h1>
+          <p>${step.body}</p>
+          <div class="example-box">
+            <strong>Gemini Pro example description</strong>
+            <p>${example.description}</p>
           </div>
         </div>
       `;
@@ -293,18 +363,45 @@
     }
 
     const category = step.category;
+    const example = tutorialExample().ratings[category.key];
     tutorialPanel.innerHTML = `
       <article class="tutorial-category single-step">
         <div class="tutorial-number">${step.index + 1}</div>
         <div>
           <h1>${category.label}</h1>
-          <p>${category.definition}</p>
+          <p class="tutorial-definition">${category.definition}</p>
           <ol class="anchor-list">
             ${category.anchors.map((anchor) => `<li>${anchor}</li>`).join("")}
           </ol>
+          <div class="example-box">
+            <strong>Gemini Pro rated this reference video: ${example.score}/5</strong>
+            <p>${example.rationale}</p>
+          </div>
         </div>
       </article>
     `;
+  }
+
+  function tutorialExample() {
+    return tutorialExamples[state.tutorialReference?.title] || {
+      description: "Use the target word and visible gesture as your evidence.",
+      ratings: Object.fromEntries(categories.map((category) => [category.key, { score: "-", rationale: "No model example is available for this reference video." }])),
+    };
+  }
+
+  function renderTutorialReferenceVideo() {
+    const item = state.tutorialReference;
+    if (!item) return;
+    const example = tutorialExample();
+    tutorialVideoTitle.textContent = `${item.target_word || item.title}`;
+    tutorialVideoDescription.textContent = "This tutorial video is not part of your assigned rating block.";
+    if (tutorialVideo.src !== new URL(videoUrl(item), window.location.href).href) {
+      tutorialVideo.src = videoUrl(item);
+      tutorialVideo.load();
+    }
+    tutorialVideo.play().catch(() => {
+      tutorialVideoDescription.textContent = `${example.description} Press play if the video does not start automatically.`;
+    });
   }
 
   function renderBlockLinks(totalVideos, blockSize) {
@@ -687,6 +784,7 @@
     if (!state.order.length) state.order = shuffledIndexes(state.videos.length, state.participant.participantId);
     saveState();
     state.tutorialIndex = 0;
+    renderTutorialReferenceVideo();
     renderTutorial();
     show(tutorialScreen);
   });
