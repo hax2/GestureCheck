@@ -58,6 +58,7 @@ Useful URL parameters:
 - `?limit=10`: show only the first 10 videos from the manifest.
 - `?block=1`: show one 20-video block. Use `?block=2`, `?block=3`, etc. for the next blocks.
 - `?block_size=20`: override the default block size.
+- `?lang=en`, `?lang=de`, or `?lang=it`: open the survey in English, German, or Italian.
 - `?order=fixed`: disable participant-specific randomization.
 - `?participant_id=...&study_id=...&session_id=...`: identifiers are captured automatically.
 - `?return=https://...`: show a completion return link after export/submission.
@@ -116,7 +117,12 @@ https://samermakes.com/GestureCheck/survey.html?block=2
 https://samermakes.com/GestureCheck/survey.html?block=3
 ```
 
-The default block size is 20 videos, and the intro page lists all block URLs for the loaded manifest.
+The default block size is 20 videos. Do not send the unblocked base survey URL to participants; send a block-specific URL. Language can be encoded in the same URL:
+
+```text
+https://samermakes.com/GestureCheck/survey.html?block=1&lang=it
+https://samermakes.com/GestureCheck/survey.html?block=1&lang=de
+```
 
 The tutorial is step-by-step and keeps one looping reference video visible beside the category explanations. By default, block 1 sees `40_Telephone.avi`, while all other blocks see `04_Ball.avi`, so the tutorial video is not part of the participant's assigned rating block.
 

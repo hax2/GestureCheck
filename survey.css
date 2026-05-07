@@ -1,7 +1,7 @@
 :root {
   color-scheme: light;
   --ink: #17211d;
-  --muted: #66716d;
+  --muted: #42504a;
   --paper: #fbf6e8;
   --surface: #fffdf6;
   --panel: #e9f0dc;
@@ -29,6 +29,7 @@ body {
 
 button,
 input,
+select,
 textarea {
   font: inherit;
 }
@@ -108,18 +109,12 @@ h2 {
   line-height: 1.45;
 }
 
-.rubric-preview,
 .rubric-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
 }
 
-.rubric-preview {
-  margin: 30px 0;
-}
-
-.rubric-preview article,
 .rubric-card {
   border: 1px solid var(--line);
   border-radius: 18px;
@@ -127,12 +122,10 @@ h2 {
   background: rgba(233, 240, 220, 0.72);
 }
 
-.rubric-preview h2,
 .rubric-card h2 {
   font-size: 20px;
 }
 
-.rubric-preview p,
 .rubric-card p,
 .fine-print,
 .muted {
@@ -149,35 +142,6 @@ h2 {
   background: rgba(233, 240, 220, 0.72);
   color: var(--green);
   font-weight: 700;
-}
-
-.block-links {
-  margin-top: 16px;
-}
-
-.block-links h2 {
-  margin: 0 0 10px;
-  font-size: 18px;
-}
-
-.block-links div {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.block-links a {
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 7px 11px;
-  background: var(--surface);
-  color: var(--accent-dark);
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.block-links a:hover {
-  border-color: var(--accent);
 }
 
 .participant-form,
@@ -211,7 +175,7 @@ h2 {
 .tutorial-panel {
   border: 1px solid var(--line);
   border-radius: 22px;
-  background: rgba(233, 240, 220, 0.72);
+  background: rgba(255, 253, 246, 0.92);
 }
 
 .tutorial-video-sticky {
@@ -272,7 +236,7 @@ h2 {
 
 .tutorial-category p {
   margin: 8px 0 0;
-  color: var(--muted);
+  color: #27332e;
   line-height: 1.45;
 }
 
@@ -345,6 +309,7 @@ label {
 }
 
 input,
+select,
 textarea {
   width: 100%;
   border: 1px solid var(--line);
@@ -471,7 +436,7 @@ video {
   counter-reset: anchor;
   margin: 12px 0 0;
   padding-left: 0;
-  color: #59645f;
+  color: #303d38;
   font-size: 13px;
   line-height: 1.35;
 }
@@ -533,7 +498,6 @@ video {
   .survey-topbar,
   .rating-layout,
   .tutorial-layout,
-  .rubric-preview,
   .rubric-grid,
   .summary-stats {
     grid-template-columns: 1fr;

@@ -10,51 +10,35 @@
     <main class="survey-shell">
       <section id="introScreen" class="screen intro-screen">
         <div class="hero-card">
-          <p class="eyebrow">Human Gesture Rating</p>
-          <h1>Rate short gesture videos for vocabulary learning</h1>
-          <p class="lede">
+          <p id="introEyebrow" class="eyebrow">Human Gesture Rating</p>
+          <h1 id="introTitle">Rate short gesture videos for vocabulary learning</h1>
+          <p id="introLede" class="lede">
             You will watch short videos and rate each gesture on seven 1-5 scales.
             Use the target word shown with each video as the intended meaning.
           </p>
           <p id="blockSummary" class="block-summary"></p>
-          <div id="blockLinks" class="block-links" aria-label="Survey block links"></div>
-
-          <div class="rubric-preview" aria-label="Rating categories">
-            <article>
-              <h2>Iconicity</h2>
-              <p>How much the gesture visually resembles the meaning of the target word.</p>
-            </article>
-            <article>
-              <h2>Sensorimotor Imagery</h2>
-              <p>How strongly the gesture evokes bodily action, physical interaction, or perceptual experience.</p>
-            </article>
-            <article>
-              <h2>Motional Salience</h2>
-              <p>How strongly movement features such as size, speed, or complexity guide attention.</p>
-            </article>
-            <article>
-              <h2>Facial Emotion</h2>
-              <p>How much facial expression communicates affective meaning.</p>
-            </article>
-            <article>
-              <h2>Complexity, Culture, Enactment</h2>
-              <p>How appropriate, recognizable, and reproducible the gesture is for learners.</p>
-            </article>
-          </div>
 
           <form id="participantForm" class="participant-form">
             <label>
-              Participant ID
+              <span id="languageLabel">Language</span>
+              <select id="languageSelect" name="language">
+                <option value="en">English</option>
+                <option value="de">Deutsch</option>
+                <option value="it">Italiano</option>
+              </select>
+            </label>
+            <label>
+              <span id="participantIdLabel">Participant ID, optional</span>
               <input id="participantId" name="participantId" autocomplete="off" placeholder="Enter your assigned participant ID">
             </label>
             <label>
-              Notes for this session, optional
+              <span id="sessionNotesLabel">Notes for this session, optional</span>
               <input id="sessionNotes" name="sessionNotes" autocomplete="off" placeholder="e.g. pilot batch A">
             </label>
-            <button class="primary-button" type="submit">Continue to tutorial</button>
+            <button id="continueButton" class="primary-button" type="submit">Continue to tutorial</button>
           </form>
 
-          <p class="fine-print">
+          <p id="introFinePrint" class="fine-print">
             Your progress is autosaved in this browser. At the end, download the CSV/JSON results or submit to the configured collection endpoint.
           </p>
         </div>
@@ -65,7 +49,7 @@
           <p id="tutorialStepText" class="eyebrow">Rating Tutorial</p>
           <div class="tutorial-layout">
             <aside class="tutorial-video-sticky" aria-label="Tutorial reference video">
-              <p class="eyebrow">Reference Video</p>
+              <p id="referenceVideoLabel" class="eyebrow">Reference Video</p>
               <h2 id="tutorialVideoTitle"></h2>
               <video id="tutorialVideo" controls muted loop playsinline preload="metadata"></video>
               <p id="tutorialVideoDescription" class="muted"></p>
@@ -104,12 +88,12 @@
             <div id="rubricGrid" class="rubric-grid"></div>
 
             <label class="full-width">
-              Briefly describe what the gesture shows, optional
+              <span id="gestureDescriptionLabel">Briefly describe what the gesture shows, optional</span>
               <textarea id="gestureDescription" rows="3" placeholder="Example: The actor points upward and traces a rectangular shape."></textarea>
             </label>
 
             <label class="full-width">
-              Ambiguities or comments, optional
+              <span id="ambiguitiesLabel">Ambiguities or comments, optional</span>
               <textarea id="ambiguities" rows="2" placeholder="Anything unclear, culturally specific, or hard to interpret?"></textarea>
             </label>
 
@@ -125,9 +109,9 @@
 
       <section id="doneScreen" class="screen done-screen hidden">
         <div class="hero-card">
-          <p class="eyebrow">Complete</p>
-          <h1>Ratings captured</h1>
-          <p class="lede">Export the results for analysis. If a collection endpoint is configured, you can also submit directly.</p>
+          <p id="doneEyebrow" class="eyebrow">Complete</p>
+          <h1 id="doneTitle">Ratings captured</h1>
+          <p id="doneLede" class="lede">Export the results for analysis. If a collection endpoint is configured, you can also submit directly.</p>
           <div id="summaryStats" class="summary-stats"></div>
           <div class="export-actions">
             <button id="downloadCsvButton" class="primary-button" type="button">Download CSV</button>
