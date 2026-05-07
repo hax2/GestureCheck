@@ -193,6 +193,9 @@ h2 {
 .tutorial-card {
   max-width: 1120px;
   margin: 2vh auto;
+  min-height: min(920px, calc(100vh - 32px));
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
 }
 
 .tutorial-layout {
@@ -201,6 +204,7 @@ h2 {
   gap: 22px;
   align-items: stretch;
   margin-top: 14px;
+  min-height: 0;
 }
 
 .tutorial-video-sticky,
@@ -226,10 +230,11 @@ h2 {
 }
 
 .tutorial-panel {
-  min-height: min(500px, calc(100vh - 245px));
+  min-height: 0;
   display: grid;
   align-items: center;
   padding: clamp(18px, 3vw, 30px);
+  overflow: hidden;
 }
 
 .tutorial-category {
@@ -274,7 +279,7 @@ h2 {
 .tutorial-definition,
 .tutorial-copy p {
   color: #35413c;
-  font-size: clamp(18px, 2vw, 22px);
+  font-size: clamp(17px, 1.8vw, 21px);
   line-height: 1.45;
 }
 
@@ -317,6 +322,7 @@ h2 {
   justify-content: space-between;
   gap: 12px;
   margin-top: 20px;
+  align-self: end;
 }
 
 .checkbox-label {
@@ -461,11 +467,26 @@ video {
 }
 
 .anchor-list {
+  list-style: none;
+  counter-reset: anchor;
   margin: 12px 0 0;
-  padding-left: 18px;
+  padding-left: 0;
   color: #59645f;
   font-size: 13px;
   line-height: 1.35;
+}
+
+.anchor-list li {
+  counter-increment: anchor;
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 6px;
+}
+
+.anchor-list li::before {
+  content: counter(anchor) ".";
+  font-weight: 700;
+  color: var(--accent-dark);
 }
 
 .anchor-list li + li {
@@ -519,6 +540,11 @@ video {
   }
 
   .tutorial-panel {
+    min-height: auto;
+    overflow: visible;
+  }
+
+  .tutorial-card {
     min-height: auto;
   }
 }

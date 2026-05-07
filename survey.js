@@ -116,7 +116,7 @@
 
   const tutorialExamples = {
     "04_Ball.avi": {
-      description: "Gemini Pro described the gesture as hands forming a spherical shape, followed by an upward and sideward throwing motion.",
+      description: "The gesture shows hands forming a spherical shape, followed by an upward and sideward throwing motion.",
       ratings: {
         iconicity: {
           score: 5,
@@ -149,11 +149,11 @@
       },
     },
     "40_Telephone.avi": {
-      description: "Gemini Pro described the gesture as raising the hand to the ear, with thumb near the ear and pinky near the mouth, mimicking a telephone receiver.",
+      description: "The gesture shows a hand raised to the ear, with thumb near the ear and pinky near the mouth, mimicking a telephone receiver.",
       ratings: {
         iconicity: {
           score: 5,
-          rationale: "The gesture is a highly transparent and universally recognized visual representation of holding a telephone.",
+          rationale: "The hand shape and position closely match the semantics of holding and using a telephone.",
         },
         sensorimotor_imagery: {
           score: 5,
@@ -310,8 +310,8 @@
     return [
       {
         type: "intro",
-        title: "Use the video as your evidence",
-        body: "The reference video stays visible during the tutorial. Watch how the same gesture can receive different ratings across categories. In the survey, always rate the visible gesture relative to the target word shown above the video.",
+        title: "How the tutorial works",
+        body: "The reference video stays visible during the tutorial. The same gesture can receive different ratings across categories. In the survey, always rate the visible gesture relative to the target word shown above the video.",
       },
       ...categories.map((category, index) => ({
         type: "category",
@@ -340,7 +340,7 @@
           <h1>${step.title}</h1>
           <p>${step.body}</p>
           <div class="example-box">
-            <strong>Gemini Pro example description</strong>
+            <strong>Example description</strong>
             <p>${example.description}</p>
           </div>
         </div>
@@ -374,7 +374,7 @@
             ${category.anchors.map((anchor) => `<li>${anchor}</li>`).join("")}
           </ol>
           <div class="example-box">
-            <strong>Gemini Pro rated this reference video: ${example.score}/5</strong>
+            <strong>Example rating for this reference video: ${example.score}/5</strong>
             <p>${example.rationale}</p>
           </div>
         </div>
@@ -384,7 +384,7 @@
 
   function tutorialExample() {
     return tutorialExamples[state.tutorialReference?.title] || {
-      description: "Use the target word and visible gesture as your evidence.",
+      description: "Use the target word and visible gesture to make a rating.",
       ratings: Object.fromEntries(categories.map((category) => [category.key, { score: "-", rationale: "No model example is available for this reference video." }])),
     };
   }
