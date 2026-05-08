@@ -190,7 +190,11 @@ h2 {
 }
 
 .tutorial-video-sticky video {
-  aspect-ratio: 16 / 10;
+  width: min(100%, 400px);
+  margin: 0 auto;
+  aspect-ratio: 25 / 36;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .tutorial-panel {
@@ -368,11 +372,14 @@ textarea {
 }
 
 video {
-  width: 100%;
-  aspect-ratio: 16 / 10;
+  width: min(100%, 420px);
+  margin: 0 auto;
+  aspect-ratio: 25 / 36;
   display: block;
   border-radius: 16px;
   background: #111;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .watch-status,

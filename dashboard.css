@@ -429,12 +429,14 @@ tbody tr:hover {
 }
 
 .detail-video {
-  width: 100%;
-  aspect-ratio: 16 / 10;
+  width: min(100%, 360px);
+  aspect-ratio: 25 / 36;
   display: block;
-  margin-bottom: 14px;
+  margin: 0 auto 14px;
   border-radius: 8px;
   background: #111;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .detail-card {
