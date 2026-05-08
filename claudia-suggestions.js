@@ -2,6 +2,11 @@
   const config = {
     manifestUrl: "all_rating_videos.json",
     assetBaseUrl: "assets/rating-videos/",
+    submitUrl: "https://script.google.com/macros/s/AKfycbwuSNHhGiSg9LSKNdlb1NvyAAFGtObsl3gGcrz0L-KglJsXA_FErZ0f9qBylGHKNZEM/exec",
+    submitMode: "no-cors",
+    submitEachResponse: true,
+    completionUrl: "",
+    completionCode: "GESTURE-RATING-COMPLETE",
     blockSize: 20,
     ...window.CLAUDIA_SURVEY_CONFIG,
   };
@@ -11,6 +16,8 @@
       chooseAll: "Choose one score for each row.",
       completeAll: "Please complete all six ratings before continuing.",
       complete: "Block complete. Your ratings are saved in this browser.",
+      autoSubmitted: "Each saved response is submitted automatically. CSV/JSON export is disabled on this page.",
+      savedLocalFailed: "Saved locally, but Sheet submission failed: {message}.",
       progress: "Video {current} of {total}",
       blockSummary: "Block {block}: videos {start}-{end} of {total}",
       saveContinue: "Save and continue",
@@ -32,6 +39,8 @@
       chooseAll: "Scegli un punteggio per ogni riga.",
       completeAll: "Completa tutte e sei le valutazioni prima di continuare.",
       complete: "Blocco completato. Le valutazioni sono salvate in questo browser.",
+      autoSubmitted: "Ogni risposta salvata viene inviata automaticamente. L'esportazione CSV/JSON è disattivata in questa pagina.",
+      savedLocalFailed: "Salvato localmente, ma l'invio al foglio non è riuscito: {message}.",
       progress: "Video {current} di {total}",
       blockSummary: "Blocco {block}: video {start}-{end} di {total}",
       saveContinue: "Salva e continua",
@@ -153,7 +162,7 @@
     notesLabel.textContent = t().notes;
     notes.placeholder = t().notesPlaceholder;
     backButton.textContent = t().back;
-    saveStatus.textContent = t().chooseAll;
+    saveStatus.textContent = config.submitUrl ? t().autoSubmitted : t().chooseAll;
     renderRows();
     renderVideo();
   }
@@ -236,7 +245,7 @@
       return false;
     }
     saveStatus.classList.remove("warning");
-    state.responses[responseKey(item)] = {
+    const response = {
       participant_id: participantId.value.trim(),
       language: state.language,
       collection: item.collection || "",
@@ -248,7 +257,9 @@
       notes: notes.value.trim(),
       saved_at: new Date().toISOString(),
     };
+    state.responses[responseKey(item)] = response;
     localStorage.setItem(storageKey(), JSON.stringify({ index: state.index, responses: state.responses }));
+    submitResponseInBackground(response);
     return true;
   }
 
@@ -263,9 +274,41 @@
     }
   }
 
+  function payloadFor(responses) {
+    return {
+      participant: {
+        participantId: participantId.value.trim(),
+        language: state.language,
+        block: state.block,
+      },
+      session_started_at: new Date().toISOString(),
+      exported_at: new Date().toISOString(),
+      block: state.block,
+      responses,
+    };
+  }
+
+  async function postResponses(responses) {
+    const response = await fetch(config.submitUrl, {
+      method: "POST",
+      mode: config.submitMode,
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(payloadFor(responses)),
+    });
+    if (config.submitMode !== "no-cors" && !response.ok) throw new Error(`HTTP ${response.status}`);
+  }
+
+  function submitResponseInBackground(response) {
+    if (!config.submitUrl || !config.submitEachResponse) return;
+    postResponses([response]).catch((error) => {
+      saveStatus.textContent = format(t().savedLocalFailed, { message: error.message });
+      saveStatus.classList.add("warning");
+    });
+  }
+
   ratingForm.addEventListener("change", () => {
     saveStatus.classList.remove("warning");
-    saveStatus.textContent = t().chooseAll;
+    saveStatus.textContent = config.submitUrl ? t().autoSubmitted : t().chooseAll;
     setSelectedStyles();
   });
 
@@ -317,14 +360,12 @@
     if (!state.videos.length) {
       throw new Error(`Block ${state.block} has no videos. This manifest has ${Math.ceil(state.totalVideos / blockSize)} blocks.`);
     }
-    if (!params.get("lang") || !params.get("block") || !params.get("block_size") || !params.get("manifest")) {
-      syncUrl({
-        lang: state.language,
-        block: String(state.block),
-        block_size: String(blockSize),
-        manifest: manifestUrl === config.manifestUrl ? null : manifestUrl,
-      });
-    }
+    syncUrl({
+      lang: state.language,
+      block: String(state.block),
+      block_size: String(blockSize),
+      manifest: manifestUrl === config.manifestUrl ? null : manifestUrl,
+    });
     loadSaved();
     applyLanguage();
   }
