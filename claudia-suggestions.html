@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Claudia Suggestions</title>
+    <link rel="stylesheet" href="claudia-suggestions.css">
+  </head>
+  <body>
+    <main class="survey-app">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Claudia Suggestions</p>
+          <h1 id="targetWord">Loading videos...</h1>
+          <p id="videoTitle" class="muted"></p>
+        </div>
+        <div class="session-controls">
+          <label>
+            <span>Language</span>
+            <select id="languageSelect">
+              <option value="en">English</option>
+              <option value="it">Italiano</option>
+            </select>
+          </label>
+          <label>
+            <span>Participant ID</span>
+            <input id="participantId" autocomplete="off" placeholder="Optional">
+          </label>
+        </div>
+      </header>
+
+      <div class="workbench">
+        <section class="stimulus-panel" aria-label="Current video">
+          <video id="videoPlayer" controls playsinline preload="metadata"></video>
+          <div class="progress-box">
+            <p id="progressText" class="eyebrow"></p>
+            <div class="progress-track" aria-label="Survey progress">
+              <div id="progressBar" class="progress-bar"></div>
+            </div>
+            <p id="blockSummary" class="muted"></p>
+            <p id="saveStatus" class="muted">Choose one score for each row.</p>
+          </div>
+        </section>
+
+        <form id="ratingForm" class="rating-form">
+          <section class="rating-matrix-wrap" aria-label="Rating dimensions">
+            <table class="rating-matrix">
+              <thead>
+                <tr>
+                  <th scope="col" class="dimension-head">Dimension</th>
+                  <th scope="col"><span class="score">1</span><span class="score-label" data-label="1">Not at all</span></th>
+                  <th scope="col"><span class="score">2</span><span class="score-label" data-label="2">Slightly</span></th>
+                  <th scope="col"><span class="score">3</span><span class="score-label" data-label="3">Moderately</span></th>
+                  <th scope="col"><span class="score">4</span><span class="score-label" data-label="4">Strongly</span></th>
+                  <th scope="col"><span class="score">5</span><span class="score-label" data-label="5">Very strongly</span></th>
+                </tr>
+              </thead>
+              <tbody id="ratingRows"></tbody>
+            </table>
+          </section>
+
+          <label class="notes-field">
+            <span id="notesLabel">Notes, optional</span>
+            <textarea id="notes" rows="2" placeholder="Anything unclear about this gesture?"></textarea>
+          </label>
+
+          <div class="actions">
+            <button id="backButton" type="button">Back</button>
+            <button id="nextButton" class="primary-button" type="submit">Save and continue</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script src="claudia-suggestions.js"></script>
+  </body>
+</html>
