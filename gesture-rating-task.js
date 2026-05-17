@@ -8,11 +8,27 @@
     completionUrl: "",
     completionCode: "GESTURE-RATING-COMPLETE",
     blockSize: 20,
-    ...window.CLAUDIA_SURVEY_CONFIG,
+    ...(window.GESTURE_RATING_TASK_CONFIG || {}),
   };
 
   const copy = {
     en: {
+      appTitle: "Gesture Rating Task",
+      pageTitle: "Gesture Rating Task",
+      language: "Language",
+      participantId: "Participant ID",
+      participantPlaceholder: "Optional",
+      instructionsKicker: "Instructions",
+      instructionsTitle: "Gesture Rating Task Instructions",
+      instructionsBody: [
+        "In this task, you will watch a series of gesture videos.",
+        "For each video, a word and a gesture will be presented.",
+        "Please answer the following question for each video using a scale from 1 to 5:",
+        "There are no right or wrong answers. Please respond based on your immediate impression.",
+      ],
+      scaleRating: "Rating",
+      scaleMeaning: "Meaning",
+      dimensionHead: "Question",
       chooseAll: "Choose one score for each row.",
       completeAll: "Please complete all six ratings before continuing.",
       complete: "Block complete. Your ratings are saved in this browser.",
@@ -25,17 +41,72 @@
       back: "Back",
       notes: "Notes, optional",
       notesPlaceholder: "Anything unclear about this gesture?",
-      likert: { 1: "Not at all", 2: "Slightly", 3: "Moderately", 4: "Strongly", 5: "Very strongly" },
+      likert: { 1: "Very low", 2: "Low", 3: "Moderate", 4: "High", 5: "Very high" },
       dimensions: [
-        ["iconicity", "Iconicity", "How much does the gesture visually resemble the meaning of the word?"],
-        ["sensorimotor_imagery", "Sensorimotor imagery", "How much does the gesture evoke physical actions, movements, or bodily experiences related to the word?"],
-        ["emotional_salience_gesture", "Emotional salience (gesture)", "How much do the movement dynamics of the gesture convey emotional expressiveness?"],
-        ["emotional_salience_face", "Emotional salience (face)", "How much do the facial expressions communicate emotions or emotional states?"],
-        ["cultural_familiarity", "Cultural familiarity", "How familiar or common does the gesture seem in your sociocultural context?"],
-        ["enactment", "Enactment", "How easy would it be to imitate or reproduce this gesture?"],
+        ["iconicity", "How much does the gesture visually resemble the meaning of the word?"],
+        ["sensorimotor_imagery", "How much does the gesture feel like a real action or experience?"],
+        ["motional_salience_gesture", "How visually striking or attention grabbing is the movement?"],
+        ["emotional_salience_facial_expression", "How well does the facial expression match the meaning of the word?"],
+        ["cultural_familiarity", "How familiar or common does the gesture seem in your country?"],
+        ["enactment_potential", "How easy would it be to imitate this gesture?"],
+      ],
+    },
+    de: {
+      appTitle: "Gestenbewertung",
+      pageTitle: "Gestenbewertung",
+      language: "Sprache",
+      participantId: "Teilnehmer-ID",
+      participantPlaceholder: "Optional",
+      instructionsKicker: "Anleitung",
+      instructionsTitle: "Anleitung zur Gestenbewertung",
+      instructionsBody: [
+        "In dieser Aufgabe werden Ihnen mehrere Videos mit Gesten gezeigt.",
+        "Für jedes Video werden ein Wort und eine Geste präsentiert.",
+        "Bitte beantworten Sie die folgende Frage für jedes Video anhand einer Skala von 1 bis 5:",
+        "Es gibt keine richtigen oder falschen Antworten. Bitte antworten Sie basierend auf Ihrem unmittelbaren Eindruck.",
+      ],
+      scaleRating: "Bewertung",
+      scaleMeaning: "Bedeutung",
+      dimensionHead: "Frage",
+      chooseAll: "Wählen Sie für jede Zeile eine Bewertung aus.",
+      completeAll: "Bitte vervollständigen Sie alle sechs Bewertungen, bevor Sie fortfahren.",
+      complete: "Block abgeschlossen. Ihre Bewertungen sind in diesem Browser gespeichert.",
+      autoSubmitted: "Jede gespeicherte Antwort wird automatisch übermittelt.",
+      savedLocalFailed: "Lokal gespeichert, aber die Übermittlung an das Sheet ist fehlgeschlagen: {message}.",
+      progress: "Video {current} von {total}",
+      blockSummary: "Block {block}: Videos {start}-{end} von {total}",
+      saveContinue: "Speichern und fortfahren",
+      finish: "Beenden",
+      back: "Zurück",
+      notes: "Notizen, optional",
+      notesPlaceholder: "War etwas an dieser Geste unklar?",
+      likert: { 1: "Sehr gering", 2: "Gering", 3: "Mittel", 4: "Hoch", 5: "Sehr hoch" },
+      dimensions: [
+        ["iconicity", "Wie sehr ähnelt die Geste visuell der Bedeutung des Wortes?"],
+        ["sensorimotor_imagery", "Wie sehr fühlt sich die Geste wie eine reale Handlung oder Erfahrung an?"],
+        ["motional_salience_gesture", "Wie visuell auffällig oder aufmerksamkeitsstark ist die Bewegung?"],
+        ["emotional_salience_facial_expression", "Wie gut passt der Gesichtsausdruck zur Bedeutung des Wortes?"],
+        ["cultural_familiarity", "Wie vertraut oder verbreitet erscheint dir diese Geste in deinem Land?"],
+        ["enactment_potential", "Wie leicht wäre es, diese Geste nachzuahmen?"],
       ],
     },
     it: {
+      appTitle: "Valutazione dei Gesti",
+      pageTitle: "Valutazione dei Gesti",
+      language: "Lingua",
+      participantId: "ID partecipante",
+      participantPlaceholder: "Facoltativo",
+      instructionsKicker: "Istruzioni",
+      instructionsTitle: "Istruzioni per la valutazione dei gesti",
+      instructionsBody: [
+        "In questo compito verranno mostrati diversi video di gesti.",
+        "Per ogni video saranno presentati una parola e un gesto.",
+        "Si prega di rispondere alla seguente domanda per ciascun video utilizzando una scala da 1 a 5:",
+        "Non ci sono risposte giuste o sbagliate. Si prega di rispondere in base alla propria impressione immediata.",
+      ],
+      scaleRating: "Valutazione",
+      scaleMeaning: "Significato",
+      dimensionHead: "Domanda",
       chooseAll: "Scegli un punteggio per ogni riga.",
       completeAll: "Completa tutte e sei le valutazioni prima di continuare.",
       complete: "Blocco completato. Le valutazioni sono salvate in questo browser.",
@@ -48,14 +119,14 @@
       back: "Indietro",
       notes: "Note, facoltative",
       notesPlaceholder: "Qualcosa non era chiaro in questo gesto?",
-      likert: { 1: "Per niente", 2: "Poco", 3: "Moderatamente", 4: "Molto", 5: "Moltissimo" },
+      likert: { 1: "Molto basso", 2: "Basso", 3: "Medio", 4: "Alto", 5: "Molto alto" },
       dimensions: [
-        ["iconicity", "Iconicità", "Quanto il gesto assomiglia visivamente al significato della parola?"],
-        ["sensorimotor_imagery", "Immaginazione sensomotoria", "Quanto il gesto richiama azioni fisiche, movimenti o esperienze corporee legate alla parola?"],
-        ["emotional_salience_gesture", "Salienza emotiva (gesto)", "In che misura le dinamiche del gesto trasmettono espressività emotiva?"],
-        ["emotional_salience_face", "Salienza emotiva (viso)", "Quanto le espressioni del viso comunicano emozioni o stati emotivi?"],
-        ["cultural_familiarity", "Familiarità culturale", "Quanto è familiare o comune il gesto nel tuo contesto socio-culturale?"],
-        ["enactment", "Esecuzione", "Quanto sarebbe facile imitare o ripetere questo gesto?"],
+        ["iconicity", "Quanto assomiglia il gesto visivamente al significato della parola?"],
+        ["sensorimotor_imagery", "Quanto sembra il gesto una vera azione o esperienza?"],
+        ["motional_salience_gesture", "Quanto è visivamente sorprendente o capace di attirare l'attenzione il movimento?"],
+        ["emotional_salience_facial_expression", "Quanto corrisponde l'espressione facciale al significato della parola?"],
+        ["cultural_familiarity", "Quanto è familiare o comune questo gesto nel tuo Paese?"],
+        ["enactment_potential", "Quanto sarebbe facile imitare questo gesto?"],
       ],
     },
   };
@@ -68,12 +139,16 @@
     blockEnd: 0,
     index: 0,
     responses: {},
-    language: new URLSearchParams(window.location.search).get("lang") === "it" ? "it" : "en",
+    language: ["en", "de", "it"].includes(new URLSearchParams(window.location.search).get("lang"))
+      ? new URLSearchParams(window.location.search).get("lang")
+      : "en",
   };
 
   const $ = (id) => document.getElementById(id);
+  const appTitle = $("appTitle");
   const targetWord = $("targetWord");
   const videoTitle = $("videoTitle");
+  const stimulusWord = $("stimulusWord");
   const videoPlayer = $("videoPlayer");
   const progressText = $("progressText");
   const progressBar = $("progressBar");
@@ -87,6 +162,13 @@
   const notesLabel = $("notesLabel");
   const backButton = $("backButton");
   const nextButton = $("nextButton");
+  const instructionsKicker = $("instructionsKicker");
+  const instructionsTitle = $("instructionsTitle");
+  const instructionsBody = $("instructionsBody");
+  const scaleRatingHead = $("scaleRatingHead");
+  const scaleMeaningHead = $("scaleMeaningHead");
+  const scaleRows = $("scaleRows");
+  const dimensionHead = $("dimensionHead");
 
   function slug(title) {
     return title
@@ -136,7 +218,7 @@
   }
 
   function storageKey() {
-    return `claudia-suggestions:${participantId.value.trim() || "anonymous"}:block-${state.block}`;
+    return `gesture-rating-task:${participantId.value.trim() || "anonymous"}:block-${state.block}`;
   }
 
   function responseKey(item) {
@@ -154,7 +236,29 @@
     });
   }
 
+  function renderInstructions() {
+    const labels = t().likert;
+    instructionsBody.innerHTML = t().instructionsBody.map((paragraph) => `<p>${paragraph}</p>`).join("");
+    scaleRows.innerHTML = Object.entries(labels).map(([score, meaning]) => `
+      <tr>
+        <td>${score}</td>
+        <td>${meaning}</td>
+      </tr>
+    `).join("");
+  }
+
   function applyLanguage() {
+    document.documentElement.lang = state.language;
+    document.title = t().pageTitle;
+    appTitle.textContent = t().appTitle;
+    languageSelect.previousElementSibling.textContent = t().language;
+    participantId.previousElementSibling.textContent = t().participantId;
+    participantId.placeholder = t().participantPlaceholder;
+    instructionsKicker.textContent = t().instructionsKicker;
+    instructionsTitle.textContent = t().instructionsTitle;
+    scaleRatingHead.textContent = t().scaleRating;
+    scaleMeaningHead.textContent = t().scaleMeaning;
+    dimensionHead.textContent = t().dimensionHead;
     const labels = t().likert;
     Object.entries(labels).forEach(([score, label]) => {
       document.querySelector(`[data-label="${score}"]`).textContent = label;
@@ -163,6 +267,7 @@
     notes.placeholder = t().notesPlaceholder;
     backButton.textContent = t().back;
     saveStatus.textContent = config.submitUrl ? t().autoSubmitted : t().chooseAll;
+    renderInstructions();
     renderRows();
     renderVideo();
   }
@@ -173,16 +278,15 @@
     const ratings = saved?.ratings || {};
     ratingRows.innerHTML = "";
 
-    t().dimensions.forEach(([key, label, question]) => {
+    t().dimensions.forEach(([key, question]) => {
       const row = document.createElement("tr");
       row.innerHTML = `
         <td class="dimension-cell">
-          <span class="dimension-name">${label}</span>
           <span class="question">${question}</span>
         </td>
         ${[1, 2, 3, 4, 5].map((score) => `
           <td class="choice-cell">
-            <label class="choice" aria-label="${label}: ${score}">
+            <label class="choice" aria-label="${question}: ${score}">
               <input type="radio" name="${key}" value="${score}" ${ratings[key] === score ? "checked" : ""}>
               <span class="choice-mark"></span>
             </label>
@@ -199,6 +303,7 @@
     if (!item) {
       targetWord.textContent = "Complete";
       videoTitle.textContent = "";
+      stimulusWord.textContent = "";
       videoPlayer.removeAttribute("src");
       videoPlayer.load();
       progressText.textContent = format(t().progress, { current: state.videos.length, total: state.videos.length });
@@ -211,6 +316,7 @@
     }
 
     targetWord.textContent = item.target_word || item.title;
+    stimulusWord.textContent = item.target_word || item.title;
     videoTitle.textContent = item.title;
     progressText.textContent = format(t().progress, { current: state.index + 1, total: state.videos.length });
     blockSummary.textContent = format(t().blockSummary, { block: state.block, start: state.blockStart + 1, end: state.blockEnd, total: state.totalVideos });

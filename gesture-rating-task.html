@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Claudia Suggestions</title>
-    <link rel="stylesheet" href="claudia-suggestions.css">
+    <title>Gesture Rating Task</title>
+    <link rel="stylesheet" href="gesture-rating-task.css">
   </head>
   <body>
     <main class="survey-app">
       <header class="topbar">
         <div>
-          <p class="eyebrow">Claudia Suggestions</p>
+          <p id="appTitle" class="eyebrow">Gesture Rating Task</p>
           <h1 id="targetWord">Loading videos...</h1>
           <p id="videoTitle" class="muted"></p>
         </div>
@@ -19,6 +19,7 @@
             <span>Language</span>
             <select id="languageSelect">
               <option value="en">English</option>
+              <option value="de">Deutsch</option>
               <option value="it">Italiano</option>
             </select>
           </label>
@@ -29,9 +30,27 @@
         </div>
       </header>
 
+      <section class="instructions-panel" aria-labelledby="instructionsTitle">
+        <div>
+          <p id="instructionsKicker" class="eyebrow">Instructions</p>
+          <h2 id="instructionsTitle">Gesture Rating Task Instructions</h2>
+          <div id="instructionsBody" class="instructions-body"></div>
+        </div>
+        <table class="scale-table" aria-label="Rating scale">
+          <thead>
+            <tr>
+              <th id="scaleRatingHead" scope="col">Rating</th>
+              <th id="scaleMeaningHead" scope="col">Meaning</th>
+            </tr>
+          </thead>
+          <tbody id="scaleRows"></tbody>
+        </table>
+      </section>
+
       <div class="workbench">
         <section class="stimulus-panel" aria-label="Current video">
           <video id="videoPlayer" controls playsinline preload="metadata"></video>
+          <p id="stimulusWord" class="stimulus-word"></p>
           <div class="progress-box">
             <p id="progressText" class="eyebrow"></p>
             <div class="progress-track" aria-label="Survey progress">
@@ -47,12 +66,12 @@
             <table class="rating-matrix">
               <thead>
                 <tr>
-                  <th scope="col" class="dimension-head">Dimension</th>
-                  <th scope="col"><span class="score">1</span><span class="score-label" data-label="1">Not at all</span></th>
-                  <th scope="col"><span class="score">2</span><span class="score-label" data-label="2">Slightly</span></th>
-                  <th scope="col"><span class="score">3</span><span class="score-label" data-label="3">Moderately</span></th>
-                  <th scope="col"><span class="score">4</span><span class="score-label" data-label="4">Strongly</span></th>
-                  <th scope="col"><span class="score">5</span><span class="score-label" data-label="5">Very strongly</span></th>
+                  <th id="dimensionHead" scope="col" class="dimension-head">Question</th>
+                  <th scope="col"><span class="score">1</span><span class="score-label" data-label="1">Very low</span></th>
+                  <th scope="col"><span class="score">2</span><span class="score-label" data-label="2">Low</span></th>
+                  <th scope="col"><span class="score">3</span><span class="score-label" data-label="3">Moderate</span></th>
+                  <th scope="col"><span class="score">4</span><span class="score-label" data-label="4">High</span></th>
+                  <th scope="col"><span class="score">5</span><span class="score-label" data-label="5">Very high</span></th>
                 </tr>
               </thead>
               <tbody id="ratingRows"></tbody>
@@ -72,6 +91,6 @@
       </div>
     </main>
 
-    <script src="claudia-suggestions.js"></script>
+    <script src="gesture-rating-task.js"></script>
   </body>
 </html>
